@@ -1,0 +1,49 @@
+{
+  "layouts": [
+    {
+      "key": "homepage_proof_led_hero",
+      "section_type": "hero",
+      "pattern": "hero_split_visual",
+      "visual_role": "Homepage hero with strong offer, proof cue, and meaningful visual.",
+      "required_elements": ["eyebrow", "h1", "intro", "primary_cta", "visual"],
+      "token_rules": ["section background var(--background)", "visual radius var(--radius--surface)"],
+      "qa_hooks": ["hero_present", "visual_present"]
+    },
+    {
+      "key": "homepage_proof_strip",
+      "section_type": "proof",
+      "pattern": "proof_strip",
+      "visual_role": "Short proof row or testimonial panel directly after hero.",
+      "required_elements": ["proof_points_or_quote"],
+      "token_rules": ["surface background var(--foreground)", "border color var(--border)"],
+      "qa_hooks": ["proof_early"]
+    },
+    {
+      "key": "homepage_bento_overview",
+      "section_type": "overview",
+      "pattern": "bento_features",
+      "visual_role": "Varied bento overview of services, product parts, or core benefits.",
+      "required_elements": ["feature_cards", "one_larger_card"],
+      "token_rules": ["cards use var(--foreground)", "border width var(--border--surface)"],
+      "qa_hooks": ["not_equal_card_grid_only"]
+    },
+    {
+      "key": "homepage_story_split",
+      "section_type": "story",
+      "pattern": "story_split",
+      "visual_role": "Editorial split that explains point of view or differentiation.",
+      "required_elements": ["heading", "copy", "supporting_panel_or_visual"],
+      "token_rules": ["section background var(--background)", "surface panels var(--foreground)"],
+      "qa_hooks": ["layout_varies"]
+    },
+    {
+      "key": "homepage_final_cta",
+      "section_type": "cta",
+      "pattern": "cta_contrast",
+      "visual_role": "Final conversion section with a distinct background treatment.",
+      "required_elements": ["heading", "copy", "primary_cta"],
+      "token_rules": ["buttons use var(--radius--btn)", "borders use var(--border)"],
+      "qa_hooks": ["final_cta_present"]
+    }
+  ]
+}

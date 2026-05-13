@@ -1,0 +1,58 @@
+{
+  "layouts": [
+    {
+      "key": "services_hero_split",
+      "section_type": "hero",
+      "pattern": "hero_split_visual",
+      "visual_role": "Services hero with clear offer, audience, and meaningful service visual or proof panel.",
+      "required_elements": ["eyebrow", "h1", "intro", "primary_cta", "secondary_cta", "visual"],
+      "token_rules": ["section background var(--background)", "visual radius var(--radius--surface)"],
+      "qa_hooks": ["hero_present", "service_context_present"]
+    },
+    {
+      "key": "services_showcase",
+      "section_type": "service_overview",
+      "pattern": "service_showcase",
+      "visual_role": "Service overview that differentiates paths by audience, outcome, or project type.",
+      "required_elements": ["service_cards", "differentiators"],
+      "token_rules": ["cards use var(--foreground)", "border color var(--border)"],
+      "qa_hooks": ["services_differentiated", "not_duplicate_list"]
+    },
+    {
+      "key": "services_featured_split",
+      "section_type": "featured_service",
+      "pattern": "story_split",
+      "visual_role": "Featured service or signature offer in editorial split format.",
+      "required_elements": ["heading", "service_detail", "benefit_list_or_panel"],
+      "token_rules": ["surface panels use var(--foreground)", "divider uses max(var(--border--btn), 1px)"],
+      "qa_hooks": ["layout_varies_from_overview"]
+    },
+    {
+      "key": "services_process_timeline",
+      "section_type": "process",
+      "pattern": "process_timeline",
+      "visual_role": "Timeline or numbered process explaining what happens next.",
+      "required_elements": ["steps", "expectation_setting"],
+      "token_rules": ["accent used sparingly", "borders use var(--border)"],
+      "qa_hooks": ["process_present"]
+    },
+    {
+      "key": "services_objection_stack",
+      "section_type": "faq_or_objections",
+      "pattern": "faq_or_objection_stack",
+      "visual_role": "FAQ or objection section that answers buying concerns.",
+      "required_elements": ["questions", "answers"],
+      "token_rules": ["surface var(--foreground)", "radius var(--radius--surface)"],
+      "qa_hooks": ["objections_answered"]
+    },
+    {
+      "key": "services_contact_cta",
+      "section_type": "contact_cta",
+      "pattern": "contact_split",
+      "visual_role": "Final enquiry/contact path with reassurance.",
+      "required_elements": ["cta_heading", "copy", "contact_action"],
+      "token_rules": ["buttons use var(--radius--btn)", "fields use var(--radius--btn) when present"],
+      "qa_hooks": ["enquiry_path_clear"]
+    }
+  ]
+}

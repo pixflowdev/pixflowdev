@@ -1,0 +1,10 @@
+{
+  "id": "pixflow-direct-design-systems-pack",
+  "version": "1.0.0",
+  "kind": "design-systems",
+  "label": "Pixflow Direct Design Systems Pack",
+  "description": "Optional design-system examples used as references without overriding the active site tokens.",
+  "sources": [
+    "open-design-main/design-systems"
+  ]
+}

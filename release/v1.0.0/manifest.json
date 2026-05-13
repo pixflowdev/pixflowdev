@@ -1,0 +1,58 @@
+﻿{
+    "type":  "pixflow_direct_intelligence_manifest",
+    "version":  1,
+    "generatedAt":  "2026-05-13T21:50:50.3395909Z",
+    "distribution":  {
+                         "primary":  "github_releases",
+                         "repository":  "pixflowdev/pixflow-direct-resources",
+                         "tag":  "v1.0.0"
+                     },
+    "packs":  [
+                  {
+                      "id":  "pixflow-direct-bricks-pack",
+                      "version":  "1.0.0",
+                      "label":  "Pixflow Direct Bricks Pack",
+                      "kind":  "bricks",
+                      "description":  "Bricks Builder skills, Pixflow Direct skills, skeleton contracts, reference payloads, and compatibility rules.",
+                      "archive":  {
+                                      "url":  "https://github.com/pixflowdev/pixflow-direct-resources/releases/download/v1.0.0/pixflow-direct-bricks-pack.zip",
+                                      "sha256":  "e7dd6aed1f65dee7b528ace46b08df0625f289905b278553c6ebfd0a80823cf4",
+                                      "size":  100909
+                                  },
+                      "parts":  [
+
+                                ]
+                  },
+                  {
+                      "id":  "pixflow-direct-design-pack",
+                      "version":  "1.0.0",
+                      "label":  "Pixflow Direct Design Pack",
+                      "kind":  "design",
+                      "description":  "Open Design-inspired workflow prompts, craft references, visual directions, anti-slop rules, and QA checklists.",
+                      "archive":  {
+                                      "url":  "https://github.com/pixflowdev/pixflow-direct-resources/releases/download/v1.0.0/pixflow-direct-design-pack.zip",
+                                      "sha256":  "cdb26700c2723da93d329937d5a7f218009f251d44165e6a723f01afe7fbdd55",
+                                      "size":  2104403
+                                  },
+                      "parts":  [
+
+                                ]
+                  },
+                  {
+                      "id":  "pixflow-direct-design-systems-pack",
+                      "version":  "1.0.0",
+                      "label":  "Pixflow Direct Design Systems Pack",
+                      "kind":  "design-systems",
+                      "description":  "Optional design-system examples used as references without overriding the active site tokens.",
+                      "archive":  {
+                                      "url":  "https://github.com/pixflowdev/pixflow-direct-resources/releases/download/v1.0.0/pixflow-direct-design-systems-pack.zip",
+                                      "sha256":  "1171ab1cb0559b76fa980c7c846e92c2d49393d653619c9f20e546b9884fdefc",
+                                      "size":  705516
+                                  },
+                      "parts":  [
+
+                                ]
+                  }
+              ]
+}
+

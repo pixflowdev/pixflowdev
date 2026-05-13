@@ -1,0 +1,174 @@
+{
+  "type": "direct_skill_example_bricks_payload",
+  "version": 1,
+  "skill": "bricks-saas-landing",
+  "title": "Hero Browser Mockup",
+  "summary": "A compact hero example with editable browser mockup structure and Pixflow tokenized class settings.",
+  "section_type": "hero",
+  "pattern": "hero_centered_browser_mockup",
+  "content": [
+    {
+      "id": "h00001",
+      "name": "section",
+      "children": ["h00002"],
+      "settings": {
+        "_cssGlobalClasses": ["hero"]
+      },
+      "parent": 0
+    },
+    {
+      "id": "h00002",
+      "name": "container",
+      "children": ["h00003", "h00008"],
+      "settings": {
+        "_cssGlobalClasses": ["hero__container"]
+      },
+      "parent": "h00001"
+    },
+    {
+      "id": "h00003",
+      "name": "block",
+      "children": ["h00004", "h00005", "h00006", "h00007"],
+      "settings": {
+        "_cssGlobalClasses": ["hero__header"]
+      },
+      "parent": "h00002"
+    },
+    {
+      "id": "h00004",
+      "name": "text-basic",
+      "children": [],
+      "settings": {
+        "text": "<p>For Bricks Builder</p>",
+        "_cssGlobalClasses": ["hero__pill"]
+      },
+      "parent": "h00003"
+    },
+    {
+      "id": "h00005",
+      "name": "heading",
+      "children": [],
+      "settings": {
+        "text": "Build Bricks sites faster with AI and design systems",
+        "tag": "h1",
+        "_cssGlobalClasses": ["hero__heading"]
+      },
+      "parent": "h00003"
+    },
+    {
+      "id": "h00006",
+      "name": "text-basic",
+      "children": [],
+      "settings": {
+        "text": "<p>Generate pages, configure design systems, and insert clean layouts without leaving the builder.</p>",
+        "_cssGlobalClasses": ["hero__intro"]
+      },
+      "parent": "h00003"
+    },
+    {
+      "id": "h00007",
+      "name": "button",
+      "children": [],
+      "settings": {
+        "text": "Get Pixflow",
+        "style": "primary",
+        "link": {
+          "type": "external",
+          "url": "#"
+        },
+        "_cssGlobalClasses": ["hero__button"]
+      },
+      "parent": "h00003"
+    },
+    {
+      "id": "h00008",
+      "name": "block",
+      "children": ["h00009", "h00010"],
+      "settings": {
+        "_cssGlobalClasses": ["hero__browser-mockup"]
+      },
+      "parent": "h00002"
+    },
+    {
+      "id": "h00009",
+      "name": "block",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": ["hero__browser-bar"]
+      },
+      "parent": "h00008"
+    },
+    {
+      "id": "h00010",
+      "name": "block",
+      "children": ["h00011", "h00012"],
+      "settings": {
+        "_cssGlobalClasses": ["hero__workspace"]
+      },
+      "parent": "h00008"
+    },
+    {
+      "id": "h00011",
+      "name": "block",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": ["hero__sidebar"]
+      },
+      "parent": "h00010"
+    },
+    {
+      "id": "h00012",
+      "name": "block",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": ["hero__canvas"]
+      },
+      "parent": "h00010"
+    }
+  ],
+  "globalClasses": [
+    {
+      "id": "hero",
+      "name": "hero",
+      "settings": {
+        "_background": {
+          "color": {
+            "raw": "var(--background)",
+            "name": "background"
+          }
+        }
+      }
+    },
+    {
+      "id": "hero__browser-mockup",
+      "name": "hero__browser-mockup",
+      "settings": {
+        "_background": {
+          "color": {
+            "raw": "var(--foreground)",
+            "name": "foreground"
+          }
+        },
+        "_border": {
+          "radius": {
+            "top": "var(--radius--surface)",
+            "right": "var(--radius--surface)",
+            "bottom": "var(--radius--surface)",
+            "left": "var(--radius--surface)"
+          },
+          "width": {
+            "top": "var(--border--surface)",
+            "right": "var(--border--surface)",
+            "bottom": "var(--border--surface)",
+            "left": "var(--border--surface)"
+          },
+          "style": "solid",
+          "color": {
+            "raw": "var(--border)",
+            "name": "border"
+          }
+        }
+      }
+    }
+  ]
+}

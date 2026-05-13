@@ -1,0 +1,214 @@
+{
+  "version": 1,
+  "source": "bricks-builder-skills-main",
+  "source_path_hint": "C:/Users/chris/Web Development/Pixflow.dev/Plugin/bricks-builder-skills-main",
+  "purpose": "Compact Bricks Builder reference inventory for Pixflow Direct Generation. The full source repo is inventoried so no relevant Bricks knowledge is missed, while prompt injection remains targeted per stage and request.",
+  "source_inventory": [
+    {
+      "path": ".editorconfig",
+      "classification": "not_applicable",
+      "reason": "Repository editor formatting metadata; no model-facing Bricks behavior."
+    },
+    {
+      "path": ".gitattributes",
+      "classification": "not_applicable",
+      "reason": "Repository git metadata; no model-facing Bricks behavior."
+    },
+    {
+      "path": ".gitignore",
+      "classification": "not_applicable",
+      "reason": "Repository git metadata; no model-facing Bricks behavior."
+    },
+    {
+      "path": "LICENSE",
+      "classification": "later_implementation_reference",
+      "reason": "License provenance for adapted reference summaries."
+    },
+    {
+      "path": "README.md",
+      "classification": "core_page_generation_reference",
+      "packs": ["page-json", "base-controls", "layout-elements", "globals-and-tokens", "responsive", "verification"]
+    },
+    {
+      "path": "SKILL.md",
+      "classification": "core_page_generation_reference",
+      "packs": ["page-json", "base-controls", "layout-elements", "globals-and-tokens", "responsive", "verification"]
+    },
+    {
+      "path": "references/quick-reference.md",
+      "classification": "core_page_generation_reference",
+      "packs": ["page-json", "base-controls", "layout-elements", "globals-and-tokens", "responsive", "common-elements"]
+    },
+    {
+      "path": "references/elements-catalog.md",
+      "classification": "core_page_generation_reference",
+      "packs": ["common-elements", "layout-elements", "forms", "query-loop"]
+    },
+    {
+      "path": "references/element-base-controls.md",
+      "classification": "core_page_generation_reference",
+      "packs": ["base-controls", "responsive", "globals-and-tokens"]
+    },
+    {
+      "path": "references/containers-and-layout.md",
+      "classification": "core_page_generation_reference",
+      "packs": ["layout-elements", "base-controls", "responsive"]
+    },
+    {
+      "path": "references/theme-styles-and-globals.md",
+      "classification": "core_page_generation_reference",
+      "packs": ["globals-and-tokens", "page-json"]
+    },
+    {
+      "path": "references/responsive-breakpoints.md",
+      "classification": "core_page_generation_reference",
+      "packs": ["responsive", "base-controls"]
+    },
+    {
+      "path": "references/db-schema.md",
+      "classification": "core_page_generation_reference",
+      "packs": ["page-json", "verification"]
+    },
+    {
+      "path": "references/forms.md",
+      "classification": "conditional_reference",
+      "packs": ["forms"],
+      "load_when": ["form", "contact", "booking", "appointment", "lead", "signup", "login", "registration", "webhook"]
+    },
+    {
+      "path": "references/query-loop.md",
+      "classification": "conditional_reference",
+      "packs": ["query-loop"],
+      "load_when": ["posts", "blog", "archive", "products", "portfolio", "case studies", "filter", "pagination", "query"]
+    },
+    {
+      "path": "references/conditions.md",
+      "classification": "conditional_reference",
+      "packs": ["conditions"],
+      "load_when": ["condition", "visibility", "logged in", "role", "date", "viewport", "show hide"]
+    },
+    {
+      "path": "references/dynamic-data.md",
+      "classification": "conditional_reference",
+      "packs": ["dynamic-data"],
+      "load_when": ["dynamic data", "acf", "metabox", "jetengine", "pods", "custom field", "post title", "taxonomy"]
+    },
+    {
+      "path": "references/interactions-and-animations.md",
+      "classification": "conditional_reference",
+      "packs": ["interactions"],
+      "load_when": ["interaction", "animation", "motion", "scroll", "hover", "click", "popup", "load more"]
+    },
+    {
+      "path": "references/popups-and-templates.md",
+      "classification": "conditional_reference",
+      "packs": ["popups-templates"],
+      "load_when": ["popup", "modal", "template", "header", "footer", "archive", "single"]
+    },
+    {
+      "path": "references/custom-elements.md",
+      "classification": "later_implementation_reference",
+      "packs": ["custom-elements"],
+      "load_when": ["custom element", "register element", "builder element"]
+    },
+    {
+      "path": "references/novamira-verification.md",
+      "classification": "later_implementation_reference",
+      "packs": ["verification"],
+      "reason": "Adapt verification ideas to Pixflow SSH/WP/Playwright access rather than Novamira-specific tooling."
+    }
+  ],
+  "packs": [
+    {
+      "key": "page-json",
+      "title": "Bricks page JSON and storage",
+      "file": "page-json.md",
+      "always": true,
+      "stages": ["composition_brief", "page_plan", "section_spec", "qa"]
+    },
+    {
+      "key": "layout-elements",
+      "title": "Bricks layout elements",
+      "file": "layout-elements.md",
+      "always": true,
+      "stages": ["composition_brief", "page_plan", "section_spec"]
+    },
+    {
+      "key": "base-controls",
+      "title": "Bricks base controls and value shapes",
+      "file": "base-controls.md",
+      "always": true,
+      "stages": ["section_spec", "compiler", "qa"]
+    },
+    {
+      "key": "globals-and-tokens",
+      "title": "Bricks global classes, variables, theme styles, and palettes",
+      "file": "globals-and-tokens.md",
+      "always": true,
+      "stages": ["design_director", "page_plan", "section_spec", "compiler", "qa"]
+    },
+    {
+      "key": "responsive",
+      "title": "Bricks responsive breakpoint syntax",
+      "file": "responsive.md",
+      "always": true,
+      "stages": ["section_spec", "compiler", "qa"]
+    },
+    {
+      "key": "common-elements",
+      "title": "Common generated Bricks elements",
+      "file": "common-elements.md",
+      "always": true,
+      "stages": ["page_plan", "section_spec", "compiler"]
+    },
+    {
+      "key": "forms",
+      "title": "Bricks forms",
+      "file": "forms.md",
+      "keywords": ["form", "contact", "booking", "appointment", "lead", "signup", "login", "registration", "webhook"]
+    },
+    {
+      "key": "query-loop",
+      "title": "Bricks query loops and filters",
+      "file": "query-loop.md",
+      "keywords": ["posts", "blog", "archive", "products", "portfolio", "case studies", "filter", "pagination", "query"]
+    },
+    {
+      "key": "conditions",
+      "title": "Bricks conditions",
+      "file": "conditions.md",
+      "keywords": ["condition", "visibility", "logged in", "role", "show hide", "date", "viewport"]
+    },
+    {
+      "key": "dynamic-data",
+      "title": "Bricks dynamic data",
+      "file": "dynamic-data.md",
+      "keywords": ["dynamic data", "acf", "metabox", "jetengine", "pods", "custom field", "post title", "taxonomy"]
+    },
+    {
+      "key": "interactions",
+      "title": "Bricks interactions and animations",
+      "file": "interactions.md",
+      "keywords": ["interaction", "animation", "motion", "scroll", "hover", "click", "load more"]
+    },
+    {
+      "key": "popups-templates",
+      "title": "Bricks popups and templates",
+      "file": "popups-templates.md",
+      "keywords": ["popup", "modal", "template", "header", "footer", "archive", "single"]
+    },
+    {
+      "key": "custom-elements",
+      "title": "Bricks custom elements",
+      "file": "custom-elements.md",
+      "keywords": ["custom element", "register element", "builder element"]
+    },
+    {
+      "key": "verification",
+      "title": "Bricks verification recipes",
+      "file": "verification.md",
+      "stages": ["qa"],
+      "keywords": ["verify", "debug", "inspect", "builder panel", "wp cli", "playwright"]
+    }
+  ]
+}

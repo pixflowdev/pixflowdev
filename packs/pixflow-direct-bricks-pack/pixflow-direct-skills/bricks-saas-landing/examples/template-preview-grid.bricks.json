@@ -1,0 +1,203 @@
+{
+  "type": "direct_skill_example_bricks_payload",
+  "version": 1,
+  "skill": "bricks-saas-landing",
+  "title": "Template Preview Grid",
+  "summary": "Template library grid example with filter pills and visual preview cards.",
+  "section_type": "template_library",
+  "pattern": "template_library_preview_grid",
+  "content": [
+    {
+      "id": "t00001",
+      "name": "section",
+      "children": ["t00002"],
+      "settings": {
+        "_cssGlobalClasses": ["templates"]
+      },
+      "parent": 0
+    },
+    {
+      "id": "t00002",
+      "name": "container",
+      "children": ["t00003", "t00007"],
+      "settings": {
+        "_cssGlobalClasses": ["templates__container"]
+      },
+      "parent": "t00001"
+    },
+    {
+      "id": "t00003",
+      "name": "block",
+      "children": ["t00004", "t00005", "t00006"],
+      "settings": {
+        "_cssGlobalClasses": ["templates__header"]
+      },
+      "parent": "t00002"
+    },
+    {
+      "id": "t00004",
+      "name": "text-basic",
+      "children": [],
+      "settings": {
+        "text": "<p>Pixflow layout library</p>",
+        "_cssGlobalClasses": ["templates__label"]
+      },
+      "parent": "t00003"
+    },
+    {
+      "id": "t00005",
+      "name": "heading",
+      "children": [],
+      "settings": {
+        "text": "279 fully responsive Bricks templates",
+        "tag": "h2",
+        "_cssGlobalClasses": ["templates__heading"]
+      },
+      "parent": "t00003"
+    },
+    {
+      "id": "t00006",
+      "name": "text-basic",
+      "children": [],
+      "settings": {
+        "text": "<p>Browse polished layout previews that stay editable inside Bricks.</p>",
+        "_cssGlobalClasses": ["templates__intro"]
+      },
+      "parent": "t00003"
+    },
+    {
+      "id": "t00007",
+      "name": "block",
+      "children": ["t00008", "t00011", "t00014"],
+      "settings": {
+        "_cssGlobalClasses": ["templates__grid"]
+      },
+      "parent": "t00002"
+    },
+    {
+      "id": "t00008",
+      "name": "block",
+      "children": ["t00009", "t00010"],
+      "settings": {
+        "_cssGlobalClasses": ["templates__template-card"]
+      },
+      "parent": "t00007"
+    },
+    {
+      "id": "t00009",
+      "name": "block",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": ["templates__preview"]
+      },
+      "parent": "t00008"
+    },
+    {
+      "id": "t00010",
+      "name": "heading",
+      "children": [],
+      "settings": {
+        "text": "Hero 42",
+        "tag": "h3",
+        "_cssGlobalClasses": ["templates__card-title"]
+      },
+      "parent": "t00008"
+    },
+    {
+      "id": "t00011",
+      "name": "block",
+      "children": ["t00012", "t00013"],
+      "settings": {
+        "_cssGlobalClasses": ["templates__template-card"]
+      },
+      "parent": "t00007"
+    },
+    {
+      "id": "t00012",
+      "name": "block",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": ["templates__preview"]
+      },
+      "parent": "t00011"
+    },
+    {
+      "id": "t00013",
+      "name": "heading",
+      "children": [],
+      "settings": {
+        "text": "Hero 41",
+        "tag": "h3",
+        "_cssGlobalClasses": ["templates__card-title"]
+      },
+      "parent": "t00011"
+    },
+    {
+      "id": "t00014",
+      "name": "block",
+      "children": ["t00015", "t00016"],
+      "settings": {
+        "_cssGlobalClasses": ["templates__template-card"]
+      },
+      "parent": "t00007"
+    },
+    {
+      "id": "t00015",
+      "name": "block",
+      "children": [],
+      "settings": {
+        "_cssGlobalClasses": ["templates__preview"]
+      },
+      "parent": "t00014"
+    },
+    {
+      "id": "t00016",
+      "name": "heading",
+      "children": [],
+      "settings": {
+        "text": "Hero 38",
+        "tag": "h3",
+        "_cssGlobalClasses": ["templates__card-title"]
+      },
+      "parent": "t00014"
+    }
+  ],
+  "globalClasses": [
+    {
+      "id": "templates",
+      "name": "templates",
+      "settings": {
+        "_background": {
+          "color": {
+            "raw": "var(--background)",
+            "name": "background"
+          }
+        }
+      }
+    },
+    {
+      "id": "templates__template-card",
+      "name": "templates__template-card",
+      "settings": {
+        "_background": {
+          "color": {
+            "raw": "var(--foreground)",
+            "name": "foreground"
+          }
+        },
+        "_border": {
+          "color": {
+            "raw": "var(--border)",
+            "name": "border"
+          },
+          "radius": {
+            "top": "var(--radius--surface)",
+            "right": "var(--radius--surface)",
+            "bottom": "var(--radius--surface)",
+            "left": "var(--radius--surface)"
+          }
+        }
+      }
+    }
+  ]
+}

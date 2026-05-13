@@ -1,0 +1,12 @@
+{
+  "id": "pixflow-direct-bricks-pack",
+  "version": "1.0.0",
+  "kind": "bricks",
+  "label": "Pixflow Direct Bricks Pack",
+  "description": "Bricks Builder skills, Pixflow Direct skills, skeleton contracts, reference payloads, and compatibility rules.",
+  "sources": [
+    "pixflow-ai/src/AI/DirectSkills",
+    "pixflow-ai/src/AI/DirectReferences",
+    "bricks-builder-skills-main"
+  ]
+}

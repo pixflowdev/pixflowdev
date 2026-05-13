@@ -1,0 +1,49 @@
+{
+  "layouts": [
+    {
+      "key": "local_service_proof_led",
+      "section_type": "hero",
+      "pattern": "local_service_proof_led",
+      "visual_role": "Local service hero with proof, location/service cue, and booking action.",
+      "required_elements": ["eyebrow", "h1", "intro", "booking_cta", "trust_cue", "visual"],
+      "token_rules": ["section background var(--background)", "visual radius var(--radius--surface)"],
+      "qa_hooks": ["local_context_present", "hero_visual_present"]
+    },
+    {
+      "key": "local_service_overview",
+      "section_type": "services",
+      "pattern": "service_showcase",
+      "visual_role": "Service paths with differentiated cards or panels.",
+      "required_elements": ["service_items", "who_each_is_for"],
+      "token_rules": ["cards use var(--foreground)", "borders use var(--border)"],
+      "qa_hooks": ["services_differentiated"]
+    },
+    {
+      "key": "local_process_timeline",
+      "section_type": "process",
+      "pattern": "process_timeline",
+      "visual_role": "Numbered process with calm expectation setting.",
+      "required_elements": ["steps", "next_step_detail"],
+      "token_rules": ["divider uses max(var(--border--btn), 1px)", "accent used sparingly"],
+      "qa_hooks": ["process_clear"]
+    },
+    {
+      "key": "local_testimonial_panel",
+      "section_type": "proof",
+      "pattern": "testimonial_editorial",
+      "visual_role": "Trust panel with quote, result, or review summary.",
+      "required_elements": ["quote_or_review", "attribution_or_placeholder"],
+      "token_rules": ["surface var(--foreground)", "border var(--border)"],
+      "qa_hooks": ["no_fake_reviews"]
+    },
+    {
+      "key": "local_contact_split",
+      "section_type": "contact",
+      "pattern": "contact_split",
+      "visual_role": "Contact or booking split with expectation setting.",
+      "required_elements": ["contact_copy", "form_or_contact_details", "reassurance"],
+      "token_rules": ["fields use var(--radius--btn)", "surface panels use var(--radius--surface)"],
+      "qa_hooks": ["contact_path_clear"]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "type": "direct_skill_bricks_component_references",
+  "version": 1,
+  "skill": "bricks-saas-landing",
+  "components": [
+    {
+      "key": "browser_mockup",
+      "purpose": "Editable product/browser mockup for hero sections.",
+      "bricks_structure": ["block.browser-mockup", "block.browser-bar", "block.workspace", "block.sidebar", "block.canvas", "block.structure-panel"],
+      "required_settings": ["_background.color.raw", "_border.radius", "_border.color.raw", "_overflow"],
+      "class_contract": ["__browser-mockup", "__browser-bar", "__workspace", "__sidebar", "__canvas"],
+      "do_not": ["Do not use a single stock photo when the prompt asks for product UI.", "Do not leave the browser canvas blank."]
+    },
+    {
+      "key": "product_collage_tile",
+      "purpose": "Small editable UI card used inside feature collage sections.",
+      "bricks_structure": ["block.tile", "text-basic.label", "block.visual-lines", "block.preview-grid"],
+      "required_settings": ["_background.color.raw", "_border.width", "_border.radius"],
+      "class_contract": ["__tile", "__tile-label", "__tile-visual"],
+      "do_not": ["Do not repeat identical blank cards.", "Do not use decorative blobs."]
+    },
+    {
+      "key": "template_preview_card",
+      "purpose": "Template card with a grey/white visual thumbnail and a real template name.",
+      "bricks_structure": ["block.template-card", "block.preview", "heading", "text-basic.badge"],
+      "required_settings": ["_background.color.raw", "_border.color.raw", "_border.radius"],
+      "class_contract": ["__template-card", "__preview", "__template-title", "__template-badge"],
+      "do_not": ["Do not make template cards text-only.", "Do not invent screenshots from unrelated websites."]
+    },
+    {
+      "key": "feature_matrix_card",
+      "purpose": "Feature matrix card with concise copy and an optional UI/diagram slot.",
+      "bricks_structure": ["block.feature-card", "block.visual", "heading", "text-basic"],
+      "required_settings": ["_background.color.raw", "_border.width", "_border.radius"],
+      "class_contract": ["__feature-card", "__visual", "__feature-heading", "__feature-text"],
+      "do_not": ["Do not repeat six identical cards with the same weight.", "Do not use generic icons for every feature."]
+    },
+    {
+      "key": "proof_quote",
+      "purpose": "Honest testimonial/proof block with quote and attribution.",
+      "bricks_structure": ["block.proof", "text-basic.rating", "heading.quote-heading", "text-basic.quote", "text-basic.person"],
+      "required_settings": ["_typography.color.raw", "_background.color.raw"],
+      "class_contract": ["__proof", "__rating", "__quote", "__person"],
+      "do_not": ["Do not invent names, review counts, or ratings if none were provided.", "Use labelled placeholders instead of fake metrics."]
+    },
+    {
+      "key": "cta_band",
+      "purpose": "Final contrast band with clear conversion action.",
+      "bricks_structure": ["block.band", "heading", "text-basic", "block.actions", "button"],
+      "required_settings": ["_background.color.raw", "_border.radius", "_padding"],
+      "class_contract": ["__band", "__heading", "__intro", "__actions"],
+      "do_not": ["Do not make the CTA look identical to the previous section.", "Do not add stock photography."]
+    }
+  ]
+}

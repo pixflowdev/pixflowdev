@@ -1,0 +1,163 @@
+{
+  "type": "direct_skill_seed_bricks_payload",
+  "version": 1,
+  "skill": "bricks-saas-landing",
+  "summary": "Minimal Bricks seed showing section > container > block structure, global class references, and Pixflow token object shapes.",
+  "content": [
+    {
+      "id": "seed01",
+      "name": "section",
+      "children": ["seed02"],
+      "settings": {
+        "_cssGlobalClasses": ["saas-hero"]
+      },
+      "parent": 0
+    },
+    {
+      "id": "seed02",
+      "name": "container",
+      "children": ["seed03"],
+      "settings": {
+        "_cssGlobalClasses": ["saas-hero__container"]
+      },
+      "parent": "seed01"
+    },
+    {
+      "id": "seed03",
+      "name": "block",
+      "children": ["seed04", "seed05", "seed06"],
+      "settings": {
+        "_cssGlobalClasses": ["saas-hero__intro"]
+      },
+      "parent": "seed02"
+    },
+    {
+      "id": "seed04",
+      "name": "text-basic",
+      "children": [],
+      "settings": {
+        "text": "<p>For Bricks Builder</p>",
+        "_cssGlobalClasses": ["saas-hero__pill"]
+      },
+      "parent": "seed03"
+    },
+    {
+      "id": "seed05",
+      "name": "heading",
+      "children": [],
+      "settings": {
+        "text": "Build Bricks sites faster with AI and design systems",
+        "tag": "h1",
+        "_cssGlobalClasses": ["saas-hero__heading"]
+      },
+      "parent": "seed03"
+    },
+    {
+      "id": "seed06",
+      "name": "text-basic",
+      "children": [],
+      "settings": {
+        "text": "<p>Use editable product UI blocks, not stock imagery, for software and plugin landing pages.</p>",
+        "_cssGlobalClasses": ["saas-hero__intro-text"]
+      },
+      "parent": "seed03"
+    }
+  ],
+  "globalClasses": [
+    {
+      "id": "saas-hero",
+      "name": "saas-hero",
+      "settings": {
+        "_background": {
+          "color": {
+            "raw": "var(--background)",
+            "name": "background"
+          }
+        },
+        "_padding": {
+          "top": "var(--space--4xl)",
+          "bottom": "var(--space--3xl)"
+        }
+      }
+    },
+    {
+      "id": "saas-hero__container",
+      "name": "saas-hero__container",
+      "settings": {
+        "_width": "min(100%, var(--content-width))",
+        "_margin": {
+          "right": "auto",
+          "left": "auto"
+        }
+      }
+    },
+    {
+      "id": "saas-hero__intro",
+      "name": "saas-hero__intro",
+      "settings": {
+        "_direction": "column",
+        "_alignItems": "center",
+        "_rowGap": "var(--space--m)"
+      }
+    },
+    {
+      "id": "saas-hero__pill",
+      "name": "saas-hero__pill",
+      "settings": {
+        "_background": {
+          "color": {
+            "raw": "var(--foreground)",
+            "name": "foreground"
+          }
+        },
+        "_border": {
+          "width": {
+            "top": "max(var(--border--btn), 1px)",
+            "right": "max(var(--border--btn), 1px)",
+            "bottom": "max(var(--border--btn), 1px)",
+            "left": "max(var(--border--btn), 1px)"
+          },
+          "style": "solid",
+          "color": {
+            "raw": "var(--border)",
+            "name": "border"
+          },
+          "radius": {
+            "top": "var(--radius--btn)",
+            "right": "var(--radius--btn)",
+            "bottom": "var(--radius--btn)",
+            "left": "var(--radius--btn)"
+          }
+        }
+      }
+    },
+    {
+      "id": "saas-hero__heading",
+      "name": "saas-hero__heading",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--heading--2xl)",
+          "line-height": "1.05",
+          "color": {
+            "raw": "var(--heading)",
+            "name": "heading"
+          }
+        }
+      }
+    },
+    {
+      "id": "saas-hero__intro-text",
+      "name": "saas-hero__intro-text",
+      "settings": {
+        "_typography": {
+          "font-size": "var(--text--m)",
+          "line-height": "1.6",
+          "color": {
+            "raw": "var(--text)",
+            "name": "text"
+          }
+        }
+      }
+    }
+  ]
+}

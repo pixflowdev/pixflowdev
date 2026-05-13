@@ -1,0 +1,71 @@
+{
+  "layouts": [
+    {
+      "key": "saas_sticky_header",
+      "section_type": "header",
+      "pattern": "saas_sticky_header",
+      "visual_role": "Compact SaaS navigation with brand, nav links, and primary action.",
+      "required_elements": ["brand", "navigation", "primary_cta"],
+      "token_rules": ["section background var(--background)", "border color var(--border)"],
+      "qa_hooks": ["header_present", "primary_cta_present"]
+    },
+    {
+      "key": "hero_centered_browser_mockup",
+      "section_type": "hero",
+      "pattern": "hero_centered_browser_mockup",
+      "visual_role": "High-impact centered hero with a realistic editable browser/product mockup under the CTA.",
+      "required_elements": ["eyebrow", "h1", "intro", "primary_cta", "secondary_cta", "browser_mockup"],
+      "mockup_components": ["browser_frame", "pixflow_ai_panel", "builder_canvas", "bricks_structure_sidebar", "design_system_token_cards", "font_installer_panel", "code_class_snippet"],
+      "token_rules": ["section background var(--background)", "mockup surface var(--foreground)", "mockup border var(--border)", "surface radius var(--radius--surface)"],
+      "qa_hooks": ["hero_present", "browser_mockup_present", "no_stock_photo_substitution"]
+    },
+    {
+      "key": "testimonial_centered_proof",
+      "section_type": "proof",
+      "pattern": "testimonial_centered_proof",
+      "visual_role": "Centered proof strip with rating or honest placeholder, short quote, and attribution.",
+      "required_elements": ["rating_or_placeholder", "quote", "attribution"],
+      "token_rules": ["text color var(--text)", "heading color var(--heading)", "accent used sparingly"],
+      "qa_hooks": ["proof_present", "no_invented_metrics"]
+    },
+    {
+      "key": "feature_collage_split",
+      "section_type": "feature_highlight",
+      "pattern": "feature_collage_split",
+      "visual_role": "Split product value section with copy on one side and overlapping UI cards on the other.",
+      "required_elements": ["section_heading", "supporting_copy", "cta", "ui_collage"],
+      "mockup_components": ["design_system_token_cards", "template_preview_cards", "font_installer_panel", "icon_installer_panel", "code_class_snippet"],
+      "token_rules": ["card surface var(--foreground)", "card border var(--border)", "surface radius var(--radius--surface)"],
+      "qa_hooks": ["collage_present", "layout_varies_from_hero"]
+    },
+    {
+      "key": "template_library_preview_grid",
+      "section_type": "template_library",
+      "pattern": "template_library_preview_grid",
+      "visual_role": "Library preview section with filters and visual template cards.",
+      "required_elements": ["label", "heading", "filter_pills", "template_cards"],
+      "mockup_components": ["template_preview_cards", "filter_pills", "wireframe_thumbnail"],
+      "token_rules": ["cards use var(--foreground)", "image/thumb wrappers use var(--radius--surface)", "badges use var(--radius--btn)"],
+      "qa_hooks": ["template_library_present", "cards_are_visual"]
+    },
+    {
+      "key": "feature_matrix",
+      "section_type": "features",
+      "pattern": "feature_matrix",
+      "visual_role": "Mixed-size feature grid with product UI thumbnails and concise feature copy.",
+      "required_elements": ["heading", "intro", "mixed_feature_cards"],
+      "mockup_components": ["font_installer_panel", "icon_installer_panel", "design_system_token_cards", "template_preview_cards", "code_class_snippet"],
+      "token_rules": ["card border var(--border)", "surface radius var(--radius--surface)", "button radius var(--radius--btn)"],
+      "qa_hooks": ["feature_matrix_present", "not_equal_card_grid_only"]
+    },
+    {
+      "key": "final_contrast_cta",
+      "section_type": "cta",
+      "pattern": "final_contrast_cta",
+      "visual_role": "Distinct final conversion band with clear CTA and optional secondary link.",
+      "required_elements": ["heading", "supporting_copy", "primary_cta"],
+      "token_rules": ["contrast section still uses Pixflow scheme tokens", "buttons use var(--radius--btn) and var(--border--btn)"],
+      "qa_hooks": ["final_cta_present", "cta_visually_distinct"]
+    }
+  ]
+}

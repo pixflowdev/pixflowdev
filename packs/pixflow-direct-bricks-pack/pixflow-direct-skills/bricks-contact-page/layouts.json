@@ -1,0 +1,40 @@
+{
+  "layouts": [
+    {
+      "key": "contact_intro_split",
+      "section_type": "contact",
+      "pattern": "contact_split",
+      "visual_role": "Primary contact split with intro copy and form/contact panel.",
+      "required_elements": ["heading", "intro", "form_or_contact_panel", "privacy_reassurance"],
+      "token_rules": ["fields use var(--radius--btn)", "field borders use max(var(--border--btn), 1px)", "panel surface var(--foreground)"],
+      "qa_hooks": ["contact_path_clear", "form_context_present"]
+    },
+    {
+      "key": "contact_details_panel",
+      "section_type": "details",
+      "pattern": "proof_or_benefit_panel",
+      "visual_role": "Practical details, expectations, or support cards.",
+      "required_elements": ["details_or_expectations"],
+      "token_rules": ["cards use var(--foreground)", "borders use var(--border)"],
+      "qa_hooks": ["no_fake_contact_details"]
+    },
+    {
+      "key": "contact_map_split",
+      "section_type": "location",
+      "pattern": "contact_map_split",
+      "visual_role": "Map/location split only when location context exists.",
+      "required_elements": ["location_copy", "map_or_placeholder"],
+      "token_rules": ["map wrapper radius var(--radius--surface)", "border color var(--border)"],
+      "qa_hooks": ["location_not_invented"]
+    },
+    {
+      "key": "contact_faq_support",
+      "section_type": "faq",
+      "pattern": "faq_or_objection_stack",
+      "visual_role": "Short FAQ or reassurance section near the contact form.",
+      "required_elements": ["questions", "answers"],
+      "token_rules": ["surfaces use var(--foreground)", "radius var(--radius--surface)"],
+      "qa_hooks": ["expectations_clear"]
+    }
+  ]
+}

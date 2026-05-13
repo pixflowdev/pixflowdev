@@ -1,0 +1,12 @@
+{
+  "id": "pixflow-direct-design-pack",
+  "version": "1.0.0",
+  "kind": "design",
+  "label": "Pixflow Direct Design Pack",
+  "description": "Open Design-inspired workflow prompts, craft references, visual directions, anti-slop rules, and QA checklists.",
+  "sources": [
+    "open-design-main/skills",
+    "open-design-main/craft",
+    "open-design-main/apps/daemon/src/prompts"
+  ]
+}

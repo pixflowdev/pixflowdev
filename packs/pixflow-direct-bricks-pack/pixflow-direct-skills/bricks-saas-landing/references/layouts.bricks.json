@@ -1,0 +1,98 @@
+{
+  "type": "direct_skill_bricks_layout_references",
+  "version": 1,
+  "skill": "bricks-saas-landing",
+  "layouts": [
+    {
+      "key": "saas_sticky_header",
+      "section_type": "header",
+      "pattern": "saas_sticky_header",
+      "purpose": "Clean SaaS navigation with brand, links, and one primary action.",
+      "compiler_route": "compile_saas_header",
+      "bricks_structure": ["section", "container", "block.nav", "text-basic.brand", "block.links", "button"],
+      "required_elements": ["brand", "nav_items", "primary_cta"],
+      "class_contract": ["header", "header__container", "header__nav", "header__brand", "header__links", "header__button"],
+      "token_contract": ["var(--background)", "var(--foreground)", "var(--border)", "var(--radius--btn)", "max(var(--border--btn), 1px)"],
+      "responsive_contract": ["Desktop keeps one row", "Mobile stacks or hides nav before overflow"],
+      "qa_hooks": ["header_has_nav", "header_has_primary_cta", "no_mobile_overflow"]
+    },
+    {
+      "key": "hero_centered_browser_mockup",
+      "section_type": "hero",
+      "pattern": "hero_centered_browser_mockup",
+      "purpose": "Centered SaaS hero with pill, headline, CTAs, and a realistic editable browser/product mockup.",
+      "compiler_route": "compile_saas_hero_mockup",
+      "bricks_structure": ["section", "container", "block.header", "text-basic.pill", "heading", "text-basic", "block.actions", "block.browser-mockup", "block.browser-bar", "block.workspace", "block.sidebar", "block.canvas"],
+      "required_elements": ["eyebrow_or_pill", "h1", "supporting_copy", "primary_cta", "secondary_cta", "browser_mockup", "sidebar_panel", "canvas_panel"],
+      "class_contract": ["hero", "hero__header", "hero__pill", "hero__heading", "hero__actions", "hero__browser-mockup", "hero__workspace", "hero__sidebar", "hero__canvas"],
+      "token_contract": ["section uses var(--background)", "mockup surface uses var(--foreground)", "borders use var(--border)", "surfaces use var(--radius--surface)"],
+      "responsive_contract": ["Mockup is full width under hero copy", "Browser sidebar and canvas stack at mobile if needed"],
+      "qa_hooks": ["browser_mockup_present", "product_ui_is_editable_blocks", "no_stock_photo_substitution"]
+    },
+    {
+      "key": "testimonial_centered_proof",
+      "section_type": "proof",
+      "pattern": "testimonial_centered_proof",
+      "purpose": "Centered proof block immediately under the product mockup.",
+      "compiler_route": "compile_centered_testimonial_proof",
+      "bricks_structure": ["section", "container", "block.proof", "text-basic.rating", "heading.quote-heading", "text-basic.quote", "text-basic.person"],
+      "required_elements": ["honest_rating_or_placeholder", "quote", "attribution"],
+      "class_contract": ["proof", "proof__container", "proof__rating", "proof__quote-heading", "proof__quote", "proof__person"],
+      "token_contract": ["text uses var(--text)", "heading uses var(--heading)", "accent used sparingly"],
+      "responsive_contract": ["Keep quote measure controlled on mobile"],
+      "qa_hooks": ["proof_appears_after_hero", "no_invented_metrics", "quote_has_context"]
+    },
+    {
+      "key": "feature_collage_split",
+      "section_type": "feature_highlight",
+      "pattern": "feature_collage_split",
+      "purpose": "Split feature highlight with copy on one side and overlapping editable UI cards on the other.",
+      "compiler_route": "compile_feature_collage_split",
+      "bricks_structure": ["section", "container", "block.layout", "block.copy", "heading", "text-basic", "button", "block.collage", "block.tile"],
+      "required_elements": ["section_heading", "supporting_copy", "cta", "ui_collage", "at_least_four_tiles"],
+      "class_contract": ["feature-highlight", "feature-highlight__layout", "feature-highlight__copy", "feature-highlight__collage", "feature-highlight__tile"],
+      "token_contract": ["collage cards use var(--foreground)", "visible borders use var(--border)", "surface radius uses var(--radius--surface)"],
+      "responsive_contract": ["Split collapses into copy then collage", "Tiles remain visible and not empty"],
+      "qa_hooks": ["collage_has_multiple_tiles", "layout_varies_from_hero", "no_empty_tiles"]
+    },
+    {
+      "key": "template_library_preview_grid",
+      "section_type": "template_library",
+      "pattern": "template_library_preview_grid",
+      "purpose": "Template library preview with filter pills and visual card thumbnails.",
+      "compiler_route": "compile_template_library_preview_grid",
+      "bricks_structure": ["section", "container", "block.header", "block.filters", "text-basic.filter", "block.templates", "block.template-card", "block.preview"],
+      "required_elements": ["label", "heading", "supporting_copy", "filter_pills", "six_template_cards", "visual_preview_blocks"],
+      "class_contract": ["templates", "templates__header", "templates__filters", "templates__filter", "templates__grid", "templates__template-card", "templates__preview"],
+      "token_contract": ["filters use var(--radius--btn)", "cards use var(--foreground)", "preview wrappers use var(--radius--surface)"],
+      "responsive_contract": ["Three cards desktop", "Two cards tablet", "One card mobile"],
+      "qa_hooks": ["filter_pills_present", "cards_have_visual_previews", "at_least_six_cards"]
+    },
+    {
+      "key": "feature_matrix",
+      "section_type": "features",
+      "pattern": "feature_matrix",
+      "purpose": "Mixed feature matrix with one stronger card and supporting product UI thumbnails.",
+      "compiler_route": "compile_feature_matrix",
+      "bricks_structure": ["section", "container", "block.header", "block.matrix", "block.feature-primary", "block.feature-card", "block.visual"],
+      "required_elements": ["heading", "intro", "featured_card", "supporting_cards", "visual_slots"],
+      "class_contract": ["features", "features__header", "features__matrix", "features__feature-primary", "features__feature-card", "features__visual"],
+      "token_contract": ["cards use var(--foreground)", "borders use var(--border)", "surface radius uses var(--radius--surface)"],
+      "responsive_contract": ["Bento/matrix desktop", "Two columns tablet", "Single column mobile"],
+      "qa_hooks": ["not_plain_equal_grid", "feature_items_specific", "visual_hierarchy_present"]
+    },
+    {
+      "key": "final_contrast_cta",
+      "section_type": "cta",
+      "pattern": "final_contrast_cta",
+      "purpose": "Distinct final SaaS CTA band with strong closing headline and practical action.",
+      "compiler_route": "compile_cta_band",
+      "bricks_structure": ["section", "container", "block.band", "heading", "text-basic", "block.actions", "button"],
+      "required_elements": ["headline", "supporting_copy", "primary_cta", "secondary_cta_or_reassurance"],
+      "class_contract": ["cta", "cta__container", "cta__band", "cta__heading", "cta__actions", "cta__proof"],
+      "token_contract": ["band uses a contrast scheme but still token-based", "buttons use var(--radius--btn) and var(--border--btn)"],
+      "responsive_contract": ["CTA content centers and buttons stack cleanly on mobile"],
+      "qa_hooks": ["cta_visually_distinct", "primary_cta_present", "no_generic_final_copy"]
+    }
+  ]
+}
