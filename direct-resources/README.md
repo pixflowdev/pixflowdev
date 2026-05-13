@@ -23,14 +23,13 @@ Each release should include:
 The plugin reads:
 
 ```text
-https://github.com/pixflowdev/pixflow-direct-resources/releases/latest/download/manifest.json
+https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/manifest.json
 ```
 
 ## Publishing
 
 1. Run `powershell -ExecutionPolicy Bypass -File scripts/build-release.ps1`.
-2. Commit the source pack folders and generated `release/v1.0.0` files.
-3. Publish a GitHub release tagged `v1.0.0`.
-4. Upload everything inside `release/v1.0.0` as release assets.
+2. Commit `direct-resources/manifest.json` and the generated `direct-resources/release/v1.0.0` files to `pixflowdev/pixflowdev`.
+3. The plugin downloads the public raw GitHub files directly and verifies ZIP checksums before activation.
 
 This repository is intended to be public. The main Pixflow plugin repository can remain private.

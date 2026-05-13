@@ -58,7 +58,7 @@ foreach ($pack in $packs) {
     kind = $pack.kind
     description = $pack.description
     archive = [ordered]@{
-      url = "https://github.com/pixflowdev/pixflow-direct-resources/releases/download/$tag/$($pack.id).zip"
+      url = "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/release/$tag/$($pack.id).zip"
       sha256 = $hash
       size = $size
     }
@@ -71,8 +71,8 @@ $manifest = [ordered]@{
   version = 1
   generatedAt = (Get-Date).ToUniversalTime().ToString("o")
   distribution = [ordered]@{
-    primary = "github_releases"
-    repository = "pixflowdev/pixflow-direct-resources"
+    primary = "github_raw_repository"
+    repository = "pixflowdev/pixflowdev"
     tag = $tag
   }
   packs = $manifestPacks
