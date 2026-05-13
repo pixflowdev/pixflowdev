@@ -79,7 +79,8 @@ $manifest = [ordered]@{
 }
 
 $manifestPath = Join-Path $releaseDir "manifest.json"
-($manifest | ConvertTo-Json -Depth 10) + "`n" | Set-Content -LiteralPath $manifestPath -Encoding UTF8
-($checksums -join "`n") + "`n" | Set-Content -LiteralPath (Join-Path $releaseDir "checksums.sha256") -Encoding ASCII
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+[System.IO.File]::WriteAllText($manifestPath, ($manifest | ConvertTo-Json -Depth 10) + "`n", $utf8NoBom)
+[System.IO.File]::WriteAllText((Join-Path $releaseDir "checksums.sha256"), ($checksums -join "`n") + "`n", [System.Text.Encoding]::ASCII)
 
 Write-Output "Built Direct Intelligence resource-pack release in $releaseDir"

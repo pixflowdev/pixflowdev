@@ -1,7 +1,7 @@
-﻿{
+{
     "type":  "pixflow_direct_intelligence_manifest",
     "version":  1,
-    "generatedAt":  "2026-05-13T22:00:55.9416847Z",
+    "generatedAt":  "2026-05-13T22:06:56.1972136Z",
     "distribution":  {
                          "primary":  "github_raw_repository",
                          "repository":  "pixflowdev/pixflowdev",
@@ -55,4 +55,3 @@
                   }
               ]
 }
-
