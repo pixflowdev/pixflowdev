@@ -7,7 +7,7 @@ The Pixflow plugin keeps a small built-in baseline so page generation still work
 ## Packs
 
 - `pixflow-direct-bricks-pack`: Bricks Builder skills, Pixflow Direct skill files, Bricks JSON references, and compatibility guidance.
-- `pixflow-direct-design-pack`: Open Design-inspired workflow prompts, craft references, anti-slop rules, visual-direction source references, and skill files.
+- `pixflow-direct-design-pack`: Open Design-inspired workflow prompts, design-template skills, craft references, anti-slop rules, visual-direction source references, and skill files.
 - `pixflow-direct-design-systems-pack`: Design-system examples used as optional generation references.
 
 ## Release Layout

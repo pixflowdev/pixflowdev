@@ -22,7 +22,7 @@ $packs = @(
     id = "pixflow-direct-design-pack"
     label = "Pixflow Direct Design Pack"
     kind = "design"
-    description = "Open Design-inspired workflow prompts, craft references, visual directions, anti-slop rules, and QA checklists."
+    description = "Open Design-inspired workflow prompts, design-template skills, craft references, visual directions, anti-slop rules, and QA checklists."
   },
   @{
     id = "pixflow-direct-design-systems-pack"

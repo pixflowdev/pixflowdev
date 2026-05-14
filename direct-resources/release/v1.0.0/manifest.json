@@ -1,7 +1,7 @@
 {
     "type":  "pixflow_direct_intelligence_manifest",
     "version":  1,
-    "generatedAt":  "2026-05-13T22:06:56.1972136Z",
+    "generatedAt":  "2026-05-14T13:56:11.0179766Z",
     "distribution":  {
                          "primary":  "github_raw_repository",
                          "repository":  "pixflowdev/pixflowdev",
@@ -28,11 +28,11 @@
                       "version":  "1.0.0",
                       "label":  "Pixflow Direct Design Pack",
                       "kind":  "design",
-                      "description":  "Open Design-inspired workflow prompts, craft references, visual directions, anti-slop rules, and QA checklists.",
+                      "description":  "Open Design-inspired workflow prompts, design-template skills, craft references, visual directions, anti-slop rules, and QA checklists.",
                       "archive":  {
                                       "url":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/release/v1.0.0/pixflow-direct-design-pack.zip",
-                                      "sha256":  "cdb26700c2723da93d329937d5a7f218009f251d44165e6a723f01afe7fbdd55",
-                                      "size":  2104403
+                                      "sha256":  "3bb44f9c345072f83e7d18a5b200971d5e6283c34969eebbba0cf512d38ed36b",
+                                      "size":  3453455
                                   },
                       "parts":  [
 

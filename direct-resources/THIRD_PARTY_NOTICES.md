@@ -8,7 +8,7 @@ Source: local checkout at `open-design-main`
 
 License: Apache License 2.0
 
-Included as reference material for Open Design-style workflow, craft guidance, visual directions, skills, and design-system examples.
+Included as reference material for Open Design-style workflow, craft guidance, visual directions, skills, design-template skills, and design-system examples. Heavy binary media from design templates is intentionally omitted from the Pixflow resource pack.
 
 ## Bricks Builder Skills
 
