@@ -8,8 +8,8 @@ export const PLUGIN_SHARE_ACTIONS = [
 export type PluginShareAction = (typeof PLUGIN_SHARE_ACTIONS)[number];
 
 export const PLUGIN_SHARE_ACTION_PLUGIN_IDS: Record<PluginShareAction, string> = {
-  'publish-github': 'od-plugin-publish-github',
-  'contribute-pixflow-design': 'od-plugin-contribute-pixflow-design',
+  'publish-github': 'pixflow-design-plugin-publish-github',
+  'contribute-pixflow-design': 'pixflow-design-plugin-contribute-pixflow-design',
 };
 
 export interface CreatePluginShareProjectRequest {

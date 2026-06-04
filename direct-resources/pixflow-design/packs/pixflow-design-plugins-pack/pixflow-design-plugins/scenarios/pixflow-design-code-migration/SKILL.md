@@ -1,12 +1,12 @@
 ---
-name: od-code-migration
+name: pixflow-design-code-migration
 description: Default reference pipeline for the code-migration taskKind — code-import → design-extract → token-map → rewrite-plan → patch-edit ↔ build-test devloop → diff-review → handoff.
 od:
   scenario: code-migration
   mode: scenario
 ---
 
-# od-code-migration (scenario)
+# pixflow-design-code-migration (scenario)
 
 Spec §1 / §10.1 / §20.3 / §21.3.2 / §23.3.3: the canonical
 code-migration flow. The pipeline cannot ship an `accept` decision

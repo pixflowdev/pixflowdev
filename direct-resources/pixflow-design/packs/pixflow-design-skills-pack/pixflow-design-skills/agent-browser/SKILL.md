@@ -82,7 +82,7 @@ Use this sequence:
 if ! curl -fsS http://127.0.0.1:9223/json/version | rg -q webSocketDebuggerUrl; then
   open -na "Google Chrome" --args \
     --remote-debugging-port=9223 \
-    --user-data-dir=/tmp/od-agent-browser-chrome \
+    --user-data-dir=/tmp/pixflow-design-agent-browser-chrome \
     --no-first-run \
     --no-default-browser-check
 
@@ -104,7 +104,7 @@ Chrome manually from Terminal:
 ```bash
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
   --remote-debugging-port=9223 \
-  --user-data-dir=/tmp/od-agent-browser-chrome \
+  --user-data-dir=/tmp/pixflow-design-agent-browser-chrome \
   --no-first-run \
   --no-default-browser-check
 ```
@@ -122,7 +122,7 @@ Use a temp home and stable session:
 
 ```bash
 export HOME=/tmp/agent-browser-home
-export AGENT_BROWSER_SESSION=od-local-preview
+export AGENT_BROWSER_SESSION=pixflow-design-local-preview
 ```
 
 With the Pixflow Design preview at `http://127.0.0.1:17573/`, run:
@@ -131,7 +131,7 @@ With the Pixflow Design preview at `http://127.0.0.1:17573/`, run:
 if ! curl -fsS http://127.0.0.1:9223/json/version | rg -q webSocketDebuggerUrl; then
   open -na "Google Chrome" --args \
     --remote-debugging-port=9223 \
-    --user-data-dir=/tmp/od-agent-browser-chrome \
+    --user-data-dir=/tmp/pixflow-design-agent-browser-chrome \
     --no-first-run \
     --no-default-browser-check
 
@@ -149,12 +149,12 @@ agent-browser open http://127.0.0.1:17573/
 agent-browser get title
 agent-browser get url
 agent-browser snapshot
-agent-browser screenshot /tmp/od-agent-browser.png
+agent-browser screenshot /tmp/pixflow-design-agent-browser.png
 ```
 
 Expected success: title `Pixflow Design`, current URL under `127.0.0.1:17573`,
 visible Pixflow Design UI text in the snapshot, and a screenshot at
-`/tmp/od-agent-browser.png`.
+`/tmp/pixflow-design-agent-browser.png`.
 
 ## Workflow
 

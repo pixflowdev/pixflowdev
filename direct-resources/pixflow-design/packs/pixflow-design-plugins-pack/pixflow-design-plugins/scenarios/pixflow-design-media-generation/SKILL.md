@@ -1,12 +1,12 @@
 ---
-name: od-media-generation
+name: pixflow-design-media-generation
 description: Default reference pipeline for image, video, and audio projects — routes through media-image / media-video / media-audio atoms based on the project kind, wraps the output in a live artifact, and devloops on critique-theater until the score converges.
 od:
   scenario: media-generation
   mode: scenario
 ---
 
-# od-media-generation (scenario)
+# pixflow-design-media-generation (scenario)
 
 This scenario plugin is the bundled default for projects whose
 `metadata.kind` is `image`, `video`, or `audio`. The web client and the

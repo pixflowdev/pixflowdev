@@ -1,12 +1,12 @@
 ---
-name: od-default
+name: pixflow-design-default
 description: Hidden fallback scenario for free-form Home prompts. Ask the task type first, then continue through the matching Pixflow Design flow.
 od:
   scenario: default-router
   mode: scenario
 ---
 
-# od-default (hidden scenario)
+# pixflow-design-default (hidden scenario)
 
 This plugin runs only when the user types a free-form Home prompt without
 choosing one of the visible category chips. It is the design-engine

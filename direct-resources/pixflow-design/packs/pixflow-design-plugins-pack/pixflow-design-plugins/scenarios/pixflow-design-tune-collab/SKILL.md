@@ -1,12 +1,12 @@
 ---
-name: od-tune-collab
+name: pixflow-design-tune-collab
 description: Default reference pipeline for the tune-collab taskKind — pick a direction, patch-edit the existing artifact, critique, hand off.
 od:
   scenario: tune-collab
   mode: scenario
 ---
 
-# od-tune-collab (scenario)
+# pixflow-design-tune-collab (scenario)
 
 Spec §1 / §10.1 / §21.5 / §23.3.3: the canonical "iterate on an
 existing artifact" flow. Inherits `parentArtifactId` from the

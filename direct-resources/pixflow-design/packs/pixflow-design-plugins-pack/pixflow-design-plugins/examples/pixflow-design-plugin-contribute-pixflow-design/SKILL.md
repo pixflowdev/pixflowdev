@@ -1,5 +1,5 @@
 ---
-name: od-plugin-contribute-pixflow-design
+name: pixflow-design-plugin-contribute-pixflow-design
 description: Open a pull request adding a local Pixflow Design plugin to the Pixflow Design community catalog using gh CLI.
 triggers:
   - contribute plugin

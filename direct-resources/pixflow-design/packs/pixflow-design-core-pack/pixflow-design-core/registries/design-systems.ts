@@ -104,7 +104,7 @@ export type DesignSystemRevision = {
 type ColorToken = { name: string; value: string };
 type SwatchRow = { values: string[]; filledAllSlots: boolean };
 type DesignSystemProjectManifest = {
-  schemaVersion: 'od-design-system-project/v1';
+  schemaVersion: 'pixflow-design-design-system-project/v1';
   id: string;
   name: string;
   category: string;
@@ -1515,7 +1515,7 @@ function renderUiKitComponent(name: string, title: string, purpose: string): str
   if (name === 'Composer') return renderComposerUiKitComponent(title);
   return `function ${name}({ children, title = '${escapeJsString(title)}' }) {
   return (
-    <section className="od-ui-kit-${name.toLowerCase()}">
+    <section className="pixflow-design-ui-kit-${name.toLowerCase()}">
       <small>${escapeTsxText(purpose)}</small>
       <h2>{title}</h2>
       <div>{children}</div>
@@ -1528,7 +1528,7 @@ window.${name} = ${name};
 }
 
 function isReplaceableUiKitScaffold(text: string): boolean {
-  return Buffer.byteLength(text, 'utf8') < 700 && /od-ui-kit-[a-z-]+/u.test(text);
+  return Buffer.byteLength(text, 'utf8') < 700 && /pixflow-design-ui-kit-[a-z-]+/u.test(text);
 }
 
 function renderAppUiKitComponent(title: string): string {
@@ -2389,7 +2389,7 @@ function renderLogoSvg(title: string, palette: GeneratedPalette): string {
 function renderReferenceComponent(title: string): string {
   return `export function DesignSystemReference() {
   return (
-    <section className="od-design-system-preview">
+    <section className="pixflow-design-design-system-preview">
       <h1>${escapeTsxText(title)}</h1>
       <p>Use DESIGN.md and colors_and_type.css as the source of truth.</p>
     </section>
@@ -2715,7 +2715,7 @@ async function readProjectManifest(
 function isProjectManifest(value: unknown, expectedId: string): value is DesignSystemProjectManifest {
   if (typeof value !== 'object' || value === null || Array.isArray(value)) return false;
   const record = value as Record<string, unknown>;
-  if (record.schemaVersion !== 'od-design-system-project/v1') return false;
+  if (record.schemaVersion !== 'pixflow-design-design-system-project/v1') return false;
   if (record.id !== expectedId) return false;
   if (typeof record.name !== 'string' || record.name.trim().length === 0) return false;
   if (typeof record.category !== 'string' || record.category.trim().length === 0) return false;

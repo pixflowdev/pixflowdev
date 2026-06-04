@@ -1,12 +1,12 @@
 ---
-name: od-new-generation
+name: pixflow-design-new-generation
 description: Default reference pipeline for the new-generation taskKind — discovery → plan → generate → critique with a critique-theater devloop.
 od:
   scenario: new-generation
   mode: scenario
 ---
 
-# od-new-generation (scenario)
+# pixflow-design-new-generation (scenario)
 
 Spec §10.1 / §23.3.3: when a plugin omits `od.pipeline`, the daemon
 falls back to this scenario plugin's pipeline. Replacing the

@@ -1,11 +1,11 @@
 {
     "type": "pixflow_design_resource_inventory",
     "schemaVersion": 1,
-    "sourceFingerprint": "1ebce33b9797c37babfbb7424c05754d97a4da71e80ff7743167c9dd2524be4a",
+    "sourceFingerprint": "fff5d43a03d5b8fe634f59052887d343798bab295449b022fa76ceb8c87635b4",
     "totals": {
         "packCount": 6,
         "fileCount": 2517,
-        "byteCount": 117881662,
+        "byteCount": 117882826,
         "excludedFileCount": 678
     },
     "packs": [
@@ -16,7 +16,7 @@
             "required": true,
             "inventory": {
                 "fileCount": 238,
-                "byteCount": 36939338,
+                "byteCount": 36939722,
                 "resourceCount": 0,
                 "sideFileCount": 238,
                 "excludedFileCount": 0,
@@ -50,7 +50,7 @@
             "required": true,
             "inventory": {
                 "fileCount": 253,
-                "byteCount": 8832753,
+                "byteCount": 8832825,
                 "resourceCount": 137,
                 "sideFileCount": 116,
                 "excludedFileCount": 0,
@@ -112,7 +112,7 @@
             "required": true,
             "inventory": {
                 "fileCount": 287,
-                "byteCount": 27230018,
+                "byteCount": 27230042,
                 "resourceCount": 53,
                 "sideFileCount": 234,
                 "excludedFileCount": 443,
@@ -173,7 +173,7 @@
             "required": true,
             "inventory": {
                 "fileCount": 463,
-                "byteCount": 4928959,
+                "byteCount": 4928983,
                 "resourceCount": 150,
                 "sideFileCount": 463,
                 "excludedFileCount": 0,
@@ -226,7 +226,7 @@
             "required": true,
             "inventory": {
                 "fileCount": 803,
-                "byteCount": 29007681,
+                "byteCount": 29008341,
                 "resourceCount": 334,
                 "sideFileCount": 703,
                 "excludedFileCount": 235,

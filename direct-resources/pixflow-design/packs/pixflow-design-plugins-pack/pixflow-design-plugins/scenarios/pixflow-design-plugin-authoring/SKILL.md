@@ -1,12 +1,12 @@
 ---
-name: od-plugin-authoring
+name: pixflow-design-plugin-authoring
 description: Guided scenario for creating an Pixflow Design plugin folder that can be installed into My plugins.
 od:
   scenario: plugin-authoring
   mode: scenario
 ---
 
-# od-plugin-authoring (scenario)
+# pixflow-design-plugin-authoring (scenario)
 
 Use this scenario when the user wants to create their own Pixflow Design plugin.
 

@@ -895,7 +895,7 @@ function injectSelectionBridge(
     var existing = document.querySelector('style[data-od-inspect-overrides]');
     if (!existing) return;
     var text = existing.textContent || '';
-    var ruleRe = /(\\[data-(?:od-id|screen-label)="[^"]*"\\])\\s*\\{\\s*([^}]*)\\}/g;
+    var ruleRe = /(\\[data-(?:pixflow-design-id|screen-label)="[^"]*"\\])\\s*\\{\\s*([^}]*)\\}/g;
     var match;
     while ((match = ruleRe.exec(text)) !== null) {
       var selector = match[1];

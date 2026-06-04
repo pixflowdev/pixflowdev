@@ -1677,7 +1677,7 @@ async function testAgentConnectionInternal(
     };
   }
 
-  const tempDir = await fsp.mkdtemp(path.join(os.tmpdir(), 'od-conn-test-'));
+  const tempDir = await fsp.mkdtemp(path.join(os.tmpdir(), 'pixflow-design-conn-test-'));
   let child: AgentChild | null = null;
   let childExit: Promise<AgentChildExit> | null = null;
   let childClosed = false;

@@ -1,5 +1,5 @@
 ---
-name: od-plugin-publish-github
+name: pixflow-design-plugin-publish-github
 description: Publish a local Pixflow Design plugin to a new public GitHub repository using gh CLI.
 triggers:
   - publish plugin

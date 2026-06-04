@@ -1,12 +1,12 @@
 ---
-name: od-figma-migration
+name: pixflow-design-figma-migration
 description: Default reference pipeline for the figma-migration taskKind — figma-extract → token-map → generate → critique.
 od:
   scenario: figma-migration
   mode: scenario
 ---
 
-# od-figma-migration (scenario)
+# pixflow-design-figma-migration (scenario)
 
 Spec §1 / §10.1 / §21.3.1 / §23.3.3: the canonical figma-migration
 flow. The pipeline is sequenced so each stage's output is the next

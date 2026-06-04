@@ -1,7 +1,7 @@
 {
   "$schema": "https://pixflow-design.ai/schemas/plugin.v1.json",
   "specVersion": "1.0.0",
-  "name": "od-new-generation",
+  "name": "pixflow-design-new-generation",
   "title": "New generation (default scenario)",
   "title_i18n": {
     "en": "New generation (default scenario)",
@@ -50,7 +50,7 @@
     "name": "Pixflow Design",
     "url": "https://github.com/nexu-io"
   },
-  "homepage": "https://github.com/pixflowdev/pixflowdev/tree/main/plugins/_official/scenarios/od-new-generation",
+  "homepage": "https://github.com/pixflowdev/pixflowdev/tree/main/plugins/_official/scenarios/pixflow-design-new-generation",
   "tags": [
     "scenario",
     "first-party",
