@@ -1,0 +1,29 @@
+{
+    "type":  "pixflow_bridge_installer_release",
+    "version":  1,
+    "installerVersion":  "2026-06-04.2",
+    "builtAt":  "2026-06-04T10:00:13Z",
+    "assets":  [
+                   {
+                       "platform":  "linux",
+                       "fileName":  "pixflow-bridge-installer-linux-2026-06-04.2.zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-04.2/pixflow-bridge-installer-linux-2026-06-04.2.zip",
+                       "size":  135239,
+                       "sha256":  "748ee311bf6283a05915e3321b7d5879b9db305766688643b5021f45d500f4b8"
+                   },
+                   {
+                       "platform":  "macos",
+                       "fileName":  "pixflow-bridge-installer-macos-2026-06-04.2.zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-04.2/pixflow-bridge-installer-macos-2026-06-04.2.zip",
+                       "size":  135242,
+                       "sha256":  "8b27ea4f1e695ec19f609e5773c37b59c23871819ca9652b5d92bd3ab2e77721"
+                   },
+                   {
+                       "platform":  "windows",
+                       "fileName":  "pixflow-bridge-installer-windows-2026-06-04.2.zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-04.2/pixflow-bridge-installer-windows-2026-06-04.2.zip",
+                       "size":  135342,
+                       "sha256":  "acbdc4ed4767950a09b5cfe5e8fc4999ffef58fdf49df84789d9a500991e2041"
+                   }
+               ]
+}
