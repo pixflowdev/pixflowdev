@@ -4,7 +4,7 @@
     "generatedAt": "1970-01-01T00:00:00Z",
     "generator": "build/build-open-design-resource-packs.php",
     "source": {
-        "openDesignRoot": "open-design-open-design-v0.9.0",
+        "openDesignRoot": "open-design-main",
         "openDesignVersion": "0.9.0",
         "pixflowRoot": "pixflow-ai"
     },
@@ -17,7 +17,7 @@
     "rules": {
         "required": true,
         "degradedModeAllowed": false,
-        "excludePrimarySlideDeckRoutes": true,
+        "excludePrimarySlideDeckRoutes": false,
         "preserveSideFiles": true,
         "preservePluginManifests": true,
         "preservePluginLocalizationMetadata": true,
@@ -31,15 +31,15 @@
     "packs": [
         {
             "id": "pixflow-open-design-core-pack",
-            "version": "2026.06.03.1",
+            "version": "2026.06.04.1",
             "label": "Pixflow Open Design Core Pack",
             "kind": "open-design-core",
             "stage": "stage_a",
             "required": true,
             "description": "Open Design prompt composer sources, discovery, directions, critique, linting, craft refs, prompt templates, and supporting assets.",
             "archive": {
-                "path": "release/v2026.06.03.1/pixflow-open-design-core-pack.zip",
-                "sha256": "f1430e1338f9a90d1d0fd165107968c29944c305ae6779527420f326c671a6c2",
+                "path": "release/v2026.06.04.1/pixflow-open-design-core-pack.zip",
+                "sha256": "f87b9ab7640253c5cce38855a701d3e03241710d200eb1bafdaaa4645035f0d3",
                 "size": 35436811
             },
             "folder": {
@@ -1983,44 +1983,47 @@
         },
         {
             "id": "pixflow-open-design-skills-pack",
-            "version": "2026.06.03.1",
+            "version": "2026.06.04.1",
             "label": "Pixflow Open Design Skills Pack",
             "kind": "open-design-skills",
             "stage": "stage_a",
             "required": true,
-            "description": "Original Open Design skills, excluding slide/deck/PPT primary-output routes.",
+            "description": "Original Open Design skills, including the complete functional skill catalogue.",
             "archive": {
-                "path": "release/v2026.06.03.1/pixflow-open-design-skills-pack.zip",
-                "sha256": "fbedf68843812805e17dfe824ac9490ad63f3b9d6abd8309ff476a1969df4404",
-                "size": 8114928
+                "path": "release/v2026.06.04.1/pixflow-open-design-skills-pack.zip",
+                "sha256": "0547bd0d6733741eeb7904b506e56043980ce930796fa7beec51324236759d34",
+                "size": 8175532
             },
             "folder": {
                 "path": "packs/pixflow-open-design-skills-pack"
             },
             "inventory": {
-                "fileCount": 225,
-                "byteCount": 8698888,
-                "resourceCount": 126,
-                "sideFileCount": 99,
-                "excludedFileCount": 28,
+                "fileCount": 253,
+                "byteCount": 8832357,
+                "resourceCount": 137,
+                "sideFileCount": 116,
+                "excludedFileCount": 0,
                 "resourceTypes": {
-                    "skill": 225
+                    "skill": 253
                 },
                 "extensions": {
-                    "html": 41,
-                    "md": 163,
+                    "gitignore": 1,
+                    "html": 47,
+                    "md": 182,
                     "mp4": 2,
-                    "py": 15,
+                    "py": 17,
                     "sh": 1,
                     "txt": 2,
                     "yaml": 1
                 },
                 "primaryModes": {
                     "audio": 4,
+                    "deck": 17,
                     "design-system": 35,
                     "image": 46,
                     "prototype": 71,
-                    "template": 34,
+                    "template": 38,
+                    "utility": 7,
                     "video": 35
                 },
                 "sampleResources": [
@@ -2044,10 +2047,10 @@
                     "creative-director",
                     "d3-visualization",
                     "data-report",
-                    "design-brief",
-                    "design-consultation",
-                    "design-md",
-                    "design-review"
+                    "deck-guizang-editorial",
+                    "deck-open-slide-canvas",
+                    "deck-swiss-international",
+                    "design-brief"
                 ]
             },
             "files": [
@@ -2481,6 +2484,123 @@
                     "primaryMode": "prototype",
                     "primarySurface": "web",
                     "primaryCategory": "data",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/deck-guizang-editorial/SKILL.md",
+                    "sourcePath": "skills/deck-guizang-editorial/SKILL.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 4700,
+                    "sha256": "16943825394df69eaa5275882fb32926c9d32c22420412dda615a7f557b27bbc",
+                    "primaryResource": "deck-guizang-editorial",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/deck-guizang-editorial/example.html",
+                    "sourcePath": "skills/deck-guizang-editorial/example.html",
+                    "resourceType": "skill",
+                    "extension": "html",
+                    "bytes": 4942,
+                    "sha256": "42c1939174ecd9498c69a7c8b2940c9063361c512d8a2dae5f18d1a6c544c755",
+                    "primaryResource": "deck-guizang-editorial",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/deck-guizang-editorial/example.md",
+                    "sourcePath": "skills/deck-guizang-editorial/example.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 368,
+                    "sha256": "94f585e29d5726054383ef79dc9a884dfe737d8a85a73989e6517fd0f23ec8f4",
+                    "primaryResource": "deck-guizang-editorial",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/deck-open-slide-canvas/SKILL.md",
+                    "sourcePath": "skills/deck-open-slide-canvas/SKILL.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 3962,
+                    "sha256": "f53bed57ed9460d9a2666b66727927fdba46ec7c4510e563ab91c401fa6bd5d9",
+                    "primaryResource": "deck-open-slide-canvas",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/deck-open-slide-canvas/example.html",
+                    "sourcePath": "skills/deck-open-slide-canvas/example.html",
+                    "resourceType": "skill",
+                    "extension": "html",
+                    "bytes": 2317,
+                    "sha256": "fffbc7c4fed7a5f45a07f61d05e50dbba11740a69b2633d55763c67c0b3f018b",
+                    "primaryResource": "deck-open-slide-canvas",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/deck-open-slide-canvas/example.md",
+                    "sourcePath": "skills/deck-open-slide-canvas/example.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 192,
+                    "sha256": "910e72ee20384b4fdce8156788bf5fb56e4ad7aba7105048fd0a96dfd62e529f",
+                    "primaryResource": "deck-open-slide-canvas",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/deck-swiss-international/SKILL.md",
+                    "sourcePath": "skills/deck-swiss-international/SKILL.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 5919,
+                    "sha256": "f05a29b01b771d6b5ec9e44835fc00a83ee6619aa165a132f63bdc8182754c3f",
+                    "primaryResource": "deck-swiss-international",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/deck-swiss-international/example.html",
+                    "sourcePath": "skills/deck-swiss-international/example.html",
+                    "resourceType": "skill",
+                    "extension": "html",
+                    "bytes": 6131,
+                    "sha256": "77b78c1766fa2d75a9310e01642047aee4da61219de57f2d1f0d0d10270886a5",
+                    "primaryResource": "deck-swiss-international",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/deck-swiss-international/example.md",
+                    "sourcePath": "skills/deck-swiss-international/example.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 331,
+                    "sha256": "2e8378ac220d24a7ed80fa00403af3b5ed7536992448d16a0cf4270ddf2eb59e",
+                    "primaryResource": "deck-swiss-international",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
                     "excluded": false
                 },
                 {
@@ -3345,6 +3465,18 @@
                     "excluded": false
                 },
                 {
+                    "path": "open-design-skills/frontend-slides/SKILL.md",
+                    "sourcePath": "skills/frontend-slides/SKILL.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 1216,
+                    "sha256": "b9dd7ae36d4856445e316631ce63fe78cc528d1f3af92d41cab6c87c3f68bebd",
+                    "primaryResource": "frontend-slides",
+                    "primaryMode": "deck",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
                     "path": "open-design-skills/full-page-screenshot/SKILL.md",
                     "sourcePath": "skills/full-page-screenshot/SKILL.md",
                     "resourceType": "skill",
@@ -3753,6 +3885,54 @@
                     "excluded": false
                 },
                 {
+                    "path": "open-design-skills/html-ppt-retro-quarterly-review/SKILL.md",
+                    "sourcePath": "skills/html-ppt-retro-quarterly-review/SKILL.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 2267,
+                    "sha256": "b247a581aa52ea9c9ca5686ab79179abe0a82f7caa521775a7e981c2ea168b29",
+                    "primaryResource": "html-ppt-retro-quarterly-review",
+                    "primaryMode": "template",
+                    "primarySurface": "video",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/html-ppt-retro-quarterly-review/assets/template.html",
+                    "sourcePath": "skills/html-ppt-retro-quarterly-review/assets/template.html",
+                    "resourceType": "skill",
+                    "extension": "html",
+                    "bytes": 13750,
+                    "sha256": "b4a70deac1ad39668009dcca56cf55f88d545138eca36aef3d5ec6b541a2a247",
+                    "primaryResource": "html-ppt-retro-quarterly-review",
+                    "primaryMode": "template",
+                    "primarySurface": "video",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/html-ppt-retro-quarterly-review/example.html",
+                    "sourcePath": "skills/html-ppt-retro-quarterly-review/example.html",
+                    "resourceType": "skill",
+                    "extension": "html",
+                    "bytes": 13114,
+                    "sha256": "aa506ab1693f43394bb5fe6460ae17ee47b6d2a18ce7c0e441f38021dcbe2ab3",
+                    "primaryResource": "html-ppt-retro-quarterly-review",
+                    "primaryMode": "template",
+                    "primarySurface": "video",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/html-ppt-retro-quarterly-review/references/checklist.md",
+                    "sourcePath": "skills/html-ppt-retro-quarterly-review/references/checklist.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 955,
+                    "sha256": "392adeaf1d54f08f8ac1a7aa737a12915af2cccd412a40dd46bd829bd511a32e",
+                    "primaryResource": "html-ppt-retro-quarterly-review",
+                    "primaryMode": "template",
+                    "primarySurface": "video",
+                    "excluded": false
+                },
+                {
                     "path": "open-design-skills/image-enhancer/SKILL.md",
                     "sourcePath": "skills/image-enhancer/SKILL.md",
                     "resourceType": "skill",
@@ -3897,6 +4077,18 @@
                     "excluded": false
                 },
                 {
+                    "path": "open-design-skills/nanobanana-ppt/SKILL.md",
+                    "sourcePath": "skills/nanobanana-ppt/SKILL.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 1237,
+                    "sha256": "4ba90a14d51e6f8e970ba7df36ef3f2c27f66560822ebf24cd4c4ec37ff0e24b",
+                    "primaryResource": "nanobanana-ppt",
+                    "primaryMode": "deck",
+                    "primaryCategory": "image-generation",
+                    "excluded": false
+                },
+                {
                     "path": "open-design-skills/paywall-upgrade-cro/SKILL.md",
                     "sourcePath": "skills/paywall-upgrade-cro/SKILL.md",
                     "resourceType": "skill",
@@ -3993,6 +4185,146 @@
                     "primaryMode": "prototype",
                     "primarySurface": "web",
                     "primaryCategory": "poster",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/ppt-keynote/SKILL.md",
+                    "sourcePath": "skills/ppt-keynote/SKILL.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 2229,
+                    "sha256": "27dc0705b70dbd3fff49f66293ad9b0935e4d9107b78abfbd6aaf456fd237935",
+                    "primaryResource": "ppt-keynote",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/ppt-keynote/example.html",
+                    "sourcePath": "skills/ppt-keynote/example.html",
+                    "resourceType": "skill",
+                    "extension": "html",
+                    "bytes": 7238,
+                    "sha256": "85bd318c69017be6524d5b9c453c5b58f88649b4e0fb26b6c43ee3cac85ed6ea",
+                    "primaryResource": "ppt-keynote",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/ppt-keynote/example.md",
+                    "sourcePath": "skills/ppt-keynote/example.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 823,
+                    "sha256": "46b96d206bd12c962267ece6917f585204628887d120668c25460d11d479c95b",
+                    "primaryResource": "ppt-keynote",
+                    "primaryMode": "deck",
+                    "primarySurface": "web",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/pptx-generator/SKILL.md",
+                    "sourcePath": "skills/pptx-generator/SKILL.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 1118,
+                    "sha256": "b1b955f80f57d06e0646a858a8f1f88ef6c9b352b95fa6420618935d594b85dd",
+                    "primaryResource": "pptx-generator",
+                    "primaryMode": "deck",
+                    "primaryCategory": "slides",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/pptx-html-fidelity-audit/SKILL.md",
+                    "sourcePath": "skills/pptx-html-fidelity-audit/SKILL.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 14169,
+                    "sha256": "4d1fe39410f0169830aa1f1ad5342e14541f89060d8bb9f695484f21d57e23a1",
+                    "primaryResource": "pptx-html-fidelity-audit",
+                    "primaryMode": "utility",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/pptx-html-fidelity-audit/references/audit-table-template.md",
+                    "sourcePath": "skills/pptx-html-fidelity-audit/references/audit-table-template.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 3009,
+                    "sha256": "c757c9ec349ed6191f2fd2db87e4960596b4a3db51c2391391731d8096acaa98",
+                    "primaryResource": "pptx-html-fidelity-audit",
+                    "primaryMode": "utility",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/pptx-html-fidelity-audit/references/font-discipline.md",
+                    "sourcePath": "skills/pptx-html-fidelity-audit/references/font-discipline.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 16233,
+                    "sha256": "0466af3932da1cba0336ff57c555fcae8d37cb6cae838b159a83fbbc22fe9f68",
+                    "primaryResource": "pptx-html-fidelity-audit",
+                    "primaryMode": "utility",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/pptx-html-fidelity-audit/references/layout-discipline.md",
+                    "sourcePath": "skills/pptx-html-fidelity-audit/references/layout-discipline.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 14895,
+                    "sha256": "591cbd4d70425b10542a88a1aa4463b2f76e0b43324c4155986eef8751b665c6",
+                    "primaryResource": "pptx-html-fidelity-audit",
+                    "primaryMode": "utility",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/pptx-html-fidelity-audit/scripts/.gitignore",
+                    "sourcePath": "skills/pptx-html-fidelity-audit/scripts/.gitignore",
+                    "resourceType": "skill",
+                    "extension": "gitignore",
+                    "bytes": 19,
+                    "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+                    "primaryResource": "pptx-html-fidelity-audit",
+                    "primaryMode": "utility",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/pptx-html-fidelity-audit/scripts/extract_pptx.py",
+                    "sourcePath": "skills/pptx-html-fidelity-audit/scripts/extract_pptx.py",
+                    "resourceType": "skill",
+                    "extension": "py",
+                    "bytes": 4384,
+                    "sha256": "613ec07d0aaca4e25455ccea51ccfc4b36e6464eba2560e65e579dc0cd36a128",
+                    "primaryResource": "pptx-html-fidelity-audit",
+                    "primaryMode": "utility",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/pptx-html-fidelity-audit/scripts/verify_layout.py",
+                    "sourcePath": "skills/pptx-html-fidelity-audit/scripts/verify_layout.py",
+                    "resourceType": "skill",
+                    "extension": "py",
+                    "bytes": 5644,
+                    "sha256": "54cb0704bf1db6c74f6e0e412aee4c704dd3e8afba473f2184f1f5d7d4e9ce77",
+                    "primaryResource": "pptx-html-fidelity-audit",
+                    "primaryMode": "utility",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/pptx/SKILL.md",
+                    "sourcePath": "skills/pptx/SKILL.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 1201,
+                    "sha256": "30d16fac7caa5942513e72453ab121c8305adcc7dcde3a032acdb0437796a24b",
+                    "primaryResource": "pptx",
+                    "primaryMode": "deck",
+                    "primaryCategory": "slides",
                     "excluded": false
                 },
                 {
@@ -4215,6 +4547,18 @@
                     "primaryResource": "slack-gif-creator",
                     "primaryMode": "image",
                     "primaryCategory": "image-generation",
+                    "excluded": false
+                },
+                {
+                    "path": "open-design-skills/slides/SKILL.md",
+                    "sourcePath": "skills/slides/SKILL.md",
+                    "resourceType": "skill",
+                    "extension": "md",
+                    "bytes": 1106,
+                    "sha256": "1f9a6e65d2a5bf0e5613e6d4b6e2ebbfabd891cb9465b7677c62337ff79a0184",
+                    "primaryResource": "slides",
+                    "primaryMode": "deck",
+                    "primaryCategory": "slides",
                     "excluded": false
                 },
                 {
@@ -4797,389 +5141,19 @@
                     "excluded": false
                 }
             ],
-            "excluded": [
-                {
-                    "path": "open-design-skills/deck-guizang-editorial/SKILL.md",
-                    "sourcePath": "skills/deck-guizang-editorial/SKILL.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 4700,
-                    "sha256": "16943825394df69eaa5275882fb32926c9d32c22420412dda615a7f557b27bbc",
-                    "primaryResource": "deck-guizang-editorial",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/deck-guizang-editorial/example.html",
-                    "sourcePath": "skills/deck-guizang-editorial/example.html",
-                    "resourceType": "skill",
-                    "extension": "html",
-                    "bytes": 4942,
-                    "sha256": "42c1939174ecd9498c69a7c8b2940c9063361c512d8a2dae5f18d1a6c544c755",
-                    "primaryResource": "deck-guizang-editorial",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/deck-guizang-editorial/example.md",
-                    "sourcePath": "skills/deck-guizang-editorial/example.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 368,
-                    "sha256": "94f585e29d5726054383ef79dc9a884dfe737d8a85a73989e6517fd0f23ec8f4",
-                    "primaryResource": "deck-guizang-editorial",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/deck-open-slide-canvas/SKILL.md",
-                    "sourcePath": "skills/deck-open-slide-canvas/SKILL.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 3962,
-                    "sha256": "f53bed57ed9460d9a2666b66727927fdba46ec7c4510e563ab91c401fa6bd5d9",
-                    "primaryResource": "deck-open-slide-canvas",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/deck-open-slide-canvas/example.html",
-                    "sourcePath": "skills/deck-open-slide-canvas/example.html",
-                    "resourceType": "skill",
-                    "extension": "html",
-                    "bytes": 2317,
-                    "sha256": "fffbc7c4fed7a5f45a07f61d05e50dbba11740a69b2633d55763c67c0b3f018b",
-                    "primaryResource": "deck-open-slide-canvas",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/deck-open-slide-canvas/example.md",
-                    "sourcePath": "skills/deck-open-slide-canvas/example.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 192,
-                    "sha256": "910e72ee20384b4fdce8156788bf5fb56e4ad7aba7105048fd0a96dfd62e529f",
-                    "primaryResource": "deck-open-slide-canvas",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/deck-swiss-international/SKILL.md",
-                    "sourcePath": "skills/deck-swiss-international/SKILL.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 5919,
-                    "sha256": "f05a29b01b771d6b5ec9e44835fc00a83ee6619aa165a132f63bdc8182754c3f",
-                    "primaryResource": "deck-swiss-international",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/deck-swiss-international/example.html",
-                    "sourcePath": "skills/deck-swiss-international/example.html",
-                    "resourceType": "skill",
-                    "extension": "html",
-                    "bytes": 6131,
-                    "sha256": "77b78c1766fa2d75a9310e01642047aee4da61219de57f2d1f0d0d10270886a5",
-                    "primaryResource": "deck-swiss-international",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/deck-swiss-international/example.md",
-                    "sourcePath": "skills/deck-swiss-international/example.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 331,
-                    "sha256": "2e8378ac220d24a7ed80fa00403af3b5ed7536992448d16a0cf4270ddf2eb59e",
-                    "primaryResource": "deck-swiss-international",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/frontend-slides/SKILL.md",
-                    "sourcePath": "skills/frontend-slides/SKILL.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 1216,
-                    "sha256": "b9dd7ae36d4856445e316631ce63fe78cc528d1f3af92d41cab6c87c3f68bebd",
-                    "primaryResource": "frontend-slides",
-                    "primaryMode": "deck",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/html-ppt-retro-quarterly-review/SKILL.md",
-                    "sourcePath": "skills/html-ppt-retro-quarterly-review/SKILL.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 2267,
-                    "sha256": "b247a581aa52ea9c9ca5686ab79179abe0a82f7caa521775a7e981c2ea168b29",
-                    "primaryResource": "html-ppt-retro-quarterly-review",
-                    "primaryMode": "template",
-                    "primarySurface": "video",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_template"
-                },
-                {
-                    "path": "open-design-skills/html-ppt-retro-quarterly-review/assets/template.html",
-                    "sourcePath": "skills/html-ppt-retro-quarterly-review/assets/template.html",
-                    "resourceType": "skill",
-                    "extension": "html",
-                    "bytes": 13750,
-                    "sha256": "b4a70deac1ad39668009dcca56cf55f88d545138eca36aef3d5ec6b541a2a247",
-                    "primaryResource": "html-ppt-retro-quarterly-review",
-                    "primaryMode": "template",
-                    "primarySurface": "video",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_template"
-                },
-                {
-                    "path": "open-design-skills/html-ppt-retro-quarterly-review/example.html",
-                    "sourcePath": "skills/html-ppt-retro-quarterly-review/example.html",
-                    "resourceType": "skill",
-                    "extension": "html",
-                    "bytes": 13114,
-                    "sha256": "aa506ab1693f43394bb5fe6460ae17ee47b6d2a18ce7c0e441f38021dcbe2ab3",
-                    "primaryResource": "html-ppt-retro-quarterly-review",
-                    "primaryMode": "template",
-                    "primarySurface": "video",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_template"
-                },
-                {
-                    "path": "open-design-skills/html-ppt-retro-quarterly-review/references/checklist.md",
-                    "sourcePath": "skills/html-ppt-retro-quarterly-review/references/checklist.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 955,
-                    "sha256": "392adeaf1d54f08f8ac1a7aa737a12915af2cccd412a40dd46bd829bd511a32e",
-                    "primaryResource": "html-ppt-retro-quarterly-review",
-                    "primaryMode": "template",
-                    "primarySurface": "video",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_template"
-                },
-                {
-                    "path": "open-design-skills/nanobanana-ppt/SKILL.md",
-                    "sourcePath": "skills/nanobanana-ppt/SKILL.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 1237,
-                    "sha256": "4ba90a14d51e6f8e970ba7df36ef3f2c27f66560822ebf24cd4c4ec37ff0e24b",
-                    "primaryResource": "nanobanana-ppt",
-                    "primaryMode": "deck",
-                    "primaryCategory": "image-generation",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/ppt-keynote/SKILL.md",
-                    "sourcePath": "skills/ppt-keynote/SKILL.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 2229,
-                    "sha256": "27dc0705b70dbd3fff49f66293ad9b0935e4d9107b78abfbd6aaf456fd237935",
-                    "primaryResource": "ppt-keynote",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/ppt-keynote/example.html",
-                    "sourcePath": "skills/ppt-keynote/example.html",
-                    "resourceType": "skill",
-                    "extension": "html",
-                    "bytes": 7238,
-                    "sha256": "85bd318c69017be6524d5b9c453c5b58f88649b4e0fb26b6c43ee3cac85ed6ea",
-                    "primaryResource": "ppt-keynote",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/ppt-keynote/example.md",
-                    "sourcePath": "skills/ppt-keynote/example.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 823,
-                    "sha256": "46b96d206bd12c962267ece6917f585204628887d120668c25460d11d479c95b",
-                    "primaryResource": "ppt-keynote",
-                    "primaryMode": "deck",
-                    "primarySurface": "web",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/pptx-generator/SKILL.md",
-                    "sourcePath": "skills/pptx-generator/SKILL.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 1118,
-                    "sha256": "b1b955f80f57d06e0646a858a8f1f88ef6c9b352b95fa6420618935d594b85dd",
-                    "primaryResource": "pptx-generator",
-                    "primaryMode": "deck",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/pptx-html-fidelity-audit/SKILL.md",
-                    "sourcePath": "skills/pptx-html-fidelity-audit/SKILL.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 14169,
-                    "sha256": "4d1fe39410f0169830aa1f1ad5342e14541f89060d8bb9f695484f21d57e23a1",
-                    "primaryResource": "pptx-html-fidelity-audit",
-                    "primaryMode": "utility",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_utility"
-                },
-                {
-                    "path": "open-design-skills/pptx-html-fidelity-audit/references/audit-table-template.md",
-                    "sourcePath": "skills/pptx-html-fidelity-audit/references/audit-table-template.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 3009,
-                    "sha256": "c757c9ec349ed6191f2fd2db87e4960596b4a3db51c2391391731d8096acaa98",
-                    "primaryResource": "pptx-html-fidelity-audit",
-                    "primaryMode": "utility",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_utility"
-                },
-                {
-                    "path": "open-design-skills/pptx-html-fidelity-audit/references/font-discipline.md",
-                    "sourcePath": "skills/pptx-html-fidelity-audit/references/font-discipline.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 16233,
-                    "sha256": "0466af3932da1cba0336ff57c555fcae8d37cb6cae838b159a83fbbc22fe9f68",
-                    "primaryResource": "pptx-html-fidelity-audit",
-                    "primaryMode": "utility",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_utility"
-                },
-                {
-                    "path": "open-design-skills/pptx-html-fidelity-audit/references/layout-discipline.md",
-                    "sourcePath": "skills/pptx-html-fidelity-audit/references/layout-discipline.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 14895,
-                    "sha256": "591cbd4d70425b10542a88a1aa4463b2f76e0b43324c4155986eef8751b665c6",
-                    "primaryResource": "pptx-html-fidelity-audit",
-                    "primaryMode": "utility",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_utility"
-                },
-                {
-                    "path": "open-design-skills/pptx-html-fidelity-audit/scripts/.gitignore",
-                    "sourcePath": "skills/pptx-html-fidelity-audit/scripts/.gitignore",
-                    "resourceType": "skill",
-                    "extension": "gitignore",
-                    "bytes": 19,
-                    "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
-                    "primaryResource": "pptx-html-fidelity-audit",
-                    "primaryMode": "utility",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_utility"
-                },
-                {
-                    "path": "open-design-skills/pptx-html-fidelity-audit/scripts/extract_pptx.py",
-                    "sourcePath": "skills/pptx-html-fidelity-audit/scripts/extract_pptx.py",
-                    "resourceType": "skill",
-                    "extension": "py",
-                    "bytes": 4384,
-                    "sha256": "613ec07d0aaca4e25455ccea51ccfc4b36e6464eba2560e65e579dc0cd36a128",
-                    "primaryResource": "pptx-html-fidelity-audit",
-                    "primaryMode": "utility",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_utility"
-                },
-                {
-                    "path": "open-design-skills/pptx-html-fidelity-audit/scripts/verify_layout.py",
-                    "sourcePath": "skills/pptx-html-fidelity-audit/scripts/verify_layout.py",
-                    "resourceType": "skill",
-                    "extension": "py",
-                    "bytes": 5644,
-                    "sha256": "54cb0704bf1db6c74f6e0e412aee4c704dd3e8afba473f2184f1f5d7d4e9ce77",
-                    "primaryResource": "pptx-html-fidelity-audit",
-                    "primaryMode": "utility",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_utility"
-                },
-                {
-                    "path": "open-design-skills/pptx/SKILL.md",
-                    "sourcePath": "skills/pptx/SKILL.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 1201,
-                    "sha256": "30d16fac7caa5942513e72453ab121c8305adcc7dcde3a032acdb0437796a24b",
-                    "primaryResource": "pptx",
-                    "primaryMode": "deck",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                },
-                {
-                    "path": "open-design-skills/slides/SKILL.md",
-                    "sourcePath": "skills/slides/SKILL.md",
-                    "resourceType": "skill",
-                    "extension": "md",
-                    "bytes": 1106,
-                    "sha256": "1f9a6e65d2a5bf0e5613e6d4b6e2ebbfabd891cb9465b7677c62337ff79a0184",
-                    "primaryResource": "slides",
-                    "primaryMode": "deck",
-                    "primaryCategory": "slides",
-                    "excluded": true,
-                    "exclusionReason": "primary_mode_deck"
-                }
-            ]
+            "excluded": []
         },
         {
             "id": "pixflow-open-design-templates-pack",
-            "version": "2026.06.03.1",
+            "version": "2026.06.04.1",
             "label": "Pixflow Open Design Templates Pack",
             "kind": "open-design-templates",
             "stage": "stage_a",
             "required": true,
             "description": "Original non-slide Open Design design templates with side files, assets, references, and examples.",
             "archive": {
-                "path": "release/v2026.06.03.1/pixflow-open-design-templates-pack.zip",
-                "sha256": "cc4fbce47bf0fe27295561e389f64edfce2cdd1441ee587321f60cadad4f0649",
+                "path": "release/v2026.06.04.1/pixflow-open-design-templates-pack.zip",
+                "sha256": "a94bb1463d418a6c2fc918763540c6a7599780927cdb272cac8c4c4a27e1b9f2",
                 "size": 23962263
             },
             "folder": {
@@ -13808,15 +13782,15 @@
         },
         {
             "id": "pixflow-open-design-systems-pack",
-            "version": "2026.06.03.1",
+            "version": "2026.06.04.1",
             "label": "Pixflow Open Design Systems Pack",
             "kind": "open-design-systems",
             "stage": "stage_a",
             "required": true,
             "description": "Original Open Design design systems, including DESIGN.md, optional tokens.css, components.html, and support files.",
             "archive": {
-                "path": "release/v2026.06.03.1/pixflow-open-design-systems-pack.zip",
-                "sha256": "73203a854a4e2df3b97e3e79fb1595634d8a326ad23477b89279291a27a01b90",
+                "path": "release/v2026.06.04.1/pixflow-open-design-systems-pack.zip",
+                "sha256": "be9bccf1f50c57e587b8f6d288e9f99e0dca58f2f3ecf2abe7ab4b37e66f2986",
                 "size": 1633817
             },
             "folder": {
@@ -18497,15 +18471,15 @@
         },
         {
             "id": "pixflow-open-design-plugins-pack",
-            "version": "2026.06.03.1",
+            "version": "2026.06.04.1",
             "label": "Pixflow Open Design Plugins Pack",
             "kind": "open-design-plugins",
             "stage": "stage_a",
             "required": true,
             "description": "Bundled Open Design-derived plugin manifests, scenario routes, atom skills, example plugin assets, localized plugin metadata, formal plugin runtime contracts, and plugin design-system fixtures, excluding primary slide/deck/PPT routes.",
             "archive": {
-                "path": "release/v2026.06.03.1/pixflow-open-design-plugins-pack.zip",
-                "sha256": "4f08a371585ddf979fd4ce7f8f8f5931c1a2437df253f490f4263bd03d24aae5",
+                "path": "release/v2026.06.04.1/pixflow-open-design-plugins-pack.zip",
+                "sha256": "3a10465b2af03c1fd3ecf5a11840a7173bd2dd730f8f1ed8e7b6dfef024ad108",
                 "size": 24419633
             },
             "folder": {
@@ -36389,15 +36363,15 @@
         },
         {
             "id": "pixflow-bricks-conversion-pack",
-            "version": "2026.06.03.1",
+            "version": "2026.06.04.1",
             "label": "Pixflow Bricks Conversion Pack",
             "kind": "bricks-conversion",
             "stage": "stage_b",
             "required": true,
             "description": "Pixflow Bricks-specific conversion skills, Bricks references, Pixflow Framework rules, and editable JSON guidance.",
             "archive": {
-                "path": "release/v2026.06.03.1/pixflow-bricks-conversion-pack.zip",
-                "sha256": "c5c47ff00198966188b440959d7e954a1c217f677f5044ec2b0a74f100357751",
+                "path": "release/v2026.06.04.1/pixflow-bricks-conversion-pack.zip",
+                "sha256": "2c3f56b3bee90df9062f4eb104bd293fb38e5bacff20c9ee9ddbaf1d33cae9e3",
                 "size": 2858570
             },
             "folder": {
@@ -40686,9 +40660,9 @@
     ],
     "totals": {
         "packCount": 6,
-        "fileCount": 2489,
-        "byteCount": 117743187,
-        "excludedFileCount": 706
+        "fileCount": 2517,
+        "byteCount": 117876656,
+        "excludedFileCount": 678
     },
-    "sourceFingerprint": "4c5e8eaef5d3d15213df7399fb8dc2dbf69d3bda4d1d16b2be866b03dda504ec"
+    "sourceFingerprint": "d0ec67261019f10124b793e0b1d8a8651fc6b58b27f77ba9bd140dc9d55c1653"
 }
