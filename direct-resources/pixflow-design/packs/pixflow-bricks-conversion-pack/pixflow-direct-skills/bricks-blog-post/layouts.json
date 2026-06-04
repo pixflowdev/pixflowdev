@@ -1,0 +1,124 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "article_hero",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "article_hero section for Bricks Blog Post, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "article_intro_callout",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "article_intro_callout section for Bricks Blog Post, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "article_content_split",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "article_content_split section for Bricks Blog Post, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "article_support_cards",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "article_support_cards section for Bricks Blog Post, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "article_final_cta",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "article_final_cta section for Bricks Blog Post, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    }
+                ]
+}

@@ -1,0 +1,58 @@
+{
+  "layouts": [
+    {
+      "key": "reference_analysis_brief",
+      "section_type": "content_split",
+      "pattern": "story_split",
+      "visual_role": "Internal planning contract for reference cues; should not leak as visible metadata.",
+      "required_elements": ["reference_structure", "improvement_goals"],
+      "token_rules": ["not rendered as metadata"],
+      "qa_hooks": ["no_reference_metadata_leak"]
+    },
+    {
+      "key": "redesign_reference_hero",
+      "section_type": "hero",
+      "pattern": "hero_split_visual",
+      "visual_role": "Hero rebuilt from reference hierarchy, with improved copy and editable visual structure.",
+      "required_elements": ["h1", "intro", "cta_buttons", "visual_or_mockup"],
+      "token_rules": ["uses active Pixflow tokens"],
+      "qa_hooks": ["reference_hierarchy_preserved"]
+    },
+    {
+      "key": "redesign_bento_section",
+      "section_type": "feature_grid",
+      "pattern": "bento_features",
+      "visual_role": "Modernized feature/content region that reflects the screenshot rhythm without copying pixels.",
+      "required_elements": ["featured_card", "supporting_cards"],
+      "token_rules": ["cards use var(--foreground)", "borders use var(--border)"],
+      "qa_hooks": ["not_plain_card_grid"]
+    },
+    {
+      "key": "redesign_collage_split",
+      "section_type": "content_split",
+      "pattern": "feature_collage_split",
+      "visual_role": "Editable visual collage or product/site preview inspired by reference media.",
+      "required_elements": ["copy", "collage_tiles"],
+      "token_rules": ["tiles use var(--foreground)"],
+      "qa_hooks": ["collage_not_blank"]
+    },
+    {
+      "key": "redesign_proof_or_support",
+      "section_type": "testimonials",
+      "pattern": "testimonial_editorial",
+      "visual_role": "Proof or support area using provided evidence only.",
+      "required_elements": ["proof_copy", "attribution_or_label"],
+      "token_rules": ["surface var(--foreground)"],
+      "qa_hooks": ["no_fake_proof"]
+    },
+    {
+      "key": "redesign_cta",
+      "section_type": "cta",
+      "pattern": "cta_contrast",
+      "visual_role": "Improved final CTA that fits the reference style.",
+      "required_elements": ["headline", "copy", "primary_cta"],
+      "token_rules": ["button uses var(--radius--btn)"],
+      "qa_hooks": ["cta_clear"]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "layouts": [
+    {
+      "key": "product_detail_hero",
+      "section_type": "hero",
+      "pattern": "hero_split_visual",
+      "visual_role": "Product hero with product media, benefit copy, and purchase action.",
+      "required_elements": ["product_name", "benefit_copy", "purchase_cta", "product_media", "option_or_detail_chips"],
+      "token_rules": ["media radius var(--radius--surface)", "buttons use var(--radius--btn)"],
+      "qa_hooks": ["purchase_cta_present", "product_media_role_clear"]
+    },
+    {
+      "key": "product_benefit_bento",
+      "section_type": "feature_grid",
+      "pattern": "bento_features",
+      "visual_role": "Benefits and use cases with one featured benefit.",
+      "required_elements": ["featured_benefit", "supporting_benefits"],
+      "token_rules": ["cards use var(--foreground)", "borders use var(--border)"],
+      "qa_hooks": ["benefits_specific"]
+    },
+    {
+      "key": "product_specs_comparison",
+      "section_type": "content_split",
+      "pattern": "comparison_led",
+      "visual_role": "Specs, variants, comparison, or what is included.",
+      "required_elements": ["details", "comparison_or_spec_items"],
+      "token_rules": ["rows use max(var(--border--btn), 1px)", "surface var(--foreground)"],
+      "qa_hooks": ["details_scannable"]
+    },
+    {
+      "key": "product_review_proof",
+      "section_type": "testimonials",
+      "pattern": "testimonial_editorial",
+      "visual_role": "Reviews or proof using supplied details only.",
+      "required_elements": ["proof_copy", "attribution_or_label"],
+      "token_rules": ["quote surface var(--foreground)"],
+      "qa_hooks": ["no_fake_reviews"]
+    },
+    {
+      "key": "product_buying_faq",
+      "section_type": "faq",
+      "pattern": "faq_or_objection_stack",
+      "visual_role": "Buying FAQ for fit, materials, shipping, sizing, or support.",
+      "required_elements": ["questions", "answers"],
+      "token_rules": ["surface var(--foreground)"],
+      "qa_hooks": ["buying_objections_answered"]
+    },
+    {
+      "key": "product_purchase_cta",
+      "section_type": "cta",
+      "pattern": "final_proof_led_cta",
+      "visual_role": "Purchase or enquiry close with reassurance.",
+      "required_elements": ["headline", "copy", "purchase_cta", "reassurance"],
+      "token_rules": ["button radius var(--radius--btn)"],
+      "qa_hooks": ["purchase_path_clear"]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "key": "packaging_lineup",
+      "purpose": "Editable or supplied-media product lineup for the hero.",
+      "rules": ["Use supplied product references where available.", "Do not replace packaging with SaaS UI."]
+    },
+    {
+      "key": "flavour_shape_tile",
+      "purpose": "Mood/flavour discovery tile with distinct colour, shape, label, and examples.",
+      "rules": ["Avoid identical card grids.", "Keep copy short and readable."]
+    },
+    {
+      "key": "product_category_card",
+      "purpose": "Product category card with media, category name, product list, and explore link.",
+      "rules": ["Use product-media slot.", "Do not make it a service card."]
+    },
+    {
+      "key": "trust_badge",
+      "purpose": "Honest quality/trust chip based on supplied facts.",
+      "rules": ["Do not invent certifications.", "Keep badges editable."]
+    }
+  ]
+}

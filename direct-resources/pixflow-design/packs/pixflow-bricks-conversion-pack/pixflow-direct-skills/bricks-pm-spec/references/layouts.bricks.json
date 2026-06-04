@@ -1,0 +1,247 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "pm_spec_hero",
+                        "purpose":  "pm_spec_hero gives the product spec page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable product spec surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "pm-spec",
+                                               "pm-spec__header",
+                                               "pm-spec__surface",
+                                               "pm-spec__row",
+                                               "pm-spec__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "problem_context",
+                        "purpose":  "problem_context gives the product spec page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable product spec surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "pm-spec",
+                                               "pm-spec__header",
+                                               "pm-spec__surface",
+                                               "pm-spec__row",
+                                               "pm-spec__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "requirements_matrix",
+                        "purpose":  "requirements_matrix gives the product spec page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable product spec surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "pm-spec",
+                                               "pm-spec__header",
+                                               "pm-spec__surface",
+                                               "pm-spec__row",
+                                               "pm-spec__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "user_flow_panels",
+                        "purpose":  "user_flow_panels gives the product spec page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable product spec surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "pm-spec",
+                                               "pm-spec__header",
+                                               "pm-spec__surface",
+                                               "pm-spec__row",
+                                               "pm-spec__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "risks_questions",
+                        "purpose":  "risks_questions gives the product spec page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable product spec surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "pm-spec",
+                                               "pm-spec__header",
+                                               "pm-spec__surface",
+                                               "pm-spec__row",
+                                               "pm-spec__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    }
+                ],
+    "version":  2,
+    "type":  "direct_skill_bricks_layout_references",
+    "skill":  "bricks-pm-spec"
+}

@@ -1,0 +1,54 @@
+{
+  "layouts": [
+    {
+      "key": "linear_issue_hero",
+      "section_type": "hero",
+      "pattern": "hero_centered_browser_mockup",
+      "visual_role": "Issue-tracker hero with editable board/list mockup, cycle summary, priorities, and blocker panel.",
+      "required_elements": ["eyebrow", "headline", "supporting_copy", "cta_buttons", "issue_tracker_mockup", "cycle_summary"],
+      "mockup_components": ["browser_frame", "issue_sidebar", "issue_row", "priority_chip", "cycle_card", "blocker_panel"],
+      "token_rules": ["tracker surfaces use var(--foreground)", "priority chips use tokenized accents", "borders use var(--border)", "no provider brand colours"],
+      "qa_hooks": ["issue_tracker_mockup_present", "issue_rows_editable", "no_real_project_data", "no_live_linear_claims"]
+    },
+    {
+      "key": "linear_issue_matrix",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Issue matrix with status lanes, owners, severity, estimates, and safe placeholders.",
+      "required_elements": ["status_lanes", "owner_placeholders", "severity_states", "estimate_placeholders", "boundary_note"],
+      "mockup_components": ["status_lane_card", "issue_card", "owner_chip", "severity_chip", "estimate_placeholder"],
+      "token_rules": ["lane cards use var(--foreground)", "severity uses restrained token accents", "placeholder values are labelled"],
+      "qa_hooks": ["status_lanes_visible", "owners_not_invented", "metrics_are_placeholders"]
+    },
+    {
+      "key": "linear_cycle_collage",
+      "section_type": "content_split",
+      "pattern": "feature_collage_split",
+      "visual_role": "Cycle planning collage showing backlog, current cycle, scope changes, and review notes.",
+      "required_elements": ["cycle_copy", "backlog_cards", "current_cycle_panel", "scope_change_note", "review_summary"],
+      "mockup_components": ["backlog_card", "cycle_panel", "scope_chip", "review_note", "progress_placeholder"],
+      "token_rules": ["collage cards use var(--foreground)", "progress bars are tokenized placeholders", "mobile stacks without overlap"],
+      "qa_hooks": ["cycle_context_visible", "progress_not_invented", "collage_not_plain_grid"]
+    },
+    {
+      "key": "linear_delivery_flow",
+      "section_type": "process_steps",
+      "pattern": "process_timeline",
+      "visual_role": "Delivery flow from intake to prioritization, build, review, and release note.",
+      "required_elements": ["numbered_steps", "intake_state", "priority_state", "build_state", "review_or_release_state"],
+      "mockup_components": ["step_marker", "workflow_state_card", "issue_link_placeholder", "status_chip", "release_note"],
+      "token_rules": ["workflow cards use var(--foreground)", "connectors use var(--border)", "status chips use tokenized states"],
+      "qa_hooks": ["delivery_sequence_clear", "states_are_generic", "no_private_data_implied"]
+    },
+    {
+      "key": "linear_tracker_cta",
+      "section_type": "cta",
+      "pattern": "final_contrast_cta",
+      "visual_role": "Final issue-tracker CTA with a compact blocker/next-action summary.",
+      "required_elements": ["headline", "copy", "primary_cta", "secondary_cta_or_reassurance", "next_action_summary"],
+      "mockup_components": ["cta_button", "blocker_chip", "next_action_row", "setup_note"],
+      "token_rules": ["CTA contrast is token driven", "buttons use var(--radius--btn)", "summary panel uses var(--foreground)"],
+      "qa_hooks": ["cta_clear", "next_actions_placeholder", "no_fake_velocity_metrics"]
+    }
+  ]
+}

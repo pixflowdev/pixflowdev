@@ -1,0 +1,17 @@
+{
+  "summary": "Seed Bricks structure for a consumer product-brand landing page rhythm.",
+  "content": [
+    {"name": "section", "label": "Product Hero"},
+    {"name": "container", "label": "Hero Inner"},
+    {"name": "heading", "label": "Hero Heading"},
+    {"name": "image", "label": "Product Media"},
+    {"name": "section", "label": "Product Categories"},
+    {"name": "block", "label": "Category Card"}
+  ],
+  "global_classes": [
+    {"name": "brand-hero"},
+    {"name": "brand-hero__media"},
+    {"name": "product-grid"},
+    {"name": "product-grid__card"}
+  ]
+}

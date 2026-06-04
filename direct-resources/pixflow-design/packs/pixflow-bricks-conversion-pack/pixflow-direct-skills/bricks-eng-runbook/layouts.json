@@ -1,0 +1,64 @@
+{
+  "layouts": [
+    {
+      "key": "runbook_operational_hero",
+      "section_type": "hero",
+      "pattern": "hero_split_visual",
+      "visual_role": "Operational runbook hero with status overview, use case, and escalation visibility.",
+      "required_elements": ["runbook_label", "headline", "scope_copy", "status_overview", "open_runbook_cta"],
+      "mockup_components": ["status_card", "severity_chip", "owner_placeholder", "next_action_card"],
+      "token_rules": ["status cards use var(--foreground)", "severity chips use tokenized accents", "no command/code output"],
+      "qa_hooks": ["runbook_scope_clear", "status_overview_present", "no_fake_infra_data"]
+    },
+    {
+      "key": "runbook_status_overview",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Status matrix for scope, severity, owner, next action, and escalation.",
+      "required_elements": ["scope_card", "severity_card", "owner_placeholder", "next_action", "escalation_state"],
+      "mockup_components": ["status_card", "labelled_fact_card", "state_chip", "action_panel"],
+      "token_rules": ["cards use var(--foreground)", "states are labelled placeholders", "accent marks priority only"],
+      "qa_hooks": ["states_labelled", "owners_are_placeholders", "next_action_visible"]
+    },
+    {
+      "key": "runbook_step_timeline",
+      "section_type": "process_steps",
+      "pattern": "numbered_editorial_flow",
+      "visual_role": "Step-by-step incident or operations flow with clear decisions and outcomes.",
+      "required_elements": ["numbered_steps", "check_or_decision", "expected_output", "handoff_note"],
+      "mockup_components": ["step_marker", "decision_chip", "outcome_card", "handoff_row"],
+      "token_rules": ["step cards use var(--foreground)", "connectors use var(--border)", "mobile steps stack"],
+      "qa_hooks": ["steps_actionable", "no_executable_scripts", "sequence_clear"]
+    },
+    {
+      "key": "runbook_decision_matrix",
+      "section_type": "content_split",
+      "pattern": "comparison_led",
+      "visual_role": "Decision table that makes if/then paths and escalation criteria explicit.",
+      "required_elements": ["condition_rows", "decision_labels", "response_path", "escalation_rule"],
+      "mockup_components": ["structured_info_table", "decision_row", "state_chip", "escalation_panel"],
+      "token_rules": ["table rows use var(--foreground)", "mobile rows stack", "no raw HTML table"],
+      "qa_hooks": ["decision_rows_editable", "escalation_criteria_visible", "no_sensitive_details"]
+    },
+    {
+      "key": "runbook_escalation_panel",
+      "section_type": "contact",
+      "pattern": "contact_split",
+      "visual_role": "Escalation and support panel with role placeholders, not real private contacts.",
+      "required_elements": ["role_placeholders", "handoff_context", "support_path", "response_note"],
+      "mockup_components": ["contact_placeholder", "role_chip", "support_card", "handoff_note"],
+      "token_rules": ["contact panels use var(--foreground)", "private details are placeholders", "support links are editable"],
+      "qa_hooks": ["contacts_not_invented", "escalation_visible", "support_path_clear"]
+    },
+    {
+      "key": "runbook_review_cta",
+      "section_type": "cta",
+      "pattern": "split_card",
+      "visual_role": "Compact CTA for reviewing or opening the runbook.",
+      "required_elements": ["headline", "copy", "primary_cta", "supporting_status"],
+      "mockup_components": ["cta_button", "status_chip", "review_note"],
+      "token_rules": ["CTA card uses var(--foreground)", "button uses var(--radius--btn)"],
+      "qa_hooks": ["cta_operational", "no_fake_claims"]
+    }
+  ]
+}

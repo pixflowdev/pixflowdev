@@ -1,0 +1,58 @@
+{
+  "layouts": [
+    {
+      "key": "pricing_hero",
+      "section_type": "hero",
+      "pattern": "hero_split_visual",
+      "visual_role": "Pricing hero with value framing, not a generic sales hero.",
+      "required_elements": ["eyebrow", "h1", "intro", "primary_cta"],
+      "token_rules": ["section background var(--background)"],
+      "qa_hooks": ["pricing_context_present"]
+    },
+    {
+      "key": "pricing_featured_packages",
+      "section_type": "feature_grid",
+      "pattern": "featured_plan_with_supporting_cards",
+      "visual_role": "Package cards with one featured option when appropriate.",
+      "required_elements": ["plan_cards", "featured_plan_or_recommended_label", "cta_per_plan"],
+      "token_rules": ["cards use var(--foreground)", "buttons use var(--radius--btn)"],
+      "qa_hooks": ["no_invented_prices", "featured_option_clear"]
+    },
+    {
+      "key": "pricing_comparison",
+      "section_type": "content_split",
+      "pattern": "comparison_table",
+      "visual_role": "Comparison-led section clarifying option differences.",
+      "required_elements": ["comparison_items", "decision_guidance"],
+      "token_rules": ["borders use var(--border)", "rows use var(--foreground)"],
+      "qa_hooks": ["differences_clear"]
+    },
+    {
+      "key": "pricing_value_support",
+      "section_type": "content_split",
+      "pattern": "comparison_led",
+      "visual_role": "Value explanation or what is included beside support/proof panel.",
+      "required_elements": ["copy", "support_panel"],
+      "token_rules": ["panel radius var(--radius--surface)"],
+      "qa_hooks": ["value_explained"]
+    },
+    {
+      "key": "pricing_objections",
+      "section_type": "faq",
+      "pattern": "faq_or_objection_stack",
+      "visual_role": "Buying objections around fit, billing, support, or next steps.",
+      "required_elements": ["questions", "answers"],
+      "token_rules": ["surface var(--foreground)"],
+      "qa_hooks": ["pricing_objections_answered"]
+    },
+    {
+      "key": "pricing_final_cta",
+      "section_type": "cta",
+      "pattern": "final_proof_led_cta",
+      "visual_role": "Final pricing CTA with reassurance.",
+      "required_elements": ["headline", "copy", "primary_cta", "secondary_cta_or_reassurance"],
+      "token_rules": ["band token based", "buttons use var(--radius--btn)"],
+      "qa_hooks": ["pricing_next_step_clear"]
+    }
+  ]
+}

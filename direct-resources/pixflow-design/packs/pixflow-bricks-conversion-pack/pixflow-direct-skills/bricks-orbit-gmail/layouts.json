@@ -1,0 +1,54 @@
+{
+  "layouts": [
+    {
+      "key": "gmail_inbox_hero",
+      "section_type": "hero",
+      "pattern": "hero_centered_browser_mockup",
+      "visual_role": "Inbox workflow hero with editable email-list, priority queue, sender chips, and triage panel.",
+      "required_elements": ["eyebrow", "headline", "supporting_copy", "cta_buttons", "inbox_mockup", "priority_queue"],
+      "mockup_components": ["browser_frame", "inbox_sidebar", "message_row", "sender_chip", "priority_queue", "reply_panel"],
+      "token_rules": ["mail surfaces use var(--foreground)", "unread states use tokenized accents", "borders use var(--border)", "no provider brand colours"],
+      "qa_hooks": ["inbox_mockup_present", "message_rows_editable", "no_real_email_addresses", "no_live_gmail_claims"]
+    },
+    {
+      "key": "gmail_priority_matrix",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Priority matrix showing message categories, urgency states, suggested owners, and safe sample rows.",
+      "required_elements": ["category_cards", "urgency_states", "owner_placeholders", "sample_rows", "boundary_note"],
+      "mockup_components": ["category_card", "urgency_chip", "owner_chip", "message_preview_row", "boundary_note"],
+      "token_rules": ["category cards use var(--foreground)", "urgency uses restrained token accents", "placeholder rows stay labelled"],
+      "qa_hooks": ["priorities_labelled", "owners_not_invented", "safe_sample_rows"]
+    },
+    {
+      "key": "gmail_reply_collage",
+      "section_type": "content_split",
+      "pattern": "feature_collage_split",
+      "visual_role": "Reply and follow-up collage with editable draft cards, action chips, and review states.",
+      "required_elements": ["reply_copy", "draft_preview", "action_chips", "follow_up_rows", "human_review_note"],
+      "mockup_components": ["draft_card", "reply_toolbar", "follow_up_row", "review_chip", "action_chip"],
+      "token_rules": ["draft cards use var(--foreground)", "toolbar controls use tokenized borders", "mobile layout stacks safely"],
+      "qa_hooks": ["draft_is_placeholder", "human_review_visible", "collage_not_plain_grid"]
+    },
+    {
+      "key": "gmail_triage_flow",
+      "section_type": "process_steps",
+      "pattern": "process_timeline",
+      "visual_role": "Inbox triage sequence from new mail to reviewed response to archived follow-up.",
+      "required_elements": ["numbered_steps", "incoming_state", "review_state", "response_state", "follow_up_state"],
+      "mockup_components": ["step_marker", "message_state_card", "review_row", "follow_up_chip", "archive_note"],
+      "token_rules": ["timeline cards use var(--foreground)", "connectors use var(--border)", "state chips use tokenized muted/accent states"],
+      "qa_hooks": ["triage_steps_clear", "no_automation_overclaim", "states_are_editable"]
+    },
+    {
+      "key": "gmail_inbox_cta",
+      "section_type": "cta",
+      "pattern": "final_contrast_cta",
+      "visual_role": "Final inbox CTA with setup reassurance and a compact editable queue summary.",
+      "required_elements": ["headline", "copy", "primary_cta", "secondary_cta_or_reassurance", "queue_summary"],
+      "mockup_components": ["cta_button", "queue_summary_card", "status_chip", "setup_note"],
+      "token_rules": ["CTA uses Pixflow tokens", "buttons use var(--radius--btn)", "queue summary uses var(--foreground)"],
+      "qa_hooks": ["cta_clear", "queue_summary_placeholder", "no_fake_inbox_metrics"]
+    }
+  ]
+}

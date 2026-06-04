@@ -1,0 +1,124 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "faq_hero",
+                        "section_type":  "hero",
+                        "pattern":  "hero_split_visual",
+                        "visual_role":  "faq_hero section for Bricks FAQ Page, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "faq_category_stack",
+                        "section_type":  "faq",
+                        "pattern":  "faq_or_objection_stack",
+                        "visual_role":  "faq_category_stack section for Bricks FAQ Page, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "faq_featured_answers",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "faq_featured_answers section for Bricks FAQ Page, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "faq_support_split",
+                        "section_type":  "content_split",
+                        "pattern":  "story_split",
+                        "visual_role":  "faq_support_split section for Bricks FAQ Page, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "faq_final_cta",
+                        "section_type":  "faq",
+                        "pattern":  "faq_or_objection_stack",
+                        "visual_role":  "faq_final_cta section for Bricks FAQ Page, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    }
+                ]
+}

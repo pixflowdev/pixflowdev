@@ -1,0 +1,58 @@
+{
+  "layouts": [
+    {
+      "key": "wireframe_hero_structure",
+      "section_type": "hero",
+      "pattern": "hero_split_visual",
+      "visual_role": "Low-fidelity hero structure with labels, heading zone, copy zone, CTA zone, and media/proof zone.",
+      "required_elements": ["label", "heading_zone", "copy_zone", "cta_zone", "media_zone"],
+      "token_rules": ["neutral tokens only", "no high-fidelity decoration"],
+      "qa_hooks": ["wireframe_low_fidelity"]
+    },
+    {
+      "key": "wireframe_content_zones",
+      "section_type": "feature_grid",
+      "pattern": "bento_features",
+      "visual_role": "Labelled content-zone wireframe with varied card sizes.",
+      "required_elements": ["zone_labels", "content_cards"],
+      "token_rules": ["surfaces use var(--foreground)", "borders use var(--border)"],
+      "qa_hooks": ["zones_labelled"]
+    },
+    {
+      "key": "wireframe_split_section",
+      "section_type": "content_split",
+      "pattern": "story_split",
+      "visual_role": "Two-column low-fidelity section with text and support/media placeholder.",
+      "required_elements": ["copy_zone", "support_zone"],
+      "token_rules": ["minimal border/radius"],
+      "qa_hooks": ["split_structure_clear"]
+    },
+    {
+      "key": "wireframe_process_flow",
+      "section_type": "process_steps",
+      "pattern": "process_timeline",
+      "visual_role": "Numbered structural flow with low-fidelity step cards.",
+      "required_elements": ["steps", "labels"],
+      "token_rules": ["simple borders", "no decorative icons"],
+      "qa_hooks": ["flow_clear"]
+    },
+    {
+      "key": "wireframe_objection_stack",
+      "section_type": "faq",
+      "pattern": "faq_or_objection_stack",
+      "visual_role": "Low-fidelity FAQ/support section.",
+      "required_elements": ["question_zones", "answer_zones"],
+      "token_rules": ["surfaces use var(--foreground)"],
+      "qa_hooks": ["faq_structure_clear"]
+    },
+    {
+      "key": "wireframe_cta_block",
+      "section_type": "cta",
+      "pattern": "cta_contrast",
+      "visual_role": "Low-fidelity closing CTA with clear action zone.",
+      "required_elements": ["headline_zone", "copy_zone", "cta_zone"],
+      "token_rules": ["minimal contrast only"],
+      "qa_hooks": ["cta_zone_present"]
+    }
+  ]
+}

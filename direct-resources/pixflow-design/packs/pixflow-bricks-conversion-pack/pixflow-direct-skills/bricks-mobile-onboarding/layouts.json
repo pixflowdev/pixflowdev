@@ -1,0 +1,64 @@
+{
+  "layouts": [
+    {
+      "key": "mobile_activation_hero",
+      "section_type": "hero",
+      "pattern": "hero_split_visual",
+      "visual_role": "Split product hero that explains the onboarding promise and shows editable phone-screen states.",
+      "required_elements": ["eyebrow", "headline", "supporting_copy", "cta_buttons", "phone_screen_stack", "activation_summary"],
+      "mockup_components": ["phone_frame", "screen_card", "progress_chip", "step_indicator", "primary_action"],
+      "token_rules": ["section background var(--background)", "phone surfaces use var(--foreground)", "borders use var(--border)", "accent marks only active steps and primary actions"],
+      "qa_hooks": ["phone_mockups_are_editable", "activation_goal_is_clear", "no_app_store_claims", "no_blank_phone_screens"]
+    },
+    {
+      "key": "mobile_phone_flow",
+      "section_type": "content_split",
+      "pattern": "feature_collage_split",
+      "visual_role": "Phone-flow collage with multiple labelled onboarding screens instead of one flat screenshot.",
+      "required_elements": ["flow_intro", "screen_one", "screen_two", "screen_three", "screen_four", "state_labels"],
+      "mockup_components": ["phone_frame", "onboarding_card", "choice_list", "confirmation_panel", "progress_bar"],
+      "token_rules": ["screen cards use var(--foreground)", "state labels use var(--muted)", "radius uses var(--radius--surface)", "spacing uses Pixflow section rhythm"],
+      "qa_hooks": ["multiple_phone_states_present", "screens_are_labelled", "screens_are_editable", "not_plain_equal_card_grid"]
+    },
+    {
+      "key": "mobile_activation_steps",
+      "section_type": "process_steps",
+      "pattern": "process_timeline",
+      "visual_role": "Activation timeline from first intent to first completed action.",
+      "required_elements": ["numbered_steps", "trigger_or_state", "user_action", "outcome_label"],
+      "mockup_components": ["step_marker", "state_chip", "outcome_note", "mini_phone_tile"],
+      "token_rules": ["step markers use accent sparingly", "timeline surfaces use var(--foreground)", "connectors use var(--border)"],
+      "qa_hooks": ["sequence_is_understandable", "first_value_moment_visible", "mobile_stack_safe"]
+    },
+    {
+      "key": "mobile_benefit_bento",
+      "section_type": "feature_grid",
+      "pattern": "bento_features",
+      "visual_role": "Varied bento for onboarding benefits, not a repeated feature-card wall.",
+      "required_elements": ["large_focal_benefit", "supporting_benefits", "state_preview", "caveat_or_privacy_note"],
+      "mockup_components": ["benefit_panel", "settings_tile", "notification_tile", "privacy_note"],
+      "token_rules": ["cards use var(--foreground)", "borders use var(--border)", "no decorative image-only tiles"],
+      "qa_hooks": ["bento_weight_varies", "benefits_tie_to_onboarding", "privacy_or_settings_visible"]
+    },
+    {
+      "key": "mobile_objections",
+      "section_type": "faq",
+      "pattern": "faq_or_objection_stack",
+      "visual_role": "Objection stack for privacy, reminders, setup time, and flexibility.",
+      "required_elements": ["question_groups", "concise_answers", "support_path"],
+      "mockup_components": ["faq_row", "support_panel", "setting_chip"],
+      "token_rules": ["faq surfaces use var(--foreground)", "support panel uses var(--background--alt)", "focus states remain readable"],
+      "qa_hooks": ["objections_are_specific", "no_health_or_result_claims", "support_path_exists"]
+    },
+    {
+      "key": "mobile_final_cta",
+      "section_type": "cta",
+      "pattern": "final_contrast_cta",
+      "visual_role": "Final activation CTA with one clear next step and a small phone-state reminder.",
+      "required_elements": ["headline", "supporting_copy", "primary_cta", "secondary_reassurance", "mini_state_preview"],
+      "mockup_components": ["cta_button", "mini_phone_card", "reassurance_chip"],
+      "token_rules": ["CTA button uses var(--radius--btn)", "contrast remains token-driven", "mini preview stays editable"],
+      "qa_hooks": ["cta_is_specific", "mini_preview_not_blank", "mobile_no_overflow"]
+    }
+  ]
+}

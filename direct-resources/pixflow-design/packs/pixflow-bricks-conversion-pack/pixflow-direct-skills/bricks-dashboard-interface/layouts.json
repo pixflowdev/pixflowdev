@@ -1,0 +1,74 @@
+{
+  "layouts": [
+    {
+      "key": "dashboard_product_hero",
+      "section_type": "hero",
+      "pattern": "hero_centered_browser_mockup",
+      "visual_role": "Product hero with a large editable dashboard/browser mockup, nav rail, data cards, table rows, and settings panel.",
+      "required_elements": ["eyebrow", "headline", "supporting_copy", "cta_buttons", "dashboard_mockup", "nav_rail", "primary_data_surface"],
+      "mockup_components": ["browser_frame", "nav_rail", "metric_cards", "chart_placeholder", "table_rows", "settings_panel"],
+      "token_rules": ["mockup uses var(--foreground)", "borders use var(--border)", "active states use accent token sparingly", "surface radius uses var(--radius--surface)"],
+      "qa_hooks": ["dashboard_mockup_present", "nav_rail_present", "table_or_chart_surface_present", "no_stock_photo"]
+    },
+    {
+      "key": "dashboard_workflow_collage",
+      "section_type": "content_split",
+      "pattern": "feature_collage_split",
+      "visual_role": "Workflow split with editable UI state cards for triage, assignment, reporting, or review.",
+      "required_elements": ["workflow_copy", "ui_tiles", "state_labels", "handoff_or_result", "cta_or_link"],
+      "mockup_components": ["state_card", "queue_panel", "status_chip", "assignment_row", "activity_note"],
+      "token_rules": ["tiles use var(--foreground)", "status chips use tokenized accents", "radius var(--radius--surface)", "mobile stacks collage safely"],
+      "qa_hooks": ["ui_tiles_not_blank", "workflow_states_labelled", "collage_not_plain_grid"]
+    },
+    {
+      "key": "dashboard_feature_matrix",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Feature matrix mixing text, data cards, chart placeholders, saved views, automations, and settings panels.",
+      "required_elements": ["featured_card", "supporting_cards", "visual_slots", "settings_or_filter_panel"],
+      "mockup_components": ["feature_card", "mini_chart", "saved_view", "filter_control", "automation_tile"],
+      "token_rules": ["cards use var(--foreground)", "borders use var(--border)", "visual cards are editable blocks", "no hardcoded chart palette"],
+      "qa_hooks": ["matrix_has_ui_panels", "cards_vary_in_weight", "no_generic_stock_media"]
+    },
+    {
+      "key": "dashboard_process_flow",
+      "section_type": "process_steps",
+      "pattern": "process_timeline",
+      "visual_role": "Operational workflow sequence from intake to resolved insight.",
+      "required_elements": ["numbered_steps", "input_state", "handoff_state", "output_state", "owner_or_role_label"],
+      "mockup_components": ["step_marker", "status_chip", "handoff_row", "result_card"],
+      "token_rules": ["step markers use accent sparingly", "timeline cards use var(--foreground)", "connectors use var(--border)"],
+      "qa_hooks": ["workflow_understandable", "states_are_named", "sequence_not_decorative"]
+    },
+    {
+      "key": "dashboard_controls_panel",
+      "section_type": "content_split",
+      "pattern": "sticky_side_copy_with_feature_stack",
+      "visual_role": "Controls/settings section showing filters, saved views, permissions, integrations, or reporting options.",
+      "required_elements": ["control_copy", "stacked_controls", "permission_or_integration_note", "safe_placeholder_data"],
+      "mockup_components": ["segmented_control", "toggle", "saved_view_card", "permission_chip", "integration_placeholder"],
+      "token_rules": ["controls use tokenized focus/active states", "supporting stack uses var(--foreground)", "labels remain readable"],
+      "qa_hooks": ["controls_are_editable", "settings_context_visible", "no_live_integration_claims"]
+    },
+    {
+      "key": "dashboard_objections",
+      "section_type": "faq",
+      "pattern": "faq_or_objection_stack",
+      "visual_role": "Objections around setup, integrations, permissions, reporting, and sample data.",
+      "required_elements": ["questions", "answers", "support_panel", "data_boundary_note"],
+      "mockup_components": ["faq_row", "support_panel", "status_chip"],
+      "token_rules": ["FAQ surfaces use var(--foreground)", "support panel uses muted token surfaces"],
+      "qa_hooks": ["product_objections_answered", "missing_data_boundaries_clear"]
+    },
+    {
+      "key": "dashboard_final_cta",
+      "section_type": "cta",
+      "pattern": "final_contrast_cta",
+      "visual_role": "Final dashboard CTA tied to the operational workflow.",
+      "required_elements": ["headline", "copy", "primary_cta", "secondary_cta_or_reassurance"],
+      "mockup_components": ["cta_button", "status_summary_chip"],
+      "token_rules": ["button uses var(--radius--btn)", "contrast remains Pixflow-token driven"],
+      "qa_hooks": ["cta_clear", "no_fake_metrics"]
+    }
+  ]
+}

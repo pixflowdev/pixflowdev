@@ -1,0 +1,75 @@
+{
+    "components":  [
+                       {
+                           "key":  "labelled_metric_or_fact",
+                           "purpose":  "A labelled value, fact, or placeholder with clear context.",
+                           "structure":  [
+                                             "block",
+                                             "text-basic.label",
+                                             "text-basic.value",
+                                             "text-basic.note"
+                                         ],
+                           "required_settings":  [
+                                                     "_cssGlobalClasses",
+                                                     "text"
+                                                 ],
+                           "forbidden":  [
+                                             "unlabelled number",
+                                             "fake metric"
+                                         ]
+                       },
+                       {
+                           "key":  "structured_info_table",
+                           "purpose":  "Rows of requirements, findings, posts, assumptions, or line items.",
+                           "structure":  [
+                                             "block.table",
+                                             "block.row",
+                                             "text-basic.cell"
+                                         ],
+                           "required_settings":  [
+                                                     "_cssGlobalClasses",
+                                                     "text"
+                                                 ],
+                           "forbidden":  [
+                                             "html table string",
+                                             "overflowing desktop-only table"
+                                         ]
+                       },
+                       {
+                           "key":  "caveat_panel",
+                           "purpose":  "Assumptions, caveats, missing-data notes, support path, or factual boundary.",
+                           "structure":  [
+                                             "block",
+                                             "heading",
+                                             "text-basic"
+                                         ],
+                           "required_settings":  [
+                                                     "_cssGlobalClasses",
+                                                     "text"
+                                                 ],
+                           "forbidden":  [
+                                             "legal/medical/financial claims not supplied"
+                                         ]
+                       },
+                       {
+                           "key":  "action_panel",
+                           "purpose":  "One practical next step tied to the page type.",
+                           "structure":  [
+                                             "block",
+                                             "heading",
+                                             "text-basic",
+                                             "button"
+                                         ],
+                           "required_settings":  [
+                                                     "_cssGlobalClasses",
+                                                     "text"
+                                                 ],
+                           "forbidden":  [
+                                             "generic learn more without context"
+                                         ]
+                       }
+                   ],
+    "version":  2,
+    "type":  "direct_skill_component_references",
+    "skill":  "bricks-pm-spec"
+}

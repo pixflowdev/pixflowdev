@@ -1,0 +1,64 @@
+{
+  "layouts": [
+    {
+      "key": "invoice_document_header",
+      "section_type": "hero",
+      "pattern": "centred_editorial_proof",
+      "visual_role": "Printable-looking invoice header with editable document metadata placeholders.",
+      "required_elements": ["document_title", "invoice_number_placeholder", "issue_date_placeholder", "due_date_placeholder", "status_chip"],
+      "mockup_components": ["document_header", "metadata_row", "status_chip", "logo_text"],
+      "token_rules": ["document surface uses var(--foreground)", "metadata rows use var(--border)", "no real payment data"],
+      "qa_hooks": ["metadata_placeholders_visible", "document_not_marketing_page", "no_real_personal_data"]
+    },
+    {
+      "key": "invoice_billing_parties",
+      "section_type": "content_split",
+      "pattern": "comparison_led",
+      "visual_role": "Sender/recipient split with safe editable address and contact placeholders.",
+      "required_elements": ["sender_panel", "recipient_panel", "placeholder_fields", "privacy_note"],
+      "mockup_components": ["address_panel", "field_row", "privacy_note", "status_chip"],
+      "token_rules": ["party panels use var(--foreground)", "fields are placeholders", "mobile panels stack"],
+      "qa_hooks": ["billing_parties_editable", "sensitive_data_not_invented"]
+    },
+    {
+      "key": "invoice_line_items",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Editable line-item table-like rows without raw HTML table or invented totals.",
+      "required_elements": ["line_item_rows", "description_cells", "quantity_placeholder", "rate_placeholder", "amount_placeholder"],
+      "mockup_components": ["structured_info_table", "line_item_row", "total_cell", "note_chip"],
+      "token_rules": ["rows use var(--foreground)", "headers use var(--heading)", "mobile rows stack", "no raw HTML table"],
+      "qa_hooks": ["line_items_editable", "amounts_are_placeholders", "no_tax_claims"]
+    },
+    {
+      "key": "invoice_totals_summary",
+      "section_type": "content_split",
+      "pattern": "story_split",
+      "visual_role": "Totals and payment context split with placeholder values and caveat notes.",
+      "required_elements": ["subtotal_placeholder", "tax_placeholder", "total_placeholder", "payment_status_placeholder", "notes"],
+      "mockup_components": ["totals_panel", "summary_row", "payment_status_chip", "notes_panel"],
+      "token_rules": ["totals panel uses var(--foreground)", "status chips are tokenized", "no bank details"],
+      "qa_hooks": ["totals_labelled_placeholders", "payment_processing_absent", "terms_not_invented"]
+    },
+    {
+      "key": "invoice_notes_terms",
+      "section_type": "faq",
+      "pattern": "faq_stack",
+      "visual_role": "Notes/terms rows for safe placeholder billing context.",
+      "required_elements": ["notes_rows", "terms_placeholder", "support_path"],
+      "mockup_components": ["note_row", "support_panel", "status_chip"],
+      "token_rules": ["note rows use var(--foreground)", "terms remain generic placeholders"],
+      "qa_hooks": ["legal_terms_not_invented", "support_path_exists"]
+    },
+    {
+      "key": "invoice_review_cta",
+      "section_type": "cta",
+      "pattern": "split_card",
+      "visual_role": "Review CTA for invoice preview without payment automation.",
+      "required_elements": ["headline", "copy", "primary_cta", "payment_context_note"],
+      "mockup_components": ["cta_button", "payment_status_chip", "note_panel"],
+      "token_rules": ["CTA uses var(--foreground)", "button uses var(--radius--btn)"],
+      "qa_hooks": ["cta_review_focused", "no_payment_code"]
+    }
+  ]
+}

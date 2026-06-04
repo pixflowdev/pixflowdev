@@ -1,0 +1,58 @@
+{
+  "layouts": [
+    {
+      "key": "portfolio_magazine_hero",
+      "section_type": "hero",
+      "pattern": "magazine_style_hero",
+      "visual_role": "Portfolio hero with positioning and selected work cue.",
+      "required_elements": ["eyebrow", "h1", "intro", "visual_or_project_hint"],
+      "token_rules": ["section background var(--background)"],
+      "qa_hooks": ["portfolio_context_present"]
+    },
+    {
+      "key": "portfolio_featured_case",
+      "section_type": "content_split",
+      "pattern": "case_study_preview",
+      "visual_role": "One featured project with larger visual and concise project context.",
+      "required_elements": ["project_title", "project_summary", "role_or_scope", "visual"],
+      "token_rules": ["visual radius var(--radius--surface)", "surface var(--foreground)"],
+      "qa_hooks": ["featured_project_present", "no_fake_results"]
+    },
+    {
+      "key": "portfolio_bento_gallery",
+      "section_type": "feature_grid",
+      "pattern": "bento_features",
+      "visual_role": "Varied project gallery with different card weights.",
+      "required_elements": ["project_cards", "visual_slots", "project_labels"],
+      "token_rules": ["cards use var(--foreground)", "borders use var(--border)"],
+      "qa_hooks": ["gallery_not_uniform"]
+    },
+    {
+      "key": "portfolio_process_split",
+      "section_type": "content_split",
+      "pattern": "story_split",
+      "visual_role": "Approach/process story supporting the work.",
+      "required_elements": ["heading", "copy", "support_panel"],
+      "token_rules": ["panel uses var(--foreground)"],
+      "qa_hooks": ["approach_supports_work"]
+    },
+    {
+      "key": "portfolio_proof_editorial",
+      "section_type": "testimonials",
+      "pattern": "testimonial_editorial",
+      "visual_role": "Proof section using provided testimonial, project context, or honest placeholder.",
+      "required_elements": ["proof_copy", "attribution_or_label"],
+      "token_rules": ["quote surface uses var(--foreground)"],
+      "qa_hooks": ["proof_honest"]
+    },
+    {
+      "key": "portfolio_contact_cta",
+      "section_type": "contact",
+      "pattern": "contact_split",
+      "visual_role": "Enquiry CTA for similar work.",
+      "required_elements": ["headline", "copy", "contact_action"],
+      "token_rules": ["buttons use var(--radius--btn)"],
+      "qa_hooks": ["enquiry_path_clear"]
+    }
+  ]
+}

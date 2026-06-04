@@ -1,0 +1,54 @@
+{
+  "layouts": [
+    {
+      "key": "auth_access_split",
+      "section_type": "hero",
+      "pattern": "hero_split_visual",
+      "visual_role": "Focused login/access split with form UI, account context, and support path.",
+      "required_elements": ["product_or_portal_label", "headline", "supporting_copy", "form_panel", "help_links", "state_note"],
+      "mockup_components": ["form_panel", "input_field", "checkbox", "primary_button", "support_link"],
+      "token_rules": ["form surface uses var(--foreground)", "inputs use var(--border)", "focus/primary action use accent token", "no unsupported security palette"],
+      "qa_hooks": ["form_ui_present", "not_marketing_homepage", "no_fake_compliance_claims", "support_path_visible"]
+    },
+    {
+      "key": "auth_form_panel",
+      "section_type": "contact",
+      "pattern": "contact_split",
+      "visual_role": "Editable account form panel for sign in, signup, reset, or verification state.",
+      "required_elements": ["field_labels", "input_placeholders", "primary_action", "secondary_links", "error_or_info_state"],
+      "mockup_components": ["input_field", "password_field", "info_alert", "link_row", "submit_button"],
+      "token_rules": ["input rows use var(--foreground)", "errors use tokenized warning/support surfaces", "buttons use var(--radius--btn)"],
+      "qa_hooks": ["fields_are_labelled", "state_message_present", "form_remains_editable", "no_real_credentials"]
+    },
+    {
+      "key": "auth_state_stack",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "State matrix showing sign-in, create-account, reset-password, and verification panels.",
+      "required_elements": ["state_cards", "active_state", "secondary_states", "supporting_notes"],
+      "mockup_components": ["state_card", "input_row", "status_chip", "verification_code_placeholder", "support_note"],
+      "token_rules": ["state cards use var(--foreground)", "active state uses accent border", "compact states stack on mobile"],
+      "qa_hooks": ["multiple_auth_states_present", "state_cards_not_identical", "no_sensitive_data"]
+    },
+    {
+      "key": "auth_support_split",
+      "section_type": "content_split",
+      "pattern": "story_split",
+      "visual_role": "Support and recovery split for account access, admin invites, billing access, and contact routes.",
+      "required_elements": ["support_intro", "help_paths", "recovery_note", "admin_invite_note", "contact_route"],
+      "mockup_components": ["help_path_row", "support_card", "recovery_panel", "status_chip"],
+      "token_rules": ["support rows use var(--foreground)", "caveats use var(--muted)", "spacing keeps help links scannable"],
+      "qa_hooks": ["support_paths_are_clear", "no_policy_claims", "recovery_context_visible"]
+    },
+    {
+      "key": "auth_reassurance_cta",
+      "section_type": "cta",
+      "pattern": "split_card",
+      "visual_role": "Compact final reassurance for access help without unsupported security/compliance claims.",
+      "required_elements": ["headline", "copy", "primary_support_action", "secondary_link", "safe_reassurance"],
+      "mockup_components": ["cta_panel", "support_chip", "help_link"],
+      "token_rules": ["CTA panel uses var(--foreground)", "button uses var(--radius--btn)", "no hardcoded trust badge colors"],
+      "qa_hooks": ["reassurance_is_supported", "cta_specific", "no_fake_certifications"]
+    }
+  ]
+}

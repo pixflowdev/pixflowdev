@@ -1,0 +1,124 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "release_hero",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "release_hero section for Bricks Release Notes One-Pager, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "release_highlight_matrix",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "release_highlight_matrix section for Bricks Release Notes One-Pager, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "release_change_timeline",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "release_change_timeline section for Bricks Release Notes One-Pager, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "release_impact_split",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "release_impact_split section for Bricks Release Notes One-Pager, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "release_final_cta",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "release_final_cta section for Bricks Release Notes One-Pager, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    }
+                ]
+}

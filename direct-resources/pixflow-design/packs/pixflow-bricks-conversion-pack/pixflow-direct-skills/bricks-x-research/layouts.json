@@ -1,0 +1,64 @@
+{
+  "layouts": [
+    {
+      "key": "research_report_hero",
+      "section_type": "hero",
+      "pattern": "magazine_style_hero",
+      "visual_role": "Editorial research report hero with method/caveat summary and bounded-claims framing.",
+      "required_elements": ["report_label", "headline", "summary_copy", "method_caveat_panel", "review_cta"],
+      "mockup_components": ["report_metadata_card", "method_chip", "caveat_panel", "finding_preview"],
+      "token_rules": ["report surfaces use var(--foreground)", "caveats use muted surfaces", "accent is restrained"],
+      "qa_hooks": ["method_context_visible", "claims_bounded", "no_studies_invented"]
+    },
+    {
+      "key": "research_key_findings",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Finding matrix with evidence status, confidence placeholder, and caveat per finding.",
+      "required_elements": ["finding_cards", "evidence_status", "confidence_placeholder", "caveat_note"],
+      "mockup_components": ["finding_card", "evidence_chip", "confidence_chip", "caveat_note"],
+      "token_rules": ["finding cards use var(--foreground)", "confidence values are placeholders", "cards vary in weight"],
+      "qa_hooks": ["findings_labelled", "confidence_bounded", "sample_sizes_not_invented"]
+    },
+    {
+      "key": "research_method_context",
+      "section_type": "content_split",
+      "pattern": "story_split",
+      "visual_role": "Method/context split separating source type, sample placeholder, assumptions, and limitations.",
+      "required_elements": ["method_summary", "source_context", "sample_placeholder", "limitations"],
+      "mockup_components": ["method_panel", "source_row", "sample_chip", "limitation_note"],
+      "token_rules": ["method panels use var(--foreground)", "limitations use muted surfaces", "mobile stacks"],
+      "qa_hooks": ["method_not_hidden", "sample_placeholder_visible", "limitations_visible"]
+    },
+    {
+      "key": "research_evidence_sections",
+      "section_type": "content_split",
+      "pattern": "comparison_led",
+      "visual_role": "Evidence section with chart/table placeholders and notes, not decorative charts.",
+      "required_elements": ["chart_placeholder", "evidence_rows", "interpretation_note", "unknowns"],
+      "mockup_components": ["chart_placeholder", "structured_info_table", "evidence_row", "unknowns_panel"],
+      "token_rules": ["charts are labelled placeholders", "table rows use var(--foreground)", "no raw HTML table"],
+      "qa_hooks": ["charts_labelled", "evidence_rows_editable", "citations_not_invented"]
+    },
+    {
+      "key": "research_caveats_implications",
+      "section_type": "process_steps",
+      "pattern": "numbered_editorial_flow",
+      "visual_role": "Known/assumed/unknown/recommended implication flow.",
+      "required_elements": ["known", "assumed", "unknown", "recommended_review"],
+      "mockup_components": ["stage_card", "caveat_chip", "recommendation_note", "review_marker"],
+      "token_rules": ["flow cards use var(--foreground)", "caveats use muted surfaces", "recommendations remain bounded"],
+      "qa_hooks": ["known_assumed_unknown_clear", "recommendations_bounded", "no_overstated_confidence"]
+    },
+    {
+      "key": "research_review_cta",
+      "section_type": "cta",
+      "pattern": "final_proof_led_cta",
+      "visual_role": "Final CTA for reviewing findings with method caveat visible.",
+      "required_elements": ["headline", "copy", "primary_cta", "method_reassurance"],
+      "mockup_components": ["cta_button", "method_chip", "caveat_note"],
+      "token_rules": ["CTA uses Pixflow tokens", "button uses var(--radius--btn)"],
+      "qa_hooks": ["cta_not_overclaiming", "method_caveat_visible"]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "docs_hero",
+                        "section_type":  "hero",
+                        "pattern":  "hero_split_visual",
+                        "visual_role":  "docs_hero section for Bricks Docs Page, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "docs_topic_grid",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "docs_topic_grid section for Bricks Docs Page, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "docs_sticky_article",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "docs_sticky_article section for Bricks Docs Page, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "docs_callout_split",
+                        "section_type":  "content_split",
+                        "pattern":  "story_split",
+                        "visual_role":  "docs_callout_split section for Bricks Docs Page, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "docs_support_cta",
+                        "section_type":  "content_split",
+                        "pattern":  "story_split",
+                        "visual_role":  "docs_support_cta section for Bricks Docs Page, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    }
+                ]
+}

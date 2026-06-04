@@ -1,0 +1,64 @@
+{
+  "layouts": [
+    {
+      "key": "kanban_product_hero",
+      "section_type": "hero",
+      "pattern": "hero_centered_browser_mockup",
+      "visual_role": "Hero with a large editable board mockup showing workflow value immediately.",
+      "required_elements": ["eyebrow", "headline", "supporting_copy", "cta_buttons", "board_mockup", "filter_bar"],
+      "mockup_components": ["browser_frame", "board_columns", "task_cards", "priority_chips", "filter_controls"],
+      "token_rules": ["board surface uses var(--foreground)", "columns use var(--background--alt)", "cards use var(--foreground)", "accent marks active filters only"],
+      "qa_hooks": ["board_mockup_present", "columns_labelled", "cards_are_editable", "no_fake_customer_data"]
+    },
+    {
+      "key": "kanban_board_mockup",
+      "section_type": "content_split",
+      "pattern": "feature_collage_split",
+      "visual_role": "Editable board detail with columns, cards, statuses, owners, and dependency hints.",
+      "required_elements": ["board_intro", "columns", "task_cards", "status_chips", "owner_placeholders", "dependency_notes"],
+      "mockup_components": ["kanban_column", "task_card", "priority_chip", "owner_placeholder", "dependency_badge"],
+      "token_rules": ["dense cards wrap on mobile", "borders use var(--border)", "text uses var(--text)", "no hardcoded status palette"],
+      "qa_hooks": ["board_has_multiple_columns", "cards_not_identical", "sample_data_labelled", "mobile_columns_stack"]
+    },
+    {
+      "key": "kanban_workflow_states",
+      "section_type": "process_steps",
+      "pattern": "horizontal_steps",
+      "visual_role": "Workflow state progression from intake to shipped with explicit transition logic.",
+      "required_elements": ["intake_state", "in_progress_state", "review_state", "done_state", "handoff_notes"],
+      "mockup_components": ["state_chip", "step_connector", "transition_note", "action_owner"],
+      "token_rules": ["state chips use token surfaces", "connectors use var(--border)", "mobile steps stack vertically"],
+      "qa_hooks": ["workflow_transitions_clear", "states_are_named", "handoff_visible"]
+    },
+    {
+      "key": "kanban_filter_controls",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Control matrix for filters, saved views, priority sorting, and ownership.",
+      "required_elements": ["featured_control_panel", "filter_chips", "saved_views", "priority_panel", "owner_panel"],
+      "mockup_components": ["segmented_control", "filter_chip", "saved_view_card", "priority_meter", "owner_list"],
+      "token_rules": ["controls use var(--foreground)", "active controls use accent token", "labels remain readable"],
+      "qa_hooks": ["controls_are_editable", "feature_matrix_varies", "no_plain_grid_repetition"]
+    },
+    {
+      "key": "kanban_team_handoff",
+      "section_type": "content_split",
+      "pattern": "comparison_led",
+      "visual_role": "Handoff split explaining how product, design, engineering, and leadership use the board differently.",
+      "required_elements": ["role_comparison", "handoff_rules", "risk_or_dependency_panel", "next_action"],
+      "mockup_components": ["role_card", "handoff_row", "risk_panel", "status_chip"],
+      "token_rules": ["comparison rows use var(--foreground)", "risk notes use muted surfaces", "no fake deadlines"],
+      "qa_hooks": ["roles_distinct", "handoff_rules_visible", "claims_bounded"]
+    },
+    {
+      "key": "kanban_final_cta",
+      "section_type": "cta",
+      "pattern": "final_contrast_cta",
+      "visual_role": "Final CTA grounded in workflow clarity, not generic product hype.",
+      "required_elements": ["headline", "supporting_copy", "primary_cta", "secondary_cta_or_reassurance"],
+      "mockup_components": ["cta_button", "status_summary_chip"],
+      "token_rules": ["button uses var(--radius--btn)", "contrast uses Pixflow tokens"],
+      "qa_hooks": ["cta_clear", "no_fake_metrics"]
+    }
+  ]
+}

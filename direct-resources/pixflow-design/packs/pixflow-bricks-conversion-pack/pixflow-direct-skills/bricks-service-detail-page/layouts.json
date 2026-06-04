@@ -1,0 +1,58 @@
+{
+  "layouts": [
+    {
+      "key": "service_detail_proof_hero",
+      "section_type": "hero",
+      "pattern": "local_service_proof_led",
+      "visual_role": "Focused service hero with fit, outcome, and direct enquiry action.",
+      "required_elements": ["eyebrow", "h1", "intro", "primary_cta", "service_fit_panel"],
+      "token_rules": ["section background var(--background)", "visual panel uses var(--foreground)"],
+      "qa_hooks": ["single_service_focus", "cta_present"]
+    },
+    {
+      "key": "service_detail_fit_panel",
+      "section_type": "feature_grid",
+      "pattern": "proof_or_benefit_panel",
+      "visual_role": "Fit and outcomes panel showing who the service is for and what changes after it.",
+      "required_elements": ["fit_items", "outcome_items", "supporting_copy"],
+      "token_rules": ["cards use var(--foreground)", "borders use var(--border)"],
+      "qa_hooks": ["fit_is_specific", "benefits_not_repeated"]
+    },
+    {
+      "key": "service_detail_editorial_split",
+      "section_type": "content_split",
+      "pattern": "story_split",
+      "visual_role": "Editorial split explaining what is included and why it matters.",
+      "required_elements": ["heading", "service_detail", "included_list_or_panel"],
+      "token_rules": ["panel radius var(--radius--surface)", "divider uses max(var(--border--btn), 1px)"],
+      "qa_hooks": ["details_are_scannable"]
+    },
+    {
+      "key": "service_detail_process",
+      "section_type": "process_steps",
+      "pattern": "process_timeline",
+      "visual_role": "Numbered process for what happens before, during, and after enquiry.",
+      "required_elements": ["steps", "expectation_setting"],
+      "token_rules": ["step numbers use accent sparingly", "borders use var(--border)"],
+      "qa_hooks": ["process_clear"]
+    },
+    {
+      "key": "service_detail_objections",
+      "section_type": "faq",
+      "pattern": "faq_or_objection_stack",
+      "visual_role": "Objection-handling FAQ for fit, timeline, process, and next steps.",
+      "required_elements": ["questions", "answers"],
+      "token_rules": ["surface var(--foreground)", "radius var(--radius--surface)"],
+      "qa_hooks": ["objections_answered"]
+    },
+    {
+      "key": "service_detail_final_cta",
+      "section_type": "cta",
+      "pattern": "final_proof_led_cta",
+      "visual_role": "Closing CTA tied to the specific service and enquiry path.",
+      "required_elements": ["headline", "supporting_copy", "primary_cta", "reassurance"],
+      "token_rules": ["buttons use var(--radius--btn)", "band remains token based"],
+      "qa_hooks": ["cta_specific_to_service"]
+    }
+  ]
+}

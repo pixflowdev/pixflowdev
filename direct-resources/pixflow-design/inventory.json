@@ -1,0 +1,322 @@
+{
+    "type": "pixflow_design_resource_inventory",
+    "schemaVersion": 1,
+    "sourceFingerprint": "1ebce33b9797c37babfbb7424c05754d97a4da71e80ff7743167c9dd2524be4a",
+    "totals": {
+        "packCount": 6,
+        "fileCount": 2517,
+        "byteCount": 117881662,
+        "excludedFileCount": 678
+    },
+    "packs": [
+        {
+            "id": "pixflow-design-core-pack",
+            "kind": "pixflow-design-core",
+            "stage": "stage_a",
+            "required": true,
+            "inventory": {
+                "fileCount": 238,
+                "byteCount": 36939338,
+                "resourceCount": 0,
+                "sideFileCount": 238,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_core": 76,
+                    "pixflow_design_craft": 12,
+                    "pixflow_design_critique": 27,
+                    "pixflow_design_frame_asset": 6,
+                    "pixflow_design_prompt_template": 103,
+                    "pixflow_design_prompt_template_asset": 14
+                },
+                "extensions": {
+                    "html": 5,
+                    "jpg": 11,
+                    "json": 102,
+                    "md": 16,
+                    "mp4": 3,
+                    "png": 1,
+                    "ts": 94,
+                    "tsx": 1,
+                    "txt": 5
+                },
+                "primaryModes": [],
+                "sampleResources": []
+            }
+        },
+        {
+            "id": "pixflow-design-skills-pack",
+            "kind": "pixflow-design-skills",
+            "stage": "stage_a",
+            "required": true,
+            "inventory": {
+                "fileCount": 253,
+                "byteCount": 8832753,
+                "resourceCount": 137,
+                "sideFileCount": 116,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "skill": 253
+                },
+                "extensions": {
+                    "gitignore": 1,
+                    "html": 47,
+                    "md": 182,
+                    "mp4": 2,
+                    "py": 17,
+                    "sh": 1,
+                    "txt": 2,
+                    "yaml": 1
+                },
+                "primaryModes": {
+                    "audio": 4,
+                    "deck": 17,
+                    "design-system": 35,
+                    "image": 46,
+                    "prototype": 71,
+                    "template": 38,
+                    "utility": 7,
+                    "video": 35
+                },
+                "sampleResources": [
+                    "8-bit-orbit-video-template",
+                    "ad-creative",
+                    "after-hours-editorial-template",
+                    "agent-browser",
+                    "ai-music-album",
+                    "algorithmic-art",
+                    "apple-hig",
+                    "article-magazine",
+                    "artifacts-builder",
+                    "brainstorming",
+                    "brand-guidelines",
+                    "canvas-design",
+                    "card-twitter",
+                    "card-xiaohongshu",
+                    "color-expert",
+                    "competitive-ads-extractor",
+                    "copywriting",
+                    "creative-director",
+                    "d3-visualization",
+                    "data-report",
+                    "deck-guizang-editorial",
+                    "deck-open-slide-canvas",
+                    "deck-swiss-international",
+                    "design-brief"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-templates-pack",
+            "kind": "pixflow-design-templates",
+            "stage": "stage_a",
+            "required": true,
+            "inventory": {
+                "fileCount": 287,
+                "byteCount": 27230018,
+                "resourceCount": 53,
+                "sideFileCount": 234,
+                "excludedFileCount": 443,
+                "resourceTypes": {
+                    "design_template": 287
+                },
+                "extensions": {
+                    "": 2,
+                    "css": 1,
+                    "html": 66,
+                    "js": 10,
+                    "json": 12,
+                    "md": 114,
+                    "mjs": 4,
+                    "png": 17,
+                    "py": 57,
+                    "ts": 4
+                },
+                "primaryModes": {
+                    "audio": 2,
+                    "image": 2,
+                    "prototype": 199,
+                    "template": 8,
+                    "video": 43
+                },
+                "sampleResources": [
+                    "audio-jingle",
+                    "blog-post",
+                    "clinical-case-report",
+                    "critique",
+                    "dashboard",
+                    "dating-web",
+                    "dcf-valuation",
+                    "digital-eguide",
+                    "docs-page",
+                    "email-marketing",
+                    "eng-runbook",
+                    "finance-report",
+                    "flowai-live-dashboard-template",
+                    "gamified-app",
+                    "github-dashboard",
+                    "hr-onboarding",
+                    "hyperframes",
+                    "image-poster",
+                    "invoice",
+                    "kami-landing",
+                    "kanban-board",
+                    "last30days",
+                    "live-artifact",
+                    "live-dashboard"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-systems-pack",
+            "kind": "pixflow-design-systems",
+            "stage": "stage_a",
+            "required": true,
+            "inventory": {
+                "fileCount": 463,
+                "byteCount": 4928959,
+                "resourceCount": 150,
+                "sideFileCount": 463,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "design_system": 459,
+                    "design_system_support": 4
+                },
+                "extensions": {
+                    "css": 151,
+                    "html": 156,
+                    "json": 2,
+                    "md": 152,
+                    "ts": 2
+                },
+                "primaryModes": {
+                    "design-system": 459
+                },
+                "sampleResources": [
+                    "agentic",
+                    "airbnb",
+                    "airtable",
+                    "ant",
+                    "apple",
+                    "application",
+                    "arc",
+                    "artistic",
+                    "atelier-zero",
+                    "bento",
+                    "binance",
+                    "bmw-m",
+                    "bmw",
+                    "bold",
+                    "brutalism",
+                    "bugatti",
+                    "cafe",
+                    "cal",
+                    "canva",
+                    "cisco",
+                    "claude",
+                    "clay",
+                    "claymorphism",
+                    "clean"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-plugins-pack",
+            "kind": "pixflow-design-plugins",
+            "stage": "stage_a",
+            "required": true,
+            "inventory": {
+                "fileCount": 803,
+                "byteCount": 29007681,
+                "resourceCount": 334,
+                "sideFileCount": 703,
+                "excludedFileCount": 235,
+                "resourceTypes": {
+                    "pixflow_design_atom": 27,
+                    "pixflow_design_image_template_plugin": 88,
+                    "pixflow_design_plugin": 280,
+                    "pixflow_design_plugin_design_system": 282,
+                    "pixflow_design_scenario": 26,
+                    "pixflow_design_video_template_plugin": 100
+                },
+                "extensions": {
+                    "html": 80,
+                    "json": 434,
+                    "md": 273,
+                    "png": 16
+                },
+                "primaryModes": {
+                    "audio": 3,
+                    "critique": 4,
+                    "design-system": 284,
+                    "discovery": 2,
+                    "edit": 2,
+                    "export": 6,
+                    "extract": 4,
+                    "handoff": 2,
+                    "image": 96,
+                    "import": 2,
+                    "planning": 6,
+                    "prototype": 211,
+                    "refine": 2,
+                    "review": 2,
+                    "scenario": 18,
+                    "template": 10,
+                    "token-map": 3,
+                    "utility": 4,
+                    "video": 142
+                },
+                "sampleResources": [
+                    "build-test",
+                    "code-import",
+                    "critique-theater",
+                    "design-extract",
+                    "diff-review",
+                    "direction-picker",
+                    "discovery-question-form",
+                    "figma-extract",
+                    "handoff",
+                    "patch-edit",
+                    "rewrite-plan",
+                    "todo-write",
+                    "token-map",
+                    "agentic",
+                    "airbnb",
+                    "airtable",
+                    "ant",
+                    "apple",
+                    "application",
+                    "arc",
+                    "artistic",
+                    "atelier-zero",
+                    "bento",
+                    "binance"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-bricks-conversion-pack",
+            "kind": "bricks-conversion",
+            "stage": "stage_b",
+            "required": true,
+            "inventory": {
+                "fileCount": 473,
+                "byteCount": 10942913,
+                "resourceCount": 0,
+                "sideFileCount": 428,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "bricks_conversion_reference": 166,
+                    "bricks_conversion_skill": 307
+                },
+                "extensions": {
+                    "json": 222,
+                    "md": 251
+                },
+                "primaryModes": {
+                    "bricks-conversion": 473
+                },
+                "sampleResources": []
+            }
+        }
+    ]
+}

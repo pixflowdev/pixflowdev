@@ -1,0 +1,58 @@
+{
+  "layouts": [
+    {
+      "key": "waitlist_product_hero",
+      "section_type": "hero",
+      "pattern": "hero_centered_browser_mockup",
+      "visual_role": "Focused waitlist hero with promise, signup action, and optional product preview.",
+      "required_elements": ["eyebrow", "h1", "intro", "signup_action", "product_or_launch_preview"],
+      "token_rules": ["section background var(--background)", "preview uses var(--foreground)"],
+      "qa_hooks": ["signup_action_present", "no_fake_launch_date"]
+    },
+    {
+      "key": "waitlist_problem_panel",
+      "section_type": "feature_grid",
+      "pattern": "proof_or_benefit_panel",
+      "visual_role": "Problem and promise panel explaining why to join early.",
+      "required_elements": ["problem_items", "promise_items"],
+      "token_rules": ["cards use var(--foreground)", "borders use var(--border)"],
+      "qa_hooks": ["promise_specific"]
+    },
+    {
+      "key": "waitlist_timeline",
+      "section_type": "process_steps",
+      "pattern": "process_timeline",
+      "visual_role": "Launch or access flow without invented dates.",
+      "required_elements": ["steps", "expectation_setting"],
+      "token_rules": ["numbers use accent sparingly"],
+      "qa_hooks": ["no_invented_dates", "expectations_clear"]
+    },
+    {
+      "key": "waitlist_benefits_bento",
+      "section_type": "feature_grid",
+      "pattern": "bento_features",
+      "visual_role": "Early-access benefits in a varied compact bento.",
+      "required_elements": ["benefit_cards", "featured_benefit"],
+      "token_rules": ["surface var(--foreground)", "radius var(--radius--surface)"],
+      "qa_hooks": ["benefits_not_repeated"]
+    },
+    {
+      "key": "waitlist_faq",
+      "section_type": "faq",
+      "pattern": "faq_or_objection_stack",
+      "visual_role": "Short FAQ explaining access, updates, privacy, or next steps.",
+      "required_elements": ["questions", "answers"],
+      "token_rules": ["surface var(--foreground)"],
+      "qa_hooks": ["signup_objections_answered"]
+    },
+    {
+      "key": "waitlist_signup_cta",
+      "section_type": "cta",
+      "pattern": "final_contrast_cta",
+      "visual_role": "Final signup CTA with reassurance.",
+      "required_elements": ["headline", "copy", "signup_cta", "reassurance"],
+      "token_rules": ["buttons use var(--radius--btn)"],
+      "qa_hooks": ["final_signup_clear"]
+    }
+  ]
+}

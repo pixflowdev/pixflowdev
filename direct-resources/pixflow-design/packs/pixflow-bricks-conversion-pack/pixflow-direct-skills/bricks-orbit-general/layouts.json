@@ -1,0 +1,54 @@
+{
+  "layouts": [
+    {
+      "key": "orbit_workspace_hero",
+      "section_type": "hero",
+      "pattern": "hero_centered_browser_mockup",
+      "visual_role": "Connected workspace hero with a large editable command-center mockup showing source cards, a unified activity stream, and safe placeholder data.",
+      "required_elements": ["eyebrow", "headline", "supporting_copy", "cta_buttons", "workspace_mockup", "source_cards", "activity_stream"],
+      "mockup_components": ["browser_frame", "left_nav", "source_card", "activity_row", "status_chip", "summary_panel"],
+      "token_rules": ["mockup surfaces use var(--foreground)", "borders use var(--border)", "active states use accent token sparingly", "no raw brand colours"],
+      "qa_hooks": ["workspace_mockup_present", "connected_sources_labelled", "safe_placeholder_data", "no_live_integration_claims"]
+    },
+    {
+      "key": "orbit_source_matrix",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Source matrix explaining editable app/source slots, permissions, sync status, and review boundaries.",
+      "required_elements": ["source_slots", "permission_notes", "status_labels", "review_boundary_copy"],
+      "mockup_components": ["source_tile", "permission_chip", "sync_status_row", "boundary_note", "empty_state_card"],
+      "token_rules": ["tiles use var(--foreground)", "permission chips use tokenized muted states", "radius uses var(--radius--surface)", "labels remain editable text"],
+      "qa_hooks": ["sources_not_generic_cards", "permission_boundary_visible", "no_fake_connected_account"]
+    },
+    {
+      "key": "orbit_activity_collage",
+      "section_type": "content_split",
+      "pattern": "feature_collage_split",
+      "visual_role": "Activity collage with editable event cards, action suggestions, and handoff summaries.",
+      "required_elements": ["activity_copy", "event_cards", "suggested_actions", "handoff_summary", "review_note"],
+      "mockup_components": ["event_card", "action_button_placeholder", "handoff_row", "priority_chip", "review_note"],
+      "token_rules": ["collage cards use var(--foreground)", "priority chips use accent sparingly", "mobile stacks without overlap"],
+      "qa_hooks": ["event_cards_labelled", "actions_are_placeholders", "collage_not_plain_grid"]
+    },
+    {
+      "key": "orbit_triage_flow",
+      "section_type": "process_steps",
+      "pattern": "process_timeline",
+      "visual_role": "Triage flow from capture to review to next action, using generic workspace states.",
+      "required_elements": ["numbered_steps", "capture_state", "review_state", "assigned_action", "result_placeholder"],
+      "mockup_components": ["step_marker", "state_card", "assignment_row", "review_chip", "result_card"],
+      "token_rules": ["steps use var(--foreground)", "connectors use var(--border)", "status uses tokenized accents only"],
+      "qa_hooks": ["triage_sequence_clear", "states_are_generic", "no_private_data_implied"]
+    },
+    {
+      "key": "orbit_workspace_cta",
+      "section_type": "cta",
+      "pattern": "final_contrast_cta",
+      "visual_role": "Final connected-workspace CTA with bounded setup language and a compact status-summary visual.",
+      "required_elements": ["headline", "copy", "primary_cta", "secondary_cta_or_reassurance", "status_summary"],
+      "mockup_components": ["cta_button", "status_summary_chip", "source_count_placeholder", "setup_note"],
+      "token_rules": ["CTA contrast is token driven", "buttons use var(--radius--btn)", "summary chips use muted surfaces"],
+      "qa_hooks": ["cta_clear", "setup_boundary_visible", "no_fake_metrics"]
+    }
+  ]
+}

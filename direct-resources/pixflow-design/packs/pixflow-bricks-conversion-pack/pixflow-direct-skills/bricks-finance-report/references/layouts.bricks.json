@@ -1,0 +1,247 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "finance_report_hero",
+                        "purpose":  "finance_report_hero gives the finance report page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable finance report surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "finance-report",
+                                               "finance-report__header",
+                                               "finance-report__surface",
+                                               "finance-report__row",
+                                               "finance-report__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "key_takeaways",
+                        "purpose":  "key_takeaways gives the finance report page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable finance report surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "finance-report",
+                                               "finance-report__header",
+                                               "finance-report__surface",
+                                               "finance-report__row",
+                                               "finance-report__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "metric_panels",
+                        "purpose":  "metric_panels gives the finance report page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable finance report surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "finance-report",
+                                               "finance-report__header",
+                                               "finance-report__surface",
+                                               "finance-report__row",
+                                               "finance-report__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "analysis_sections",
+                        "purpose":  "analysis_sections gives the finance report page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable finance report surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "finance-report",
+                                               "finance-report__header",
+                                               "finance-report__surface",
+                                               "finance-report__row",
+                                               "finance-report__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "caveats_cta",
+                        "purpose":  "caveats_cta gives the finance report page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable finance report surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "finance-report",
+                                               "finance-report__header",
+                                               "finance-report__surface",
+                                               "finance-report__row",
+                                               "finance-report__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    }
+                ],
+    "version":  2,
+    "type":  "direct_skill_bricks_layout_references",
+    "skill":  "bricks-finance-report"
+}

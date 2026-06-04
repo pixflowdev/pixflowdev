@@ -1,0 +1,25 @@
+{
+  "layouts": [
+    {
+      "key": "brand_product_hero",
+      "section_type": "hero",
+      "pattern": "brand_product_hero",
+      "purpose": "Consumer product hero with product/packaging media and sensory headline.",
+      "required_elements": ["eyebrow", "headline", "supporting_copy", "cta_buttons", "product_lineup_media"]
+    },
+    {
+      "key": "heritage_story_split",
+      "section_type": "content_split",
+      "pattern": "heritage_story_split",
+      "purpose": "Heritage story split with media, explicit facts, and supporting proof cards.",
+      "required_elements": ["heritage_media", "story_copy", "fact_cards"]
+    },
+    {
+      "key": "product_category_grid",
+      "section_type": "feature_grid",
+      "pattern": "product_category_grid",
+      "purpose": "Product-category browsing grid with media slots and explore links.",
+      "required_elements": ["category_cards", "product_media_slots", "explore_links"]
+    }
+  ]
+}

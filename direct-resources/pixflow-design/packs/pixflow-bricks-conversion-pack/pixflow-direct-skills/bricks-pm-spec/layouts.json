@@ -1,0 +1,172 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "pm_spec_hero",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "pm_spec_hero provides a distinct product spec role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "problem_context",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "problem_context provides a distinct product spec role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "requirements_matrix",
+                        "section_type":  "content_split",
+                        "pattern":  "feature_matrix",
+                        "visual_role":  "requirements_matrix provides a distinct product spec role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "user_flow_panels",
+                        "section_type":  "process_steps",
+                        "pattern":  "process_timeline",
+                        "visual_role":  "user_flow_panels provides a distinct product spec role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "risks_questions",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "risks_questions provides a distinct product spec role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    }
+                ],
+    "version":  2,
+    "type":  "direct_skill_layouts",
+    "skill":  "bricks-pm-spec"
+}

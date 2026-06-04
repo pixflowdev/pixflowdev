@@ -1,0 +1,58 @@
+{
+  "layouts": [
+    {
+      "key": "about_magazine_hero",
+      "section_type": "hero",
+      "pattern": "magazine_style_hero",
+      "visual_role": "Editorial hero with strong point of view and optional founder/place/process visual.",
+      "required_elements": ["eyebrow", "h1", "intro", "visual_or_proof"],
+      "token_rules": ["section background var(--background)", "media radius var(--radius--surface)"],
+      "qa_hooks": ["point_of_view_present"]
+    },
+    {
+      "key": "about_story_split",
+      "section_type": "content_split",
+      "pattern": "story_split",
+      "visual_role": "Origin or approach story with one supporting proof/process panel.",
+      "required_elements": ["story_heading", "story_copy", "support_panel"],
+      "token_rules": ["panel uses var(--foreground)", "border uses var(--border)"],
+      "qa_hooks": ["story_specific"]
+    },
+    {
+      "key": "about_values_bento",
+      "section_type": "feature_grid",
+      "pattern": "bento_features",
+      "visual_role": "Values or principles as varied bento cards, not equal generic cards.",
+      "required_elements": ["value_cards", "featured_value"],
+      "token_rules": ["cards use var(--foreground)", "cards use var(--radius--surface)"],
+      "qa_hooks": ["not_equal_value_grid"]
+    },
+    {
+      "key": "about_approach_timeline",
+      "section_type": "process_steps",
+      "pattern": "process_timeline",
+      "visual_role": "How the business works or what clients can expect.",
+      "required_elements": ["steps", "expectation_setting"],
+      "token_rules": ["numbers use accent sparingly"],
+      "qa_hooks": ["approach_clear"]
+    },
+    {
+      "key": "about_proof_editorial",
+      "section_type": "testimonials",
+      "pattern": "testimonial_editorial",
+      "visual_role": "Trust or proof section using provided details or honest placeholders.",
+      "required_elements": ["proof_copy", "attribution_or_label"],
+      "token_rules": ["quote surface uses var(--foreground)"],
+      "qa_hooks": ["no_fake_proof"]
+    },
+    {
+      "key": "about_cta_contrast",
+      "section_type": "cta",
+      "pattern": "cta_contrast",
+      "visual_role": "Clear next step after the story.",
+      "required_elements": ["headline", "copy", "primary_cta"],
+      "token_rules": ["button uses var(--radius--btn)"],
+      "qa_hooks": ["next_step_clear"]
+    }
+  ]
+}

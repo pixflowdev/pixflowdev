@@ -1,0 +1,229 @@
+{
+    "content":  [
+                    {
+                        "id":  "s00001",
+                        "name":  "section",
+                        "parent":  0,
+                        "children":  [
+                                         "s00002"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00002",
+                        "name":  "container",
+                        "parent":  "s00001",
+                        "children":  [
+                                         "s00003",
+                                         "s00007",
+                                         "s00012"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__container"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00003",
+                        "name":  "block",
+                        "parent":  "s00002",
+                        "children":  [
+                                         "s00004",
+                                         "s00005",
+                                         "s00006"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__header"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00004",
+                        "name":  "text-basic",
+                        "parent":  "s00003",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eBricks Product Spec\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__eyebrow"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00005",
+                        "name":  "heading",
+                        "parent":  "s00003",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "A clearer product spec page with editable structure",
+                                         "tag":  "h1",
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__heading"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00006",
+                        "name":  "text-basic",
+                        "parent":  "s00003",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eUse supplied facts, labelled placeholders, and structured Bricks panels instead of generic card grids.\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__intro"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00007",
+                        "name":  "block",
+                        "parent":  "s00002",
+                        "children":  [
+                                         "s00008",
+                                         "s00009",
+                                         "s00010",
+                                         "s00011"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__surface"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00008",
+                        "name":  "heading",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "Structured surface",
+                                         "tag":  "h2",
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__surface-heading"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00009",
+                        "name":  "text-basic",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eLabelled rows keep dense information scannable and editable.\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__surface-copy"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00010",
+                        "name":  "block",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__row"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00011",
+                        "name":  "button",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "Review next step",
+                                         "style":  "primary",
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__button"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00012",
+                        "name":  "block",
+                        "parent":  "s00002",
+                        "children":  [
+                                         "s00013"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__note"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00013",
+                        "name":  "text-basic",
+                        "parent":  "s00012",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eAssumption: replace placeholder facts with supplied data before publishing.\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "pm-spec__note-text"
+                                                               ]
+                                     }
+                    }
+                ],
+    "version":  2,
+    "skill":  "bricks-pm-spec",
+    "type":  "direct_skill_seed_bricks_payload",
+    "summary":  "Seed skeleton for hardened product spec output.",
+    "title":  "Bricks Product Spec Seed",
+    "globalClasses":  [
+                          {
+                              "id":  "pm-spec",
+                              "name":  "pm-spec",
+                              "settings":  {
+                                               "_display":  "flex",
+                                               "_direction":  "column",
+                                               "_rowGap":  "var(--section-space--m)",
+                                               "_background":  "var(--background)",
+                                               "_color":  "var(--text)"
+                                           }
+                          },
+                          {
+                              "id":  "pm-spec__surface",
+                              "name":  "pm-spec__surface",
+                              "settings":  {
+                                               "_background":  "var(--foreground)",
+                                               "_border":  {
+                                                               "color":  "var(--border)",
+                                                               "width":  "max(var(--border--btn), 1px)",
+                                                               "style":  "solid"
+                                                           },
+                                               "_borderRadius":  "var(--radius--surface)"
+                                           }
+                          },
+                          {
+                              "id":  "pm-spec__note",
+                              "name":  "pm-spec__note",
+                              "settings":  {
+                                               "_background":  "var(--muted)",
+                                               "_borderRadius":  "var(--radius--surface)"
+                                           }
+                          }
+                      ]
+}

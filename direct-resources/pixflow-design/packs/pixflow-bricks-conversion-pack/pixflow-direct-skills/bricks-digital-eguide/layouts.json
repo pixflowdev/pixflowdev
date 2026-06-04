@@ -1,0 +1,172 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "eguide_hero",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "eguide_hero provides a distinct guide / ebook role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "cover_preview",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "cover_preview provides a distinct guide / ebook role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "inside_the_guide",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "inside_the_guide provides a distinct guide / ebook role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "download_value",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "download_value provides a distinct guide / ebook role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "signup_cta",
+                        "section_type":  "cta",
+                        "pattern":  "final_contrast_cta",
+                        "visual_role":  "signup_cta provides a distinct guide / ebook role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    }
+                ],
+    "version":  2,
+    "type":  "direct_skill_layouts",
+    "skill":  "bricks-digital-eguide"
+}

@@ -1,0 +1,64 @@
+{
+  "layouts": [
+    {
+      "key": "hr_onboarding_hero",
+      "section_type": "hero",
+      "pattern": "hero_split_visual",
+      "visual_role": "Welcoming onboarding hero with first-week overview and support visibility.",
+      "required_elements": ["welcome_label", "headline", "supporting_copy", "first_week_panel", "start_cta"],
+      "mockup_components": ["task_overview_card", "resource_chip", "support_path", "progress_step"],
+      "token_rules": ["overview panel uses var(--foreground)", "support chips use token surfaces", "no invented HR policy"],
+      "qa_hooks": ["first_week_context_visible", "support_path_visible", "no_policy_invention"]
+    },
+    {
+      "key": "hr_first_week_steps",
+      "section_type": "process_steps",
+      "pattern": "process_timeline",
+      "visual_role": "First-week timeline from pre-start to first check-in.",
+      "required_elements": ["before_day_one", "first_day", "first_week", "first_check_in", "support_note"],
+      "mockup_components": ["step_marker", "task_card", "checklist_row", "support_chip"],
+      "token_rules": ["timeline cards use var(--foreground)", "connectors use var(--border)", "mobile stacks vertically"],
+      "qa_hooks": ["steps_are_clear", "timeline_not_decorative", "no_fake_dates"]
+    },
+    {
+      "key": "hr_resource_library",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Resource matrix for tools, policy placeholders, team guide, and learning plan.",
+      "required_elements": ["tool_resources", "policy_placeholder", "team_guide", "learning_plan", "access_notes"],
+      "mockup_components": ["resource_card", "access_chip", "document_row", "note_panel"],
+      "token_rules": ["resource cards use var(--foreground)", "policy content stays placeholder", "labels use var(--muted)"],
+      "qa_hooks": ["resources_grouped", "policy_not_invented", "access_notes_visible"]
+    },
+    {
+      "key": "hr_support_contacts",
+      "section_type": "contact",
+      "pattern": "contact_split",
+      "visual_role": "Support contact placeholders for manager, people team, IT help, and buddy.",
+      "required_elements": ["role_placeholders", "support_routes", "contact_context", "faq_link"],
+      "mockup_components": ["contact_placeholder", "role_chip", "support_card", "help_link"],
+      "token_rules": ["contact cards use var(--foreground)", "names are placeholders", "buttons use var(--radius--btn)"],
+      "qa_hooks": ["contacts_not_invented", "support_routes_clear", "sensitive_data_absent"]
+    },
+    {
+      "key": "hr_onboarding_faq",
+      "section_type": "faq",
+      "pattern": "faq_or_objection_stack",
+      "visual_role": "FAQ for setup, access, tools, check-ins, and support questions.",
+      "required_elements": ["question_groups", "concise_answers", "support_panel"],
+      "mockup_components": ["faq_row", "support_panel", "status_chip"],
+      "token_rules": ["FAQ surfaces use var(--foreground)", "support panel uses muted surfaces"],
+      "qa_hooks": ["questions_specific", "answers_no_policy_claims", "support_path_exists"]
+    },
+    {
+      "key": "hr_start_cta",
+      "section_type": "cta",
+      "pattern": "split_card",
+      "visual_role": "Final onboarding CTA with first-week reassurance.",
+      "required_elements": ["headline", "copy", "primary_cta", "support_reassurance"],
+      "mockup_components": ["cta_button", "progress_chip", "support_note"],
+      "token_rules": ["CTA uses Pixflow tokens", "button uses var(--radius--btn)"],
+      "qa_hooks": ["cta_specific", "support_reassurance_visible"]
+    }
+  ]
+}

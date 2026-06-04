@@ -1,0 +1,129 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "dating_hero",
+                        "section_type":  "hero",
+                        "pattern":  "hero_split_visual",
+                        "visual_role":  "dating_hero section for Bricks Dating Web, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure",
+                                         "factual_boundaries_respected"
+                                     ]
+                    },
+                    {
+                        "key":  "trust_safety_panel",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "trust_safety_panel section for Bricks Dating Web, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure",
+                                         "factual_boundaries_respected"
+                                     ]
+                    },
+                    {
+                        "key":  "profile_match_collage",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "profile_match_collage section for Bricks Dating Web, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure",
+                                         "factual_boundaries_respected"
+                                     ]
+                    },
+                    {
+                        "key":  "community_proof",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "community_proof section for Bricks Dating Web, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure",
+                                         "factual_boundaries_respected"
+                                     ]
+                    },
+                    {
+                        "key":  "signup_cta",
+                        "section_type":  "cta",
+                        "pattern":  "final_contrast_cta",
+                        "visual_role":  "signup_cta section for Bricks Dating Web, with a distinct role, readable hierarchy, and editable Bricks structure.",
+                        "required_elements":  [
+                                                  "heading",
+                                                  "supporting_copy",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "token_rules":  [
+                                            "section background var(--background)",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure",
+                                         "factual_boundaries_respected"
+                                     ]
+                    }
+                ]
+}

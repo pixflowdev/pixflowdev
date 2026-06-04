@@ -1,0 +1,64 @@
+{
+  "layouts": [
+    {
+      "key": "dcf_valuation_hero",
+      "section_type": "hero",
+      "pattern": "magazine_style_hero",
+      "visual_role": "Analytical valuation opening with assumptions-first framing and non-advisory caveat.",
+      "required_elements": ["report_label", "headline", "summary_copy", "non_advisory_caveat", "review_cta"],
+      "mockup_components": ["model_summary_card", "assumption_chip", "caveat_panel"],
+      "token_rules": ["report surfaces use var(--foreground)", "accent is restrained", "caveats use muted token surfaces"],
+      "qa_hooks": ["non_advisory_caveat_visible", "no_price_target", "assumptions_preview_present"]
+    },
+    {
+      "key": "dcf_assumptions_panel",
+      "section_type": "data_visualization",
+      "pattern": "feature_matrix",
+      "visual_role": "Assumption matrix showing editable inputs without fabricated numbers.",
+      "required_elements": ["assumption_rows", "input_labels", "source_or_status", "review_notes"],
+      "mockup_components": ["assumption_card", "input_row", "status_chip", "review_note"],
+      "token_rules": ["cards use var(--foreground)", "placeholder values are labelled", "borders use var(--border)", "no hardcoded finance palette"],
+      "qa_hooks": ["assumptions_visible", "figures_are_placeholders", "no_advice_language"]
+    },
+    {
+      "key": "dcf_scenario_comparison",
+      "section_type": "content_split",
+      "pattern": "comparison_led",
+      "visual_role": "Bear/base/upside scenario comparison with editable rows and caveats.",
+      "required_elements": ["scenario_rows", "driver_labels", "placeholder_values", "caveat_note"],
+      "mockup_components": ["scenario_card", "comparison_row", "driver_chip", "caveat_panel"],
+      "token_rules": ["scenario rows use var(--foreground)", "mobile rows stack", "accent only marks active scenario"],
+      "qa_hooks": ["scenarios_labelled", "values_not_invented", "caveat_present"]
+    },
+    {
+      "key": "dcf_sensitivity_cards",
+      "section_type": "feature_grid",
+      "pattern": "bento_features",
+      "visual_role": "Sensitivity bento with editable chart/table placeholders and driver explanations.",
+      "required_elements": ["driver_cards", "chart_placeholder", "risk_note", "review_question"],
+      "mockup_components": ["chart_placeholder", "driver_card", "sensitivity_table", "question_panel"],
+      "token_rules": ["charts are editable placeholders", "cards use var(--foreground)", "labels use var(--muted)"],
+      "qa_hooks": ["chart_placeholders_labelled", "drivers_clear", "not_decorative_chart"]
+    },
+    {
+      "key": "dcf_risk_caveats",
+      "section_type": "content_split",
+      "pattern": "story_split",
+      "visual_role": "Risk and caveat split separating assumptions, unknowns, and review actions.",
+      "required_elements": ["risk_list", "unknowns", "review_actions", "non_advisory_note"],
+      "mockup_components": ["risk_panel", "unknowns_list", "action_panel", "caveat_chip"],
+      "token_rules": ["risk panels use muted surfaces", "actions use token buttons", "no legal disclosure invention"],
+      "qa_hooks": ["risks_visible", "unknowns_visible", "non_advisory_note_visible"]
+    },
+    {
+      "key": "dcf_review_cta",
+      "section_type": "cta",
+      "pattern": "final_proof_led_cta",
+      "visual_role": "Final CTA for reviewing assumptions, not acting on financial advice.",
+      "required_elements": ["headline", "copy", "primary_cta", "caveat_reassurance"],
+      "mockup_components": ["cta_button", "assumption_chip", "review_status"],
+      "token_rules": ["CTA contrast uses Pixflow tokens", "button uses var(--radius--btn)"],
+      "qa_hooks": ["cta_review_focused", "no_investment_advice"]
+    }
+  ]
+}

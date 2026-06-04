@@ -1,0 +1,64 @@
+{
+  "layouts": [
+    {
+      "key": "okr_review_hero",
+      "section_type": "hero",
+      "pattern": "magazine_style_hero",
+      "visual_role": "Operational OKR review opening with objective summary and confidence caveat.",
+      "required_elements": ["period_placeholder", "headline", "summary_copy", "okr_summary_panel", "review_cta"],
+      "mockup_components": ["objective_card", "confidence_chip", "progress_placeholder", "risk_note"],
+      "token_rules": ["summary panels use var(--foreground)", "progress uses tokenized bars", "no fake percentages"],
+      "qa_hooks": ["period_placeholder_visible", "no_progress_invented", "review_context_clear"]
+    },
+    {
+      "key": "okr_objective_cards",
+      "section_type": "feature_grid",
+      "pattern": "bento_features",
+      "visual_role": "Varied objective cards with context, owner placeholders, and progress state labels.",
+      "required_elements": ["objective_cards", "context_notes", "owner_placeholders", "progress_state"],
+      "mockup_components": ["objective_card", "owner_chip", "progress_bar_placeholder", "status_chip"],
+      "token_rules": ["objective cards use var(--foreground)", "progress values are placeholders", "cards vary in weight"],
+      "qa_hooks": ["objectives_grouped", "cards_not_identical", "owners_not_invented"]
+    },
+    {
+      "key": "okr_key_result_matrix",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Key-result matrix with editable rows, confidence, status, and next review placeholders.",
+      "required_elements": ["key_result_rows", "status_chips", "confidence_placeholder", "next_review"],
+      "mockup_components": ["structured_info_table", "key_result_row", "confidence_chip", "review_note"],
+      "token_rules": ["rows use var(--foreground)", "confidence chips are tokenized", "no raw HTML table"],
+      "qa_hooks": ["key_results_editable", "metrics_not_invented", "review_note_visible"]
+    },
+    {
+      "key": "okr_progress_confidence",
+      "section_type": "content_split",
+      "pattern": "comparison_led",
+      "visual_role": "Progress/confidence split comparing on-track, at-risk, and unknown states.",
+      "required_elements": ["progress_states", "confidence_notes", "unknowns", "review_action"],
+      "mockup_components": ["progress_card", "confidence_meter", "unknowns_panel", "action_panel"],
+      "token_rules": ["progress cards use var(--foreground)", "unknowns use muted surfaces", "no real percentages"],
+      "qa_hooks": ["confidence_bounded", "unknowns_visible", "action_clear"]
+    },
+    {
+      "key": "okr_risks_dependencies",
+      "section_type": "process_steps",
+      "pattern": "vertical_timeline",
+      "visual_role": "Risk/dependency timeline leading to next review actions.",
+      "required_elements": ["risk_items", "dependencies", "next_actions", "review_cadence_placeholder"],
+      "mockup_components": ["risk_card", "dependency_chip", "next_action_row", "review_marker"],
+      "token_rules": ["timeline cards use var(--foreground)", "risk chips use restrained accent", "mobile stacks"],
+      "qa_hooks": ["risks_visible", "dependencies_visible", "dates_not_invented"]
+    },
+    {
+      "key": "okr_review_cta",
+      "section_type": "cta",
+      "pattern": "split_card",
+      "visual_role": "Review CTA that points back to goals, risks, and next actions.",
+      "required_elements": ["headline", "copy", "primary_cta", "review_summary"],
+      "mockup_components": ["cta_button", "review_chip", "goal_status_note"],
+      "token_rules": ["CTA uses var(--foreground)", "button uses var(--radius--btn)"],
+      "qa_hooks": ["cta_review_focused", "no_fake_metrics"]
+    }
+  ]
+}

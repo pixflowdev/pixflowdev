@@ -1,0 +1,18 @@
+{
+  "summary": "Example product-brand homepage section set with product hero, story, flavour discovery, category grid, and trust.",
+  "section_type": "hero",
+  "pattern": "brand_product_hero",
+  "content": [
+    {"name": "section", "label": "Product Hero"},
+    {"name": "container", "label": "Hero Inner"},
+    {"name": "heading", "label": "Sensory Product Heading"},
+    {"name": "text-basic", "label": "Hero Copy"},
+    {"name": "button", "label": "Explore Products"},
+    {"name": "image", "label": "Packaging Lineup"}
+  ],
+  "global_classes": [
+    {"name": "brand-hero"},
+    {"name": "brand-hero__heading"},
+    {"name": "brand-hero__media"}
+  ]
+}

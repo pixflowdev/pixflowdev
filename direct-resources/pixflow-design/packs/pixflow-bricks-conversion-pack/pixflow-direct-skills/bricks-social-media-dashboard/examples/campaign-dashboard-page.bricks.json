@@ -1,0 +1,231 @@
+{
+    "summary":  "Example structured social dashboard Bricks payload with caveat and CTA panels.",
+    "section_type":  "content_split",
+    "type":  "direct_skill_example_bricks_payload",
+    "pattern":  "feature_matrix",
+    "version":  2,
+    "content":  [
+                    {
+                        "id":  "s00001",
+                        "name":  "section",
+                        "parent":  0,
+                        "children":  [
+                                         "s00002"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00002",
+                        "name":  "container",
+                        "parent":  "s00001",
+                        "children":  [
+                                         "s00003",
+                                         "s00007",
+                                         "s00012"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__container"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00003",
+                        "name":  "block",
+                        "parent":  "s00002",
+                        "children":  [
+                                         "s00004",
+                                         "s00005",
+                                         "s00006"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__header"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00004",
+                        "name":  "text-basic",
+                        "parent":  "s00003",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eBricks Social Media Dashboard\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__eyebrow"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00005",
+                        "name":  "heading",
+                        "parent":  "s00003",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "A clearer social dashboard page with editable structure",
+                                         "tag":  "h1",
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__heading"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00006",
+                        "name":  "text-basic",
+                        "parent":  "s00003",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eUse supplied facts, labelled placeholders, and structured Bricks panels instead of generic card grids.\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__intro"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00007",
+                        "name":  "block",
+                        "parent":  "s00002",
+                        "children":  [
+                                         "s00008",
+                                         "s00009",
+                                         "s00010",
+                                         "s00011"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__surface"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00008",
+                        "name":  "heading",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "Structured surface",
+                                         "tag":  "h2",
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__surface-heading"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00009",
+                        "name":  "text-basic",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eLabelled rows keep dense information scannable and editable.\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__surface-copy"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00010",
+                        "name":  "block",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__row"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00011",
+                        "name":  "button",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "Review next step",
+                                         "style":  "primary",
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__button"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00012",
+                        "name":  "block",
+                        "parent":  "s00002",
+                        "children":  [
+                                         "s00013"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__note"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00013",
+                        "name":  "text-basic",
+                        "parent":  "s00012",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eAssumption: replace placeholder facts with supplied data before publishing.\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "social-media-dashboard__note-text"
+                                                               ]
+                                     }
+                    }
+                ],
+    "globalClasses":  [
+                          {
+                              "id":  "social-media-dashboard",
+                              "name":  "social-media-dashboard",
+                              "settings":  {
+                                               "_display":  "flex",
+                                               "_direction":  "column",
+                                               "_rowGap":  "var(--section-space--m)",
+                                               "_background":  "var(--background)",
+                                               "_color":  "var(--text)"
+                                           }
+                          },
+                          {
+                              "id":  "social-media-dashboard__surface",
+                              "name":  "social-media-dashboard__surface",
+                              "settings":  {
+                                               "_background":  "var(--foreground)",
+                                               "_border":  {
+                                                               "color":  "var(--border)",
+                                                               "width":  "max(var(--border--btn), 1px)",
+                                                               "style":  "solid"
+                                                           },
+                                               "_borderRadius":  "var(--radius--surface)"
+                                           }
+                          },
+                          {
+                              "id":  "social-media-dashboard__note",
+                              "name":  "social-media-dashboard__note",
+                              "settings":  {
+                                               "_background":  "var(--muted)",
+                                               "_borderRadius":  "var(--radius--surface)"
+                                           }
+                          }
+                      ],
+    "title":  "campaign-dashboard-page",
+    "skill":  "bricks-social-media-dashboard"
+}

@@ -1,0 +1,64 @@
+{
+  "layouts": [
+    {
+      "key": "clinical_case_hero",
+      "section_type": "hero",
+      "pattern": "magazine_style_hero",
+      "visual_role": "Sober clinical report opening with case scope, non-diagnostic caveat, and review context.",
+      "required_elements": ["case_scope_label", "headline", "summary_copy", "caveat_panel", "review_cta"],
+      "mockup_components": ["case_metadata_card", "caveat_panel", "review_status_chip"],
+      "token_rules": ["clinical surfaces use var(--foreground)", "caveats use muted token surfaces", "accent is restrained", "no medical-color hardcoding"],
+      "qa_hooks": ["non_diagnostic_caveat_visible", "case_scope_clear", "no_fake_patient_data"]
+    },
+    {
+      "key": "clinical_case_summary",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Case summary matrix with context, presentation placeholder, review focus, and limitations.",
+      "required_elements": ["context_card", "presentation_placeholder", "review_focus", "limitations_note"],
+      "mockup_components": ["labelled_fact_card", "evidence_status_chip", "limitation_note", "summary_row"],
+      "token_rules": ["cards use var(--foreground)", "labels use var(--muted)", "borders use var(--border)", "values are labelled placeholders"],
+      "qa_hooks": ["summary_facts_labelled", "limitations_visible", "no_diagnosis_invented"]
+    },
+    {
+      "key": "clinical_timeline",
+      "section_type": "process_steps",
+      "pattern": "vertical_timeline",
+      "visual_role": "Clinical timeline with generic stages and explicit placeholder labels.",
+      "required_elements": ["presentation_stage", "review_stage", "assessment_notes", "follow_up_placeholder"],
+      "mockup_components": ["timeline_marker", "stage_card", "evidence_chip", "unknowns_note"],
+      "token_rules": ["timeline cards use var(--foreground)", "connectors use var(--border)", "stage chips use tokenized accents"],
+      "qa_hooks": ["timeline_is_generic", "no_dates_invented", "stages_are_labelled"]
+    },
+    {
+      "key": "clinical_evidence_table",
+      "section_type": "content_split",
+      "pattern": "comparison_led",
+      "visual_role": "Evidence and review-question split with editable table-like rows.",
+      "required_elements": ["evidence_rows", "source_placeholder", "review_questions", "confidence_or_unknowns"],
+      "mockup_components": ["structured_info_table", "finding_row", "source_placeholder", "question_panel"],
+      "token_rules": ["table rows use var(--foreground)", "headers use var(--heading)", "no raw HTML table", "mobile rows stack"],
+      "qa_hooks": ["evidence_rows_editable", "no_citations_invented", "questions_visible"]
+    },
+    {
+      "key": "clinical_limitations_notes",
+      "section_type": "content_split",
+      "pattern": "story_split",
+      "visual_role": "Limitations and review notes section separating known, unknown, and not-provided context.",
+      "required_elements": ["known_context", "unknowns", "not_provided", "review_next_step"],
+      "mockup_components": ["caveat_panel", "note_list", "review_card", "status_chip"],
+      "token_rules": ["caveat panels use muted token surfaces", "text remains readable", "no unsupported health imagery"],
+      "qa_hooks": ["known_unknown_not_provided_clear", "medical_advice_not_present"]
+    },
+    {
+      "key": "clinical_review_cta",
+      "section_type": "cta",
+      "pattern": "final_proof_led_cta",
+      "visual_role": "Final review CTA that keeps clinical limitations visible.",
+      "required_elements": ["headline", "copy", "primary_cta", "caveat_reassurance"],
+      "mockup_components": ["cta_button", "caveat_chip", "review_status"],
+      "token_rules": ["CTA uses Pixflow tokens", "button uses var(--radius--btn)", "no fake medical endorsement"],
+      "qa_hooks": ["cta_not_medical_claim", "caveat_remains_visible"]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "social_dashboard_hero",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "social_dashboard_hero provides a distinct social dashboard role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "channel_overview",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "channel_overview provides a distinct social dashboard role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "metric_cards",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "metric_cards provides a distinct social dashboard role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "post_campaign_table",
+                        "section_type":  "content_split",
+                        "pattern":  "feature_matrix",
+                        "visual_role":  "post_campaign_table provides a distinct social dashboard role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "workflow_cta",
+                        "section_type":  "cta",
+                        "pattern":  "process_timeline",
+                        "visual_role":  "workflow_cta provides a distinct social dashboard role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    }
+                ],
+    "version":  2,
+    "type":  "direct_skill_layouts",
+    "skill":  "bricks-social-media-dashboard"
+}

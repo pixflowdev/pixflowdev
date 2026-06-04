@@ -1,0 +1,64 @@
+{
+  "layouts": [
+    {
+      "key": "meeting_notes_hero",
+      "section_type": "hero",
+      "pattern": "magazine_style_hero",
+      "visual_role": "Meeting summary opening with metadata placeholders, decision count, and follow-up focus.",
+      "required_elements": ["meeting_label", "headline", "summary_copy", "metadata_placeholders", "review_cta"],
+      "mockup_components": ["metadata_card", "decision_chip", "action_chip", "followup_note"],
+      "token_rules": ["summary surfaces use var(--foreground)", "metadata stays placeholder", "accent marks actions only"],
+      "qa_hooks": ["metadata_placeholders_visible", "no_attendees_invented", "followup_focus_clear"]
+    },
+    {
+      "key": "meeting_agenda_summary",
+      "section_type": "content_split",
+      "pattern": "story_split",
+      "visual_role": "Agenda summary split separating topics, outcomes, and open questions.",
+      "required_elements": ["agenda_items", "outcomes", "open_questions", "context_note"],
+      "mockup_components": ["agenda_row", "outcome_card", "question_panel", "status_chip"],
+      "token_rules": ["agenda rows use var(--foreground)", "open questions use muted surfaces", "mobile rows stack"],
+      "qa_hooks": ["agenda_scannable", "questions_visible", "no_private_details"]
+    },
+    {
+      "key": "meeting_decision_log",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Decision log with editable rows for decision, context, owner placeholder, and status.",
+      "required_elements": ["decision_rows", "context_cells", "owner_placeholder", "status_chip"],
+      "mockup_components": ["structured_info_table", "decision_row", "owner_chip", "status_chip"],
+      "token_rules": ["decision rows use var(--foreground)", "owners are placeholders", "no raw HTML table"],
+      "qa_hooks": ["decisions_editable", "owners_not_invented", "statuses_labelled"]
+    },
+    {
+      "key": "meeting_action_items",
+      "section_type": "process_steps",
+      "pattern": "horizontal_steps",
+      "visual_role": "Action-item workflow with owner, due-window placeholder, dependency, and next review.",
+      "required_elements": ["action_cards", "owner_placeholder", "due_window_placeholder", "dependency_note", "next_review"],
+      "mockup_components": ["action_card", "due_chip", "dependency_badge", "review_note"],
+      "token_rules": ["action cards use var(--foreground)", "due windows are placeholders", "mobile steps stack"],
+      "qa_hooks": ["actions_are_clear", "deadlines_not_invented", "dependencies_visible"]
+    },
+    {
+      "key": "meeting_risks_followup",
+      "section_type": "content_split",
+      "pattern": "comparison_led",
+      "visual_role": "Risks/open questions split with follow-up path and next discussion context.",
+      "required_elements": ["risk_list", "open_questions", "followup_path", "supporting_note"],
+      "mockup_components": ["risk_panel", "question_row", "followup_card", "status_chip"],
+      "token_rules": ["risk panels use muted surfaces", "follow-up card uses var(--foreground)"],
+      "qa_hooks": ["risks_visible", "followup_path_clear", "no_commitments_invented"]
+    },
+    {
+      "key": "meeting_followup_cta",
+      "section_type": "cta",
+      "pattern": "split_card",
+      "visual_role": "Review CTA focused on decisions and actions.",
+      "required_elements": ["headline", "copy", "primary_cta", "action_summary"],
+      "mockup_components": ["cta_button", "action_chip", "review_note"],
+      "token_rules": ["CTA card uses var(--foreground)", "button uses var(--radius--btn)"],
+      "qa_hooks": ["cta_action_oriented", "summary_not_fake_metric"]
+    }
+  ]
+}

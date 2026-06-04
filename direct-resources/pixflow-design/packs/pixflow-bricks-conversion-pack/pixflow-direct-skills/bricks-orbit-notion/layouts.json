@@ -1,0 +1,54 @@
+{
+  "layouts": [
+    {
+      "key": "notion_workspace_hero",
+      "section_type": "hero",
+      "pattern": "hero_centered_browser_mockup",
+      "visual_role": "Knowledge-workspace hero with editable page tree, database cards, summary panel, and review state.",
+      "required_elements": ["eyebrow", "headline", "supporting_copy", "cta_buttons", "workspace_mockup", "page_tree", "summary_panel"],
+      "mockup_components": ["browser_frame", "page_tree", "database_card", "summary_panel", "tag_chip", "review_status"],
+      "token_rules": ["workspace surfaces use var(--foreground)", "tags use tokenized muted/accent states", "borders use var(--border)", "no provider brand colours"],
+      "qa_hooks": ["knowledge_workspace_mockup_present", "page_tree_editable", "no_real_workspace_data", "no_live_notion_claims"]
+    },
+    {
+      "key": "notion_database_matrix",
+      "section_type": "feature_grid",
+      "pattern": "feature_matrix",
+      "visual_role": "Database matrix with editable views, owners, statuses, and source notes.",
+      "required_elements": ["database_views", "owner_placeholders", "status_labels", "source_notes", "empty_state"],
+      "mockup_components": ["database_view_card", "property_row", "owner_chip", "status_chip", "source_note"],
+      "token_rules": ["view cards use var(--foreground)", "properties use var(--muted)", "placeholder values stay labelled"],
+      "qa_hooks": ["database_views_visible", "owners_not_invented", "safe_placeholder_content"]
+    },
+    {
+      "key": "notion_summary_collage",
+      "section_type": "content_split",
+      "pattern": "feature_collage_split",
+      "visual_role": "Knowledge summary collage with editable note cards, related pages, and action summaries.",
+      "required_elements": ["summary_copy", "note_cards", "related_pages", "action_summary", "review_boundary"],
+      "mockup_components": ["note_card", "related_page_row", "action_summary_card", "tag_chip", "review_note"],
+      "token_rules": ["note cards use var(--foreground)", "related rows use var(--border)", "mobile stacks without overlap"],
+      "qa_hooks": ["summary_is_placeholder", "related_pages_labelled", "collage_not_plain_grid"]
+    },
+    {
+      "key": "notion_review_flow",
+      "section_type": "process_steps",
+      "pattern": "process_timeline",
+      "visual_role": "Workspace review flow from captured page to summarized context to approved next action.",
+      "required_elements": ["numbered_steps", "capture_state", "summary_state", "review_state", "action_state"],
+      "mockup_components": ["step_marker", "page_state_card", "summary_row", "review_chip", "action_card"],
+      "token_rules": ["timeline cards use var(--foreground)", "connectors use var(--border)", "state chips use tokenized states"],
+      "qa_hooks": ["review_sequence_clear", "states_are_generic", "no_private_data_implied"]
+    },
+    {
+      "key": "notion_workspace_cta",
+      "section_type": "cta",
+      "pattern": "final_contrast_cta",
+      "visual_role": "Final knowledge-workspace CTA with setup note and compact editable page/status summary.",
+      "required_elements": ["headline", "copy", "primary_cta", "secondary_cta_or_reassurance", "page_status_summary"],
+      "mockup_components": ["cta_button", "page_status_card", "tag_chip", "setup_note"],
+      "token_rules": ["CTA uses Pixflow tokens", "buttons use var(--radius--btn)", "summary card uses var(--foreground)"],
+      "qa_hooks": ["cta_clear", "page_summary_placeholder", "no_fake_workspace_metrics"]
+    }
+  ]
+}

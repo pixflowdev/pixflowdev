@@ -1,0 +1,247 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "eguide_hero",
+                        "purpose":  "eguide_hero gives the guide / ebook page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable guide / ebook surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "digital-eguide",
+                                               "digital-eguide__header",
+                                               "digital-eguide__surface",
+                                               "digital-eguide__row",
+                                               "digital-eguide__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "cover_preview",
+                        "purpose":  "cover_preview gives the guide / ebook page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable guide / ebook surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "digital-eguide",
+                                               "digital-eguide__header",
+                                               "digital-eguide__surface",
+                                               "digital-eguide__row",
+                                               "digital-eguide__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "inside_the_guide",
+                        "purpose":  "inside_the_guide gives the guide / ebook page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable guide / ebook surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "digital-eguide",
+                                               "digital-eguide__header",
+                                               "digital-eguide__surface",
+                                               "digital-eguide__row",
+                                               "digital-eguide__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "download_value",
+                        "purpose":  "download_value gives the guide / ebook page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable guide / ebook surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "digital-eguide",
+                                               "digital-eguide__header",
+                                               "digital-eguide__surface",
+                                               "digital-eguide__row",
+                                               "digital-eguide__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    },
+                    {
+                        "key":  "signup_cta",
+                        "purpose":  "signup_cta gives the guide / ebook page a specific structural moment instead of another generic card grid.",
+                        "visual_role":  "Readable, labelled, editable guide / ebook surface.",
+                        "bricks_structure":  [
+                                                 "section",
+                                                 "container",
+                                                 "block.header",
+                                                 "heading",
+                                                 "text-basic",
+                                                 "block.surface",
+                                                 "block.row",
+                                                 "text-basic.label",
+                                                 "text-basic.value",
+                                                 "button"
+                                             ],
+                        "required_elements":  [
+                                                  "heading",
+                                                  "context_copy",
+                                                  "labelled_surface",
+                                                  "next_step"
+                                              ],
+                        "class_contract":  [
+                                               "digital-eguide",
+                                               "digital-eguide__header",
+                                               "digital-eguide__surface",
+                                               "digital-eguide__row",
+                                               "digital-eguide__note"
+                                           ],
+                        "token_contract":  [
+                                               "var(--background)",
+                                               "var(--foreground)",
+                                               "var(--text)",
+                                               "var(--muted)",
+                                               "var(--border)",
+                                               "var(--radius--surface)"
+                                           ],
+                        "responsive_contract":  [
+                                                    "No horizontal overflow",
+                                                    "Dense rows wrap or stack on mobile",
+                                                    "CTA remains reachable"
+                                                ],
+                        "qa_hooks":  [
+                                         "structured_surface_present",
+                                         "facts_not_invented",
+                                         "editable_bricks_blocks"
+                                     ]
+                    }
+                ],
+    "version":  2,
+    "type":  "direct_skill_bricks_layout_references",
+    "skill":  "bricks-digital-eguide"
+}

@@ -1,0 +1,82 @@
+{
+  "layouts": [
+    {
+      "key": "brand_navigation_header",
+      "section_type": "content_split",
+      "pattern": "brand_navigation_header",
+      "visual_role": "Compact consumer-brand header with logo/name, product navigation, story link, contact link, and optional language or CTA control.",
+      "required_elements": ["brand", "product_nav", "story_link", "contact_or_cta"],
+      "token_rules": ["background uses Pixflow surface/background tokens", "border uses Pixflow border token"],
+      "qa_hooks": ["brand_header_present", "product_nav_present"]
+    },
+    {
+      "key": "brand_product_hero",
+      "section_type": "hero",
+      "pattern": "brand_product_hero",
+      "visual_role": "Bold product-led hero with sensory headline, brand-colour field, CTA pair, and packaging/product lineup or supplied screenshot media.",
+      "required_elements": ["eyebrow", "headline", "supporting_copy", "cta_buttons", "product_lineup_media"],
+      "mockup_components": ["packaging_lineup", "product_media_frame", "flavour_chips"],
+      "token_rules": ["accent and contrast scheme tokens carry the hero", "do not use SaaS/browser mockup tokens"],
+      "qa_hooks": ["product_brand_hero_present", "product_media_present", "no_saas_mockup_substitution"]
+    },
+    {
+      "key": "heritage_story_split",
+      "section_type": "content_split",
+      "pattern": "heritage_story_split",
+      "visual_role": "Story split with origin/heritage media, founding year or supplied historical proof, concise brand story, and supporting fact cards.",
+      "required_elements": ["heritage_media", "story_heading", "story_copy", "fact_cards"],
+      "mockup_components": ["heritage_image_frame", "year_badge", "fact_cards"],
+      "token_rules": ["large media frame uses surface token", "fact cards use foreground token"],
+      "qa_hooks": ["heritage_section_present", "explicit_dates_preserved", "no_invented_history"]
+    },
+    {
+      "key": "mood_product_discovery",
+      "section_type": "feature_grid",
+      "pattern": "mood_product_discovery",
+      "visual_role": "Playful flavour, mood, or feeling discovery with distinct shapes, colours, labels, short descriptions, and product examples.",
+      "required_elements": ["mood_tiles", "shape_or_colour_variety", "product_examples", "discovery_cta"],
+      "mockup_components": ["flavour_shape_tiles", "product_example_labels"],
+      "token_rules": ["use controlled accent tokens or supplied brand colours", "avoid plain equal white cards"],
+      "qa_hooks": ["flavour_discovery_present", "tiles_not_plain_cards"]
+    },
+    {
+      "key": "product_category_grid",
+      "section_type": "feature_grid",
+      "pattern": "product_category_grid",
+      "visual_role": "Product category browsing grid with rounded cards, supplied product-media roles, names, product lists, and explore links.",
+      "required_elements": ["category_cards", "product_media_slots", "category_names", "explore_links"],
+      "mockup_components": ["product_category_card", "packaging_media_slot"],
+      "token_rules": ["cards use surface/foreground tokens", "media frames keep product imagery prominent"],
+      "qa_hooks": ["category_grid_present", "product_media_slots_present"]
+    },
+    {
+      "key": "popular_products_showcase",
+      "section_type": "content_split",
+      "pattern": "popular_products_showcase",
+      "visual_role": "Popular product showcase strip or grid with packaging/media slots, product names, category labels, and light carousel/proof cues.",
+      "required_elements": ["product_cards", "packaging_media", "product_names", "category_labels"],
+      "mockup_components": ["popular_product_card", "carousel_dots"],
+      "token_rules": ["product cards use foreground token", "CTA/accent uses brand accent"],
+      "qa_hooks": ["popular_products_present", "product_names_visible"]
+    },
+    {
+      "key": "quality_trust_panel",
+      "section_type": "feature_grid",
+      "pattern": "quality_trust_panel",
+      "visual_role": "Quality and trust reassurance with badges, ingredient/recipe cues, origin proof, and only supplied certifications.",
+      "required_elements": ["trust_badges", "quality_copy", "ingredient_or_recipe_cues"],
+      "mockup_components": ["trust_badges", "certification_chips"],
+      "token_rules": ["badges use surface token", "do not invent certification logos"],
+      "qa_hooks": ["quality_trust_present", "no_invented_certifications"]
+    },
+    {
+      "key": "final_brand_cta",
+      "section_type": "cta",
+      "pattern": "final_brand_cta",
+      "visual_role": "Warm product-led closing CTA with one primary action, optional secondary link, and product/footer link context.",
+      "required_elements": ["headline", "supporting_copy", "primary_cta", "secondary_or_footer_links"],
+      "token_rules": ["contrast scheme remains token driven", "button tokens use Pixflow button radius/border"],
+      "qa_hooks": ["final_cta_present", "cta_matches_product_brand"]
+    }
+  ]
+}

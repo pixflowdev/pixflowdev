@@ -1,0 +1,172 @@
+{
+    "layouts":  [
+                    {
+                        "key":  "finance_report_hero",
+                        "section_type":  "hero",
+                        "pattern":  "magazine_style_hero",
+                        "visual_role":  "finance_report_hero provides a distinct finance report role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "key_takeaways",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "key_takeaways provides a distinct finance report role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "metric_panels",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "metric_panels provides a distinct finance report role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "analysis_sections",
+                        "section_type":  "feature_grid",
+                        "pattern":  "bento_features",
+                        "visual_role":  "analysis_sections provides a distinct finance report role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    },
+                    {
+                        "key":  "caveats_cta",
+                        "section_type":  "cta",
+                        "pattern":  "final_contrast_cta",
+                        "visual_role":  "caveats_cta provides a distinct finance report role with specific labels, editable structures, and no fake proof.",
+                        "required_elements":  [
+                                                  "specific_heading",
+                                                  "supporting_context",
+                                                  "labelled_placeholder_data",
+                                                  "primary_action_or_next_step",
+                                                  "supporting_panel"
+                                              ],
+                        "mockup_components":  [
+                                                  "labelled_card",
+                                                  "structured_table_or_panel",
+                                                  "status_chip",
+                                                  "note_or_caveat"
+                                              ],
+                        "token_rules":  [
+                                            "use active Pixflow variables",
+                                            "surface panels use var(--foreground)",
+                                            "borders use var(--border)",
+                                            "radius uses var(--radius--surface)",
+                                            "accent only marks actions or state"
+                                        ],
+                        "qa_hooks":  [
+                                         "layout_role_is_clear",
+                                         "not_plain_equal_card_grid",
+                                         "factual_boundaries_respected",
+                                         "uses_pixflow_tokens",
+                                         "bricks_editable_structure"
+                                     ]
+                    }
+                ],
+    "version":  2,
+    "type":  "direct_skill_layouts",
+    "skill":  "bricks-finance-report"
+}

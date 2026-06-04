@@ -1,0 +1,229 @@
+{
+    "content":  [
+                    {
+                        "id":  "s00001",
+                        "name":  "section",
+                        "parent":  0,
+                        "children":  [
+                                         "s00002"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00002",
+                        "name":  "container",
+                        "parent":  "s00001",
+                        "children":  [
+                                         "s00003",
+                                         "s00007",
+                                         "s00012"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__container"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00003",
+                        "name":  "block",
+                        "parent":  "s00002",
+                        "children":  [
+                                         "s00004",
+                                         "s00005",
+                                         "s00006"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__header"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00004",
+                        "name":  "text-basic",
+                        "parent":  "s00003",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eBricks Digital Eguide\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__eyebrow"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00005",
+                        "name":  "heading",
+                        "parent":  "s00003",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "A clearer guide / ebook page with editable structure",
+                                         "tag":  "h1",
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__heading"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00006",
+                        "name":  "text-basic",
+                        "parent":  "s00003",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eUse supplied facts, labelled placeholders, and structured Bricks panels instead of generic card grids.\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__intro"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00007",
+                        "name":  "block",
+                        "parent":  "s00002",
+                        "children":  [
+                                         "s00008",
+                                         "s00009",
+                                         "s00010",
+                                         "s00011"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__surface"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00008",
+                        "name":  "heading",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "Structured surface",
+                                         "tag":  "h2",
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__surface-heading"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00009",
+                        "name":  "text-basic",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eLabelled rows keep dense information scannable and editable.\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__surface-copy"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00010",
+                        "name":  "block",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__row"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00011",
+                        "name":  "button",
+                        "parent":  "s00007",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "Review next step",
+                                         "style":  "primary",
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__button"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00012",
+                        "name":  "block",
+                        "parent":  "s00002",
+                        "children":  [
+                                         "s00013"
+                                     ],
+                        "settings":  {
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__note"
+                                                               ]
+                                     }
+                    },
+                    {
+                        "id":  "s00013",
+                        "name":  "text-basic",
+                        "parent":  "s00012",
+                        "children":  [
+
+                                     ],
+                        "settings":  {
+                                         "text":  "\u003cp\u003eAssumption: replace placeholder facts with supplied data before publishing.\u003c/p\u003e",
+                                         "_cssGlobalClasses":  [
+                                                                   "digital-eguide__note-text"
+                                                               ]
+                                     }
+                    }
+                ],
+    "version":  2,
+    "skill":  "bricks-digital-eguide",
+    "type":  "direct_skill_seed_bricks_payload",
+    "summary":  "Seed skeleton for hardened guide / ebook output.",
+    "title":  "Bricks Digital Eguide Seed",
+    "globalClasses":  [
+                          {
+                              "id":  "digital-eguide",
+                              "name":  "digital-eguide",
+                              "settings":  {
+                                               "_display":  "flex",
+                                               "_direction":  "column",
+                                               "_rowGap":  "var(--section-space--m)",
+                                               "_background":  "var(--background)",
+                                               "_color":  "var(--text)"
+                                           }
+                          },
+                          {
+                              "id":  "digital-eguide__surface",
+                              "name":  "digital-eguide__surface",
+                              "settings":  {
+                                               "_background":  "var(--foreground)",
+                                               "_border":  {
+                                                               "color":  "var(--border)",
+                                                               "width":  "max(var(--border--btn), 1px)",
+                                                               "style":  "solid"
+                                                           },
+                                               "_borderRadius":  "var(--radius--surface)"
+                                           }
+                          },
+                          {
+                              "id":  "digital-eguide__note",
+                              "name":  "digital-eguide__note",
+                              "settings":  {
+                                               "_background":  "var(--muted)",
+                                               "_borderRadius":  "var(--radius--surface)"
+                                           }
+                          }
+                      ]
+}

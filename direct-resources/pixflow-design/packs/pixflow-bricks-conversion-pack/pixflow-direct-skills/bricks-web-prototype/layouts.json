@@ -1,0 +1,49 @@
+{
+  "layouts": [
+    {
+      "key": "prototype_centered_hero",
+      "section_type": "hero",
+      "pattern": "centred-editorial-proof",
+      "visual_role": "Centered hero with one thesis, one lead, and simple CTA row.",
+      "required_elements": ["eyebrow", "h1", "intro", "actions"],
+      "token_rules": ["section background var(--background)", "accent used once"],
+      "qa_hooks": ["hero_present", "single_thesis"]
+    },
+    {
+      "key": "prototype_split_visual",
+      "section_type": "hero",
+      "pattern": "hero_split_visual",
+      "visual_role": "Split hero or feature section with real visual or labelled placeholder.",
+      "required_elements": ["copy", "visual"],
+      "token_rules": ["visual radius var(--radius--surface)", "border color var(--border)"],
+      "qa_hooks": ["visual_has_role"]
+    },
+    {
+      "key": "prototype_feature_triplet",
+      "section_type": "features",
+      "pattern": "icon-card-cluster",
+      "visual_role": "Three focused feature cells, not a repeated generic grid.",
+      "required_elements": ["feature_items"],
+      "token_rules": ["cards use var(--foreground)", "cards use var(--border)"],
+      "qa_hooks": ["copy_specific"]
+    },
+    {
+      "key": "prototype_proof_or_quote",
+      "section_type": "proof",
+      "pattern": "testimonial-card-stack",
+      "visual_role": "One proof, quote, review, or honest placeholder.",
+      "required_elements": ["proof_copy", "attribution_or_label"],
+      "token_rules": ["surface var(--foreground)"],
+      "qa_hooks": ["no_fake_proof"]
+    },
+    {
+      "key": "prototype_cta_strip",
+      "section_type": "cta",
+      "pattern": "contrast-band",
+      "visual_role": "Decisive closing ask with distinct background.",
+      "required_elements": ["heading", "copy", "primary_cta"],
+      "token_rules": ["buttons use var(--radius--btn)"],
+      "qa_hooks": ["final_cta_clear"]
+    }
+  ]
+}
