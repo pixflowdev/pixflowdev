@@ -1,0 +1,73 @@
+﻿{
+    "type":  "pixflow_bridge_installer_release",
+    "version":  3,
+    "installerVersion":  "2026-06-04.5",
+    "nativeInstallerPreferred":  true,
+    "signedNativeInstallersPending":  true,
+    "supportsAutostart":  true,
+    "supportsShortcuts":  true,
+    "supportsUninstall":  true,
+    "builtAt":  "2026-06-04T12:02:26.6291429Z",
+    "assets":  [
+                   {
+                       "size":  165376,
+                       "signed":  false,
+                       "supportsUninstall":  true,
+                       "fileName":  "pixflow-bridge-setup-windows-2026-06-04.5.exe",
+                       "includesTrayController":  true,
+                       "kind":  "native",
+                       "platform":  "windows",
+                       "label":  "Windows",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-04.5/pixflow-bridge-setup-windows-2026-06-04.5.exe",
+                       "supportsAutostart":  true,
+                       "requiresUnzip":  false,
+                       "supportsShortcuts":  true,
+                       "sha256":  "10d08857a69ab557dc31eef62ee937d69b432c5955d0be98dfefcb51dcfeb77e"
+                   },
+                   {
+                       "size":  140906,
+                       "signed":  false,
+                       "supportsUninstall":  true,
+                       "fileName":  "pixflow-bridge-installer-windows-2026-06-04.5.zip",
+                       "includesTrayController":  false,
+                       "kind":  "script_package",
+                       "platform":  "windows",
+                       "label":  "Windows fallback zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-04.5/pixflow-bridge-installer-windows-2026-06-04.5.zip",
+                       "supportsAutostart":  true,
+                       "requiresUnzip":  true,
+                       "supportsShortcuts":  true,
+                       "sha256":  "f13f8d01b51bc7fc791d19da494d761dabd2359fab2bfd724a7617bfd59a545b"
+                   },
+                   {
+                       "size":  140247,
+                       "signed":  false,
+                       "supportsUninstall":  true,
+                       "fileName":  "pixflow-bridge-installer-macos-2026-06-04.5.zip",
+                       "includesTrayController":  false,
+                       "kind":  "script_package",
+                       "platform":  "macos",
+                       "label":  "macOS fallback zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-04.5/pixflow-bridge-installer-macos-2026-06-04.5.zip",
+                       "supportsAutostart":  true,
+                       "requiresUnzip":  true,
+                       "supportsShortcuts":  true,
+                       "sha256":  "6d9fff5e5b3a7523134af61f7abddae54c974c34369a5819932776a010db2154"
+                   },
+                   {
+                       "size":  140247,
+                       "signed":  false,
+                       "supportsUninstall":  true,
+                       "fileName":  "pixflow-bridge-installer-linux-2026-06-04.5.zip",
+                       "includesTrayController":  false,
+                       "kind":  "script_package",
+                       "platform":  "linux",
+                       "label":  "Linux fallback zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-04.5/pixflow-bridge-installer-linux-2026-06-04.5.zip",
+                       "supportsAutostart":  true,
+                       "requiresUnzip":  true,
+                       "supportsShortcuts":  true,
+                       "sha256":  "e5469378345e6a1bef02cced7290123158c312365594601e3e37e8cb9a6bc6be"
+                   }
+               ]
+}
