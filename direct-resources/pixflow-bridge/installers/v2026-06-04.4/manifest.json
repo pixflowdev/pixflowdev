@@ -1,0 +1,54 @@
+﻿{
+    "type":  "pixflow_bridge_installer_release",
+    "version":  2,
+    "installerVersion":  "2026-06-04.4",
+    "nativeInstallerPreferred":  true,
+    "signedNativeInstallersPending":  true,
+    "builtAt":  "2026-06-04T11:22:11.2968326Z",
+    "assets":  [
+                   {
+                       "platform":  "windows",
+                       "kind":  "native",
+                       "label":  "Windows",
+                       "fileName":  "pixflow-bridge-setup-windows-2026-06-04.4.exe",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-04.4/pixflow-bridge-setup-windows-2026-06-04.4.exe",
+                       "size":  148480,
+                       "sha256":  "7e66aabe32008c1f2ebbbfc8824b0ce2ddb39cebe04d20a4d7cd95b72192f03d",
+                       "requiresUnzip":  false,
+                       "signed":  false
+                   },
+                   {
+                       "platform":  "windows",
+                       "kind":  "script_package",
+                       "label":  "Windows fallback zip",
+                       "fileName":  "pixflow-bridge-installer-windows-2026-06-04.4.zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-04.4/pixflow-bridge-installer-windows-2026-06-04.4.zip",
+                       "size":  136933,
+                       "sha256":  "442113f96477dc978ec045468481c6e60255a8a02c65587a9ffdb8ed39d45bb6",
+                       "requiresUnzip":  true,
+                       "signed":  false
+                   },
+                   {
+                       "platform":  "macos",
+                       "kind":  "script_package",
+                       "label":  "macOS fallback zip",
+                       "fileName":  "pixflow-bridge-installer-macos-2026-06-04.4.zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-04.4/pixflow-bridge-installer-macos-2026-06-04.4.zip",
+                       "size":  136272,
+                       "sha256":  "69b0dad3022e0b1430b85d8fdea4d1d5b17b9175bc4a8bcbb7954c830e0599f7",
+                       "requiresUnzip":  true,
+                       "signed":  false
+                   },
+                   {
+                       "platform":  "linux",
+                       "kind":  "script_package",
+                       "label":  "Linux fallback zip",
+                       "fileName":  "pixflow-bridge-installer-linux-2026-06-04.4.zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-04.4/pixflow-bridge-installer-linux-2026-06-04.4.zip",
+                       "size":  136271,
+                       "sha256":  "afad1e22cb48dda1400ff1cd9782fd4feb2da866ed5464bb33475225247f2c5b",
+                       "requiresUnzip":  true,
+                       "signed":  false
+                   }
+               ]
+}
