@@ -23,3 +23,11 @@ Source: `pixflow-ai/src/AI/DirectSkills` and `pixflow-ai/src/AI/DirectReferences
 License: Pixflow project license.
 
 Included to let optional resource packs mirror and extend the compact built-in Direct Generation baseline.
+
+## Awesome Design Skills References
+
+Source: `bergside/awesome-design-skills`
+
+License: MIT License.
+
+Included as adapted design-method reference material for Pixflow recipe packs. Pixflow recipe names, metadata, previews, and usage guidance are presented as Pixflow-owned product content; this notice records the upstream open-source source for license compliance.

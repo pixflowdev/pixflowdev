@@ -31,15 +31,15 @@
     "packs": [
         {
             "id": "pixflow-design-core-pack",
-            "version": "2026.06.04.2",
+            "version": "2026.06.07.1",
             "label": "Pixflow Design Core Pack",
             "kind": "pixflow-design-core",
             "stage": "stage_a",
             "required": true,
             "description": "Pixflow Design prompt composer sources, discovery, directions, critique, linting, craft refs, prompt templates, and supporting assets.",
             "archive": {
-                "path": "release/v2026.06.04.2/pixflow-design-core-pack.zip",
-                "sha256": "bbf8f57c31e58b7d63bd23502b4047245c0627768047240b310176752e40dec4",
+                "path": "release/v2026.06.07.1/pixflow-design-core-pack.zip",
+                "sha256": "81be666d1b841ae4d29a22d1980659794eae873c4b0b840b6fe25d609ea0c825",
                 "size": 35438504
             },
             "folder": {
@@ -1983,15 +1983,15 @@
         },
         {
             "id": "pixflow-design-skills-pack",
-            "version": "2026.06.04.2",
+            "version": "2026.06.07.1",
             "label": "Pixflow Design Skills Pack",
             "kind": "pixflow-design-skills",
             "stage": "stage_a",
             "required": true,
             "description": "Pixflow Design skills, including the complete functional skill catalogue.",
             "archive": {
-                "path": "release/v2026.06.04.2/pixflow-design-skills-pack.zip",
-                "sha256": "91b6c5f4c474e657a4fe59a30b10f8594c3f1d5b77ac28778fe8f521a43b0a58",
+                "path": "release/v2026.06.07.1/pixflow-design-skills-pack.zip",
+                "sha256": "a855433866d436b253b8cce6a1deaadf094cd2fff0f8998cf37f3456727ec2c2",
                 "size": 8177194
             },
             "folder": {
@@ -5145,15 +5145,15 @@
         },
         {
             "id": "pixflow-design-templates-pack",
-            "version": "2026.06.04.2",
+            "version": "2026.06.07.1",
             "label": "Pixflow Design Templates Pack",
             "kind": "pixflow-design-templates",
             "stage": "stage_a",
             "required": true,
             "description": "Pixflow Design non-slide templates with side files, assets, references, and examples.",
             "archive": {
-                "path": "release/v2026.06.04.2/pixflow-design-templates-pack.zip",
-                "sha256": "b9f7b5416e5a2a18ae8c3167d4095b62e09fa8e5784f0c49d3a048d51a0420b0",
+                "path": "release/v2026.06.07.1/pixflow-design-templates-pack.zip",
+                "sha256": "3d21c5b6c0b9bb2adb8c11c710c7352542e9cdab60d38690b067283cb461249d",
                 "size": 23964267
             },
             "folder": {
@@ -13782,15 +13782,15 @@
         },
         {
             "id": "pixflow-design-systems-pack",
-            "version": "2026.06.04.2",
+            "version": "2026.06.07.1",
             "label": "Pixflow Design Systems Pack",
             "kind": "pixflow-design-systems",
             "stage": "stage_a",
             "required": true,
             "description": "Pixflow Design systems, including DESIGN.md, optional tokens.css, components.html, and support files.",
             "archive": {
-                "path": "release/v2026.06.04.2/pixflow-design-systems-pack.zip",
-                "sha256": "473df8c63f81c96ee1e8635fe026c8b9f08bf58e1f445389c7e841743634da9e",
+                "path": "release/v2026.06.07.1/pixflow-design-systems-pack.zip",
+                "sha256": "0866af692a1cbbc41239c33723f93734dafacf3d11362e7da1fbd4583c4c06ef",
                 "size": 1636628
             },
             "folder": {
@@ -18470,16 +18470,1023 @@
             "excluded": []
         },
         {
+            "id": "pixflow-design-recipes-pack",
+            "version": "2026.06.07.1",
+            "label": "Pixflow Design Recipes Pack",
+            "kind": "pixflow-design-recipes",
+            "stage": "stage_a",
+            "required": false,
+            "description": "Optional Pixflow recipe methods, full reference files, local previews, screenshots, and visual assets.",
+            "archive": {
+                "path": "release/v2026.06.07.1/pixflow-design-recipes-pack.zip",
+                "sha256": "3f963dac3703e1e8a21238b86329fef23cfa95c6f81c9985fe871ff5356803cc",
+                "size": 19249173
+            },
+            "folder": {
+                "path": "packs/pixflow-design-recipes-pack"
+            },
+            "inventory": {
+                "fileCount": 96,
+                "byteCount": 20254937,
+                "resourceCount": 7,
+                "sideFileCount": 89,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 96
+                },
+                "extensions": {
+                    "css": 7,
+                    "html": 14,
+                    "json": 10,
+                    "md": 54,
+                    "png": 11
+                },
+                "primaryModes": [],
+                "sampleResources": [
+                    "bento",
+                    "clean",
+                    "enterprise",
+                    "luxury",
+                    "neobrutalism",
+                    "neumorphism",
+                    "paper"
+                ]
+            },
+            "files": [
+                {
+                    "path": "pixflow-design-recipes/bento/DESIGN.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/bento/DESIGN.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1937,
+                    "sha256": "f935bf44a473870bbf4a24b153ed015d88a11dadaee494ceacf625c0cb55c8af",
+                    "primaryResource": "bento",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/bento/METHOD.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/bento/METHOD.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 7185,
+                    "sha256": "4203b56b3d6a436ae22b509924ee77eb47d36310b56fb80bcc350029850ff3f6",
+                    "primaryResource": "bento",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/bento/SKILL.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/bento/SKILL.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2746,
+                    "sha256": "81efd7415bc164cee9dbb55502534a846b4c602bcfed5345a5ca67755702129b",
+                    "primaryResource": "bento",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/bento/example.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/bento/example.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 16537,
+                    "sha256": "b53a2a6ba267763e105d3d146c261c7a7c39405a2c7a34b5cff3ebeb2a5672d3",
+                    "primaryResource": "bento",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/bento/preview.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/bento/preview.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 41796,
+                    "sha256": "4a2fb1d0109de0b4709160c47a4826b5b08b633eeaefe44965c8a66e0c12c99f",
+                    "primaryResource": "bento",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/bento/recipe.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/bento/recipe.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 537,
+                    "sha256": "458046931e7101e5526546dce9369241ca5076f9284c67f139be583d1db33bb3",
+                    "primaryResource": "bento",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/bento/references/checklist.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/bento/references/checklist.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2513,
+                    "sha256": "126e57cfd1ef6f1ca793543366b94259fa3ed4bc2e771e76ed020af4c13abe7e",
+                    "primaryResource": "bento",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/bento/references/components.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/bento/references/components.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2724,
+                    "sha256": "a422a2627a85341c67a0eb006b66a7deff166203a7c4143f81c8626b2b5e8a48",
+                    "primaryResource": "bento",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/bento/references/layouts.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/bento/references/layouts.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 4007,
+                    "sha256": "488660cb9bfbb68c4c088234272a5a7222eec101066c730ac9f22ecac6f4eb90",
+                    "primaryResource": "bento",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/bento/tokens.css",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/bento/tokens.css",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "css",
+                    "bytes": 700,
+                    "sha256": "0546a1c92c487c6892681f1e1b9b9233eb6781c199c86bf8b827fc9df645ca7f",
+                    "primaryResource": "bento",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/DESIGN.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/DESIGN.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2998,
+                    "sha256": "7f42e0db877ec767336a8750336e9b93f001df711a056ef550c32ada03db75d8",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/METHOD.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/METHOD.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 6420,
+                    "sha256": "e753a268a9f0d826378137b44959a48294a37694e54245666b4cd51d1e30a66f",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/SKILL.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/SKILL.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 3532,
+                    "sha256": "54384d819f0b0365611a1c36ab4465b55c98e4861595bec4aec26e3c03eca74b",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/assets/image-manifest.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/assets/image-manifest.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 1040,
+                    "sha256": "9591bcdb6dbdefef254bcf17b573861626e3c437f19df9549bd8b06464aa8c2e",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/assets/preview-desktop.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/assets/preview-desktop.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 801153,
+                    "sha256": "d956f8c3f72507ff31d2e38e5cab738b61e7b827a03bae42f8ee13ef304a6443",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/assets/preview-mobile.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/assets/preview-mobile.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 627680,
+                    "sha256": "4056e342b8068bf579b9a545949a9884528b32ceb2ca30c33121b0c2d0a60b27",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/example.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/example.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 18974,
+                    "sha256": "e1e822bc5d9b583307435f69c32025f544c7b73e80bf0c14531c6cab48aead78",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/preview.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/preview.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 41825,
+                    "sha256": "4292a2317f7ad77fe055788ef82d0e9b5073cc167f7d362f2017ffbb4a62f6e1",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/recipe.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/recipe.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 714,
+                    "sha256": "753f75c72332035961d8efa7e1995cf9ec112d310bfa431174418ab143cb9ed0",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/references/accessibility.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/references/accessibility.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1230,
+                    "sha256": "1d0d509b455b0df8b9743bca88029c1ed6e2d82a73f025bcb1414c784d641666",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/references/anti-patterns.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/references/anti-patterns.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1090,
+                    "sha256": "879a68d768dc1b586f8da209f1188472a49b99e61675d2a7c764b53ccaf51641",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/references/checklist.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/references/checklist.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2329,
+                    "sha256": "f19f5e7f3a03a8a529660256158665a39faa20b1b74129a420664d547627295c",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/references/components.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/references/components.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 3736,
+                    "sha256": "1eb5284e3cfea4e400c4e183b0aae53aec535c1d9affc445aef52c66e16f4819",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/references/critique.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/references/critique.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1775,
+                    "sha256": "c17da80daf6990271c55d05e58c0571d9ccbcc606d4047c3d04fc9f0ecc3c648",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/references/layouts.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/references/layouts.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 4594,
+                    "sha256": "1473201caee663311769b374ea3903deac56b3ae3469398dc50a611a4dd3cfd0",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/references/responsive.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/references/responsive.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1780,
+                    "sha256": "4f97ed705883db7a516498128f59564540eaedf9b175fcb888581221b05f7a00",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/clean/tokens.css",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/tokens.css",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "css",
+                    "bytes": 1102,
+                    "sha256": "3ec0a875f84997427aa9277a2a0de9c570ca404fa66673e5143f1dbd382c255d",
+                    "primaryResource": "clean",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/enterprise/DESIGN.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/enterprise/DESIGN.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2920,
+                    "sha256": "d46452250110764f4b7aca544297f744e05773ddef8cb6146afbf383ab043104",
+                    "primaryResource": "enterprise",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/enterprise/METHOD.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/enterprise/METHOD.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 6861,
+                    "sha256": "ffe952e47f3dba54cdcde668ff7104ceac266c660b8e5b2f962c017bcfaacd93",
+                    "primaryResource": "enterprise",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/enterprise/SKILL.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/enterprise/SKILL.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 3539,
+                    "sha256": "765159f1250dfe0fb33466cd5db5677db5a553a4036b289f34938e50e6d400da",
+                    "primaryResource": "enterprise",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/enterprise/example.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/enterprise/example.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 117568,
+                    "sha256": "c09e633226eba7561ec35b383c19884ceb6dbd4c15fe32360122cf9fbe7de547",
+                    "primaryResource": "enterprise",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/enterprise/preview.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/enterprise/preview.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 99691,
+                    "sha256": "77527e1f03713ad2e796fd5af83af05ca2a6c54503dd65d0cdafe8c855f3984f",
+                    "primaryResource": "enterprise",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/enterprise/recipe.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/enterprise/recipe.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 613,
+                    "sha256": "aec37cf17a5212c7a477023fd3b195fe15fa9c4f27769fbd7cb16a5cbe333001",
+                    "primaryResource": "enterprise",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/enterprise/references/checklist.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/enterprise/references/checklist.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1781,
+                    "sha256": "c85698a36a49c821d79c1d6e26d9cc3c3972bcb3d3c943268f0241b559d08041",
+                    "primaryResource": "enterprise",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/enterprise/references/components.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/enterprise/references/components.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1809,
+                    "sha256": "ef8341f63397e06e6e86241d89bf77afc782936c5e030bbbaea347a3853c7874",
+                    "primaryResource": "enterprise",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/enterprise/references/layouts.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/enterprise/references/layouts.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2930,
+                    "sha256": "82bda5dde3ec731986ccf82f02edc0e48fd02c63c97c0f51287c5cec04f58104",
+                    "primaryResource": "enterprise",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/enterprise/tokens.css",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/enterprise/tokens.css",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "css",
+                    "bytes": 955,
+                    "sha256": "e30a3af88d6b7d5e1bfa0f48883cd4cf882f3c0b6a563a7ae47cac30e5f99bda",
+                    "primaryResource": "enterprise",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/DESIGN.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/DESIGN.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2307,
+                    "sha256": "2c46177fb57b7e391e3d8af3ef77317096c3c3a92cefd5aaed988e35c48d208d",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/METHOD.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/METHOD.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 5492,
+                    "sha256": "c6efec2de63bd5d6ba6d97d79bc53c94cd54855a5dbb3b5d3d3274bcb8ec3607",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/SKILL.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/SKILL.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2903,
+                    "sha256": "174162ba6bd2d06e9d6b7922d7a8d313385597adbc5b83a6ae8b7b3b4016782e",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/assets/aurum-archive-chair.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/assets/aurum-archive-chair.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 1734682,
+                    "sha256": "1b0e98669f9e496b7a8cbdd380282220081f17da051a4ec66de34de43f623f0e",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/assets/aurum-hero-still-life.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/assets/aurum-hero-still-life.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 2107230,
+                    "sha256": "58fc6410b1d3863e62b2f955ff9a1abac79dd79c8c381b791f04b762e96ed782",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/assets/aurum-ivory-vessel.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/assets/aurum-ivory-vessel.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 2403958,
+                    "sha256": "e71d30139f44af905c63a08bbfc185407c71c917e2a02e212b489426c242c568",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/assets/aurum-obsidian-console.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/assets/aurum-obsidian-console.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 1930364,
+                    "sha256": "6b0946189ecf5e95e84ce158f68a42b380914fde7d4ecfb106f8307f6b2c0aa0",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/assets/aurum-private-viewing-room.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/assets/aurum-private-viewing-room.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 1873105,
+                    "sha256": "7c805e25ed026c16bf36e601b5978604b7af4be020ad1e6dcd7d7a62e75f36b4",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/assets/image-manifest.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/assets/image-manifest.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 2373,
+                    "sha256": "aa617bfb1ab35ee71d38dbc3dc2e8653db3b3df202afa135ed179b7f540fe181",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/assets/preview-desktop.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/assets/preview-desktop.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 3495757,
+                    "sha256": "e8ef48ddf5ccbb670fe6739d991a5aa970e7490d6db4511e3d8ef3517d6b39ec",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/assets/preview-mobile.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/assets/preview-mobile.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 1412746,
+                    "sha256": "18a0298ca4f9e5cda9d60f33b5211fa92c17ddd7a905d7ced5fb9bea2e78c4a4",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/example.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/example.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 14375,
+                    "sha256": "adfaa0be766392f10548ff57dda743597e27d3813c92841965c9c911bc9fae0a",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/preview.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/preview.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 35211,
+                    "sha256": "e6bf6ac3ac4e5325804f4d62748f0844e86d0aa53a16beb9891a642c8d691f83",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/recipe.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/recipe.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 696,
+                    "sha256": "9f652f90eeb6494a67a4b3324cf9ab383bf41d295986dd993c89c48696d62cdb",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/references/accessibility.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/references/accessibility.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 539,
+                    "sha256": "afdc1b2195e22f165d8ee1a423d3182df3da0f593f91ece0c3c0171ae1189c72",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/references/anti-patterns.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/references/anti-patterns.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 531,
+                    "sha256": "161a89a31f580463ac5c17581979d8c2490a4edc25c195339a62bfc4151f94f8",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/references/checklist.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/references/checklist.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1657,
+                    "sha256": "3c4bb4e681608426e9cc2f968fa22a11afcdb3cd7461f818051c45dbe470adb6",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/references/components.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/references/components.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1536,
+                    "sha256": "dcb7349a2ceaa4dabe148e91dffeb2dbedee0bc7f9630142a7c594cd158c78df",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/references/critique.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/references/critique.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1272,
+                    "sha256": "2131a9eae37b72eb27d417f4a6c0a85586af2e358473ce74054360f5e653b0fb",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/references/layouts.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/references/layouts.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2945,
+                    "sha256": "7ec3feeb5b6021bd6a13b21f0e178d59ca582a19b7035cba87c98116e5bb2151",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/references/responsive.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/references/responsive.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1105,
+                    "sha256": "0cc53d05325ca48e5d969d0877a6c4dfe8cc928fb9ff2a29df619e329c808720",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/luxury/tokens.css",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/tokens.css",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "css",
+                    "bytes": 457,
+                    "sha256": "1d56dd8a5aa413cbdeaf4166429c83b3c3a47b4cae861f67b684a50f5e412854",
+                    "primaryResource": "luxury",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neobrutalism/DESIGN.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neobrutalism/DESIGN.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 3033,
+                    "sha256": "c2b900cf0ef1f1913ade0196464360bcd8da40c3e363c15cb987013942dcf2e1",
+                    "primaryResource": "neobrutalism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neobrutalism/METHOD.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neobrutalism/METHOD.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 5888,
+                    "sha256": "8bcfa9e4d34e2aaf2fe6eec6b3994fd35017d3c0bc5d27f9d4d9985183f490d7",
+                    "primaryResource": "neobrutalism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neobrutalism/SKILL.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neobrutalism/SKILL.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 3491,
+                    "sha256": "4ba68a9b0bae4b29d895af02fc9e8400b7c5d2f6eaf7946e48bad7e630aa3be6",
+                    "primaryResource": "neobrutalism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neobrutalism/example.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neobrutalism/example.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 33628,
+                    "sha256": "8c9a04615cc58ac81a04f9383074e4ff66477854faf3d3c737b80105113ac790",
+                    "primaryResource": "neobrutalism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neobrutalism/preview.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neobrutalism/preview.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 38064,
+                    "sha256": "91d67ea260a4118fe5c2c9c6541a114b43ac3e2746428909edee10eefd2c6d10",
+                    "primaryResource": "neobrutalism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neobrutalism/recipe.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neobrutalism/recipe.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 588,
+                    "sha256": "f8a5f5cb32444f16446b7018d075c7cba11072460f3d5b917170919e50a0f20f",
+                    "primaryResource": "neobrutalism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neobrutalism/references/checklist.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neobrutalism/references/checklist.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1542,
+                    "sha256": "de3002b82005734f94e5a59b430dc7ba9a806695cc0d13c4fa1c45f849165e6d",
+                    "primaryResource": "neobrutalism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neobrutalism/references/components.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neobrutalism/references/components.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1781,
+                    "sha256": "b2e8ae7384f784d16cfe742d5da5b93eaa1cbf1b9cee8247e433e6c085b7406f",
+                    "primaryResource": "neobrutalism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neobrutalism/references/layouts.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neobrutalism/references/layouts.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2261,
+                    "sha256": "f331d7a7f651fae371d179ff0788e394bee1a785aedacc15f33a30fc05590d39",
+                    "primaryResource": "neobrutalism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neobrutalism/tokens.css",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neobrutalism/tokens.css",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "css",
+                    "bytes": 901,
+                    "sha256": "421fed900933661ddd7e2d91ac0292d743f07351f3bc1dff78f529bf9ce6e756",
+                    "primaryResource": "neobrutalism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neumorphism/DESIGN.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neumorphism/DESIGN.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2475,
+                    "sha256": "6c3b8784ce787c8480cb154f6432a616befa3cc16d38d0e79cb21f853bb7936d",
+                    "primaryResource": "neumorphism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neumorphism/METHOD.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neumorphism/METHOD.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 4876,
+                    "sha256": "12abd79a54bc7c465669fb9aa05a735bf718c10ab11219e42d8cfbae8b41d5d2",
+                    "primaryResource": "neumorphism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neumorphism/SKILL.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neumorphism/SKILL.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 3148,
+                    "sha256": "4e26c1fb040ff410a3b4e2e82636109243f1303354b602293b58c928e7f5c8ee",
+                    "primaryResource": "neumorphism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neumorphism/example.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neumorphism/example.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 82791,
+                    "sha256": "82166b29b5a6c706007b1e87b87485f69ffb9fa2a871ad744bb7f2dfc6c384c3",
+                    "primaryResource": "neumorphism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neumorphism/preview.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neumorphism/preview.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 74584,
+                    "sha256": "e723e642431d829fba3b932da76168fcbbe2149b7e4cd0931be9323a91124dd1",
+                    "primaryResource": "neumorphism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neumorphism/recipe.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neumorphism/recipe.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 580,
+                    "sha256": "3e7870af29b77cbff990a54e1da80e7056a7079449b4620d26f08e2a6812bec8",
+                    "primaryResource": "neumorphism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neumorphism/references/checklist.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neumorphism/references/checklist.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2031,
+                    "sha256": "a443f46a76e15b5676cc230d847de311068378c075ffc1417caa41ede6ce2c64",
+                    "primaryResource": "neumorphism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neumorphism/references/components.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neumorphism/references/components.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2127,
+                    "sha256": "cb52080d8a5eb919b0d0f5352fe6dcea09aa4fb6645e0cf227304061574bb9d5",
+                    "primaryResource": "neumorphism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neumorphism/references/layouts.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neumorphism/references/layouts.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2811,
+                    "sha256": "167537a8e90452accba3f2970651913f8d9b718ef163c4dfd753159760a0c7de",
+                    "primaryResource": "neumorphism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/neumorphism/tokens.css",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neumorphism/tokens.css",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "css",
+                    "bytes": 900,
+                    "sha256": "3b4b04de812e94f53669a8e68a87faac656641395ee329de074fe276cf70e6aa",
+                    "primaryResource": "neumorphism",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/DESIGN.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/DESIGN.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2551,
+                    "sha256": "173c5bf601196b6bec9fba4fa8398c8403ead7c0c17a49d78f83131ab1ad4fbd",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/METHOD.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/METHOD.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 5499,
+                    "sha256": "ec6849cb7a12ae36b9e202b56ef4f061ec2f0428202f356f5c7804cf1aba0c2e",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/SKILL.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/SKILL.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 4068,
+                    "sha256": "3b10f7b2fbf9d1c0757eb0fa000d54908213514e57f4d41e49ccebb58bbd2dee",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/assets/image-manifest.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/assets/image-manifest.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 968,
+                    "sha256": "df4ed63dd60a201054974d75fd33c94bffb9b0cc8a845377e4ff1f0f57189e27",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/assets/preview-desktop.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/assets/preview-desktop.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 1868015,
+                    "sha256": "f9031c107832bf1d9dd3fea4749fe2c9a908d4957de47d10261e92bc3e938d20",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/assets/preview-mobile.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/assets/preview-mobile.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 1135037,
+                    "sha256": "5cd3a3f71fd7790f16a5a628a7ac922397a1f1d988c3ef044bdb9623fcd55199",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/example.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/example.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 26600,
+                    "sha256": "a13dcb99be0a05803abd6d9444f2d1ed7f20c6a7348e568f68f346f54aef9141",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/preview.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/preview.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 55660,
+                    "sha256": "9087e95062a9c6ec1cf4baa3400c2026d49b2cb6b543c3265497c58c99c4b3c7",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/recipe.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/recipe.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 693,
+                    "sha256": "5e1ba582fc583d620db9c1d063a7e61eac03df0ef27d893c5e4b3b5136b84b52",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/references/accessibility.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/references/accessibility.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 787,
+                    "sha256": "e9e88aaca9e8838f59f26e2f8587ac9dc0a66370527e91b07dcf83a32ec2c95e",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/references/anti-patterns.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/references/anti-patterns.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 837,
+                    "sha256": "f1abb814832633a93a80249c94acd378ca1d4eda6736448a16951a2cb259d8f6",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/references/checklist.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/references/checklist.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2488,
+                    "sha256": "6c729a701694f528f4fd1db12fa68504783caf1aa60066acb722abd5163707bd",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/references/components.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/references/components.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 3062,
+                    "sha256": "ec2631f1d5973fd9fafeafe520b93a87517113416e4d11ccbbb0cbc3804d4f30",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/references/critique.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/references/critique.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1468,
+                    "sha256": "a3483d916cac92ab73b2b7596c924a6e180804a40cc4907eeca1ba6351b04d48",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/references/layouts.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/references/layouts.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 4394,
+                    "sha256": "e4dc209149f57fce984fd330a03d59aa8773a457c27a3ba63a397b4ce4a11aee",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/references/responsive.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/references/responsive.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1337,
+                    "sha256": "c31550bed84aafb78f765bd64fd7edb9045d7ae3052af4c7f7b73f4ca4fe74af",
+                    "primaryResource": "paper",
+                    "excluded": false
+                },
+                {
+                    "path": "pixflow-design-recipes/paper/tokens.css",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/tokens.css",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "css",
+                    "bytes": 1411,
+                    "sha256": "3c8a3b70fd859a47f41ec205130c01db806a7feafab6bff005762ac01a8c7dc0",
+                    "primaryResource": "paper",
+                    "excluded": false
+                }
+            ],
+            "excluded": []
+        },
+        {
             "id": "pixflow-design-plugins-pack",
-            "version": "2026.06.04.2",
+            "version": "2026.06.07.1",
             "label": "Pixflow Design Plugins Pack",
             "kind": "pixflow-design-plugins",
             "stage": "stage_a",
             "required": true,
             "description": "Bundled Pixflow Design plugin manifests, scenario routes, atom skills, example plugin assets, localized plugin metadata, formal plugin runtime contracts, and plugin design-system fixtures, excluding primary slide/deck/PPT routes.",
             "archive": {
-                "path": "release/v2026.06.04.2/pixflow-design-plugins-pack.zip",
-                "sha256": "ce466f69875c240448f97a6a8c39751ab77e591ddfc5aa15ab6d49d475cd3ae7",
+                "path": "release/v2026.06.07.1/pixflow-design-plugins-pack.zip",
+                "sha256": "2d14061ac56ea33c9356d9aa3cd15c5fd61dd4e24ec1f406399b39edb824367f",
                 "size": 24428952
             },
             "folder": {
@@ -36363,36 +37370,36 @@
         },
         {
             "id": "pixflow-bricks-conversion-pack",
-            "version": "2026.06.04.2",
+            "version": "2026.06.07.1",
             "label": "Pixflow Bricks Conversion Pack",
             "kind": "bricks-conversion",
             "stage": "stage_b",
             "required": true,
             "description": "Pixflow Bricks-specific conversion skills, Bricks references, Pixflow Framework rules, and editable JSON guidance.",
             "archive": {
-                "path": "release/v2026.06.04.2/pixflow-bricks-conversion-pack.zip",
-                "sha256": "edecc80e5409c5a9592e115a2d7d103b4ec9c713f5c99829389fdc763e772517",
-                "size": 2859427
+                "path": "release/v2026.06.07.1/pixflow-bricks-conversion-pack.zip",
+                "sha256": "a9bb561778041b5e5bd44a7f590e544ae51a769d0065f5e1789a9afdd08b2aca",
+                "size": 240591
             },
             "folder": {
                 "path": "packs/pixflow-bricks-conversion-pack"
             },
             "inventory": {
-                "fileCount": 473,
-                "byteCount": 10942913,
+                "fileCount": 322,
+                "byteCount": 643036,
                 "resourceCount": 0,
-                "sideFileCount": 428,
+                "sideFileCount": 277,
                 "excludedFileCount": 0,
                 "resourceTypes": {
-                    "bricks_conversion_reference": 166,
+                    "bricks_conversion_reference": 15,
                     "bricks_conversion_skill": 307
                 },
                 "extensions": {
-                    "json": 222,
+                    "json": 71,
                     "md": 251
                 },
                 "primaryModes": {
-                    "bricks-conversion": 473
+                    "bricks-conversion": 322
                 },
                 "sampleResources": []
             },
@@ -36483,8 +37490,8 @@
                     "sourcePath": "src/AI/DirectReferences/bricks/manifest.json",
                     "resourceType": "bricks_conversion_reference",
                     "extension": "json",
-                    "bytes": 7887,
-                    "sha256": "b49149d534f30b04358590be896680aa5ae62f04f1e57af4219899b2612721a2",
+                    "bytes": 7659,
+                    "sha256": "1f1ffe6c7b87889529923b3b24d51318112a077f2d9f54d87a12ccd7579cce4c",
                     "primaryMode": "bricks-conversion"
                 },
                 {
@@ -36530,1365 +37537,6 @@
                     "extension": "md",
                     "bytes": 732,
                     "sha256": "aba393c37f8577dbcdbc0795464491414bdfc5bc7b604f1ff1ab6d9a11ad5499",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/agentic.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/agentic.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45763,
-                    "sha256": "7872d4592a3010e18b25e089c1fe28dc0250459d9e1bd291d9054505b23ae493",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/airbnb.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/airbnb.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 108433,
-                    "sha256": "bddf15c2b9bf46d393dda585758ef68b81ae33d9d383453a7a6b81414e271fcc",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/airtable.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/airtable.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 50588,
-                    "sha256": "a6ed76d134a3699e008e48721aab1946ed3d28ea18132dd4fd794c6e71241a7b",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/ant.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/ant.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45805,
-                    "sha256": "c9dfc4204d6f66ce0fd2efdaa52a8999bdb32fa8cccc8ad9faa239709f96f05b",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/apple.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/apple.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 82700,
-                    "sha256": "f917d933e017fd850f736a8fc66ac8aa16ac0e58ecf8b40075438428d9475ea1",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/application.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/application.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45957,
-                    "sha256": "c3c6fbc404f73af270d40133ba49fb9214b147133fcff0e82ca66b4cde22f7f1",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/arc.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/arc.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 58492,
-                    "sha256": "4599f966dc7ca3f963f7c1cdfb2e85e0b5c27c6f39d38fc156a0077d2b4f4188",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/artistic.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/artistic.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45777,
-                    "sha256": "52b1b18861982a801403e549e51a9c147e9f2a978ac3d5889f4a461f3bea371b",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/atelier-zero.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/atelier-zero.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 71427,
-                    "sha256": "04db4fde9b87a558b53b4089197f2f13e93afb44d87d68730d5596256683c988",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/bento.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/bento.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45816,
-                    "sha256": "caba6ba3c34c1d213d208f6f82b67b5ad5d8732ff2bbbc59b7ed06cb3614f68b",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/binance.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/binance.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 85569,
-                    "sha256": "7bbad6dce57187ab60619511f125e6eb148b05204d5f66b2aa4d84f100c46dba",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/bmw-m.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/bmw-m.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 98002,
-                    "sha256": "50bf6a113f370a0ffab6f8fb6a02de26073efaa6a2796762253736ed4b46f870",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/bmw.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/bmw.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 62893,
-                    "sha256": "19876e3494c6ea83a22665d71a764e9f023d9b000f2642a3d13d1962a359f87f",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/bold.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/bold.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45543,
-                    "sha256": "d3da7ba59ae84af3add64a20755507ff459f474b5d33d7166cbec17c57897ddd",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/brutalism.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/brutalism.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45916,
-                    "sha256": "139fe18de25536b180faacd3413089052f47faa22f8e1e1225599c8588f3549a",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/bugatti.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/bugatti.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 100709,
-                    "sha256": "8b0531869aa3c48fe7746c6a8a43e35898d7090f09d02c83fbba68382629d87d",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/cafe.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/cafe.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45727,
-                    "sha256": "403190dfe2f1d765540551b688e88457d349d9201c2514cb97d9c2eef0f7df28",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/cal.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/cal.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 82652,
-                    "sha256": "0e9c028dfa56dc89534a0f20bd5b1cc9b99bab6b5cd0d57b54189332ba8e726c",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/canva.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/canva.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 58262,
-                    "sha256": "5f0164b39d4c6ba5647fec6b302e29621428d82bb1e4846a22ec49f155edf6dd",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/cisco.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/cisco.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 67313,
-                    "sha256": "93aaca1a7cfc6ed54fb31989f036bc04bdc15e3cb988243af12552674940b3b6",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/claude.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/claude.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 88694,
-                    "sha256": "ae15aed65c91b14bb3363b6545ffb9c41191711ae23476c6ae93fd772ba901d8",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/clay.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/clay.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 83403,
-                    "sha256": "bb7d3eba68ba3fa6e8fadb1218f0ecf41f6a41253a6c1fad941f724d8aa0cca8",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/claymorphism.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/claymorphism.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45819,
-                    "sha256": "44cee4f893a91c5b9cbab30e95d475a340204f8762af09a731a7589b57c3f094",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/clean.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/clean.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45743,
-                    "sha256": "fb9a4ed1fea57bc5a4fa76d42d026443b3452e88dfa0cd351dd6487d531b8348",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/clickhouse.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/clickhouse.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 77818,
-                    "sha256": "7319824d393e83d15f6ecdcc48d9fbd342cf98427b239b58c57396adc2226014",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/cohere.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/cohere.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 76432,
-                    "sha256": "31c39badbdc036db4ab9f5cd48fbdf847236a897baede672f10a24c6c452dc7c",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/coinbase.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/coinbase.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 54454,
-                    "sha256": "2d4ba0776e06ab6757d3639a6218f953e186b9645ee0889cb9dcfae4a1ee55cd",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/colorful.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/colorful.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45673,
-                    "sha256": "b3cfb7bede8346c185493b176df834c847a9cef877b5bab0ecc97028be0e93aa",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/composio.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/composio.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 89076,
-                    "sha256": "01ed7aad6dd50ea8f644dbcd0a222af7b9f9f2e2df05e920ce612305662d85da",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/contemporary.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/contemporary.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45797,
-                    "sha256": "1f6ecdef6e6eb212800ede9719e8916d786fea1fa54ef3bfbec43999c51f42d9",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/corporate.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/corporate.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45814,
-                    "sha256": "e0cf1c302e01f5c5d871900309851a02bc32cd535ed37953c202a19a379309af",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/cosmic.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/cosmic.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45545,
-                    "sha256": "1663a6344dcab71aef06a5c881e4963332a03a68e3acefa435a327cf151cb489",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/creative.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/creative.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45786,
-                    "sha256": "7afb7973be8f3a0e6bdfcaa3e9021f1f2fb7a957d6778520d6a5e0fae03de468",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/cursor.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/cursor.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 86313,
-                    "sha256": "2dbfc86cc2dedf0b0bc5d7155dc061d5a7f93adecb7d162dba9659d2d0c963d3",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/dashboard.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/dashboard.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 46177,
-                    "sha256": "c2f67bcabe89d8f9c53ecc8e9cd16ce44c75f8012d4be31750bd71af102a59ed",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/default.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/default.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45579,
-                    "sha256": "0f10161b5a5dda60e846706cea1069a2ebf6655a0cb20628f1b24bc3bccac1f1",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/discord.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/discord.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 59975,
-                    "sha256": "507bd0982cbbcbfc6eca64bbfd9cf1a83d773cfbe9aeaccbaf941631e730b491",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/dithered.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/dithered.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45811,
-                    "sha256": "03950f406fa6075522c62eb8409e810a788c756c3648c9d58ca3a7375f55e313",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/doodle.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/doodle.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45752,
-                    "sha256": "353ff242dedc6a1258249ecb1e6fcdbc49194b06245c3e6e8b182800a0be8137",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/dramatic.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/dramatic.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45774,
-                    "sha256": "52293bd3453b11686d296cdaec0bf51129385749562a7f7aed7745c01b4a72b8",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/duolingo.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/duolingo.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 58008,
-                    "sha256": "e2d494d4531597ece70fb39a9a12521c02736ed18f61eeda894e0ae6703b6312",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/editorial.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/editorial.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45775,
-                    "sha256": "b2e4affc8a60c79faa19f4bdcd9c1f29ae625f091363aa1c8939f135d12b550c",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/elegant.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/elegant.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45786,
-                    "sha256": "197475b3bb2a20155456ddd020222969e8bbf6f8d8209361f259ee4b5a78b6c7",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/elevenlabs.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/elevenlabs.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 77372,
-                    "sha256": "af2f2c76df69fff4807e2df48e3aab7732de539d0e88efc9cb981a77e796452d",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/energetic.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/energetic.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 46027,
-                    "sha256": "5bf8e781c0a1ec8448b42f1b0150afe0566b446c279920d3503be3b9f3a1fdd2",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/enterprise.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/enterprise.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45920,
-                    "sha256": "e9f3654cb1e7eeb9fedc3290e2bd345835c433eecc6e23c99fafb6d3cd2ca913",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/expo.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/expo.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 84342,
-                    "sha256": "f46dd5242e4bfca64245829b3738d9a4c41e0da5a896f37f5e4c1566194a8ad0",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/expressive.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/expressive.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45920,
-                    "sha256": "118b1150bebd9a67bafa82b71f0ec437bc07975c72b6db15d4a5656bf7162729",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/fantasy.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/fantasy.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45756,
-                    "sha256": "59c9cad0c8d124e04c27cd2c8e613d31c9baa3d5b77ec77665d8b04c77bf2010",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/ferrari.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/ferrari.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 98847,
-                    "sha256": "cc23670f90299c7b96eaf1b5510f3e37229f1cddf4e9e0e1b690c410c7725b7d",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/figma.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/figma.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 66161,
-                    "sha256": "7b794e2352f562617c8421bb25c94846ddbb117179fccbc4543d52c374030183",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/flat.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/flat.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45747,
-                    "sha256": "d1b32df12b3ca01fed5a1a74258f4a0f761e2112bea33b9be6b440ac89c4dfea",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/framer.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/framer.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 81154,
-                    "sha256": "920c3bce32fa0bd00f62a1e5050d629d02d63ba5a1b9fd7e2ef21da2b602fe8b",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/friendly.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/friendly.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45707,
-                    "sha256": "8a1f065faa698cb6bd4f7e284a5ed1ec2ca6e792b69914e7d8e004e44c094391",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/futuristic.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/futuristic.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45767,
-                    "sha256": "a2c3cb0b8b5a102b960b5639bb2ec91fd954d85322b0df3f237483d9d4a00ddf",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/github.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/github.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 59839,
-                    "sha256": "deff4130c01bb715ee6786a851b0b836cdd19fe37e3569e7440a6536de60178c",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/glassmorphism.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/glassmorphism.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 46059,
-                    "sha256": "df1bf049e6fa48ecdcc7804a8eb6f80610bd73b407faea19f48c8bfc3a6b9a84",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/gradient.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/gradient.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45711,
-                    "sha256": "8597b99d331f87e4c43240e4152108e68ed1b4ffbd1cd3d0fab2ff005adecf18",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/hashicorp.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/hashicorp.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 79348,
-                    "sha256": "641f92e219b1ca974e1c4f134fecbc7b3d8b3f1c1775801cfd274302a1f15911",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/hud.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/hud.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 57138,
-                    "sha256": "15a0e92cb03dddd5c09dfba470a05375ca6bffac14528864528468c099432939",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/huggingface.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/huggingface.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 58270,
-                    "sha256": "9295efc150899aaad992fa0e87d3fdc993756a0bb92f71d0d05891706909f8a5",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/ibm.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/ibm.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 87623,
-                    "sha256": "6132fcef1b44e62690190618478963f5aa4e74fbd015dd535932ab40f9ae6d63",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/intercom.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/intercom.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 57862,
-                    "sha256": "4881584518fb414f56337c9c9b0cee048eab9630970d25cb5616526022ce3723",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/kami.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/kami.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 92961,
-                    "sha256": "c7f2cbfe14abe9603b733eee888dd62ae3810862dee57d51c6bcc9cdddac1460",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/kraken.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/kraken.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 53079,
-                    "sha256": "5ce3d636880e24474975901881be5567cbce6a560e99afab50e28c8262080ed0",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/lamborghini.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/lamborghini.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 90145,
-                    "sha256": "3659a5e4cc84336a4e2deb0b860fa1f9d2deeb7266987802515febab0389d604",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/levels.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/levels.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45699,
-                    "sha256": "96b276fbe6c07cbf33975aab031451c60158287287751ef66a9b5a795623d77f",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/linear-app.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/linear-app.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 94700,
-                    "sha256": "40002fc688e81974e4310777f78e1442bb70ee44e2d81f6d2903eecf7958acfb",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/lingo.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/lingo.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45782,
-                    "sha256": "84a28e7f075f01cf27cf79e2f5e812e70b9038bd4e3784a1ad6ed67adeb930f2",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/loom.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/loom.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 58743,
-                    "sha256": "ab0bd96e5e0466ed1dc549bc771217904e782acf902c2516e849ee24a0c3ead6",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/lovable.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/lovable.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 81950,
-                    "sha256": "2f4f35fb57b2e4ecab997bad51715f5ae42ccff313df0718e025e96dd00ad9a0",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/luxury.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/luxury.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45701,
-                    "sha256": "eea24163a605e8484f32a4dc2c7240ab874ff6f967d43d05e978686186edf575",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/mastercard.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/mastercard.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 102495,
-                    "sha256": "111a2d54f5af7662475df97ae1278e0bf4de2ffcf77782c099bfb7c9bfb1e45f",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/material.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/material.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45851,
-                    "sha256": "aae6370a5a4794a5bbef1b0566e6540973b29f6f036f065eb95a136117642d02",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/meta.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/meta.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 89774,
-                    "sha256": "34715b906faa22223eb7b1b69c7a4e7f5a8afc74ea450053470d39a1aa89c5cb",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/minimal.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/minimal.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45761,
-                    "sha256": "56690f63cf09a93591bbcb290c01947f9a40cc6f13aab68d7761d96c315b3cbb",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/minimax.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/minimax.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 75442,
-                    "sha256": "4e9330cc131f1b4ea856d51c07810479081ab82edc451c2598163123c90e0ca4",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/mintlify.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/mintlify.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 83196,
-                    "sha256": "5e44717783ba306cfdb5237fcedbedb0a0ad8c8e4ebb10c1698caf4daea9297d",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/miro.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/miro.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 53857,
-                    "sha256": "def980e9afda457385ef56d41de07ce0717acd549b20fabdcd20649abafd8c31",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/mission-control.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/mission-control.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 72009,
-                    "sha256": "c004d68553ef5e4749cfd958d504f443ca2f743ca655b5558518453cd1606d96",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/mistral-ai.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/mistral-ai.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 77898,
-                    "sha256": "f8dfb8ce10c7623bb5b0fdca3a27f8ebcd1afeee0bda08ebd1de83a532403828",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/modern.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/modern.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45758,
-                    "sha256": "d467a609f54df1b588489168de4fcc091ae7ad3a5313d806e1feb8266666bb7c",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/mongodb.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/mongodb.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 76999,
-                    "sha256": "9a8afe5dc9ddcda2f8add63a3247e3564ea21adf87d22bd21635e3f026f54469",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/mono.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/mono.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45813,
-                    "sha256": "c8c9209cff3ec15c25679990a2c38b858b46adee6e2e1bcd79dd976c8a3bfdc7",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/neobrutalism.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/neobrutalism.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45829,
-                    "sha256": "62d2e84543e02c6d631119fb05bcbca107ebf29ee1b728f71f4ff7c66af43f53",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/neon.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/neon.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45553,
-                    "sha256": "ef243ee30fb00e3f0725643ff9bbe46cce108156da142e279c7a109cecfe91d7",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/neumorphism.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/neumorphism.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45908,
-                    "sha256": "8c8a7885798a5ab9a61cfc68ce6ca74870c0db29ad8e781e3d2dff99939e7414",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/nike.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/nike.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 88019,
-                    "sha256": "3fb4c915c4f2188bcf3ec6d6d21b9bd722623a0845e0af43fb2d7038561b7d3c",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/notion.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/notion.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 84206,
-                    "sha256": "51941e5bb2f5d3fbcdecd30af7b0bcb1fe7fd29a178b344e048f6cae74423678",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/nvidia.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/nvidia.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 81747,
-                    "sha256": "2fe5f4f1f92e1ab9f24145e64c173656a581a1dc651ccb318d42b08331928edb",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/ollama.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/ollama.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 77546,
-                    "sha256": "36421402b48e793260ff43137207f0291fb050f603988fbb1ca6c1a608b3570a",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/openai.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/openai.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 57755,
-                    "sha256": "baffaf640a018484abb0e81074ed9f70655389df6044038b8b220d0bdd0db9f0",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/opencode-ai.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/opencode-ai.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 78012,
-                    "sha256": "d8b455cbe9883ce5448b9b73769abca262393607bd81f78804742c897c14ba26",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/pacman.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/pacman.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45905,
-                    "sha256": "bf1fded8c43b94dadb06c89e6e153e10ce44040d222346d4cb1daca4e3107700",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/paper.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/paper.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45715,
-                    "sha256": "edfbc85cdc1ac2ee27e0094b52908c19e935dc90afa321d06b952c1fcd34a09a",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/perplexity.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/perplexity.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 66630,
-                    "sha256": "d77acbe069326f3a5444ca9c8df382803252f50b4f5ea13a1e2e92b3e63021c5",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/perspective.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/perspective.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45904,
-                    "sha256": "be7e92a65fbaf28edf288187f4205ef572ea8280002643bc529bb1981dc5f054",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/pinterest.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/pinterest.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 69992,
-                    "sha256": "5fa332c7acf2aa9810ebf2a750c049ccaa8250108848c4e32e064dc64c2c0bf8",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/playstation.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/playstation.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 107530,
-                    "sha256": "3f369e0a64e46f0e63a8b0830c657456e94070801465bc91e8bfb911fa40511e",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/posthog.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/posthog.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 84936,
-                    "sha256": "d7dd0b3a6373f6f83c289ee08166d9173e9ad9ce1c762d1fce16b4d4384c2bec",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/premium.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/premium.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45727,
-                    "sha256": "4ef368bed6f13b9644e24c82544773815c54e99cf58ad6adda5da312549253eb",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/professional.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/professional.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45824,
-                    "sha256": "faa9a8372d213c100dff0eb9884957bd3d7ab8d2ac17ea493dc7f9e71873ce32",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/publication.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/publication.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45817,
-                    "sha256": "b04f761b47b55662ebf0d2c9e77634717d51ad014608e77cb931c782e6ea2026",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/raycast.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/raycast.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 85351,
-                    "sha256": "bf8ce800902e138d6ed3c74135bd6548cc49a5691fc7e6bc9baf31bbea20f446",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/refined.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/refined.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45739,
-                    "sha256": "2dbb70d9c7a32d3c459b7ac4cd57b54754b201b30f805db558b4ebc2127e6178",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/renault.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/renault.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 96645,
-                    "sha256": "f8170e9611e102a53834de493338745c38c43b748f9507db6c1da0e22477d5a5",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/replicate.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/replicate.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 74643,
-                    "sha256": "933bf3d4acd07041edfbe6a8f1385afd857c7057262a0bcb4aff2f822e8960b1",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/resend.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/resend.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 85487,
-                    "sha256": "85948b78573b3fd7845b4954587a7497416bff4f3f2bd9fe85740354588aa6c2",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/retro.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/retro.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45714,
-                    "sha256": "1738e7e661b6ac2cf1486bae45ba96cb1f6f60f6b21e3d48257d6c95bd785670",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/revolut.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/revolut.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 63066,
-                    "sha256": "3227d8a1ba48e02b9e478385052c2f97e795c9f82918a4c5bca55f674283ff8d",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/runwayml.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/runwayml.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 74544,
-                    "sha256": "27dd78a88fc5fcabef4fcb3c089bc61d00218291c76bc236ac11e95ee38f55fc",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/sanity.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/sanity.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 91510,
-                    "sha256": "3be66881fdd8695c89b3090e6ff0249747b2f6b298f42967e757607342d93ab4",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/sentry.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/sentry.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 76881,
-                    "sha256": "0ab548e73b4acddb9982d0b80315ec2c2ee540042318657dbc6c16c7bb9cac12",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/shadcn.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/shadcn.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45583,
-                    "sha256": "0bc607ce983996eaef8b968adf47512531f47f23e0fe716617f98a2aea5a1768",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/shopify.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/shopify.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 87973,
-                    "sha256": "6a0397f25cc8294506b27e905ff7886bdc7b9efd44b05faf52b49108d148ea75",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/simple.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/simple.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45746,
-                    "sha256": "35c45c760cf34150a2c2893cbd556e12f5eb23a9ed5df80aa3e1d014d3a9c4b0",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/skeumorphism.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/skeumorphism.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45876,
-                    "sha256": "8f9fce120df05d30f09b2b7a2635cb0a516a340ea06a2e6e5a714b078a9be2f8",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/slack.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/slack.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 70922,
-                    "sha256": "d92f772f0a733430cf0c654353f111dd25bfc8d5eb3ef0bd6ce9f16a7738054f",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/sleek.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/sleek.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45754,
-                    "sha256": "d48790ddbc8e7d64213843b4795e00a91f06016cfd5732b4602530225ef90087",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/spacex.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/spacex.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 65034,
-                    "sha256": "aa6a720b053c48029fa5233063977295ef590583c4dc9feaf14ebbd43b029e39",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/spacious.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/spacious.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45740,
-                    "sha256": "56ce7bf9185334fbb7902ccf3dd50e0fb4d066146de94cdcf8c6e1292f51e54c",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/spotify.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/spotify.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 72653,
-                    "sha256": "6a425994aacc095de5cf89e8eb6827c67789f8ffbfc9a53734399d18ecca8dee",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/starbucks.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/starbucks.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 128997,
-                    "sha256": "80743d01ebfc8b891026685ae698bf20a9100128a4e2b311d82a2d90844d042a",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/storytelling.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/storytelling.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45902,
-                    "sha256": "7d6fc7448c924af93978a80786e40be39fc75b162400001269c501b0c82e56ba",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/stripe.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/stripe.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 89801,
-                    "sha256": "b6ed580f9a06cf3af712820de14f4ec78d7128ea78d706561aab63d169aed158",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/supabase.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/supabase.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 77117,
-                    "sha256": "58a18123d3bacd7fd92bd431dcb6133c4daec3a6b30c1dadc8a4230f542c9d77",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/superhuman.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/superhuman.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 84797,
-                    "sha256": "5d584d740f70d2f3ef57bf3153d643c73e11679bbe36d7cf3a2c35b0883a03bc",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/tesla.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/tesla.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 92111,
-                    "sha256": "640d8103c7039ea7b98e2ec5ee132e0b2fb07d113d18dd42c5b4788231304215",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/tetris.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/tetris.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45761,
-                    "sha256": "67701e1a8c2d896040b6b717f845c20b4fb34b25ab66067eda1f57f3e79bbade",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/theverge.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/theverge.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 107227,
-                    "sha256": "da7d2c24078f431d7da814ef5cf9b948a7d82236aac985a0daa4ee7b417299f7",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/together-ai.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/together-ai.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 73991,
-                    "sha256": "7be18a9857e4d01d08f8780d036c209f17c410019bdfa510df35872df88d9873",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/totality-festival.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/totality-festival.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 60601,
-                    "sha256": "4eb449c8c636e3d2e9060c32aa0b80f982a835a4dde244dd73e015df47eb0db3",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/trading-terminal.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/trading-terminal.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 57235,
-                    "sha256": "25835a5f4f404e528fbcdece65c402158be43661109f865bb18db4e1d5cf3410",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/uber.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/uber.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 83906,
-                    "sha256": "9c27246687751ef89b5d2242b86f7fd96b03ded1f329bd3af7ad38ba777026c5",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/urdu.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/urdu.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 106711,
-                    "sha256": "0849397001867868a3c413a32350c66dfcceae61b933766d83a449b20d9b4907",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/vercel.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/vercel.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 87004,
-                    "sha256": "f84c0d4ecbdbbb5bb02ea5d38d185dff5c8399141c6856e88a112ff0fbd93da6",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/vibrant.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/vibrant.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45615,
-                    "sha256": "fa26affec086b22d17e027d57cacf9e8fa7ef2b311b717610bfbfc4eae0f2914",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/vintage.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/vintage.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 45694,
-                    "sha256": "d95602505f3f10ab79ee1238c7ac96a98fb3da63c1ddf11e77aa8c71ef5f9a5b",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/vodafone.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/vodafone.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 109917,
-                    "sha256": "3a71781e08ee05516dbd833ac7f72cdce6ad34bd0a91d43cdbb799f56354040e",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/voltagent.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/voltagent.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 101452,
-                    "sha256": "f49188c775ceb3a46b13e8615c3bde9432d0526a932960272d408c79003c299e",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/warm-editorial.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/warm-editorial.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 47983,
-                    "sha256": "547a2dca270a4b861d2a98c52b99d36c9e8eb310e82e438282c06b64b248c066",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/warp.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/warp.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 79279,
-                    "sha256": "f89da807cafc4ecbf22a3007ca484851a545cf2ba54d4f8debd3896324e5ff9e",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/webex.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/webex.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 65821,
-                    "sha256": "be987e36a8526c9af7373ecba5be50427430d403bef286a68e0ad621bb05f8ab",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/webflow.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/webflow.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 52426,
-                    "sha256": "28a91736e5d8ac780408c6f88db9ceedbd1070028f1646c9f0a8ef4d518b5416",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/wechat.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/wechat.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 57708,
-                    "sha256": "4bc642fc1d67b56b485f4aff0dc45c0e69f36673a0e1e040018004489c61c1f4",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/wired.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/wired.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 93664,
-                    "sha256": "392cff6c57f9c68d1aa337b6cce69097a7b570cdec8f92b59ba5124f071b2079",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/wise.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/wise.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 62501,
-                    "sha256": "b14dbff6a158a34be9fb148cd267684e8989275324d1654c0598a4849bbb6c3b",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/x-ai.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/x-ai.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 78314,
-                    "sha256": "4892b493d15e0a8bde8b5d9bbcc2bce023e4e738663b6c98cb77cf325a813c04",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/xiaohongshu.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/xiaohongshu.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 100325,
-                    "sha256": "3d00693e9c9afbf3045755c512a33fb1e110af8ec7b693bf52fdf9e9f4d0966a",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/details/zapier.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/details/zapier.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 86058,
-                    "sha256": "b8b151962173acceaecb11fe7e5610ca4b4c33997bd209661f3b91477e9abbd3",
-                    "primaryMode": "bricks-conversion"
-                },
-                {
-                    "path": "pixflow-direct-references/pixflow-design-systems/index.json",
-                    "sourcePath": "src/AI/DirectReferences/pixflow-design-systems/index.json",
-                    "resourceType": "bricks_conversion_reference",
-                    "extension": "json",
-                    "bytes": 406830,
-                    "sha256": "272ff1d3d8fa1933c0473809496e70961d96ae3c989477338b0886dbaad68875",
                     "primaryMode": "bricks-conversion"
                 },
                 {
@@ -40074,8 +39722,8 @@
                     "sourcePath": "src/AI/DirectSkills/bricks-saas-landing/references/layouts.bricks.json",
                     "resourceType": "bricks_conversion_skill",
                     "extension": "json",
-                    "bytes": 7270,
-                    "sha256": "b04ac95df70bc99faeb858effa8f0bf9c83aa5cb723b0a5ac63aedb1c106bb8b",
+                    "bytes": 7273,
+                    "sha256": "d455b99df5bfe0cca1a436f2249946659ee087e40b6d8529bd0e2436099b52a7",
                     "primaryMode": "bricks-conversion"
                 },
                 {
@@ -40515,8 +40163,8 @@
                     "sourcePath": "src/AI/DirectSkills/bricks-web-prototype/references/bricks-elements.md",
                     "resourceType": "bricks_conversion_skill",
                     "extension": "md",
-                    "bytes": 10537,
-                    "sha256": "fa5f7673467417cee94cfe94a0bf4b1506ac3a48f11b311a8366d9f6e58af385",
+                    "bytes": 11580,
+                    "sha256": "e7611a2e63c39450761037db79c9d2a5add0f1c6a7e3604206630939a80654e5",
                     "primaryMode": "bricks-conversion"
                 },
                 {
@@ -40659,10 +40307,10 @@
         }
     ],
     "totals": {
-        "packCount": 6,
-        "fileCount": 2517,
-        "byteCount": 117882826,
+        "packCount": 7,
+        "fileCount": 2462,
+        "byteCount": 127837886,
         "excludedFileCount": 678
     },
-    "sourceFingerprint": "fff5d43a03d5b8fe634f59052887d343798bab295449b022fa76ceb8c87635b4"
+    "sourceFingerprint": "f1ca7848103e9516a57d10f90a566a9386a7346b1010bb732da2da44e3830e86"
 }

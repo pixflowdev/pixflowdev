@@ -1,11 +1,11 @@
 {
     "type": "pixflow_design_resource_inventory",
     "schemaVersion": 1,
-    "sourceFingerprint": "fff5d43a03d5b8fe634f59052887d343798bab295449b022fa76ceb8c87635b4",
+    "sourceFingerprint": "f1ca7848103e9516a57d10f90a566a9386a7346b1010bb732da2da44e3830e86",
     "totals": {
-        "packCount": 6,
-        "fileCount": 2517,
-        "byteCount": 117882826,
+        "packCount": 7,
+        "fileCount": 2462,
+        "byteCount": 127837886,
         "excludedFileCount": 678
     },
     "packs": [
@@ -220,6 +220,39 @@
             }
         },
         {
+            "id": "pixflow-design-recipes-pack",
+            "kind": "pixflow-design-recipes",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 96,
+                "byteCount": 20254937,
+                "resourceCount": 7,
+                "sideFileCount": 89,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 96
+                },
+                "extensions": {
+                    "css": 7,
+                    "html": 14,
+                    "json": 10,
+                    "md": 54,
+                    "png": 11
+                },
+                "primaryModes": [],
+                "sampleResources": [
+                    "bento",
+                    "clean",
+                    "enterprise",
+                    "luxury",
+                    "neobrutalism",
+                    "neumorphism",
+                    "paper"
+                ]
+            }
+        },
+        {
             "id": "pixflow-design-plugins-pack",
             "kind": "pixflow-design-plugins",
             "stage": "stage_a",
@@ -299,21 +332,21 @@
             "stage": "stage_b",
             "required": true,
             "inventory": {
-                "fileCount": 473,
-                "byteCount": 10942913,
+                "fileCount": 322,
+                "byteCount": 643036,
                 "resourceCount": 0,
-                "sideFileCount": 428,
+                "sideFileCount": 277,
                 "excludedFileCount": 0,
                 "resourceTypes": {
-                    "bricks_conversion_reference": 166,
+                    "bricks_conversion_reference": 15,
                     "bricks_conversion_skill": 307
                 },
                 "extensions": {
-                    "json": 222,
+                    "json": 71,
                     "md": 251
                 },
                 "primaryModes": {
-                    "bricks-conversion": 473
+                    "bricks-conversion": 322
                 },
                 "sampleResources": []
             }

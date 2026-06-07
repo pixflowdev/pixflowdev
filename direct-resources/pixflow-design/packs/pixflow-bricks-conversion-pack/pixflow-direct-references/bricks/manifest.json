@@ -110,12 +110,6 @@
       "classification": "later_implementation_reference",
       "packs": ["custom-elements"],
       "load_when": ["custom element", "register element", "builder element"]
-    },
-    {
-      "path": "references/verification.md",
-      "classification": "later_implementation_reference",
-      "packs": ["verification"],
-      "reason": "Adapt verification ideas to Pixflow SSH/WP/Playwright access."
     }
   ],
   "packs": [

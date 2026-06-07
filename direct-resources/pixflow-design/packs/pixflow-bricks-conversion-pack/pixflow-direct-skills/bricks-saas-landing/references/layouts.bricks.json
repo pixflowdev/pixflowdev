@@ -7,7 +7,7 @@
       "key": "saas_sticky_header",
       "section_type": "header",
       "pattern": "saas_sticky_header",
-      "purpose": "Clean SaaS navigation with brand, links, and one primary action.",
+      "purpose": "Clean product navigation with brand, links, and one primary action.",
       "compiler_route": "compile_saas_header",
       "bricks_structure": ["section", "container", "block.nav", "text-basic.brand", "block.links", "button"],
       "required_elements": ["brand", "nav_items", "primary_cta"],

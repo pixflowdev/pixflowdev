@@ -20,6 +20,7 @@ Use the Bricks Builder skill rules for page JSON.
 - Preserve runtime `data-*`, `aria-*`, and source anchor `id` attributes with Bricks `_attributes` arrays.
 - Do not set Bricks `_cssId` in Pixflow Stage B. Source anchor IDs belong in `_attributes`.
 - Put source-level JavaScript in Bricks page settings (`page_settings` and `stage_b_page_settings`), preferably `customScriptsBodyFooter`, as a complete `<script>...</script>` block. Do not use Bricks `code` elements for Stage B JavaScript.
+- If the page script uses GSAP, ScrollTrigger, Three.js, D3, or p5.js, declare `stage_b_script_libraries.libraries` and set the matching Pixflow JS library checkbox keys in both page settings objects.
 - No raw HTML, script tags, imported CSS, or unsupported Bricks elements.
 
 ## Pixflow Stage B Baseline Cleanup
@@ -66,16 +67,31 @@ Use Bricks page settings for safe source JavaScript:
 
 ```json
 {
+  "stage_b_script_libraries": {
+    "type": "pixflow_stage_b_script_libraries",
+    "libraries": ["gsap", "gsap-scrolltrigger", "three", "d3", "p5"]
+  },
   "page_settings": {
-    "customScriptsBodyFooter": "<script>console.log()</script>"
+    "customScriptsBodyFooter": "<script>console.log()</script>",
+    "pixflowJsLibraryGsap": "1",
+    "pixflowJsLibraryGsapScrollTrigger": "1",
+    "pixflowJsLibraryThree": "1",
+    "pixflowJsLibraryD3": "1",
+    "pixflowJsLibraryP5": "1"
   },
   "stage_b_page_settings": {
-    "customScriptsBodyFooter": "<script>console.log()</script>"
+    "customScriptsBodyFooter": "<script>console.log()</script>",
+    "pixflowJsLibraryGsap": "1",
+    "pixflowJsLibraryGsapScrollTrigger": "1",
+    "pixflowJsLibraryThree": "1",
+    "pixflowJsLibraryD3": "1",
+    "pixflowJsLibraryP5": "1"
   }
 }
 ```
 
 Do not use Bricks `code` elements for Pixflow Stage B JavaScript.
+Do not load CDN scripts or external imports for supported libraries. Pixflow enqueues local assets when the page settings toggles are active. Page scripts may use `window.gsap`, `window.ScrollTrigger`, `window.THREE`, `window.d3`, and `window.p5`; initialize Three.js after `window.THREE` exists or after the `pixflow:three-ready` event.
 
 ## Icon Contract
 
