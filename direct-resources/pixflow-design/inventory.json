@@ -1,12 +1,12 @@
 {
     "type": "pixflow_design_resource_inventory",
     "schemaVersion": 1,
-    "sourceFingerprint": "258492840c7eb8556d845b4ed6da8c63020be2ba5c0739824f4a8e89efa5449c",
+    "sourceFingerprint": "c14b2f637c567502eda117f417664a66d7ad403ee6495203be0568b17c02899f",
     "totals": {
-        "packCount": 13,
-        "fileCount": 2462,
-        "byteCount": 127837886,
-        "excludedFileCount": 678
+        "packCount": 43,
+        "fileCount": 2307,
+        "byteCount": 126602345,
+        "excludedFileCount": 447
     },
     "packs": [
         {
@@ -405,50 +405,853 @@
             }
         },
         {
+            "id": "pixflow-design-example-pixflow-design-landing-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 21,
+                "byteCount": 22975214,
+                "resourceCount": 1,
+                "sideFileCount": 20,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 21
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 2,
+                    "md": 2,
+                    "png": 16
+                },
+                "primaryModes": {
+                    "prototype": 21
+                },
+                "sampleResources": [
+                    "pixflow-design-landing"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-kanban-board-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 26191,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "kanban-board"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-social-carousel-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 26755,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "social-carousel"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-blog-post-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 18148,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "blog-post"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-doc-kami-parchment-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 15373,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "doc-kami-parchment"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-magazine-poster-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 21335,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "magazine-poster"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-meeting-notes-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 22345,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "meeting-notes"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-motion-frames-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 22448,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "motion-frames"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-orbit-general-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 71519,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "orbit-general"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-orbit-gmail-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 40051,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "orbit-gmail"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-orbit-notion-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 39485,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "orbit-notion"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-sprite-animation-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 27616,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "sprite-animation"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-team-okrs-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 21521,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "team-okrs"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-dashboard-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 17926,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "dashboard"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-flowai-live-dashboard-template-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 5,
+                "byteCount": 33516,
+                "resourceCount": 1,
+                "sideFileCount": 4,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 5
+                },
+                "extensions": {
+                    "html": 2,
+                    "json": 1,
+                    "md": 2
+                },
+                "primaryModes": {
+                    "prototype": 5
+                },
+                "sampleResources": [
+                    "flowai-live-dashboard-template"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-github-dashboard-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 8,
+                "byteCount": 78542,
+                "resourceCount": 1,
+                "sideFileCount": 7,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 8
+                },
+                "extensions": {
+                    "html": 2,
+                    "json": 4,
+                    "md": 2
+                },
+                "primaryModes": {
+                    "prototype": 8
+                },
+                "sampleResources": [
+                    "github-dashboard"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-live-artifact-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 5,
+                "byteCount": 30291,
+                "resourceCount": 1,
+                "sideFileCount": 4,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 5
+                },
+                "extensions": {
+                    "json": 1,
+                    "md": 4
+                },
+                "primaryModes": {
+                    "prototype": 5
+                },
+                "sampleResources": [
+                    "live-artifact"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-live-dashboard-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 8,
+                "byteCount": 109867,
+                "resourceCount": 1,
+                "sideFileCount": 7,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 8
+                },
+                "extensions": {
+                    "html": 2,
+                    "json": 1,
+                    "md": 5
+                },
+                "primaryModes": {
+                    "prototype": 8
+                },
+                "sampleResources": [
+                    "live-dashboard"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-social-media-dashboard-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 68185,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "social-media-dashboard"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-digital-eguide-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 26406,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "digital-eguide"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-email-marketing-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 20552,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "email-marketing"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-pricing-page-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 17442,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "pricing-page"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-saas-landing-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 20740,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "saas-landing"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-web-prototype-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 6,
+                "byteCount": 49319,
+                "resourceCount": 1,
+                "sideFileCount": 5,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 6
+                },
+                "extensions": {
+                    "html": 2,
+                    "json": 1,
+                    "md": 3
+                },
+                "primaryModes": {
+                    "prototype": 6
+                },
+                "sampleResources": [
+                    "web-prototype"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-critique-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 46384,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "critique"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-last30days-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 14993,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "json": 1,
+                    "md": 2
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "last30days"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-web-prototype-taste-brutalist-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 34978,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "web-prototype-taste-brutalist"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-web-prototype-taste-editorial-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 28816,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "web-prototype-taste-editorial"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-web-prototype-taste-soft-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 36274,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "web-prototype-taste-soft"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-wireframe-sketch-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 27678,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "wireframe-sketch"
+                ]
+            }
+        },
+        {
             "id": "pixflow-design-plugins-pack",
             "kind": "pixflow-design-plugins",
             "stage": "stage_a",
             "required": true,
             "inventory": {
-                "fileCount": 803,
-                "byteCount": 29008341,
-                "resourceCount": 334,
-                "sideFileCount": 703,
-                "excludedFileCount": 235,
+                "fileCount": 523,
+                "byteCount": 3782890,
+                "resourceCount": 259,
+                "sideFileCount": 499,
+                "excludedFileCount": 4,
                 "resourceTypes": {
                     "pixflow_design_atom": 27,
                     "pixflow_design_image_template_plugin": 88,
-                    "pixflow_design_plugin": 280,
                     "pixflow_design_plugin_design_system": 282,
                     "pixflow_design_scenario": 26,
                     "pixflow_design_video_template_plugin": 100
                 },
                 "extensions": {
-                    "html": 80,
-                    "json": 434,
-                    "md": 273,
-                    "png": 16
+                    "html": 4,
+                    "json": 354,
+                    "md": 165
                 },
                 "primaryModes": {
-                    "audio": 3,
                     "critique": 4,
-                    "design-system": 284,
+                    "design-system": 282,
                     "discovery": 2,
                     "edit": 2,
                     "export": 6,
                     "extract": 4,
                     "handoff": 2,
-                    "image": 96,
+                    "image": 88,
                     "import": 2,
                     "planning": 6,
-                    "prototype": 211,
                     "refine": 2,
                     "review": 2,
                     "scenario": 18,
-                    "template": 10,
                     "token-map": 3,
-                    "utility": 4,
-                    "video": 142
+                    "video": 100
                 },
                 "sampleResources": [
                     "build-test",
