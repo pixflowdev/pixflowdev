@@ -39,7 +39,7 @@
             "description": "Pixflow Design prompt composer sources, discovery, directions, critique, linting, craft refs, prompt templates, and supporting assets.",
             "archive": {
                 "path": "release/v2026.06.07.1/pixflow-design-core-pack.zip",
-                "sha256": "81be666d1b841ae4d29a22d1980659794eae873c4b0b840b6fe25d609ea0c825",
+                "sha256": "cadf2c957dfe1095a5022e72262357790a270f7545520c8115d1019eced4401e",
                 "size": 35438504
             },
             "folder": {
@@ -1991,7 +1991,7 @@
             "description": "Pixflow Design skills, including the complete functional skill catalogue.",
             "archive": {
                 "path": "release/v2026.06.07.1/pixflow-design-skills-pack.zip",
-                "sha256": "a855433866d436b253b8cce6a1deaadf094cd2fff0f8998cf37f3456727ec2c2",
+                "sha256": "6fed341bb85aa21c601a864e5cb27274a141d5aa12c71a2952921cbf6a9f470d",
                 "size": 8177194
             },
             "folder": {
@@ -5153,7 +5153,7 @@
             "description": "Pixflow Design non-slide templates with side files, assets, references, and examples.",
             "archive": {
                 "path": "release/v2026.06.07.1/pixflow-design-templates-pack.zip",
-                "sha256": "3d21c5b6c0b9bb2adb8c11c710c7352542e9cdab60d38690b067283cb461249d",
+                "sha256": "a65d79878b1999f3fa609ffd76ad9c55260e261a273b544f625451a09763d04d",
                 "size": 23964267
             },
             "folder": {
@@ -13790,7 +13790,7 @@
             "description": "Pixflow Design systems, including DESIGN.md, optional tokens.css, components.html, and support files.",
             "archive": {
                 "path": "release/v2026.06.07.1/pixflow-design-systems-pack.zip",
-                "sha256": "0866af692a1cbbc41239c33723f93734dafacf3d11362e7da1fbd4583c4c06ef",
+                "sha256": "4887c7acfd0293f7aae0c141aa212e0f22ba2340dfb3f5df9c9f5949b4e22815",
                 "size": 1636628
             },
             "folder": {
@@ -18470,47 +18470,40 @@
             "excluded": []
         },
         {
-            "id": "pixflow-design-recipes-pack",
+            "id": "pixflow-design-recipe-bento-pack",
             "version": "2026.06.07.1",
-            "label": "Pixflow Design Recipes Pack",
-            "kind": "pixflow-design-recipes",
+            "label": "Bento Recipe Pack",
+            "kind": "pixflow-design-recipe",
             "stage": "stage_a",
             "required": false,
-            "description": "Optional Pixflow recipe methods, full reference files, local previews, screenshots, and visual assets.",
+            "description": "A Pixflow-owned recipe for modular product pages built from weighted bento cards, soft surfaces, clear hierarchy, and useful proof tiles.",
             "archive": {
-                "path": "release/v2026.06.07.1/pixflow-design-recipes-pack.zip",
-                "sha256": "3f963dac3703e1e8a21238b86329fef23cfa95c6f81c9985fe871ff5356803cc",
-                "size": 19249173
+                "path": "release/v2026.06.07.1/pixflow-design-recipe-bento-pack.zip",
+                "sha256": "30cc6b95d8831143e0d76a1a90ef2934fd719f2d261d9df13428a2b8162647d4",
+                "size": 23889
             },
             "folder": {
-                "path": "packs/pixflow-design-recipes-pack"
+                "path": "packs/pixflow-design-recipe-bento-pack"
             },
             "inventory": {
-                "fileCount": 96,
-                "byteCount": 20254937,
-                "resourceCount": 7,
-                "sideFileCount": 89,
+                "fileCount": 10,
+                "byteCount": 80682,
+                "resourceCount": 0,
+                "sideFileCount": 9,
                 "excludedFileCount": 0,
                 "resourceTypes": {
-                    "pixflow_design_recipe": 96
+                    "pixflow_design_recipe": 10
                 },
                 "extensions": {
-                    "css": 7,
-                    "html": 14,
-                    "json": 10,
-                    "md": 54,
-                    "png": 11
+                    "css": 1,
+                    "html": 2,
+                    "json": 1,
+                    "md": 6
                 },
-                "primaryModes": [],
-                "sampleResources": [
-                    "bento",
-                    "clean",
-                    "enterprise",
-                    "luxury",
-                    "neobrutalism",
-                    "neumorphism",
-                    "paper"
-                ]
+                "primaryModes": {
+                    "pixflow-recipe": 10
+                },
+                "sampleResources": []
             },
             "files": [
                 {
@@ -18520,8 +18513,8 @@
                     "extension": "md",
                     "bytes": 1937,
                     "sha256": "f935bf44a473870bbf4a24b153ed015d88a11dadaee494ceacf625c0cb55c8af",
-                    "primaryResource": "bento",
-                    "excluded": false
+                    "recipeId": "bento",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/bento/METHOD.md",
@@ -18530,8 +18523,8 @@
                     "extension": "md",
                     "bytes": 7185,
                     "sha256": "4203b56b3d6a436ae22b509924ee77eb47d36310b56fb80bcc350029850ff3f6",
-                    "primaryResource": "bento",
-                    "excluded": false
+                    "recipeId": "bento",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/bento/SKILL.md",
@@ -18540,8 +18533,8 @@
                     "extension": "md",
                     "bytes": 2746,
                     "sha256": "81efd7415bc164cee9dbb55502534a846b4c602bcfed5345a5ca67755702129b",
-                    "primaryResource": "bento",
-                    "excluded": false
+                    "recipeId": "bento",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/bento/example.html",
@@ -18550,8 +18543,8 @@
                     "extension": "html",
                     "bytes": 16537,
                     "sha256": "b53a2a6ba267763e105d3d146c261c7a7c39405a2c7a34b5cff3ebeb2a5672d3",
-                    "primaryResource": "bento",
-                    "excluded": false
+                    "recipeId": "bento",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/bento/preview.html",
@@ -18560,8 +18553,8 @@
                     "extension": "html",
                     "bytes": 41796,
                     "sha256": "4a2fb1d0109de0b4709160c47a4826b5b08b633eeaefe44965c8a66e0c12c99f",
-                    "primaryResource": "bento",
-                    "excluded": false
+                    "recipeId": "bento",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/bento/recipe.json",
@@ -18570,8 +18563,8 @@
                     "extension": "json",
                     "bytes": 537,
                     "sha256": "458046931e7101e5526546dce9369241ca5076f9284c67f139be583d1db33bb3",
-                    "primaryResource": "bento",
-                    "excluded": false
+                    "recipeId": "bento",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/bento/references/checklist.md",
@@ -18580,8 +18573,8 @@
                     "extension": "md",
                     "bytes": 2513,
                     "sha256": "126e57cfd1ef6f1ca793543366b94259fa3ed4bc2e771e76ed020af4c13abe7e",
-                    "primaryResource": "bento",
-                    "excluded": false
+                    "recipeId": "bento",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/bento/references/components.md",
@@ -18590,8 +18583,8 @@
                     "extension": "md",
                     "bytes": 2724,
                     "sha256": "a422a2627a85341c67a0eb006b66a7deff166203a7c4143f81c8626b2b5e8a48",
-                    "primaryResource": "bento",
-                    "excluded": false
+                    "recipeId": "bento",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/bento/references/layouts.md",
@@ -18600,8 +18593,8 @@
                     "extension": "md",
                     "bytes": 4007,
                     "sha256": "488660cb9bfbb68c4c088234272a5a7222eec101066c730ac9f22ecac6f4eb90",
-                    "primaryResource": "bento",
-                    "excluded": false
+                    "recipeId": "bento",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/bento/tokens.css",
@@ -18610,9 +18603,50 @@
                     "extension": "css",
                     "bytes": 700,
                     "sha256": "0546a1c92c487c6892681f1e1b9b9233eb6781c199c86bf8b827fc9df645ca7f",
-                    "primaryResource": "bento",
-                    "excluded": false
+                    "recipeId": "bento",
+                    "primaryMode": "pixflow-recipe"
+                }
+            ],
+            "excluded": []
+        },
+        {
+            "id": "pixflow-design-recipe-clean-pack",
+            "version": "2026.06.07.1",
+            "label": "Clean Recipe Pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "description": "A Pixflow-owned recipe for premium light product, SaaS, plugin, app, and workflow landing pages with centered clarity, inspectable product proof, calm card systems, and restrained conversion rhythm.",
+            "archive": {
+                "path": "release/v2026.06.07.1/pixflow-design-recipe-clean-pack.zip",
+                "sha256": "4213498004489cd547c3299461aeb223ac1c7043159f205fb7337d77804c1a6c",
+                "size": 1385050
+            },
+            "folder": {
+                "path": "packs/pixflow-design-recipe-clean-pack"
+            },
+            "inventory": {
+                "fileCount": 17,
+                "byteCount": 1521972,
+                "resourceCount": 0,
+                "sideFileCount": 16,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 17
                 },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 2,
+                    "md": 10,
+                    "png": 2
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 17
+                },
+                "sampleResources": []
+            },
+            "files": [
                 {
                     "path": "pixflow-design-recipes/clean/DESIGN.md",
                     "sourcePath": "src/AI/DirectReferences/pixflow-recipes/clean/DESIGN.md",
@@ -18620,8 +18654,8 @@
                     "extension": "md",
                     "bytes": 2998,
                     "sha256": "7f42e0db877ec767336a8750336e9b93f001df711a056ef550c32ada03db75d8",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/METHOD.md",
@@ -18630,8 +18664,8 @@
                     "extension": "md",
                     "bytes": 6420,
                     "sha256": "e753a268a9f0d826378137b44959a48294a37694e54245666b4cd51d1e30a66f",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/SKILL.md",
@@ -18640,8 +18674,8 @@
                     "extension": "md",
                     "bytes": 3532,
                     "sha256": "54384d819f0b0365611a1c36ab4465b55c98e4861595bec4aec26e3c03eca74b",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/assets/image-manifest.json",
@@ -18650,8 +18684,8 @@
                     "extension": "json",
                     "bytes": 1040,
                     "sha256": "9591bcdb6dbdefef254bcf17b573861626e3c437f19df9549bd8b06464aa8c2e",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/assets/preview-desktop.png",
@@ -18660,8 +18694,8 @@
                     "extension": "png",
                     "bytes": 801153,
                     "sha256": "d956f8c3f72507ff31d2e38e5cab738b61e7b827a03bae42f8ee13ef304a6443",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/assets/preview-mobile.png",
@@ -18670,8 +18704,8 @@
                     "extension": "png",
                     "bytes": 627680,
                     "sha256": "4056e342b8068bf579b9a545949a9884528b32ceb2ca30c33121b0c2d0a60b27",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/example.html",
@@ -18680,8 +18714,8 @@
                     "extension": "html",
                     "bytes": 18974,
                     "sha256": "e1e822bc5d9b583307435f69c32025f544c7b73e80bf0c14531c6cab48aead78",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/preview.html",
@@ -18690,8 +18724,8 @@
                     "extension": "html",
                     "bytes": 41825,
                     "sha256": "4292a2317f7ad77fe055788ef82d0e9b5073cc167f7d362f2017ffbb4a62f6e1",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/recipe.json",
@@ -18700,8 +18734,8 @@
                     "extension": "json",
                     "bytes": 714,
                     "sha256": "753f75c72332035961d8efa7e1995cf9ec112d310bfa431174418ab143cb9ed0",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/references/accessibility.md",
@@ -18710,8 +18744,8 @@
                     "extension": "md",
                     "bytes": 1230,
                     "sha256": "1d0d509b455b0df8b9743bca88029c1ed6e2d82a73f025bcb1414c784d641666",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/references/anti-patterns.md",
@@ -18720,8 +18754,8 @@
                     "extension": "md",
                     "bytes": 1090,
                     "sha256": "879a68d768dc1b586f8da209f1188472a49b99e61675d2a7c764b53ccaf51641",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/references/checklist.md",
@@ -18730,8 +18764,8 @@
                     "extension": "md",
                     "bytes": 2329,
                     "sha256": "f19f5e7f3a03a8a529660256158665a39faa20b1b74129a420664d547627295c",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/references/components.md",
@@ -18740,8 +18774,8 @@
                     "extension": "md",
                     "bytes": 3736,
                     "sha256": "1eb5284e3cfea4e400c4e183b0aae53aec535c1d9affc445aef52c66e16f4819",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/references/critique.md",
@@ -18750,8 +18784,8 @@
                     "extension": "md",
                     "bytes": 1775,
                     "sha256": "c17da80daf6990271c55d05e58c0571d9ccbcc606d4047c3d04fc9f0ecc3c648",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/references/layouts.md",
@@ -18760,8 +18794,8 @@
                     "extension": "md",
                     "bytes": 4594,
                     "sha256": "1473201caee663311769b374ea3903deac56b3ae3469398dc50a611a4dd3cfd0",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/references/responsive.md",
@@ -18770,8 +18804,8 @@
                     "extension": "md",
                     "bytes": 1780,
                     "sha256": "4f97ed705883db7a516498128f59564540eaedf9b175fcb888581221b05f7a00",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/clean/tokens.css",
@@ -18780,9 +18814,49 @@
                     "extension": "css",
                     "bytes": 1102,
                     "sha256": "3ec0a875f84997427aa9277a2a0de9c570ca404fa66673e5143f1dbd382c255d",
-                    "primaryResource": "clean",
-                    "excluded": false
+                    "recipeId": "clean",
+                    "primaryMode": "pixflow-recipe"
+                }
+            ],
+            "excluded": []
+        },
+        {
+            "id": "pixflow-design-recipe-enterprise-pack",
+            "version": "2026.06.07.1",
+            "label": "Enterprise Recipe Pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "description": "A Pixflow-owned recipe for high-contrast enterprise workflow pages with dark-green control surfaces, orange action accents, structured product panels, automation diagrams, and purposeful entrance motion.",
+            "archive": {
+                "path": "release/v2026.06.07.1/pixflow-design-recipe-enterprise-pack.zip",
+                "sha256": "1221b91e51559b8dcbbe3ea2fcafc7aa432e284f05f954ceda564e877e523e0c",
+                "size": 44014
+            },
+            "folder": {
+                "path": "packs/pixflow-design-recipe-enterprise-pack"
+            },
+            "inventory": {
+                "fileCount": 10,
+                "byteCount": 238667,
+                "resourceCount": 0,
+                "sideFileCount": 9,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 10
                 },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 1,
+                    "md": 6
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 10
+                },
+                "sampleResources": []
+            },
+            "files": [
                 {
                     "path": "pixflow-design-recipes/enterprise/DESIGN.md",
                     "sourcePath": "src/AI/DirectReferences/pixflow-recipes/enterprise/DESIGN.md",
@@ -18790,8 +18864,8 @@
                     "extension": "md",
                     "bytes": 2920,
                     "sha256": "d46452250110764f4b7aca544297f744e05773ddef8cb6146afbf383ab043104",
-                    "primaryResource": "enterprise",
-                    "excluded": false
+                    "recipeId": "enterprise",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/enterprise/METHOD.md",
@@ -18800,8 +18874,8 @@
                     "extension": "md",
                     "bytes": 6861,
                     "sha256": "ffe952e47f3dba54cdcde668ff7104ceac266c660b8e5b2f962c017bcfaacd93",
-                    "primaryResource": "enterprise",
-                    "excluded": false
+                    "recipeId": "enterprise",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/enterprise/SKILL.md",
@@ -18810,8 +18884,8 @@
                     "extension": "md",
                     "bytes": 3539,
                     "sha256": "765159f1250dfe0fb33466cd5db5677db5a553a4036b289f34938e50e6d400da",
-                    "primaryResource": "enterprise",
-                    "excluded": false
+                    "recipeId": "enterprise",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/enterprise/example.html",
@@ -18820,8 +18894,8 @@
                     "extension": "html",
                     "bytes": 117568,
                     "sha256": "c09e633226eba7561ec35b383c19884ceb6dbd4c15fe32360122cf9fbe7de547",
-                    "primaryResource": "enterprise",
-                    "excluded": false
+                    "recipeId": "enterprise",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/enterprise/preview.html",
@@ -18830,8 +18904,8 @@
                     "extension": "html",
                     "bytes": 99691,
                     "sha256": "77527e1f03713ad2e796fd5af83af05ca2a6c54503dd65d0cdafe8c855f3984f",
-                    "primaryResource": "enterprise",
-                    "excluded": false
+                    "recipeId": "enterprise",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/enterprise/recipe.json",
@@ -18840,8 +18914,8 @@
                     "extension": "json",
                     "bytes": 613,
                     "sha256": "aec37cf17a5212c7a477023fd3b195fe15fa9c4f27769fbd7cb16a5cbe333001",
-                    "primaryResource": "enterprise",
-                    "excluded": false
+                    "recipeId": "enterprise",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/enterprise/references/checklist.md",
@@ -18850,8 +18924,8 @@
                     "extension": "md",
                     "bytes": 1781,
                     "sha256": "c85698a36a49c821d79c1d6e26d9cc3c3972bcb3d3c943268f0241b559d08041",
-                    "primaryResource": "enterprise",
-                    "excluded": false
+                    "recipeId": "enterprise",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/enterprise/references/components.md",
@@ -18860,8 +18934,8 @@
                     "extension": "md",
                     "bytes": 1809,
                     "sha256": "ef8341f63397e06e6e86241d89bf77afc782936c5e030bbbaea347a3853c7874",
-                    "primaryResource": "enterprise",
-                    "excluded": false
+                    "recipeId": "enterprise",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/enterprise/references/layouts.md",
@@ -18870,8 +18944,8 @@
                     "extension": "md",
                     "bytes": 2930,
                     "sha256": "82bda5dde3ec731986ccf82f02edc0e48fd02c63c97c0f51287c5cec04f58104",
-                    "primaryResource": "enterprise",
-                    "excluded": false
+                    "recipeId": "enterprise",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/enterprise/tokens.css",
@@ -18880,9 +18954,50 @@
                     "extension": "css",
                     "bytes": 955,
                     "sha256": "e30a3af88d6b7d5e1bfa0f48883cd4cf882f3c0b6a563a7ae47cac30e5f99bda",
-                    "primaryResource": "enterprise",
-                    "excluded": false
+                    "recipeId": "enterprise",
+                    "primaryMode": "pixflow-recipe"
+                }
+            ],
+            "excluded": []
+        },
+        {
+            "id": "pixflow-design-recipe-luxury-pack",
+            "version": "2026.06.07.1",
+            "label": "Luxury Recipe Pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "description": "A Pixflow-owned recipe for premium dark luxury pages with disciplined monochrome surfaces, oversized uppercase type, editorial product imagery, and restrained conversion moments.",
+            "archive": {
+                "path": "release/v2026.06.07.1/pixflow-design-recipe-luxury-pack.zip",
+                "sha256": "d5306066c2f1785262b2266669756249236a0a5e6e7547db82e56c9eb95acfde",
+                "size": 14841077
+            },
+            "folder": {
+                "path": "packs/pixflow-design-recipe-luxury-pack"
+            },
+            "inventory": {
+                "fileCount": 22,
+                "byteCount": 15031241,
+                "resourceCount": 0,
+                "sideFileCount": 21,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 22
                 },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 2,
+                    "md": 10,
+                    "png": 7
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 22
+                },
+                "sampleResources": []
+            },
+            "files": [
                 {
                     "path": "pixflow-design-recipes/luxury/DESIGN.md",
                     "sourcePath": "src/AI/DirectReferences/pixflow-recipes/luxury/DESIGN.md",
@@ -18890,8 +19005,8 @@
                     "extension": "md",
                     "bytes": 2307,
                     "sha256": "2c46177fb57b7e391e3d8af3ef77317096c3c3a92cefd5aaed988e35c48d208d",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/METHOD.md",
@@ -18900,8 +19015,8 @@
                     "extension": "md",
                     "bytes": 5492,
                     "sha256": "c6efec2de63bd5d6ba6d97d79bc53c94cd54855a5dbb3b5d3d3274bcb8ec3607",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/SKILL.md",
@@ -18910,8 +19025,8 @@
                     "extension": "md",
                     "bytes": 2903,
                     "sha256": "174162ba6bd2d06e9d6b7922d7a8d313385597adbc5b83a6ae8b7b3b4016782e",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/assets/aurum-archive-chair.png",
@@ -18920,8 +19035,8 @@
                     "extension": "png",
                     "bytes": 1734682,
                     "sha256": "1b0e98669f9e496b7a8cbdd380282220081f17da051a4ec66de34de43f623f0e",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/assets/aurum-hero-still-life.png",
@@ -18930,8 +19045,8 @@
                     "extension": "png",
                     "bytes": 2107230,
                     "sha256": "58fc6410b1d3863e62b2f955ff9a1abac79dd79c8c381b791f04b762e96ed782",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/assets/aurum-ivory-vessel.png",
@@ -18940,8 +19055,8 @@
                     "extension": "png",
                     "bytes": 2403958,
                     "sha256": "e71d30139f44af905c63a08bbfc185407c71c917e2a02e212b489426c242c568",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/assets/aurum-obsidian-console.png",
@@ -18950,8 +19065,8 @@
                     "extension": "png",
                     "bytes": 1930364,
                     "sha256": "6b0946189ecf5e95e84ce158f68a42b380914fde7d4ecfb106f8307f6b2c0aa0",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/assets/aurum-private-viewing-room.png",
@@ -18960,8 +19075,8 @@
                     "extension": "png",
                     "bytes": 1873105,
                     "sha256": "7c805e25ed026c16bf36e601b5978604b7af4be020ad1e6dcd7d7a62e75f36b4",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/assets/image-manifest.json",
@@ -18970,8 +19085,8 @@
                     "extension": "json",
                     "bytes": 2373,
                     "sha256": "aa617bfb1ab35ee71d38dbc3dc2e8653db3b3df202afa135ed179b7f540fe181",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/assets/preview-desktop.png",
@@ -18980,8 +19095,8 @@
                     "extension": "png",
                     "bytes": 3495757,
                     "sha256": "e8ef48ddf5ccbb670fe6739d991a5aa970e7490d6db4511e3d8ef3517d6b39ec",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/assets/preview-mobile.png",
@@ -18990,8 +19105,8 @@
                     "extension": "png",
                     "bytes": 1412746,
                     "sha256": "18a0298ca4f9e5cda9d60f33b5211fa92c17ddd7a905d7ced5fb9bea2e78c4a4",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/example.html",
@@ -19000,8 +19115,8 @@
                     "extension": "html",
                     "bytes": 14375,
                     "sha256": "adfaa0be766392f10548ff57dda743597e27d3813c92841965c9c911bc9fae0a",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/preview.html",
@@ -19010,8 +19125,8 @@
                     "extension": "html",
                     "bytes": 35211,
                     "sha256": "e6bf6ac3ac4e5325804f4d62748f0844e86d0aa53a16beb9891a642c8d691f83",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/recipe.json",
@@ -19020,8 +19135,8 @@
                     "extension": "json",
                     "bytes": 696,
                     "sha256": "9f652f90eeb6494a67a4b3324cf9ab383bf41d295986dd993c89c48696d62cdb",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/references/accessibility.md",
@@ -19030,8 +19145,8 @@
                     "extension": "md",
                     "bytes": 539,
                     "sha256": "afdc1b2195e22f165d8ee1a423d3182df3da0f593f91ece0c3c0171ae1189c72",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/references/anti-patterns.md",
@@ -19040,8 +19155,8 @@
                     "extension": "md",
                     "bytes": 531,
                     "sha256": "161a89a31f580463ac5c17581979d8c2490a4edc25c195339a62bfc4151f94f8",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/references/checklist.md",
@@ -19050,8 +19165,8 @@
                     "extension": "md",
                     "bytes": 1657,
                     "sha256": "3c4bb4e681608426e9cc2f968fa22a11afcdb3cd7461f818051c45dbe470adb6",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/references/components.md",
@@ -19060,8 +19175,8 @@
                     "extension": "md",
                     "bytes": 1536,
                     "sha256": "dcb7349a2ceaa4dabe148e91dffeb2dbedee0bc7f9630142a7c594cd158c78df",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/references/critique.md",
@@ -19070,8 +19185,8 @@
                     "extension": "md",
                     "bytes": 1272,
                     "sha256": "2131a9eae37b72eb27d417f4a6c0a85586af2e358473ce74054360f5e653b0fb",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/references/layouts.md",
@@ -19080,8 +19195,8 @@
                     "extension": "md",
                     "bytes": 2945,
                     "sha256": "7ec3feeb5b6021bd6a13b21f0e178d59ca582a19b7035cba87c98116e5bb2151",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/references/responsive.md",
@@ -19090,8 +19205,8 @@
                     "extension": "md",
                     "bytes": 1105,
                     "sha256": "0cc53d05325ca48e5d969d0877a6c4dfe8cc928fb9ff2a29df619e329c808720",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/luxury/tokens.css",
@@ -19100,9 +19215,49 @@
                     "extension": "css",
                     "bytes": 457,
                     "sha256": "1d56dd8a5aa413cbdeaf4166429c83b3c3a47b4cae861f67b684a50f5e412854",
-                    "primaryResource": "luxury",
-                    "excluded": false
+                    "recipeId": "luxury",
+                    "primaryMode": "pixflow-recipe"
+                }
+            ],
+            "excluded": []
+        },
+        {
+            "id": "pixflow-design-recipe-neobrutalism-pack",
+            "version": "2026.06.07.1",
+            "label": "Neobrutalism Recipe Pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "description": "A Pixflow-owned recipe for bold, high-contrast pages with thick black borders, hard offset shadows, vivid yellow/violet accents, flat surfaces, and disciplined raw energy.",
+            "archive": {
+                "path": "release/v2026.06.07.1/pixflow-design-recipe-neobrutalism-pack.zip",
+                "sha256": "ce4addb852cee5a880fb37deb218c15a18ab156fd38a64c190291993babceffd",
+                "size": 26279
+            },
+            "folder": {
+                "path": "packs/pixflow-design-recipe-neobrutalism-pack"
+            },
+            "inventory": {
+                "fileCount": 10,
+                "byteCount": 91177,
+                "resourceCount": 0,
+                "sideFileCount": 9,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 10
                 },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 1,
+                    "md": 6
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 10
+                },
+                "sampleResources": []
+            },
+            "files": [
                 {
                     "path": "pixflow-design-recipes/neobrutalism/DESIGN.md",
                     "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neobrutalism/DESIGN.md",
@@ -19110,8 +19265,8 @@
                     "extension": "md",
                     "bytes": 3033,
                     "sha256": "c2b900cf0ef1f1913ade0196464360bcd8da40c3e363c15cb987013942dcf2e1",
-                    "primaryResource": "neobrutalism",
-                    "excluded": false
+                    "recipeId": "neobrutalism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neobrutalism/METHOD.md",
@@ -19120,8 +19275,8 @@
                     "extension": "md",
                     "bytes": 5888,
                     "sha256": "8bcfa9e4d34e2aaf2fe6eec6b3994fd35017d3c0bc5d27f9d4d9985183f490d7",
-                    "primaryResource": "neobrutalism",
-                    "excluded": false
+                    "recipeId": "neobrutalism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neobrutalism/SKILL.md",
@@ -19130,8 +19285,8 @@
                     "extension": "md",
                     "bytes": 3491,
                     "sha256": "4ba68a9b0bae4b29d895af02fc9e8400b7c5d2f6eaf7946e48bad7e630aa3be6",
-                    "primaryResource": "neobrutalism",
-                    "excluded": false
+                    "recipeId": "neobrutalism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neobrutalism/example.html",
@@ -19140,8 +19295,8 @@
                     "extension": "html",
                     "bytes": 33628,
                     "sha256": "8c9a04615cc58ac81a04f9383074e4ff66477854faf3d3c737b80105113ac790",
-                    "primaryResource": "neobrutalism",
-                    "excluded": false
+                    "recipeId": "neobrutalism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neobrutalism/preview.html",
@@ -19150,8 +19305,8 @@
                     "extension": "html",
                     "bytes": 38064,
                     "sha256": "91d67ea260a4118fe5c2c9c6541a114b43ac3e2746428909edee10eefd2c6d10",
-                    "primaryResource": "neobrutalism",
-                    "excluded": false
+                    "recipeId": "neobrutalism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neobrutalism/recipe.json",
@@ -19160,8 +19315,8 @@
                     "extension": "json",
                     "bytes": 588,
                     "sha256": "f8a5f5cb32444f16446b7018d075c7cba11072460f3d5b917170919e50a0f20f",
-                    "primaryResource": "neobrutalism",
-                    "excluded": false
+                    "recipeId": "neobrutalism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neobrutalism/references/checklist.md",
@@ -19170,8 +19325,8 @@
                     "extension": "md",
                     "bytes": 1542,
                     "sha256": "de3002b82005734f94e5a59b430dc7ba9a806695cc0d13c4fa1c45f849165e6d",
-                    "primaryResource": "neobrutalism",
-                    "excluded": false
+                    "recipeId": "neobrutalism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neobrutalism/references/components.md",
@@ -19180,8 +19335,8 @@
                     "extension": "md",
                     "bytes": 1781,
                     "sha256": "b2e8ae7384f784d16cfe742d5da5b93eaa1cbf1b9cee8247e433e6c085b7406f",
-                    "primaryResource": "neobrutalism",
-                    "excluded": false
+                    "recipeId": "neobrutalism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neobrutalism/references/layouts.md",
@@ -19190,8 +19345,8 @@
                     "extension": "md",
                     "bytes": 2261,
                     "sha256": "f331d7a7f651fae371d179ff0788e394bee1a785aedacc15f33a30fc05590d39",
-                    "primaryResource": "neobrutalism",
-                    "excluded": false
+                    "recipeId": "neobrutalism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neobrutalism/tokens.css",
@@ -19200,9 +19355,49 @@
                     "extension": "css",
                     "bytes": 901,
                     "sha256": "421fed900933661ddd7e2d91ac0292d743f07351f3bc1dff78f529bf9ce6e756",
-                    "primaryResource": "neobrutalism",
-                    "excluded": false
+                    "recipeId": "neobrutalism",
+                    "primaryMode": "pixflow-recipe"
+                }
+            ],
+            "excluded": []
+        },
+        {
+            "id": "pixflow-design-recipe-neumorphism-pack",
+            "version": "2026.06.07.1",
+            "label": "Neumorphism Recipe Pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "description": "A Pixflow-owned recipe for tactile product dashboards and app pages built from one material surface, raised/inset shadows, teal accents, and clear interaction states.",
+            "archive": {
+                "path": "release/v2026.06.07.1/pixflow-design-recipe-neumorphism-pack.zip",
+                "sha256": "02d80bd1325410d6d989e981ba73d1204ccbff1efec1c458a44f93d6e3659c1a",
+                "size": 35584
+            },
+            "folder": {
+                "path": "packs/pixflow-design-recipe-neumorphism-pack"
+            },
+            "inventory": {
+                "fileCount": 10,
+                "byteCount": 176323,
+                "resourceCount": 0,
+                "sideFileCount": 9,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 10
                 },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 1,
+                    "md": 6
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 10
+                },
+                "sampleResources": []
+            },
+            "files": [
                 {
                     "path": "pixflow-design-recipes/neumorphism/DESIGN.md",
                     "sourcePath": "src/AI/DirectReferences/pixflow-recipes/neumorphism/DESIGN.md",
@@ -19210,8 +19405,8 @@
                     "extension": "md",
                     "bytes": 2475,
                     "sha256": "6c3b8784ce787c8480cb154f6432a616befa3cc16d38d0e79cb21f853bb7936d",
-                    "primaryResource": "neumorphism",
-                    "excluded": false
+                    "recipeId": "neumorphism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neumorphism/METHOD.md",
@@ -19220,8 +19415,8 @@
                     "extension": "md",
                     "bytes": 4876,
                     "sha256": "12abd79a54bc7c465669fb9aa05a735bf718c10ab11219e42d8cfbae8b41d5d2",
-                    "primaryResource": "neumorphism",
-                    "excluded": false
+                    "recipeId": "neumorphism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neumorphism/SKILL.md",
@@ -19230,8 +19425,8 @@
                     "extension": "md",
                     "bytes": 3148,
                     "sha256": "4e26c1fb040ff410a3b4e2e82636109243f1303354b602293b58c928e7f5c8ee",
-                    "primaryResource": "neumorphism",
-                    "excluded": false
+                    "recipeId": "neumorphism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neumorphism/example.html",
@@ -19240,8 +19435,8 @@
                     "extension": "html",
                     "bytes": 82791,
                     "sha256": "82166b29b5a6c706007b1e87b87485f69ffb9fa2a871ad744bb7f2dfc6c384c3",
-                    "primaryResource": "neumorphism",
-                    "excluded": false
+                    "recipeId": "neumorphism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neumorphism/preview.html",
@@ -19250,8 +19445,8 @@
                     "extension": "html",
                     "bytes": 74584,
                     "sha256": "e723e642431d829fba3b932da76168fcbbe2149b7e4cd0931be9323a91124dd1",
-                    "primaryResource": "neumorphism",
-                    "excluded": false
+                    "recipeId": "neumorphism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neumorphism/recipe.json",
@@ -19260,8 +19455,8 @@
                     "extension": "json",
                     "bytes": 580,
                     "sha256": "3e7870af29b77cbff990a54e1da80e7056a7079449b4620d26f08e2a6812bec8",
-                    "primaryResource": "neumorphism",
-                    "excluded": false
+                    "recipeId": "neumorphism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neumorphism/references/checklist.md",
@@ -19270,8 +19465,8 @@
                     "extension": "md",
                     "bytes": 2031,
                     "sha256": "a443f46a76e15b5676cc230d847de311068378c075ffc1417caa41ede6ce2c64",
-                    "primaryResource": "neumorphism",
-                    "excluded": false
+                    "recipeId": "neumorphism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neumorphism/references/components.md",
@@ -19280,8 +19475,8 @@
                     "extension": "md",
                     "bytes": 2127,
                     "sha256": "cb52080d8a5eb919b0d0f5352fe6dcea09aa4fb6645e0cf227304061574bb9d5",
-                    "primaryResource": "neumorphism",
-                    "excluded": false
+                    "recipeId": "neumorphism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neumorphism/references/layouts.md",
@@ -19290,8 +19485,8 @@
                     "extension": "md",
                     "bytes": 2811,
                     "sha256": "167537a8e90452accba3f2970651913f8d9b718ef163c4dfd753159760a0c7de",
-                    "primaryResource": "neumorphism",
-                    "excluded": false
+                    "recipeId": "neumorphism",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/neumorphism/tokens.css",
@@ -19300,9 +19495,50 @@
                     "extension": "css",
                     "bytes": 900,
                     "sha256": "3b4b04de812e94f53669a8e68a87faac656641395ee329de074fe276cf70e6aa",
-                    "primaryResource": "neumorphism",
-                    "excluded": false
+                    "recipeId": "neumorphism",
+                    "primaryMode": "pixflow-recipe"
+                }
+            ],
+            "excluded": []
+        },
+        {
+            "id": "pixflow-design-recipe-paper-pack",
+            "version": "2026.06.07.1",
+            "label": "Paper Recipe Pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "description": "A Pixflow-owned recipe for light document-workspace, knowledge-base, editor, collaboration, and connected-canvas pages with tactile paper surfaces and product-readable UI proof.",
+            "archive": {
+                "path": "release/v2026.06.07.1/pixflow-design-recipe-paper-pack.zip",
+                "sha256": "e1613d2b991fd0f026b08ed8ac8eed3c3cae972d1451ed19ec169b904e6a69c0",
+                "size": 2893412
+            },
+            "folder": {
+                "path": "packs/pixflow-design-recipe-paper-pack"
+            },
+            "inventory": {
+                "fileCount": 17,
+                "byteCount": 3114875,
+                "resourceCount": 0,
+                "sideFileCount": 16,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 17
                 },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 2,
+                    "md": 10,
+                    "png": 2
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 17
+                },
+                "sampleResources": []
+            },
+            "files": [
                 {
                     "path": "pixflow-design-recipes/paper/DESIGN.md",
                     "sourcePath": "src/AI/DirectReferences/pixflow-recipes/paper/DESIGN.md",
@@ -19310,8 +19546,8 @@
                     "extension": "md",
                     "bytes": 2551,
                     "sha256": "173c5bf601196b6bec9fba4fa8398c8403ead7c0c17a49d78f83131ab1ad4fbd",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/METHOD.md",
@@ -19320,8 +19556,8 @@
                     "extension": "md",
                     "bytes": 5499,
                     "sha256": "ec6849cb7a12ae36b9e202b56ef4f061ec2f0428202f356f5c7804cf1aba0c2e",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/SKILL.md",
@@ -19330,8 +19566,8 @@
                     "extension": "md",
                     "bytes": 4068,
                     "sha256": "3b10f7b2fbf9d1c0757eb0fa000d54908213514e57f4d41e49ccebb58bbd2dee",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/assets/image-manifest.json",
@@ -19340,8 +19576,8 @@
                     "extension": "json",
                     "bytes": 968,
                     "sha256": "df4ed63dd60a201054974d75fd33c94bffb9b0cc8a845377e4ff1f0f57189e27",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/assets/preview-desktop.png",
@@ -19350,8 +19586,8 @@
                     "extension": "png",
                     "bytes": 1868015,
                     "sha256": "f9031c107832bf1d9dd3fea4749fe2c9a908d4957de47d10261e92bc3e938d20",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/assets/preview-mobile.png",
@@ -19360,8 +19596,8 @@
                     "extension": "png",
                     "bytes": 1135037,
                     "sha256": "5cd3a3f71fd7790f16a5a628a7ac922397a1f1d988c3ef044bdb9623fcd55199",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/example.html",
@@ -19370,8 +19606,8 @@
                     "extension": "html",
                     "bytes": 26600,
                     "sha256": "a13dcb99be0a05803abd6d9444f2d1ed7f20c6a7348e568f68f346f54aef9141",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/preview.html",
@@ -19380,8 +19616,8 @@
                     "extension": "html",
                     "bytes": 55660,
                     "sha256": "9087e95062a9c6ec1cf4baa3400c2026d49b2cb6b543c3265497c58c99c4b3c7",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/recipe.json",
@@ -19390,8 +19626,8 @@
                     "extension": "json",
                     "bytes": 693,
                     "sha256": "5e1ba582fc583d620db9c1d063a7e61eac03df0ef27d893c5e4b3b5136b84b52",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/references/accessibility.md",
@@ -19400,8 +19636,8 @@
                     "extension": "md",
                     "bytes": 787,
                     "sha256": "e9e88aaca9e8838f59f26e2f8587ac9dc0a66370527e91b07dcf83a32ec2c95e",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/references/anti-patterns.md",
@@ -19410,8 +19646,8 @@
                     "extension": "md",
                     "bytes": 837,
                     "sha256": "f1abb814832633a93a80249c94acd378ca1d4eda6736448a16951a2cb259d8f6",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/references/checklist.md",
@@ -19420,8 +19656,8 @@
                     "extension": "md",
                     "bytes": 2488,
                     "sha256": "6c729a701694f528f4fd1db12fa68504783caf1aa60066acb722abd5163707bd",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/references/components.md",
@@ -19430,8 +19666,8 @@
                     "extension": "md",
                     "bytes": 3062,
                     "sha256": "ec2631f1d5973fd9fafeafe520b93a87517113416e4d11ccbbb0cbc3804d4f30",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/references/critique.md",
@@ -19440,8 +19676,8 @@
                     "extension": "md",
                     "bytes": 1468,
                     "sha256": "a3483d916cac92ab73b2b7596c924a6e180804a40cc4907eeca1ba6351b04d48",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/references/layouts.md",
@@ -19450,8 +19686,8 @@
                     "extension": "md",
                     "bytes": 4394,
                     "sha256": "e4dc209149f57fce984fd330a03d59aa8773a457c27a3ba63a397b4ce4a11aee",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/references/responsive.md",
@@ -19460,8 +19696,8 @@
                     "extension": "md",
                     "bytes": 1337,
                     "sha256": "c31550bed84aafb78f765bd64fd7edb9045d7ae3052af4c7f7b73f4ca4fe74af",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 },
                 {
                     "path": "pixflow-design-recipes/paper/tokens.css",
@@ -19470,8 +19706,8 @@
                     "extension": "css",
                     "bytes": 1411,
                     "sha256": "3c8a3b70fd859a47f41ec205130c01db806a7feafab6bff005762ac01a8c7dc0",
-                    "primaryResource": "paper",
-                    "excluded": false
+                    "recipeId": "paper",
+                    "primaryMode": "pixflow-recipe"
                 }
             ],
             "excluded": []
@@ -19486,7 +19722,7 @@
             "description": "Bundled Pixflow Design plugin manifests, scenario routes, atom skills, example plugin assets, localized plugin metadata, formal plugin runtime contracts, and plugin design-system fixtures, excluding primary slide/deck/PPT routes.",
             "archive": {
                 "path": "release/v2026.06.07.1/pixflow-design-plugins-pack.zip",
-                "sha256": "2d14061ac56ea33c9356d9aa3cd15c5fd61dd4e24ec1f406399b39edb824367f",
+                "sha256": "8e7bf756f6a795ad3534720ad1ae9ce39eccb0cd0a4b201bc19939ae0e9b685f",
                 "size": 24428952
             },
             "folder": {
@@ -37378,7 +37614,7 @@
             "description": "Pixflow Bricks-specific conversion skills, Bricks references, Pixflow Framework rules, and editable JSON guidance.",
             "archive": {
                 "path": "release/v2026.06.07.1/pixflow-bricks-conversion-pack.zip",
-                "sha256": "a9bb561778041b5e5bd44a7f590e544ae51a769d0065f5e1789a9afdd08b2aca",
+                "sha256": "80720753a33f4c95acf4762bb932ac6af14ac400c4521eb13b9d63243917c7a9",
                 "size": 240591
             },
             "folder": {
@@ -40307,10 +40543,10 @@
         }
     ],
     "totals": {
-        "packCount": 7,
+        "packCount": 13,
         "fileCount": 2462,
         "byteCount": 127837886,
         "excludedFileCount": 678
     },
-    "sourceFingerprint": "f1ca7848103e9516a57d10f90a566a9386a7346b1010bb732da2da44e3830e86"
+    "sourceFingerprint": "258492840c7eb8556d845b4ed6da8c63020be2ba5c0739824f4a8e89efa5449c"
 }

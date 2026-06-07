@@ -1,9 +1,9 @@
 {
     "type": "pixflow_design_resource_inventory",
     "schemaVersion": 1,
-    "sourceFingerprint": "f1ca7848103e9516a57d10f90a566a9386a7346b1010bb732da2da44e3830e86",
+    "sourceFingerprint": "258492840c7eb8556d845b4ed6da8c63020be2ba5c0739824f4a8e89efa5449c",
     "totals": {
-        "packCount": 7,
+        "packCount": 13,
         "fileCount": 2462,
         "byteCount": 127837886,
         "excludedFileCount": 678
@@ -220,36 +220,188 @@
             }
         },
         {
-            "id": "pixflow-design-recipes-pack",
-            "kind": "pixflow-design-recipes",
+            "id": "pixflow-design-recipe-bento-pack",
+            "kind": "pixflow-design-recipe",
             "stage": "stage_a",
             "required": false,
             "inventory": {
-                "fileCount": 96,
-                "byteCount": 20254937,
-                "resourceCount": 7,
-                "sideFileCount": 89,
+                "fileCount": 10,
+                "byteCount": 80682,
+                "resourceCount": 0,
+                "sideFileCount": 9,
                 "excludedFileCount": 0,
                 "resourceTypes": {
-                    "pixflow_design_recipe": 96
+                    "pixflow_design_recipe": 10
                 },
                 "extensions": {
-                    "css": 7,
-                    "html": 14,
-                    "json": 10,
-                    "md": 54,
-                    "png": 11
+                    "css": 1,
+                    "html": 2,
+                    "json": 1,
+                    "md": 6
                 },
-                "primaryModes": [],
-                "sampleResources": [
-                    "bento",
-                    "clean",
-                    "enterprise",
-                    "luxury",
-                    "neobrutalism",
-                    "neumorphism",
-                    "paper"
-                ]
+                "primaryModes": {
+                    "pixflow-recipe": 10
+                },
+                "sampleResources": []
+            }
+        },
+        {
+            "id": "pixflow-design-recipe-clean-pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 17,
+                "byteCount": 1521972,
+                "resourceCount": 0,
+                "sideFileCount": 16,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 17
+                },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 2,
+                    "md": 10,
+                    "png": 2
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 17
+                },
+                "sampleResources": []
+            }
+        },
+        {
+            "id": "pixflow-design-recipe-enterprise-pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 10,
+                "byteCount": 238667,
+                "resourceCount": 0,
+                "sideFileCount": 9,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 10
+                },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 1,
+                    "md": 6
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 10
+                },
+                "sampleResources": []
+            }
+        },
+        {
+            "id": "pixflow-design-recipe-luxury-pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 22,
+                "byteCount": 15031241,
+                "resourceCount": 0,
+                "sideFileCount": 21,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 22
+                },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 2,
+                    "md": 10,
+                    "png": 7
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 22
+                },
+                "sampleResources": []
+            }
+        },
+        {
+            "id": "pixflow-design-recipe-neobrutalism-pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 10,
+                "byteCount": 91177,
+                "resourceCount": 0,
+                "sideFileCount": 9,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 10
+                },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 1,
+                    "md": 6
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 10
+                },
+                "sampleResources": []
+            }
+        },
+        {
+            "id": "pixflow-design-recipe-neumorphism-pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 10,
+                "byteCount": 176323,
+                "resourceCount": 0,
+                "sideFileCount": 9,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 10
+                },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 1,
+                    "md": 6
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 10
+                },
+                "sampleResources": []
+            }
+        },
+        {
+            "id": "pixflow-design-recipe-paper-pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 17,
+                "byteCount": 3114875,
+                "resourceCount": 0,
+                "sideFileCount": 16,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 17
+                },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 2,
+                    "md": 10,
+                    "png": 2
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 17
+                },
+                "sampleResources": []
             }
         },
         {
