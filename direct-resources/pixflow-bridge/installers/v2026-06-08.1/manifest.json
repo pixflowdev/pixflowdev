@@ -1,0 +1,73 @@
+﻿{
+    "installerVersion":  "2026-06-08.1",
+    "assets":  [
+                   {
+                       "size":  198656,
+                       "supportsShortcuts":  true,
+                       "signed":  false,
+                       "fileName":  "pixflow-bridge-setup-windows-2026-06-08.1.exe",
+                       "includesTrayController":  true,
+                       "kind":  "native",
+                       "platform":  "windows",
+                       "label":  "Windows",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-08.1/pixflow-bridge-setup-windows-2026-06-08.1.exe",
+                       "supportsAutostart":  true,
+                       "requiresUnzip":  false,
+                       "supportsUninstall":  true,
+                       "sha256":  "bb7169eb00c19460c100e389c13a8f158ed74eaf54cf87e0189ea54e91d83e16"
+                   },
+                   {
+                       "size":  168950,
+                       "supportsShortcuts":  true,
+                       "signed":  false,
+                       "fileName":  "pixflow-bridge-installer-windows-2026-06-08.1.zip",
+                       "includesTrayController":  false,
+                       "kind":  "script_package",
+                       "platform":  "windows",
+                       "label":  "Windows fallback zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-08.1/pixflow-bridge-installer-windows-2026-06-08.1.zip",
+                       "supportsAutostart":  true,
+                       "requiresUnzip":  true,
+                       "supportsUninstall":  true,
+                       "sha256":  "2c6642f4486fbc206b0b4ad9255a07249ddfb4a88856c23dab92a67f241043fc"
+                   },
+                   {
+                       "size":  168292,
+                       "supportsShortcuts":  true,
+                       "signed":  false,
+                       "fileName":  "pixflow-bridge-installer-macos-2026-06-08.1.zip",
+                       "includesTrayController":  false,
+                       "kind":  "script_package",
+                       "platform":  "macos",
+                       "label":  "macOS fallback zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-08.1/pixflow-bridge-installer-macos-2026-06-08.1.zip",
+                       "supportsAutostart":  true,
+                       "requiresUnzip":  true,
+                       "supportsUninstall":  true,
+                       "sha256":  "aca17783d846a21e72db844c9aacc4d6e6e8164c4c7ba940d45e446c8db95029"
+                   },
+                   {
+                       "size":  168290,
+                       "supportsShortcuts":  true,
+                       "signed":  false,
+                       "fileName":  "pixflow-bridge-installer-linux-2026-06-08.1.zip",
+                       "includesTrayController":  false,
+                       "kind":  "script_package",
+                       "platform":  "linux",
+                       "label":  "Linux fallback zip",
+                       "downloadUrl":  "https://raw.githubusercontent.com/pixflowdev/pixflowdev/main/direct-resources/pixflow-bridge/installers/v2026-06-08.1/pixflow-bridge-installer-linux-2026-06-08.1.zip",
+                       "supportsAutostart":  true,
+                       "requiresUnzip":  true,
+                       "supportsUninstall":  true,
+                       "sha256":  "7a51e0ee8dbe80db4136d1004cc5778f7e08e4559bd08be7b3da51dfcde20829"
+                   }
+               ],
+    "type":  "pixflow_bridge_installer_release",
+    "supportsAutostart":  true,
+    "version":  3,
+    "builtAt":  "2026-06-08T00:12:45.2201406Z",
+    "nativeInstallerPreferred":  true,
+    "signedNativeInstallersPending":  true,
+    "supportsUninstall":  true,
+    "supportsShortcuts":  true
+}
