@@ -1,4 +1,4 @@
-﻿{
+{
     "installerVersion":  "2026-06-08.1",
     "assets":  [
                    {
@@ -14,10 +14,10 @@
                        "supportsAutostart":  true,
                        "requiresUnzip":  false,
                        "supportsUninstall":  true,
-                       "sha256":  "bb7169eb00c19460c100e389c13a8f158ed74eaf54cf87e0189ea54e91d83e16"
+                       "sha256":  "a4a29b06fdfd7c408e4c5be60754dcec9760939eb0cf9c392fb21dd6ab9e1c1f"
                    },
                    {
-                       "size":  168950,
+                       "size":  168949,
                        "supportsShortcuts":  true,
                        "signed":  false,
                        "fileName":  "pixflow-bridge-installer-windows-2026-06-08.1.zip",
@@ -29,10 +29,10 @@
                        "supportsAutostart":  true,
                        "requiresUnzip":  true,
                        "supportsUninstall":  true,
-                       "sha256":  "2c6642f4486fbc206b0b4ad9255a07249ddfb4a88856c23dab92a67f241043fc"
+                       "sha256":  "1f93baabf974867526d6de8b3c020bcb00b1c26ec9020be5da0028410f9f51d9"
                    },
                    {
-                       "size":  168292,
+                       "size":  168291,
                        "supportsShortcuts":  true,
                        "signed":  false,
                        "fileName":  "pixflow-bridge-installer-macos-2026-06-08.1.zip",
@@ -44,10 +44,10 @@
                        "supportsAutostart":  true,
                        "requiresUnzip":  true,
                        "supportsUninstall":  true,
-                       "sha256":  "aca17783d846a21e72db844c9aacc4d6e6e8164c4c7ba940d45e446c8db95029"
+                       "sha256":  "2d6903f2d911bf9707a50aad95e3cbb8ee6e7c24bb6d69e0cd570e56c21f8890"
                    },
                    {
-                       "size":  168290,
+                       "size":  168289,
                        "supportsShortcuts":  true,
                        "signed":  false,
                        "fileName":  "pixflow-bridge-installer-linux-2026-06-08.1.zip",
@@ -59,13 +59,13 @@
                        "supportsAutostart":  true,
                        "requiresUnzip":  true,
                        "supportsUninstall":  true,
-                       "sha256":  "7a51e0ee8dbe80db4136d1004cc5778f7e08e4559bd08be7b3da51dfcde20829"
+                       "sha256":  "ca5ba6c7595d967114dc9d73c3fded6db2422ea9981346e71f06f52bf9d9ce40"
                    }
                ],
     "type":  "pixflow_bridge_installer_release",
     "supportsAutostart":  true,
     "version":  3,
-    "builtAt":  "2026-06-08T00:12:45.2201406Z",
+    "builtAt":  "2026-06-08T00:18:02.5129668Z",
     "nativeInstallerPreferred":  true,
     "signedNativeInstallersPending":  true,
     "supportsUninstall":  true,
