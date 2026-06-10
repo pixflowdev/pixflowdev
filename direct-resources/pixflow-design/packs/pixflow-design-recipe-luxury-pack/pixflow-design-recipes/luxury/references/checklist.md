@@ -6,7 +6,7 @@ Before writing HTML, read:
 
 - `design-method.md`
 - `method-skill.md`
-- `method-design-system.md`
+- Active Pixflow Design design system first; `method-design-system.md` only as fallback reference.
 - `method-layouts.md`
 - `method-components.md`
 - `method-checklist.md`

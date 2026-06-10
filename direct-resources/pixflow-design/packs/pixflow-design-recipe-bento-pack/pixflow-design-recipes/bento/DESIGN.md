@@ -30,11 +30,11 @@ spacing:
   sourceScale: "4/8/12/16/24/32"
 ---
 
-# Bento Design System
+# Bento Fallback Design Reference
 
 ## Overview
 
-Bento pages use modular card boards, weighted hierarchy, soft spacing, and quiet contrast to make complex product information scannable.
+Bento pages use modular card boards, weighted hierarchy, soft spacing, and quiet contrast to make complex product information scannable. This file is a fallback reference for recipe authoring and compatibility. During Stage A, the active Pixflow Design design system is the primary source for color, typography, spacing, radius, surfaces, and component styling.
 
 ## Style Foundations
 
@@ -58,7 +58,7 @@ Bento pages use modular card boards, weighted hierarchy, soft spacing, and quiet
 
 ## Usage
 
-- Start from the warm surface token, then add white or near-white cards for contrast.
+- Start from the active design system's background and surface tokens. If no active design system is available, use the warm surface token, then add white or near-white cards for contrast.
 - Use peach and muted blue as soft card tints, not as heavy full-page color fields.
 - Keep body text on text or muted ink values with accessible contrast.
 - Use status colors only for status meaning.

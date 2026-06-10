@@ -4,7 +4,7 @@
 
 - Read `design-method.md` for Paper intent and route rhythm.
 - Read `method-skill.md` for runtime guardrails.
-- Read `method-design-system.md` and `method-tokens.css` before choosing colors, radii, typography, or accent behavior.
+- Use the active Pixflow Design design system before choosing colors, radii, typography, or accent behavior. Read `method-design-system.md` and `method-tokens.css` only as fallback references if no active design system is available.
 - Read `method-layouts.md` and choose the page structure.
 - Read `method-components.md` before building the editor shell, cards, pricing, or miniatures.
 - Read `method-example.html` for structural evidence. Do not copy it verbatim.

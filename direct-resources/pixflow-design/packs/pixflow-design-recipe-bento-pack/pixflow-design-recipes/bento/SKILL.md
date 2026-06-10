@@ -10,11 +10,11 @@ metadata:
 
 ## Mission
 
-Create implementation-ready Bento guidance for a polished Pixflow Design Stage A artifact. The result should use a modular grid of cards with visible hierarchy, useful product evidence, and clear responsive behavior.
+Create implementation-ready Bento guidance for a polished Pixflow Design Stage A artifact. The result should use a modular grid of cards with visible hierarchy, useful product evidence, clear responsive behavior, and explicit accessibility repairs.
 
 ## Design Intent
 
-Bento pages organize information into a weighted system of cards. The large cards carry primary meaning; medium cards carry product proof; small cards carry supporting signals. The grid should feel calm, useful, and deliberate.
+Bento pages organize information into a weighted system of cards. The large cards carry primary meaning; medium cards carry product proof; small cards carry supporting signals. The grid should feel calm, useful, and deliberate. The active Pixflow Design design system controls visual tokens; this recipe controls the bento composition method.
 
 ## Foundations
 
@@ -22,7 +22,7 @@ Bento pages organize information into a weighted system of cards. The large card
 - Typography: Inter-style sans for display and body; JetBrains Mono-style mono only for labels, counters, and tiny metadata.
 - Type scale: 12, 14, 16, 20, 24, 32, with larger display sizes derived from the active brief.
 - Spacing scale: 4, 8, 12, 16, 24, 32.
-- Colors: warm surface, near-black text, peach primary tint, muted blue secondary, status green/warning/danger only when meaningful.
+- Colors: use the active design-system tokens. If no active system is available, fall back to warm surface, near-black text, peach primary tint, muted blue secondary, and status green/warning/danger only when meaningful.
 - Accessibility: WCAG 2.2 AA contrast, keyboard-first interaction states, visible focus treatment, readable labels.
 
 ## Rules
@@ -32,6 +32,7 @@ Bento pages organize information into a weighted system of cards. The large card
 - Keep default, hover, focus-visible, active, disabled, loading, and error states explicit when interactive UI is included.
 - Prefer accessibility and clarity over novelty when the two conflict.
 - Pair each decorative decision with a content role.
+- Preserve the active design system. Do not override a user-selected design system with recipe fallback colors, fonts, radii, or shadows.
 - Use a readable grid. A 12-track desktop grid is allowed, but no visible main-board card may be only 1 or 2 tracks wide.
 - Text-heavy cards, quotes, checklists, actions, badge groups, and product UI fragments need at least 4 of 12 tracks, or should become nested content inside a wider card.
 

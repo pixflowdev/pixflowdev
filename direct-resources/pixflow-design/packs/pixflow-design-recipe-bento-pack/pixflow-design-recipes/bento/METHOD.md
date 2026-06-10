@@ -6,7 +6,7 @@ Use this recipe when the brief asks for a modular product page, launch page, fea
 
 Create a page where the grid is the main design language. The visitor should understand the product from one large hero card, then scan surrounding cards that prove speed, scale, trust, community, workflow, integrations, or product states. The method is not a generic card grid. It is a hierarchy system where each tile has a different weight and job.
 
-This is a visual method, not a replacement for the active Pixflow Design skill. Follow the run brief, uploaded references, selected design system, craft rules, and active Pixflow skill first. Use this recipe to shape card weighting, section rhythm, palette, hierarchy, and proof density.
+This is a visual method, not a replacement for the active Pixflow Design skill or the active Pixflow Design design system. Follow the run brief, uploaded references, selected design system, craft rules, and active Pixflow skill first. Use this recipe to shape card weighting, section rhythm, hierarchy, proof density, responsive behavior, and critique. Use the active design system for color, typography, surfaces, radius, spacing, and component styling.
 
 ## Core Rules
 
@@ -15,9 +15,9 @@ This is a visual method, not a replacement for the active Pixflow Design skill. 
 - Surround the anchor with smaller proof cards: speed, metric, checklist, quote, community, integration, or workflow card.
 - Each card must have a clear role. No empty decorative tiles, random statistics, or repeated equal cards.
 - Make card sizes communicate importance. Large cards carry product promise. Medium cards carry proof. Small cards carry signals.
-- Use soft cream, white, pastel, or pale product surfaces with near-black type and one high-confidence accent.
-- Rounded radii should be generous and consistent, usually 24px to 36px for large cards and 18px to 24px for smaller cards.
-- Shadows are soft and broad. Borders are quiet but visible enough to define each tile.
+- Use the active design system's surface and accent tokens. If no active system is available, fall back to soft cream, white, pastel, or pale product surfaces with near-black type and one high-confidence accent.
+- Rounded radii should be generous and consistent, usually 24px to 36px for large cards and 18px to 24px for smaller cards, unless the active design system requires a tighter or sharper radius.
+- Shadows are soft and broad. Borders are quiet but visible enough to define each tile. If the active design system is flatter, keep separation through spacing, tint, and hairline borders.
 - Use simple icon marks, small badges, mini charts, check rows, status pills, or product UI fragments inside cards.
 - Keep the bento grid aligned to a predictable column system. Do not use chaotic masonry.
 - Do not add extra visible columns just to fit more cards. A desktop board may use 12 internal grid tracks, but any visible card in the main bento board must span at least 3 tracks, and text-heavy cards must span at least 4 tracks.
@@ -25,6 +25,7 @@ This is a visual method, not a replacement for the active Pixflow Design skill. 
 - In product-proof boards, avoid orphan cards. If a tall product mockup sits on the left and a support card sits on the right, the next support card should usually sit in the right column below it, not start a lonely new row.
 - If a saturated or gradient card uses light text, give it an explicitly dark enough owned background or solid contrast layer at every breakpoint, especially mobile.
 - Never include `body` in a `font: inherit` reset. If resetting controls, use `button, input, textarea, select { font: inherit; }` and keep the body font declaration intact.
+- If the user selected a design system that conflicts with the recipe fallback tokens, the user-selected design system wins. Keep the bento layout and card roles, but translate the visual treatment through the selected system.
 
 ## Signature Page Rhythm
 
@@ -44,11 +45,11 @@ This is a visual method, not a replacement for the active Pixflow Design skill. 
 
 ## Visual DNA
 
-- Background: warm cream, soft neutral, or very pale brand tint.
-- Surfaces: white, near-white, or lightly tinted cards with translucent gradients.
-- Ink: near-black headings with muted grey support text.
+- Background: active design-system background token, normally warm cream, soft neutral, or very pale brand tint.
+- Surfaces: active design-system surface tokens, normally white, near-white, or lightly tinted cards with restrained translucent gradients.
+- Ink: active design-system text token, normally near-black headings with muted support text.
 - Accent: one strong brand color plus one or two very soft supporting tints. Do not turn the page into a rainbow grid.
-- Typography: modern sans-serif with bold, tight, confident headlines. Keep body copy relaxed and readable.
+- Typography: active design-system typography. If no system is active, use modern sans-serif with bold, tight, confident headlines and relaxed readable body copy.
 - Card shape: large rounded rectangles, stable padding, no nested card clutter.
 - Grid: 12-column or 4-column desktop board with fixed row rhythm. On mobile, cards stack in priority order.
 - Column safety: 12 columns are for span math only. Do not create visible skinny columns; minimum card width is 3/12, and any card with a paragraph, checklist, quote, metric explanation, or actions needs at least 4/12.

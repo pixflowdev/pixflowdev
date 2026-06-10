@@ -1,11 +1,11 @@
 {
     "type": "pixflow_design_resource_inventory",
     "schemaVersion": 1,
-    "sourceFingerprint": "c14b2f637c567502eda117f417664a66d7ad403ee6495203be0568b17c02899f",
+    "sourceFingerprint": "d033cbd330d04576e192251c16ae1a8700c2434c996d8a931a4da4d307e01139",
     "totals": {
         "packCount": 43,
-        "fileCount": 2307,
-        "byteCount": 126602345,
+        "fileCount": 2314,
+        "byteCount": 130469394,
         "excludedFileCount": 447
     },
     "packs": [
@@ -225,22 +225,23 @@
             "stage": "stage_a",
             "required": false,
             "inventory": {
-                "fileCount": 10,
-                "byteCount": 80682,
+                "fileCount": 17,
+                "byteCount": 3946376,
                 "resourceCount": 0,
-                "sideFileCount": 9,
+                "sideFileCount": 16,
                 "excludedFileCount": 0,
                 "resourceTypes": {
-                    "pixflow_design_recipe": 10
+                    "pixflow_design_recipe": 17
                 },
                 "extensions": {
                     "css": 1,
                     "html": 2,
-                    "json": 1,
-                    "md": 6
+                    "json": 2,
+                    "md": 10,
+                    "png": 2
                 },
                 "primaryModes": {
-                    "pixflow-recipe": 10
+                    "pixflow-recipe": 17
                 },
                 "sampleResources": []
             }
@@ -252,7 +253,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 17,
-                "byteCount": 1521972,
+                "byteCount": 1522220,
                 "resourceCount": 0,
                 "sideFileCount": 16,
                 "excludedFileCount": 0,
@@ -279,7 +280,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 10,
-                "byteCount": 238667,
+                "byteCount": 238854,
                 "resourceCount": 0,
                 "sideFileCount": 9,
                 "excludedFileCount": 0,
@@ -305,7 +306,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 22,
-                "byteCount": 15031241,
+                "byteCount": 15031491,
                 "resourceCount": 0,
                 "sideFileCount": 21,
                 "excludedFileCount": 0,
@@ -332,7 +333,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 10,
-                "byteCount": 91177,
+                "byteCount": 91368,
                 "resourceCount": 0,
                 "sideFileCount": 9,
                 "excludedFileCount": 0,
@@ -358,7 +359,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 10,
-                "byteCount": 176323,
+                "byteCount": 176512,
                 "resourceCount": 0,
                 "sideFileCount": 9,
                 "excludedFileCount": 0,
@@ -384,7 +385,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 17,
-                "byteCount": 3114875,
+                "byteCount": 3115165,
                 "resourceCount": 0,
                 "sideFileCount": 16,
                 "excludedFileCount": 0,
