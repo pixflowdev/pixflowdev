@@ -31,15 +31,15 @@
     "packs": [
         {
             "id": "pixflow-design-core-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Pixflow Design Core Pack",
             "kind": "pixflow-design-core",
             "stage": "stage_a",
             "required": true,
             "description": "Pixflow Design prompt composer sources, discovery, directions, critique, linting, craft refs, prompt templates, and supporting assets.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-core-pack.zip",
-                "sha256": "05c54f91391a1b9aeba0856040612c2e774b29b31901a67a22e45e880968e374",
+                "path": "release/v2026.06.11.1/pixflow-design-core-pack.zip",
+                "sha256": "3ab0ae7553eb693889619b7599fa45770affa4c20c9cdad6994cddf75e7f8b4d",
                 "size": 35438504
             },
             "folder": {
@@ -1983,15 +1983,15 @@
         },
         {
             "id": "pixflow-design-skills-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Pixflow Design Skills Pack",
             "kind": "pixflow-design-skills",
             "stage": "stage_a",
             "required": true,
             "description": "Pixflow Design skills, including the complete functional skill catalogue.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-skills-pack.zip",
-                "sha256": "da73b9c07b8e2105ce3f08cef191b6bf936ff9826fe69b880f905d6553aa36fc",
+                "path": "release/v2026.06.11.1/pixflow-design-skills-pack.zip",
+                "sha256": "0dcbf0064e38b2f56a564ee71b84deba66b86d94d213992d14134e07c5195dbf",
                 "size": 8177194
             },
             "folder": {
@@ -5145,15 +5145,15 @@
         },
         {
             "id": "pixflow-design-templates-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Pixflow Design Templates Pack",
             "kind": "pixflow-design-templates",
             "stage": "stage_a",
             "required": true,
             "description": "Pixflow Design non-slide templates with side files, assets, references, and examples.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-templates-pack.zip",
-                "sha256": "daf209bee45405dd9e18bab8f68329b553cb886cf5f38dc4522b5a0254ad5b11",
+                "path": "release/v2026.06.11.1/pixflow-design-templates-pack.zip",
+                "sha256": "6c26baa3902e05765a6daf31c6f2f485611fad332749463ca57499c21d765648",
                 "size": 23964267
             },
             "folder": {
@@ -13782,15 +13782,15 @@
         },
         {
             "id": "pixflow-design-systems-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Pixflow Design Systems Pack",
             "kind": "pixflow-design-systems",
             "stage": "stage_a",
             "required": true,
             "description": "Pixflow Design systems, including DESIGN.md, optional tokens.css, components.html, and support files.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-systems-pack.zip",
-                "sha256": "9869504e3f8b8892b631534c6a831cac899a4124a202618b9c61f4f010816f77",
+                "path": "release/v2026.06.11.1/pixflow-design-systems-pack.zip",
+                "sha256": "2ead3f6274519423773ece82d2eba052dbd7fa7de462bcd69147a25c1b01a56f",
                 "size": 1636628
             },
             "folder": {
@@ -18471,15 +18471,15 @@
         },
         {
             "id": "pixflow-design-recipe-bento-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Bento Recipe Pack",
             "kind": "pixflow-design-recipe",
             "stage": "stage_a",
             "required": false,
             "description": "A Pixflow-owned recipe for modular product pages built from weighted bento cards, soft surfaces, clear hierarchy, and useful proof tiles.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-recipe-bento-pack.zip",
-                "sha256": "38cb0508d8187177b25a1d02a2e39393698c3b036bf9d80f0e08e1e1362671f7",
+                "path": "release/v2026.06.11.1/pixflow-design-recipe-bento-pack.zip",
+                "sha256": "1d66256b40dffaaaea02e420c25b39bb5c39581714f42d5f4b87c45e4d890b05",
                 "size": 3841272
             },
             "folder": {
@@ -18682,15 +18682,15 @@
         },
         {
             "id": "pixflow-design-recipe-clean-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Clean Recipe Pack",
             "kind": "pixflow-design-recipe",
             "stage": "stage_a",
             "required": false,
             "description": "A Pixflow-owned recipe for premium light product, SaaS, plugin, app, and workflow landing pages with centered clarity, inspectable product proof, calm card systems, and restrained conversion rhythm.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-recipe-clean-pack.zip",
-                "sha256": "b830c289dcd99d7b1c14edb30755b3bdb117e34eced84bb0b64a7128e05467af",
+                "path": "release/v2026.06.11.1/pixflow-design-recipe-clean-pack.zip",
+                "sha256": "1ac6a98ef81d5a77a7d4d9ac48f8dcce442347e181f3eaa17b04555d33585844",
                 "size": 1385145
             },
             "folder": {
@@ -18892,16 +18892,227 @@
             "excluded": []
         },
         {
+            "id": "pixflow-design-recipe-energetic-pack",
+            "version": "2026.06.11.1",
+            "label": "Energetic Recipe Pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "description": "A Pixflow-owned recipe for bold, high-contrast expressive pages with vibrant orange/purple accents, thick 4px borders, hard drop shadows, and modern geometric styling.",
+            "archive": {
+                "path": "release/v2026.06.11.1/pixflow-design-recipe-energetic-pack.zip",
+                "sha256": "ff3d83bb4eb6747ac78c6e802bdb61db39f96688a28b64010ed366409d12b7c5",
+                "size": 456524
+            },
+            "folder": {
+                "path": "packs/pixflow-design-recipe-energetic-pack"
+            },
+            "inventory": {
+                "fileCount": 17,
+                "byteCount": 534855,
+                "resourceCount": 0,
+                "sideFileCount": 16,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 17
+                },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 2,
+                    "md": 10,
+                    "png": 2
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 17
+                },
+                "sampleResources": []
+            },
+            "files": [
+                {
+                    "path": "pixflow-design-recipes/energetic/DESIGN.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/DESIGN.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2424,
+                    "sha256": "461f8c5833de2018dc37327fdb31e162861963a6b3517f75de87dcd3677fb999",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/METHOD.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/METHOD.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 3381,
+                    "sha256": "3c1a75c4847edeeaa606a48afd07cf8a8a234ce77d781f79785ca766698aa672",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/SKILL.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/SKILL.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2190,
+                    "sha256": "f3ba3c0c7238b7e7f68014a7fd3e976625ee7fe50bcca1fa03e8620331327ffe",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/assets/image-manifest.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/assets/image-manifest.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 1538,
+                    "sha256": "8b5fed3182e2bc3e0194620d4b0ba8818ce0db3da9d701d64c6ed38d434a8ae3",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/assets/preview-desktop.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/assets/preview-desktop.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 247807,
+                    "sha256": "aeab811a1597dbfac15811ba53e17f47ddd83ae9e8fa9163fefb9ab83089237c",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/assets/preview-mobile.png",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/assets/preview-mobile.png",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "png",
+                    "bytes": 231821,
+                    "sha256": "691f641eefee336331187e52b955f912d4af5762e3de56bc84cd92ac2462e3f7",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/example.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/example.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 16853,
+                    "sha256": "d5acec279349206dc1556fe39cc918f07327590e30cf679c71d866dc3355066e",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/preview.html",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/preview.html",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "html",
+                    "bytes": 16853,
+                    "sha256": "d5acec279349206dc1556fe39cc918f07327590e30cf679c71d866dc3355066e",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/recipe.json",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/recipe.json",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "json",
+                    "bytes": 879,
+                    "sha256": "afe571ef62a122e9ea991b7061e4f5c7b491158887bf9f12dcb2614d0793d58c",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/references/accessibility.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/references/accessibility.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 822,
+                    "sha256": "9405879926ad28530911749cc44a0e80ab64aa18f677ab4f183d91e0306d3c26",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/references/anti-patterns.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/references/anti-patterns.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 662,
+                    "sha256": "933981a5fe8391db6d2b81538b3be7b0f86deff4227478c23a55b79ab9f4c2c5",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/references/checklist.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/references/checklist.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1805,
+                    "sha256": "d37156be38234eab2ebb23f7b12e78b8170790b73fd287730074c087655c5c7e",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/references/components.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/references/components.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2082,
+                    "sha256": "5b1a8edd600e8653d5c550ada23cfea4fa318fcb488a8f3836b18188b7aaa613",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/references/critique.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/references/critique.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1454,
+                    "sha256": "4335c2b432b46539b9ab3417da4fffc230291021a5a8d012349627f25e9bf083",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/references/layouts.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/references/layouts.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 2686,
+                    "sha256": "7574c0240f1eb74ba9b4e95bc9688ccc8ceab629cb4b3b4f1927e63f3e7d8868",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/references/responsive.md",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/references/responsive.md",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "md",
+                    "bytes": 1037,
+                    "sha256": "80be5f3d0531857bdfe04c4b8b7226505b509e419bc7c73b991d4973ca84347b",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                },
+                {
+                    "path": "pixflow-design-recipes/energetic/tokens.css",
+                    "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/tokens.css",
+                    "resourceType": "pixflow_design_recipe",
+                    "extension": "css",
+                    "bytes": 561,
+                    "sha256": "f5ba5d7e1e4f23cdc2b4d82ef058e2e524f8688a5b0f141fb25a0cd067e76f7a",
+                    "recipeId": "energetic",
+                    "primaryMode": "pixflow-recipe"
+                }
+            ],
+            "excluded": []
+        },
+        {
             "id": "pixflow-design-recipe-enterprise-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Enterprise Recipe Pack",
             "kind": "pixflow-design-recipe",
             "stage": "stage_a",
             "required": false,
             "description": "A Pixflow-owned recipe for high-contrast enterprise workflow pages with dark-green control surfaces, orange action accents, structured product panels, automation diagrams, and purposeful entrance motion.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-recipe-enterprise-pack.zip",
-                "sha256": "bb31776da26926784ec76b996fbe8cb6efa92ce67373a3132326e4075e831ebb",
+                "path": "release/v2026.06.11.1/pixflow-design-recipe-enterprise-pack.zip",
+                "sha256": "6b91dc9b171766f2f17821389d5a4edb3935d890bf3ab19f518d4f35d2bbd249",
                 "size": 44073
             },
             "folder": {
@@ -19033,15 +19244,15 @@
         },
         {
             "id": "pixflow-design-recipe-luxury-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Luxury Recipe Pack",
             "kind": "pixflow-design-recipe",
             "stage": "stage_a",
             "required": false,
             "description": "A Pixflow-owned recipe for premium dark luxury pages with disciplined monochrome surfaces, oversized uppercase type, editorial product imagery, and restrained conversion moments.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-recipe-luxury-pack.zip",
-                "sha256": "20bd363c0bb3124cce5abff156b1b623a0ca74e6003bf3b705923d95b75f3a32",
+                "path": "release/v2026.06.11.1/pixflow-design-recipe-luxury-pack.zip",
+                "sha256": "38797bf246ed0a02089513d0a7cd360bbfd30c4a3b14084e386d8c1de6aad65a",
                 "size": 14841172
             },
             "folder": {
@@ -19294,15 +19505,15 @@
         },
         {
             "id": "pixflow-design-recipe-neobrutalism-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Neobrutalism Recipe Pack",
             "kind": "pixflow-design-recipe",
             "stage": "stage_a",
             "required": false,
             "description": "A Pixflow-owned recipe for bold, high-contrast pages with thick black borders, hard offset shadows, vivid yellow/violet accents, flat surfaces, and disciplined raw energy.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-recipe-neobrutalism-pack.zip",
-                "sha256": "72d81b30bd8515c826a5cd5df0f29ddacb6bdbc10e88f9ca65d8fa911ff15abf",
+                "path": "release/v2026.06.11.1/pixflow-design-recipe-neobrutalism-pack.zip",
+                "sha256": "51ab6362235d0cdfa01c0037e0e40c43a2b15a3a3f18a385051a7cadbe948453",
                 "size": 26332
             },
             "folder": {
@@ -19434,15 +19645,15 @@
         },
         {
             "id": "pixflow-design-recipe-neumorphism-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Neumorphism Recipe Pack",
             "kind": "pixflow-design-recipe",
             "stage": "stage_a",
             "required": false,
             "description": "A Pixflow-owned recipe for tactile product dashboards and app pages built from one material surface, raised/inset shadows, teal accents, and clear interaction states.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-recipe-neumorphism-pack.zip",
-                "sha256": "95a2f91b731b6e18a1844886c06dbb8a154c4808b331774c4748ac04e06b3e12",
+                "path": "release/v2026.06.11.1/pixflow-design-recipe-neumorphism-pack.zip",
+                "sha256": "752a90c0cfa9c97b555d7efa96133ef41a7c38d0e312cd9205d84e6101cae528",
                 "size": 35642
             },
             "folder": {
@@ -19574,15 +19785,15 @@
         },
         {
             "id": "pixflow-design-recipe-paper-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Paper Recipe Pack",
             "kind": "pixflow-design-recipe",
             "stage": "stage_a",
             "required": false,
             "description": "A Pixflow-owned recipe for light document-workspace, knowledge-base, editor, collaboration, and connected-canvas pages with tactile paper surfaces and product-readable UI proof.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-recipe-paper-pack.zip",
-                "sha256": "7816d78df5222c0c59b7e369247c8b4e695a165534fd2a772a40beb094960da1",
+                "path": "release/v2026.06.11.1/pixflow-design-recipe-paper-pack.zip",
+                "sha256": "9d4a9c306d22daf1568bf6bc6ef4d780a103eeb879aa7a0ddaa84653725b6384",
                 "size": 2893517
             },
             "folder": {
@@ -19785,15 +19996,15 @@
         },
         {
             "id": "pixflow-design-example-pixflow-design-landing-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Pixflow Design Landing Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Produce a world-class single-page editorial landing site in the Atelier Zero visual language (Monocle / Apartamento / \u00c9tudes editorial collage) \u2014 the same aesthetic Pixflow Design uses for its own marketing surface. The agent fills a typed `inputs.json` from a brand brief, optionally generates 16 collage assets via gpt-image-2, then runs a pure-function composer that emits a self-contained HTML file; a separate path can mirror the Astro marketing site in `apps/landing-page/`. Drop-in scroll-reveal motion and a Headroom-style sticky nav are wired automatically.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-pixflow-design-landing-pack.zip",
-                "sha256": "d0c78947decd7d252e6fbea23f2e72fbdcc064f0437978eb22ec607b254d8e57",
+                "path": "release/v2026.06.11.1/pixflow-design-example-pixflow-design-landing-pack.zip",
+                "sha256": "754e733a3b9ce77062f27e3caabaefe0d952764d99c91f04b366a0149855726e",
                 "size": 21889166
             },
             "folder": {
@@ -20184,15 +20395,15 @@
         },
         {
             "id": "pixflow-design-example-kanban-board-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Kanban Board Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Kanban / task board with columns (To do / In progress / In review / Done),\ndraggable-looking cards, assignee avatars, swimlanes, and a top filter\nbar. Use when the brief mentions \"kanban\", \"task board\", \"sprint board\",\n\"trello\", \"\u770b\u677f\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-kanban-board-pack.zip",
-                "sha256": "60aa75e628b83c57f7f35b275bec545dc887d982a25c332f4fd7c1e23bd83f5b",
+                "path": "release/v2026.06.11.1/pixflow-design-example-kanban-board-pack.zip",
+                "sha256": "620bd45a49881ce9851f9bb66fb14b97c62fabd7e0b716c42f016e6d82082057",
                 "size": 8212
             },
             "folder": {
@@ -20276,15 +20487,15 @@
         },
         {
             "id": "pixflow-design-example-social-carousel-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Social Carousel Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "A three-card social-media carousel laid out as 1080\u00d71080 squares \u2014\nthree cinematic, on-brand panels with display headlines that connect\nacross the series (\"onwards.\" \u2192 \"to the next one.\" \u2192 \"looking ahead.\").\nEach card has a brand mark, a number / total, a caption, and a \"loop\"\naffordance. Use when the brief asks for a \"carousel post\", \"social\ncarousel\", \"Instagram carousel\", \"LinkedIn series\", \"X thread cards\",\nor \"\u4e09\u8fde\u53d1\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-social-carousel-pack.zip",
-                "sha256": "3a85ce63682e9db36ed4673f24a70a047f3645b63f6aad6980870f25daec71a6",
+                "path": "release/v2026.06.11.1/pixflow-design-example-social-carousel-pack.zip",
+                "sha256": "a0021551b987e07d1058d2a939bca911abfad347d1c1f37761147e859e5804f5",
                 "size": 11101
             },
             "folder": {
@@ -20368,15 +20579,15 @@
         },
         {
             "id": "pixflow-design-example-blog-post-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Blog Post Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "A long-form article / blog post \u2014 masthead, hero image placeholder,\narticle body with figures and pull quotes, author byline, related posts.\nUse when the brief asks for \"blog\", \"article\", \"post\", \"essay\", or\n\"case study\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-blog-post-pack.zip",
-                "sha256": "dd2cd0434323c3a63fefe72eaf26519d7db1711416e9a302dd9761535618fc8b",
+                "path": "release/v2026.06.11.1/pixflow-design-example-blog-post-pack.zip",
+                "sha256": "e4da64859a6c4dfe031967377cbfe4119932a98b1080f7272e5239d3012b04e6",
                 "size": 8689
             },
             "folder": {
@@ -20460,15 +20671,15 @@
         },
         {
             "id": "pixflow-design-example-doc-kami-parchment-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Doc Kami Parchment Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Warm parchment canvas (#f5f4ed), monochrome ink-blue accent (#1B365D), one serif family, and editorial-grade typography.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-doc-kami-parchment-pack.zip",
-                "sha256": "21407b8cbdbddafd2295de717794f8ea0c29be3a14d1581ec2672dd828bd6e11",
+                "path": "release/v2026.06.11.1/pixflow-design-example-doc-kami-parchment-pack.zip",
+                "sha256": "cc30c40b3a779273d9502acb47513082283682fdc8b2c9f82e52ce126ab33f7f",
                 "size": 7738
             },
             "folder": {
@@ -20552,15 +20763,15 @@
         },
         {
             "id": "pixflow-design-example-magazine-poster-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Magazine Poster Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "An editorial-style poster \u2014 newsprint paper, dateline, oversized serif\nheadline with a struck-through word and italic accent, a 2-column body\nblock, and 6 numbered sections with annotated pull-quote captions.\nReads like a Sunday-paper full-page essay or a thoughtful launch poster.\nUse when the brief asks for \"magazine poster\", \"editorial poster\",\n\"newsprint\", \"essay layout\", or \"manifesto\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-magazine-poster-pack.zip",
-                "sha256": "002dea44c1ce010f6c99aac9f6ebee697be1c7d55f43271c3ef253caa74db2bb",
+                "path": "release/v2026.06.11.1/pixflow-design-example-magazine-poster-pack.zip",
+                "sha256": "3de732891edc306137a7ce3e9f5ef687f4f9abc2aaa997c45f9061d4cee3de7c",
                 "size": 9697
             },
             "folder": {
@@ -20644,15 +20855,15 @@
         },
         {
             "id": "pixflow-design-example-meeting-notes-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Meeting Notes Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Meeting notes page \u2014 title bar with attendees, agenda checklist, decisions\nblock, action items table with owners + dates, and a \"next meeting\" footer.\nUse when the brief mentions \"meeting notes\", \"minutes\", \"1:1 notes\",\n\"all-hands recap\", or \"\u4f1a\u8bae\u7eaa\u8981\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-meeting-notes-pack.zip",
-                "sha256": "19c63dfc98d663c8e9322a8fa30ca3cd27c7a7c312559f4eef51e054c07c25eb",
+                "path": "release/v2026.06.11.1/pixflow-design-example-meeting-notes-pack.zip",
+                "sha256": "cf9d6cea74e0ecf81b76a26c759714fafadb3f7c9764f47e5ad9533c7db12099",
                 "size": 8846
             },
             "folder": {
@@ -20736,15 +20947,15 @@
         },
         {
             "id": "pixflow-design-example-motion-frames-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Motion Frames Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "A single-frame motion-design composition with looping CSS animations \u2014\nrotating type ring, animated globe, ticking timer, parallax labels.\nRenders as a hero video poster you can hand straight to HyperFrames or\nany keyframe-based exporter. Use when the brief asks for \"motion design\",\n\"animated hero\", \"loop\", \"video poster\", \"title card\", or pairs Open\nClaude Design with HyperFrames for a kinetic export.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-motion-frames-pack.zip",
-                "sha256": "3d6b638663eec538606d692a2847e0d013b6744595998d47b300a3c3a08f434b",
+                "path": "release/v2026.06.11.1/pixflow-design-example-motion-frames-pack.zip",
+                "sha256": "7dd18f65cdaa9a7733c46332634b887df151eecd6c622220fb952cae9c23bf59",
                 "size": 9323
             },
             "folder": {
@@ -20828,15 +21039,15 @@
         },
         {
             "id": "pixflow-design-example-orbit-general-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Orbit General Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Open Orbit briefing skill \u2014 selected by the Orbit pipeline when the\nuser has two or more connectors connected. Pulls the past 24 hours of\nactivity from every authenticated connector (GitHub, Linear, Notion,\nSlack, \u98de\u4e66, Calendar, Gmail, Drive, Sentry, Vercel, \u2026) and renders a\nsingle adaptive bento-grid dashboard at the top of \"\u6211\u7684\u8bbe\u8ba1\". Each\nconnector module picks its own UI form (list, avatar stack, status\nring, heatmap, file grid, alert card, \u2026) based on the data shape it\nreturns, so the layout scales as Orbit's connector ecosystem grows.\nThis skill should not be triggered manually \u2014 it is invoked by\nOrbit's daily-digest scheduler against the user's live connector\ndata.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-orbit-general-pack.zip",
-                "sha256": "182ab1571c3161ba86a98cba22c9215c24bc228ccc330475412c5975bcf97add",
+                "path": "release/v2026.06.11.1/pixflow-design-example-orbit-general-pack.zip",
+                "sha256": "f312b1d4450ffe76081a4b0a735f8deab02913ba138d886515b3dac455134d5f",
                 "size": 20796
             },
             "folder": {
@@ -20920,15 +21131,15 @@
         },
         {
             "id": "pixflow-design-example-orbit-gmail-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Orbit Gmail Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Open Orbit briefing skill \u2014 selected by the Orbit pipeline when\nGmail is the user's only connected connector, or when the user\nexplicitly scopes their daily digest to Gmail. Pulls the past 24\nhours of inbox activity (replies awaited, mentions, cc, auto-\ncategorized bulk) from the user's authenticated Gmail connection\nand renders the digest as the Orbit Daily Digest email opened\ninside Gmail's reading view. This skill should not be triggered\nmanually \u2014 it is invoked by Orbit's daily-digest scheduler against\nlive Gmail data.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-orbit-gmail-pack.zip",
-                "sha256": "1282b5baefd2374ad0aa3e502683efe71ab044ea52ffb922f6ecd76e66ff89fc",
+                "path": "release/v2026.06.11.1/pixflow-design-example-orbit-gmail-pack.zip",
+                "sha256": "f48e580bd79eef95d0f6353267338055943f8c94cdd9df4df9b59309528ee2b4",
                 "size": 14759
             },
             "folder": {
@@ -21012,15 +21223,15 @@
         },
         {
             "id": "pixflow-design-example-orbit-notion-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Orbit Notion Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Open Orbit briefing skill \u2014 selected by the Orbit pipeline when\nNotion is the user's only connected connector, or when the user\nexplicitly scopes their daily digest to Notion. Pulls the past 24\nhours of document edits, comments, mentions, and database row changes\nfrom the user's authenticated Notion connection and renders the\ndigest as a native Notion page (callout / toggle / database table\nprimitives). This skill should not be triggered manually \u2014 it is\ninvoked by Orbit's daily-digest scheduler against live Notion data.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-orbit-notion-pack.zip",
-                "sha256": "a74de4ae1ee677b4763b3e02ac37633ff77f69e5b4750347f7f6773e5332b556",
+                "path": "release/v2026.06.11.1/pixflow-design-example-orbit-notion-pack.zip",
+                "sha256": "15937219e0357f2fc9b4900aeaeb6c97d9d5857753063a49007e255cad47f483",
                 "size": 15723
             },
             "folder": {
@@ -21104,15 +21315,15 @@
         },
         {
             "id": "pixflow-design-example-sprite-animation-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Sprite Animation Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "A pixel / sprite-style animated explainer slide \u2014 full-bleed cream stage,\nbold display year, animated pixel-art mascot (e.g. Hanafuda card, mushroom,\nor 8-bit console), kinetic Japanese display type, ticking timeline ribbon.\nReads like a single frame of an educational motion video \u2014 looping CSS\nkeyframes, no JS, ready to be screen-recorded into a vertical video.\nUse when the brief asks for a \"sprite animation\", \"pixel-art video\",\n\"8-bit explainer\", \"history of X explainer\", \"kinetic typography history\",\n\"Nintendo-style\", \"\u7cbe\u7075\u56fe\u52a8\u753b\", \"\u50cf\u7d20\u52a8\u753b\", or \"\u590d\u53e4\u52a8\u753b\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-sprite-animation-pack.zip",
-                "sha256": "4cfb1dea745fe80a579908bd22d17e437baf2a8d301ed1370a51216dd82722b4",
+                "path": "release/v2026.06.11.1/pixflow-design-example-sprite-animation-pack.zip",
+                "sha256": "84ab76bb4470aee28f8c0c1ff354c748861fda881ee70aa223ea2b3b6992b034",
                 "size": 10719
             },
             "folder": {
@@ -21196,15 +21407,15 @@
         },
         {
             "id": "pixflow-design-example-team-okrs-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Team OKRs Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "OKR tracker page \u2014 quarter banner, three objectives with their key\nresults as progress bars, owner avatars, status pills, and a \"this\nquarter at a glance\" sidebar. Use when the brief mentions \"OKRs\",\n\"key results\", \"objectives\", or \"\u76ee\u6807\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-team-okrs-pack.zip",
-                "sha256": "431a1aa4f1ab5332ffb0bed006d8c4d22587ecb8281d5f2c46d25880a044d470",
+                "path": "release/v2026.06.11.1/pixflow-design-example-team-okrs-pack.zip",
+                "sha256": "6b3961cc1a8e1bf4e3d6e10523a701b5749f1c982bf77e82f465e36033d549f8",
                 "size": 8300
             },
             "folder": {
@@ -21288,15 +21499,15 @@
         },
         {
             "id": "pixflow-design-example-dashboard-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Dashboard Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Admin / analytics dashboard in a single HTML file. Fixed left sidebar,\ntop bar with user/search, main grid of KPI cards and one or two charts.\nUse when the brief asks for a \"dashboard\", \"admin\", \"analytics\", or\n\"control panel\" screen.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-dashboard-pack.zip",
-                "sha256": "f4b023916bfba06d468e5d5761e921f5514bf75a614424f47479e508b9aac72d",
+                "path": "release/v2026.06.11.1/pixflow-design-example-dashboard-pack.zip",
+                "sha256": "5f75ee4226582b30936e1e6391baf515626caa0ab224b1d819752a69efdac75d",
                 "size": 7984
             },
             "folder": {
@@ -21380,15 +21591,15 @@
         },
         {
             "id": "pixflow-design-example-flowai-live-dashboard-template-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "FlowAI Live Dashboard Template Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Team-management dashboard skill in the FlowAI aesthetic \u2014 three tabs\n(Team Members, Team Details, Activity Log), KPI stat row, member table,\nrole distribution bar chart, online presence and activity sparklines,\nand a top-contributors panel, all in a single self-contained HTML file\nwith light/dark theming, hoverable chart tooltips, click-to-zoom panels,\nand CSV export. Use when the brief asks for a team / workspace admin\ndashboard, an interactive admin dashboard with charts, or names FlowAI.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-flowai-live-dashboard-template-pack.zip",
-                "sha256": "6871a3b56eab57b7e0e99eb818e0294d79fa3f997bec86ac869b38257739bb91",
+                "path": "release/v2026.06.11.1/pixflow-design-example-flowai-live-dashboard-template-pack.zip",
+                "sha256": "85aef44ec21aaaff9ad65ec9f848f4a11c78ef37526d40985a5992468e44a81c",
                 "size": 14097
             },
             "folder": {
@@ -21506,15 +21717,15 @@
         },
         {
             "id": "pixflow-design-example-github-dashboard-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "GitHub Dashboard Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "GitHub repository analytics dashboard \u2014 stars, forks, contributors,\nissues, pull requests, recent activity, and top contributors. Use when\nthe brief asks for a GitHub repo dashboard, open-source growth report,\nrepository health page, or GitHub analytics view.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-github-dashboard-pack.zip",
-                "sha256": "e7bf19ecdcf44d10efaa670d479744e9f7111608e7871ee5f3a1080ae7221036",
+                "path": "release/v2026.06.11.1/pixflow-design-example-github-dashboard-pack.zip",
+                "sha256": "648a3ca38bf9144c8f0bd232616398f0f17371b9287661e2f0c05512bf595e98",
                 "size": 21186
             },
             "folder": {
@@ -21683,15 +21894,15 @@
         },
         {
             "id": "pixflow-design-example-live-artifact-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Live Artifact Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Create refreshable, auditable Pixflow Design artifacts backed by connector or local data.\nTrigger when the user asks for live dashboards, refreshable reports, synced views, or reusable data-backed artifacts.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-live-artifact-pack.zip",
-                "sha256": "81d0ec0c6c7339b0360324302902ec079af7ab0d354060436a35461d6136c2a2",
+                "path": "release/v2026.06.11.1/pixflow-design-example-live-artifact-pack.zip",
+                "sha256": "354485704feef6ff5b17d26813fe60d052904fd5112d5bb87bd763e7b95ac4f1",
                 "size": 13611
             },
             "folder": {
@@ -21808,15 +22019,15 @@
         },
         {
             "id": "pixflow-design-example-live-dashboard-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Live Dashboard Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Notion-style team dashboard rendered as a Live Artifact. A single-page,\nself-contained HTML dashboard with KPIs, a 7-day sparkline, a real-time\nactivity feed and a linked-database task table \u2014 wired to Notion via the\nComposio connector catalog. Refreshes on demand and when the artifact\nis opened. Falls back to seeded mock data when no connector is bound,\nso it works offline / in screenshots / in the picker preview.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-live-dashboard-pack.zip",
-                "sha256": "6f351a0fc8c4978e85ffd5b7adc2710a24098ca20b8febbaa50fc757c2b7ca26",
+                "path": "release/v2026.06.11.1/pixflow-design-example-live-dashboard-pack.zip",
+                "sha256": "c17717b989390041df90f14526dc6bf5418b53f939b29601b196a41dcd625294",
                 "size": 41292
             },
             "folder": {
@@ -21985,15 +22196,15 @@
         },
         {
             "id": "pixflow-design-example-social-media-dashboard-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Social Media Dashboard Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Creator-facing social media analytics dashboard in a single HTML file.\nA platform switcher (X / LinkedIn / YouTube / Instagram), a row of KPI\ncards (followers, engagement rate, likes, reposts), a follower-growth\nchart, a \"top post this week\" preview, and a trending topics / top\ncomments side panel. Use when the brief mentions a \"social media\ndashboard\", \"creator analytics\", \"social analytics\", or names specific\nplatforms (X, Twitter, LinkedIn, YouTube, Instagram, TikTok) together\nwith metrics like followers, engagement, likes, reposts.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-social-media-dashboard-pack.zip",
-                "sha256": "629e3b44dffa57d5ed954888b2c849e821cfbb2a735ca83e5f9f9ab42e3dcc50",
+                "path": "release/v2026.06.11.1/pixflow-design-example-social-media-dashboard-pack.zip",
+                "sha256": "f951835e43275294c7cc56ba433240d2bac0fd8b423464dd035435b39fab8dbe",
                 "size": 18929
             },
             "folder": {
@@ -22077,15 +22288,15 @@
         },
         {
             "id": "pixflow-design-example-digital-eguide-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Digital Eguide Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "A two-spread digital e-guide preview \u2014 page 1 is a cover (display title,\nauthor, \"What's inside\" stats, table of contents teaser); page 2 is a\nspread (lesson body with pull-quote and a step list). Lifestyle / creator\nbrand tone. Use when the brief asks for an \"e-guide\", \"digital guide\",\n\"lookbook\", \"lead magnet\", \"creator guide\", \"playbook\", \"PDF guide\",\nor \"\u7535\u5b50\u6307\u5357\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-digital-eguide-pack.zip",
-                "sha256": "75087ec2ee3b983433aa0fe0d0e51c0f1d4a3e3bcdc153e4fa4732bae254da17",
+                "path": "release/v2026.06.11.1/pixflow-design-example-digital-eguide-pack.zip",
+                "sha256": "3b78726f35491677da80e43308a4326f05fa33497d52af2b4a373cc182a8304d",
                 "size": 10712
             },
             "folder": {
@@ -22169,15 +22380,15 @@
         },
         {
             "id": "pixflow-design-example-email-marketing-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Email Marketing Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "A brand product-launch email \u2014 masthead with wordmark, hero image block,\nheadline lockup with skewed-italic accent, body copy, primary CTA, and a\nspecifications grid. Pure HTML email layout (centered single column, table\nfallback). Use when the brief asks for an \"email\", \"newsletter blast\",\n\"MJML\", \"product launch email\", or \"email template\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-email-marketing-pack.zip",
-                "sha256": "26b4c589af666d4f97790e29c270a0ac7c406fdd64b2f4b050967a33d9125eeb",
+                "path": "release/v2026.06.11.1/pixflow-design-example-email-marketing-pack.zip",
+                "sha256": "392b9209df106531ababb45ee0b5a76edb6e0546a3982aef8338fc53189be645",
                 "size": 8864
             },
             "folder": {
@@ -22261,15 +22472,15 @@
         },
         {
             "id": "pixflow-design-example-pricing-page-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Pricing Page Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "A standalone pricing page \u2014 header, plan tiers, feature comparison table,\nand an FAQ. Use when the brief asks for \"pricing\", \"plans\",\n\"subscription tiers\", or a \"compare plans\" page.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-pricing-page-pack.zip",
-                "sha256": "f118a0907ac83cda6aa6756c662fe738a66d0c7c6d12217664293bedc1d38598",
+                "path": "release/v2026.06.11.1/pixflow-design-example-pricing-page-pack.zip",
+                "sha256": "8317c59f5144f5518e7cb0fa46fc7271b32cb2e05b44968a04e533e59c2b5075",
                 "size": 7643
             },
             "folder": {
@@ -22353,15 +22564,15 @@
         },
         {
             "id": "pixflow-design-example-saas-landing-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "SaaS Landing Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Single-page SaaS landing with hero, features, social proof, pricing, and CTA.\nRespects the active DESIGN.md color/typography/layout tokens.\nTrigger keywords: \"saas landing\", \"marketing page\", \"product landing\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-saas-landing-pack.zip",
-                "sha256": "574b592ee25aa43d8faf07fee771959d299dc036de1db3bc50154c785a262a4e",
+                "path": "release/v2026.06.11.1/pixflow-design-example-saas-landing-pack.zip",
+                "sha256": "e27b822ca84906bec9f90449245c433f3a291dc358549385d0779978f8550e91",
                 "size": 8517
             },
             "folder": {
@@ -22445,15 +22656,15 @@
         },
         {
             "id": "pixflow-design-example-web-prototype-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Web Prototype Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "General-purpose desktop web prototype. Single self-contained HTML file built\nby copying the seed `assets/template.html` and pasting section layouts from\n`references/layouts.md`. Default for any landing / marketing / docs / SaaS\npage when no more specific skill matches.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-web-prototype-pack.zip",
-                "sha256": "8dcf797bc9738be903509fb968fb47ae956445c45fe01103a117f63fba39874a",
+                "path": "release/v2026.06.11.1/pixflow-design-example-web-prototype-pack.zip",
+                "sha256": "252b168a609f4c32ae7633a612bde726751e0419322e2e09e8e31aad3868ea2a",
                 "size": 19099
             },
             "folder": {
@@ -22588,15 +22799,15 @@
         },
         {
             "id": "pixflow-design-example-critique-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Critique Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Run a 5-dimension expert design review on any HTML artifact in the\nproject \u2014 Philosophy / Visual hierarchy / Detail / Functionality /\nInnovation, each scored 0\u201310. Outputs a single self-contained HTML\nreport with a radar chart, evidence-backed scores, and three lists:\nKeep / Fix / Quick-wins. Use when the brief asks for a \"design\nreview\", \"design critique\", \"5 \u7ef4\u5ea6\u8bc4\u5ba1\", \"design audit\", or \"what's\nwrong with my design\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-critique-pack.zip",
-                "sha256": "c153084df3fd9eb86a754a0833223ed02fdfd0888a0a2d28ad00f002c31eff17",
+                "path": "release/v2026.06.11.1/pixflow-design-example-critique-pack.zip",
+                "sha256": "ef6ca58103ea6eaa370a40f472b2c14018c20c6b92c4ec5b098a3a8cd1fd665e",
                 "size": 16886
             },
             "folder": {
@@ -22680,15 +22891,15 @@
         },
         {
             "id": "pixflow-design-example-last30days-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Last 30 Days Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Recent community and social trend research over the last 30 days. Use when\nthe brief asks what people are saying now, recent sentiment, community\nreactions, social proof, launch reaction, trend scan, or last-30-days context.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-last30days-pack.zip",
-                "sha256": "abb880bcaefe077480d8d886215ace0225cdbe3f55f199ca3f0d0827ceab8df2",
+                "path": "release/v2026.06.11.1/pixflow-design-example-last30days-pack.zip",
+                "sha256": "45fe0798c61558ccd965947b64b73ee7d2b222aa22b4fccbe6ef734df406a6f1",
                 "size": 7352
             },
             "folder": {
@@ -22771,15 +22982,15 @@
         },
         {
             "id": "pixflow-design-example-web-prototype-taste-brutalist-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Web Prototype Taste Brutalist Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Swiss industrial-print web prototype. Newsprint canvas, monolithic black grotesque, viewport-bleeding numerals, hairline grid dividers, hazard-red accent, ASCII syntax decoration. Distilled from Leonxlnx/taste-skill `brutalist-skill` (Swiss Industrial Print mode).",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-web-prototype-taste-brutalist-pack.zip",
-                "sha256": "6932042bdfb8b36a3b24fc7a1d1a774929198e2d5208198d007888641ba882f5",
+                "path": "release/v2026.06.11.1/pixflow-design-example-web-prototype-taste-brutalist-pack.zip",
+                "sha256": "6b2e8a5e75ae77207cac959c5742287de02a319f80e99e1fd462b1932fe78acf",
                 "size": 12235
             },
             "folder": {
@@ -22863,15 +23074,15 @@
         },
         {
             "id": "pixflow-design-example-web-prototype-taste-editorial-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Web Prototype Taste Editorial Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Editorial-minimalist web prototype. Warm monochrome canvas, serif display + grotesque body, 1px hairline borders, muted pastel chips, generous macro-whitespace, ambient micro-motion. Distilled from Leonxlnx/taste-skill `minimalist-skill`.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-web-prototype-taste-editorial-pack.zip",
-                "sha256": "f4c9898dbc358609ded3b4fe3fa0c73ec09ee37010717cb924c2d860fe85d9c8",
+                "path": "release/v2026.06.11.1/pixflow-design-example-web-prototype-taste-editorial-pack.zip",
+                "sha256": "daa59e41ec59bed3ee13acb0639a3252e0d0fca9b84cf53b8d0aea4eaad8f4f0",
                 "size": 10643
             },
             "folder": {
@@ -22955,15 +23166,15 @@
         },
         {
             "id": "pixflow-design-example-web-prototype-taste-soft-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Web Prototype Taste Soft Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "Apple-tier soft web prototype. Silver/cream canvas, double-bezel cards, button-in-button CTAs, generous squircle radii, spring motion, ambient mesh. Distilled from Leonxlnx/taste-skill `soft-skill` + sections 4\u20138 of `taste-skill`.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-web-prototype-taste-soft-pack.zip",
-                "sha256": "308a0dfa5828c268f3338d50f6417a2920bb16698435772397c9038bb138e093",
+                "path": "release/v2026.06.11.1/pixflow-design-example-web-prototype-taste-soft-pack.zip",
+                "sha256": "78877bcf60b7299be073d90f1ed90c2787dcdd43139b1f1aee9ba295ab14dd0f",
                 "size": 12515
             },
             "folder": {
@@ -23047,15 +23258,15 @@
         },
         {
             "id": "pixflow-design-example-wireframe-sketch-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Wireframe Sketch Recipe Pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "description": "A hand-drawn wireframe exploration \u2014 graph-paper background, marker /\npencil tone, multiple tab labels for variants, sticky-note annotations,\nscribbled chart placeholders, hatched fills. Reads like a designer's\nwhiteboard before any pixels are committed. Use when the brief asks for\n\"wireframe\", \"sketch wireframe\", \"hand-drawn\", \"lo-fi\", \"whiteboard\",\n\"\u8349\u7a3f\", or \"\u624b\u7ed8\u539f\u578b\".",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-example-wireframe-sketch-pack.zip",
-                "sha256": "8f56d24de4f9b85993d9bd956aa7d70f62bd1d17c9081f7c6f0fec11f74e4976",
+                "path": "release/v2026.06.11.1/pixflow-design-example-wireframe-sketch-pack.zip",
+                "sha256": "3b0afe71ae8bae79e5916621951ed77e2348f34873ad15ed36dd84dcd4a50707",
                 "size": 10805
             },
             "folder": {
@@ -23139,15 +23350,15 @@
         },
         {
             "id": "pixflow-design-plugins-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Pixflow Design Plugins Pack",
             "kind": "pixflow-design-plugins",
             "stage": "stage_a",
             "required": true,
             "description": "Bundled Pixflow Design scenario routes, atom skills, localized plugin metadata, formal plugin runtime contracts, and plugin design-system fixtures. Recipe examples install separately.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-design-plugins-pack.zip",
-                "sha256": "691018204c48efdfa1a3c14ebe3ca32a075e5671df5b5d2738dab327d2020fe0",
+                "path": "release/v2026.06.11.1/pixflow-design-plugins-pack.zip",
+                "sha256": "599d168565747a6ebafc2c814f9987fe27b6432e74054c7987b24cdcef528823",
                 "size": 1670543
             },
             "folder": {
@@ -32107,15 +32318,15 @@
         },
         {
             "id": "pixflow-bricks-conversion-pack",
-            "version": "2026.06.10.1",
+            "version": "2026.06.11.1",
             "label": "Pixflow Bricks Conversion Pack",
             "kind": "bricks-conversion",
             "stage": "stage_b",
             "required": true,
             "description": "Pixflow Bricks-specific conversion skills, Bricks references, Pixflow Framework rules, and editable JSON guidance.",
             "archive": {
-                "path": "release/v2026.06.10.1/pixflow-bricks-conversion-pack.zip",
-                "sha256": "ee3224ef239cc46bd00a899e92e2f7b6b19e8c3c2112dd578b9d96035ab8aeae",
+                "path": "release/v2026.06.11.1/pixflow-bricks-conversion-pack.zip",
+                "sha256": "1de92aa986f57dc600b812d0676043a1f203436208efd6e992c33d10132c6f86",
                 "size": 240591
             },
             "folder": {
@@ -35044,10 +35255,10 @@
         }
     ],
     "totals": {
-        "packCount": 43,
-        "fileCount": 2314,
-        "byteCount": 130469394,
+        "packCount": 44,
+        "fileCount": 2331,
+        "byteCount": 131004249,
         "excludedFileCount": 447
     },
-    "sourceFingerprint": "d033cbd330d04576e192251c16ae1a8700c2434c996d8a931a4da4d307e01139"
+    "sourceFingerprint": "fa602cd47101b89a717c98d170f4192e52d5aa4d9cb454300361c06ea6263698"
 }

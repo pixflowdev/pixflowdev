@@ -1,11 +1,11 @@
 {
     "type": "pixflow_design_resource_inventory",
     "schemaVersion": 1,
-    "sourceFingerprint": "d033cbd330d04576e192251c16ae1a8700c2434c996d8a931a4da4d307e01139",
+    "sourceFingerprint": "fa602cd47101b89a717c98d170f4192e52d5aa4d9cb454300361c06ea6263698",
     "totals": {
-        "packCount": 43,
-        "fileCount": 2314,
-        "byteCount": 130469394,
+        "packCount": 44,
+        "fileCount": 2331,
+        "byteCount": 131004249,
         "excludedFileCount": 447
     },
     "packs": [
@@ -254,6 +254,33 @@
             "inventory": {
                 "fileCount": 17,
                 "byteCount": 1522220,
+                "resourceCount": 0,
+                "sideFileCount": 16,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_recipe": 17
+                },
+                "extensions": {
+                    "css": 1,
+                    "html": 2,
+                    "json": 2,
+                    "md": 10,
+                    "png": 2
+                },
+                "primaryModes": {
+                    "pixflow-recipe": 17
+                },
+                "sampleResources": []
+            }
+        },
+        {
+            "id": "pixflow-design-recipe-energetic-pack",
+            "kind": "pixflow-design-recipe",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 17,
+                "byteCount": 534855,
                 "resourceCount": 0,
                 "sideFileCount": 16,
                 "excludedFileCount": 0,
