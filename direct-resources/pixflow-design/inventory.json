@@ -1,11 +1,11 @@
 {
     "type": "pixflow_design_resource_inventory",
     "schemaVersion": 1,
-    "sourceFingerprint": "fa602cd47101b89a717c98d170f4192e52d5aa4d9cb454300361c06ea6263698",
+    "sourceFingerprint": "463e8b57c343d45e7358bf9a9712fc032cc37eb137e64e394db9b0c0e145221d",
     "totals": {
         "packCount": 44,
         "fileCount": 2331,
-        "byteCount": 131004249,
+        "byteCount": 131004252,
         "excludedFileCount": 447
     },
     "packs": [
@@ -280,7 +280,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 17,
-                "byteCount": 534855,
+                "byteCount": 534858,
                 "resourceCount": 0,
                 "sideFileCount": 16,
                 "excludedFileCount": 0,

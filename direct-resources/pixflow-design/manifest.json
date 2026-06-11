@@ -18893,23 +18893,23 @@
         },
         {
             "id": "pixflow-design-recipe-energetic-pack",
-            "version": "2026.06.11.1",
+            "version": "2026.06.11.3",
             "label": "Energetic Recipe Pack",
             "kind": "pixflow-design-recipe",
             "stage": "stage_a",
             "required": false,
             "description": "A Pixflow-owned recipe for bold, high-contrast expressive pages with vibrant orange/purple accents, thick 4px borders, hard drop shadows, and modern geometric styling.",
             "archive": {
-                "path": "release/v2026.06.11.1/pixflow-design-recipe-energetic-pack.zip",
-                "sha256": "ff3d83bb4eb6747ac78c6e802bdb61db39f96688a28b64010ed366409d12b7c5",
-                "size": 456524
+                "path": "release/v2026.06.11.3/pixflow-design-recipe-energetic-pack.zip",
+                "sha256": "77e5527bc5ef00f54e7841c93bb107a1881234270b09c4cab8b2e029e71373b0",
+                "size": 456525
             },
             "folder": {
                 "path": "packs/pixflow-design-recipe-energetic-pack"
             },
             "inventory": {
                 "fileCount": 17,
-                "byteCount": 534855,
+                "byteCount": 534858,
                 "resourceCount": 0,
                 "sideFileCount": 16,
                 "excludedFileCount": 0,
@@ -18944,8 +18944,8 @@
                     "sourcePath": "src/AI/DirectReferences/pixflow-recipes/energetic/METHOD.md",
                     "resourceType": "pixflow_design_recipe",
                     "extension": "md",
-                    "bytes": 3381,
-                    "sha256": "3c1a75c4847edeeaa606a48afd07cf8a8a234ce77d781f79785ca766698aa672",
+                    "bytes": 3384,
+                    "sha256": "8b16c9cf92a808e797e34d6d32e43e2beea3a8fe325efb7235f647ad44f6a1a8",
                     "recipeId": "energetic",
                     "primaryMode": "pixflow-recipe"
                 },
@@ -35257,8 +35257,8 @@
     "totals": {
         "packCount": 44,
         "fileCount": 2331,
-        "byteCount": 131004249,
+        "byteCount": 131004252,
         "excludedFileCount": 447
     },
-    "sourceFingerprint": "fa602cd47101b89a717c98d170f4192e52d5aa4d9cb454300361c06ea6263698"
+    "sourceFingerprint": "463e8b57c343d45e7358bf9a9712fc032cc37eb137e64e394db9b0c0e145221d"
 }

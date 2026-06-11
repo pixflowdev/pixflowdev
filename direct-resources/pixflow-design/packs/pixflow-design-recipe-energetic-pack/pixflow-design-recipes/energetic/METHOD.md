@@ -1,6 +1,6 @@
 # Energetic Recipe
 
-Use this recipe when the brief calls for a lively, active brand, a creator/influencer campaign, a modern beverage, fitness products, energetic tools, or launch pages that need to feel bold, powerful, and full of vitality.
+Use this recipe when the brief calls for a lively, energetic brand, a creator/influencer campaign, a modern beverage, fitness products, energetic tools, or launch pages that need to feel bold, powerful, and full of vitality.
 
 ## Intent
 
