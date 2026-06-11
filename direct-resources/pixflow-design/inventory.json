@@ -1,12 +1,12 @@
 {
     "type": "pixflow_design_resource_inventory",
     "schemaVersion": 1,
-    "sourceFingerprint": "463e8b57c343d45e7358bf9a9712fc032cc37eb137e64e394db9b0c0e145221d",
+    "sourceFingerprint": "590801f0f2a253c8933322e4536b965d4eef388529bba2ee1d05f09082b49223",
     "totals": {
-        "packCount": 44,
-        "fileCount": 2331,
-        "byteCount": 131004252,
-        "excludedFileCount": 447
+        "packCount": 65,
+        "fileCount": 4082,
+        "byteCount": 104221296,
+        "excludedFileCount": 446
     },
     "packs": [
         {
@@ -15,25 +15,24 @@
             "stage": "stage_a",
             "required": true,
             "inventory": {
-                "fileCount": 238,
-                "byteCount": 36939722,
+                "fileCount": 233,
+                "byteCount": 5970361,
                 "resourceCount": 0,
-                "sideFileCount": 238,
+                "sideFileCount": 233,
                 "excludedFileCount": 0,
                 "resourceTypes": {
                     "pixflow_design_core": 76,
                     "pixflow_design_craft": 12,
                     "pixflow_design_critique": 27,
                     "pixflow_design_frame_asset": 6,
-                    "pixflow_design_prompt_template": 103,
-                    "pixflow_design_prompt_template_asset": 14
+                    "pixflow_design_prompt_template": 104,
+                    "pixflow_design_prompt_template_asset": 8
                 },
                 "extensions": {
                     "html": 5,
-                    "jpg": 11,
-                    "json": 102,
+                    "jpg": 8,
+                    "json": 103,
                     "md": 16,
-                    "mp4": 3,
                     "png": 1,
                     "ts": 94,
                     "tsx": 1,
@@ -49,19 +48,19 @@
             "stage": "stage_a",
             "required": true,
             "inventory": {
-                "fileCount": 253,
-                "byteCount": 8832825,
-                "resourceCount": 137,
-                "sideFileCount": 116,
+                "fileCount": 287,
+                "byteCount": 1430788,
+                "resourceCount": 155,
+                "sideFileCount": 132,
                 "excludedFileCount": 0,
                 "resourceTypes": {
-                    "skill": 253
+                    "skill": 287
                 },
                 "extensions": {
+                    "": 13,
                     "gitignore": 1,
-                    "html": 47,
-                    "md": 182,
-                    "mp4": 2,
+                    "html": 49,
+                    "md": 203,
                     "py": 17,
                     "sh": 1,
                     "txt": 2,
@@ -70,11 +69,11 @@
                 "primaryModes": {
                     "audio": 4,
                     "deck": 17,
-                    "design-system": 35,
-                    "image": 46,
-                    "prototype": 71,
-                    "template": 38,
-                    "utility": 7,
+                    "design-system": 40,
+                    "image": 55,
+                    "prototype": 91,
+                    "template": 36,
+                    "utility": 9,
                     "video": 35
                 },
                 "sampleResources": [
@@ -89,6 +88,8 @@
                     "artifacts-builder",
                     "brainstorming",
                     "brand-guidelines",
+                    "brandkit",
+                    "brutalist-skill",
                     "canvas-design",
                     "card-twitter",
                     "card-xiaohongshu",
@@ -99,9 +100,7 @@
                     "d3-visualization",
                     "data-report",
                     "deck-guizang-editorial",
-                    "deck-open-slide-canvas",
-                    "deck-swiss-international",
-                    "design-brief"
+                    "deck-open-slide-canvas"
                 ]
             }
         },
@@ -111,30 +110,31 @@
             "stage": "stage_a",
             "required": true,
             "inventory": {
-                "fileCount": 287,
-                "byteCount": 27230042,
-                "resourceCount": 53,
-                "sideFileCount": 234,
-                "excludedFileCount": 443,
+                "fileCount": 298,
+                "byteCount": 26188223,
+                "resourceCount": 54,
+                "sideFileCount": 244,
+                "excludedFileCount": 442,
                 "resourceTypes": {
-                    "design_template": 287
+                    "design_template": 298
                 },
                 "extensions": {
                     "": 2,
                     "css": 1,
-                    "html": 66,
+                    "html": 67,
                     "js": 10,
                     "json": 12,
-                    "md": 114,
+                    "md": 115,
                     "mjs": 4,
-                    "png": 17,
+                    "png": 16,
                     "py": 57,
+                    "svg": 10,
                     "ts": 4
                 },
                 "primaryModes": {
                     "audio": 2,
                     "image": 2,
-                    "prototype": 199,
+                    "prototype": 200,
                     "template": 8,
                     "video": 43
                 },
@@ -142,6 +142,7 @@
                     "audio-jingle",
                     "blog-post",
                     "clinical-case-report",
+                    "contact-widget",
                     "critique",
                     "dashboard",
                     "dating-web",
@@ -161,8 +162,7 @@
                     "kami-landing",
                     "kanban-board",
                     "last30days",
-                    "live-artifact",
-                    "live-dashboard"
+                    "live-artifact"
                 ]
             }
         },
@@ -172,24 +172,24 @@
             "stage": "stage_a",
             "required": true,
             "inventory": {
-                "fileCount": 463,
-                "byteCount": 4928983,
+                "fileCount": 2107,
+                "byteCount": 15578885,
                 "resourceCount": 150,
-                "sideFileCount": 463,
+                "sideFileCount": 2107,
                 "excludedFileCount": 0,
                 "resourceTypes": {
-                    "design_system": 459,
+                    "design_system": 2103,
                     "design_system_support": 4
                 },
                 "extensions": {
-                    "css": 151,
-                    "html": 156,
-                    "json": 2,
-                    "md": 152,
+                    "css": 301,
+                    "html": 603,
+                    "json": 750,
+                    "md": 451,
                     "ts": 2
                 },
                 "primaryModes": {
-                    "design-system": 459
+                    "design-system": 2103
                 },
                 "sampleResources": [
                     "agentic",
@@ -433,13 +433,499 @@
             }
         },
         {
+            "id": "pixflow-design-example-3d-creator-portfolio-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 243035,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "3d-creator-portfolio"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-acreage-farming-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 49717,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "acreage-farming"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-aerocore-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 176672,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "aerocore"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-ai-designer-portfolio-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 64988,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "ai-designer-portfolio"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-cinematic-landing-page-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 73310,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "cinematic-landing-page"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-codenest-coding-platform-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 29383,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "codenest-coding-platform"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-dashboard-ui-glass-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 263465,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "dashboard-ui-glass"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-dreamcore-landing-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 64136,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "dreamcore-landing"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-evergreen-finance-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 64343,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "evergreen-finance"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-innovation-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 53532,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "innovation"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-layered-depth-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 56724,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "layered-depth"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-liquid-glass-agency-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 74857,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "liquid-glass-agency"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-luxury-botanical-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 84340,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "luxury-botanical"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-mindloop-landing-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 54082,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "mindloop-landing"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-mythic-naturecore-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 42055,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "mythic-naturecore"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-nimbus-grid-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 97580,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "nimbus-grid"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-orbis-nft-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 49969,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "orbis-nft"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-portfolio-cosmic-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 133662,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "portfolio-cosmic"
+                ]
+            }
+        },
+        {
             "id": "pixflow-design-example-pixflow-design-landing-pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "inventory": {
                 "fileCount": 21,
-                "byteCount": 22975214,
+                "byteCount": 22978742,
                 "resourceCount": 1,
                 "sideFileCount": 20,
                 "excludedFileCount": 0,
@@ -461,13 +947,94 @@
             }
         },
         {
+            "id": "pixflow-design-example-skyelite-private-jets-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 26998,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "skyelite-private-jets"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-stellar-launch-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 58178,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "stellar-launch"
+                ]
+            }
+        },
+        {
+            "id": "pixflow-design-example-velar-luxury-real-estate-pack",
+            "kind": "pixflow-design-example",
+            "stage": "stage_a",
+            "required": false,
+            "inventory": {
+                "fileCount": 3,
+                "byteCount": 112646,
+                "resourceCount": 1,
+                "sideFileCount": 2,
+                "excludedFileCount": 0,
+                "resourceTypes": {
+                    "pixflow_design_plugin": 3
+                },
+                "extensions": {
+                    "html": 1,
+                    "json": 1,
+                    "md": 1
+                },
+                "primaryModes": {
+                    "prototype": 3
+                },
+                "sampleResources": [
+                    "velar-luxury-real-estate"
+                ]
+            }
+        },
+        {
             "id": "pixflow-design-example-kanban-board-pack",
             "kind": "pixflow-design-example",
             "stage": "stage_a",
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 26191,
+                "byteCount": 26642,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -494,7 +1061,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 26755,
+                "byteCount": 27194,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -521,7 +1088,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 18148,
+                "byteCount": 18443,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -548,7 +1115,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 15373,
+                "byteCount": 15657,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -575,7 +1142,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 21335,
+                "byteCount": 21760,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -602,7 +1169,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 22345,
+                "byteCount": 22752,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -629,7 +1196,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 22448,
+                "byteCount": 22889,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -656,7 +1223,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 71519,
+                "byteCount": 73137,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -683,7 +1250,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 40051,
+                "byteCount": 40980,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -710,7 +1277,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 39485,
+                "byteCount": 40316,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -737,7 +1304,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 27616,
+                "byteCount": 28111,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -764,7 +1331,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 21521,
+                "byteCount": 21901,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -791,7 +1358,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 17926,
+                "byteCount": 18251,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -818,7 +1385,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 5,
-                "byteCount": 33516,
+                "byteCount": 34171,
                 "resourceCount": 1,
                 "sideFileCount": 4,
                 "excludedFileCount": 0,
@@ -845,7 +1412,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 8,
-                "byteCount": 78542,
+                "byteCount": 80007,
                 "resourceCount": 1,
                 "sideFileCount": 7,
                 "excludedFileCount": 0,
@@ -872,7 +1439,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 5,
-                "byteCount": 30291,
+                "byteCount": 30845,
                 "resourceCount": 1,
                 "sideFileCount": 4,
                 "excludedFileCount": 0,
@@ -898,7 +1465,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 8,
-                "byteCount": 109867,
+                "byteCount": 112416,
                 "resourceCount": 1,
                 "sideFileCount": 7,
                 "excludedFileCount": 0,
@@ -925,7 +1492,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 68185,
+                "byteCount": 69964,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -952,7 +1519,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 26406,
+                "byteCount": 26839,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -979,7 +1546,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 20552,
+                "byteCount": 20924,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -1006,7 +1573,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 17442,
+                "byteCount": 17778,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -1033,7 +1600,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 20740,
+                "byteCount": 21171,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -1060,7 +1627,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 6,
-                "byteCount": 49319,
+                "byteCount": 50304,
                 "resourceCount": 1,
                 "sideFileCount": 5,
                 "excludedFileCount": 0,
@@ -1087,7 +1654,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 46384,
+                "byteCount": 47440,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -1114,7 +1681,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 14993,
+                "byteCount": 15307,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -1140,7 +1707,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 34978,
+                "byteCount": 35608,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -1167,7 +1734,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 28816,
+                "byteCount": 29387,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -1194,7 +1761,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 36274,
+                "byteCount": 36998,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -1221,7 +1788,7 @@
             "required": false,
             "inventory": {
                 "fileCount": 3,
-                "byteCount": 27678,
+                "byteCount": 28156,
                 "resourceCount": 1,
                 "sideFileCount": 2,
                 "excludedFileCount": 0,
@@ -1247,22 +1814,22 @@
             "stage": "stage_a",
             "required": true,
             "inventory": {
-                "fileCount": 523,
-                "byteCount": 3782890,
-                "resourceCount": 259,
-                "sideFileCount": 499,
+                "fileCount": 527,
+                "byteCount": 3865397,
+                "resourceCount": 261,
+                "sideFileCount": 502,
                 "excludedFileCount": 4,
                 "resourceTypes": {
                     "pixflow_design_atom": 27,
                     "pixflow_design_image_template_plugin": 88,
                     "pixflow_design_plugin_design_system": 282,
-                    "pixflow_design_scenario": 26,
-                    "pixflow_design_video_template_plugin": 100
+                    "pixflow_design_scenario": 28,
+                    "pixflow_design_video_template_plugin": 102
                 },
                 "extensions": {
                     "html": 4,
-                    "json": 354,
-                    "md": 165
+                    "json": 357,
+                    "md": 166
                 },
                 "primaryModes": {
                     "critique": 4,
@@ -1277,9 +1844,9 @@
                     "planning": 6,
                     "refine": 2,
                     "review": 2,
-                    "scenario": 18,
+                    "scenario": 20,
                     "token-map": 3,
-                    "video": 100
+                    "video": 102
                 },
                 "sampleResources": [
                     "build-test",
